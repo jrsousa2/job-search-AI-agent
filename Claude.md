@@ -131,7 +131,7 @@ For each job include:
 
 ## Output Directory
 
-Save every generated file into:
+Save every generated resume and cover lette file into:
 
 ```
 daily-digest/
@@ -152,4 +152,23 @@ This includes:
 - Optimize resumes for ATS compatibility.
 - Tailor documents specifically for each job.
 - Rank jobs in descending score order.
-- Recommend only the ten highest-scoring jobs.       
+- Recommend only the ten highest-scoring jobs.    
+
+## Watchlist Discovery
+
+Find companies that match my target job profile and create a file called data/watchlist_suggestions.json.
+
+For each suggested company:
+- Find the official careers page.
+- Identify the ATS platform (Greenhouse, Lever, Ashby, or Workday).
+- Extract the required slug information.
+- Include:
+  - company
+  - platform
+  - slug
+  - careers_url
+  - reason_for_suggestion
+
+Do not modify watchlist.json.
+Only create watchlist_suggestions.json for my review.
+Only include companies with a valid ATS careers page.

@@ -4,7 +4,7 @@ LinkedIn: https://www.linkedin.com/in/jrsousa2/
 
 GitHub: https://github.com/jrsousa2
 
-**Data Analyst/Data Scientist** with 15+ years of experience (mostly in insurance and banking).
+Data Analyst/Data Scientist with 15+ years of experience (mostly in insurance and banking).
 
 I have experience in SAS, SQL, various databases, Python (not a full-stack dev), Big Data, predictive modeling, machine learning, AML,etc.
 
