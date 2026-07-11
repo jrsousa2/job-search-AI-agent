@@ -7,7 +7,7 @@ This is a work in progress.
 ```
 job-search-AI-agent/
 ├── .gitignore                      # Git exclusions
-├── CLAUDE.md                       # Instructions Claude reads every session
+├── Claude.md                       # Instructions Claude reads every session
 ├── SCRIPT.txt                      # Project notes and prompts
 ├── GitAI.bat                       # Git automation script
 ├── profile/

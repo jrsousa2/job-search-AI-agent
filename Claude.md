@@ -8,6 +8,21 @@ Evaluate each job against my two resume Markdown files and rank them from **0–
 
 ---
 
+## Job URL Verification
+
+Before scoring or presenting any job, verify that the job posting URL is valid and points to an active, direct company ATS posting.
+
+Rules:
+- Do not trust aggregator links, search result links, or stale URLs.
+- Prefer the company's actual careers page or ATS URL (Greenhouse, Lever, Ashby, Workday, etc.).
+- Verify that the posting page loads successfully and corresponds to the specific job title and company.
+- If the URL is invalid, expired, redirected to a generic careers page, or the posting no longer exists:
+  - Do not score the job.
+  - Log it as skipped with the reason.
+- Never assume a URL is valid only because it came from a search result or API response.
+
+---
+
 ## Scoring Rules
 
 - Score jobs from **0 to 100**.
@@ -42,7 +57,8 @@ Prefer jobs in:
 
 1. Insurance
 2. Banking / Financial Services
-3. Any industry if the match with my experience is very good.
+3. Prioritize big companies (more than 500 employees).
+4. Any industry if the match with my experience is very good.
 
 However, if there are not enough good matches, include other industries until there are **at least 10 recommended jobs**.
 
@@ -61,6 +77,7 @@ Generate tailored resumes and tailored cover letters as PDFs **only for the ten 
 ### Resume
 
 Customize the resume based on the master resume to emphasize the most relevant experience **without inventing any qualifications**.
+Never exceed 3 pages.
 
 ### Cover Letter
 
