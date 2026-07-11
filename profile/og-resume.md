@@ -1,25 +1,27 @@
 # José R. Sousa
 
-Phone: 904-290-2890
-City: Charlotte, NC 28217 
 E-mail: <jrfsousa2@gmail.com>
 
-LinkedIn: <https://www.linkedin.com/in/jrsousa2/> 
-GitHub: <https://jrsousa2.github.io/>
+Phone: 904-290-2890
 
+City: Charlotte, NC 28217
+
+LinkedIn: <https://www.linkedin.com/in/jrsousa2/> 
+
+GitHub: <https://jrsousa2.github.io/>
 
 ## SUMMARY OF QUALIFICATIONS
 
 - Extensive experience witn databases, data warehouses, and SQL.
 
 - Strong Python skills using VS Code. Ran SQL queries, made web
-  API requests to retrieve data, created GUI's, developed REST API's,
+  API requests to retrieve data, created GUIs, developed REST APIs,
   loaded Excel and XML files into pandas dataframes, read and wrote to
   Excel files with openpyxl, created formatted PowerPoint slides
   automatically, created virtual environments, automated batch jobs,
   etc. All can be viewed on my GitHub.
 
-- Extracted data from Hadoop with Dremio / Hive and created VDS's.
+- Extracted data from Hadoop with Dremio / Hive and created VDSs.
 
 - Fitted logistic regression models using both SAS and PySpark ML.
 
@@ -33,7 +35,7 @@ GitHub: <https://jrsousa2.github.io/>
 - Created workflows in n8n for Gen AI.
 
 - Expert at SAS (Enterprise Guide and Viya) -- created stored processes
-  and ETL's, wrote advanced code to produce tables and reports, and
+  and ETLs, wrote advanced code to produce tables and reports, and
   truly mastered SAS macros. Created dashboard with SAS/GRAPH and
   reports with Proc Report.
 
@@ -45,9 +47,9 @@ GitHub: <https://jrsousa2.github.io/>
 
 - Most of my experience is in the insurance industry (15+ years).
   Created a wide variety of loss triangles, estimated ultimate claims
-  from LDF's, calculated ceded losses from reinsurance contracts,
+  from LDFs, calculated ceded losses from reinsurance contracts,
   calculated earned premiums and created reports on loss ratio and
-  in-force policies, capped GC losses, performed reconciliation with 
+  in-force policies, capped guaranteed-cost losses, performed reconciliation with 
   the general ledger, among others.
 
 - Exposure to accounting principles – using the GL Oracle database,
@@ -64,7 +66,7 @@ GitHub: <https://jrsousa2.github.io/>
 
 ## SOFTWARE
 
-- **Databases**: Oracle, Teradata, SQL Server / SSMS and their IDE's.
+- **Databases**: Oracle, Teradata, SQL Server / SSMS and their IDEs.
 
 - **Big Data**: Snowflake, Databricks, PySpark, Hadoop, Dremio, Hive.
 
@@ -126,7 +128,7 @@ GitHub: <https://jrsousa2.github.io/>
   all the artifacts and SAS tables created by the previous analyst are
   automatically saved to a new subfolder as backup.
 
-- Created ETL's to produce new artifacts by mapping fields from the
+- Created ETLs to produce new artifacts by mapping fields from the
   execution data requirements (EDR) to data tables. Contributed to
   design artifact layouts.
 
@@ -227,7 +229,7 @@ GitHub: <https://jrsousa2.github.io/>
   the Global Actuarial Pricing department.
 
 - Wrote SAS macro to create a wide variety of loss triangles used to
-  derive LDF's and estimate the ultimate claims.
+  derive LDFs and estimate the ultimate claims.
 
 - Worked in the deep dive and profitability analyses of the book of
   business, by extracting data on losses, premium, policy and insured
