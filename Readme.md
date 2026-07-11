@@ -30,6 +30,10 @@ job-search-AI-agent/
 └── README.md                       # Repository overview
 ```
 
+## A snapshot of the New_jobs table:
+
+![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Excel/New_jobs_snapshot.PNG)
+
 For a guide to this repository, please visit:
 
 https://jrsousa2.github.io/#AI
