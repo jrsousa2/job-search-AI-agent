@@ -1,9 +1,11 @@
 # FILE EXCLUSIONS
 check-boards.py
 watchlist.json
+SCRIPT.txt
 
 # Folder exclusions
 .vscode/
 Auxi/
 Old/
 # Database/
+
