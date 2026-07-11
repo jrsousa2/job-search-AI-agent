@@ -18,9 +18,9 @@ job-search-AI-agent/
 ├── Excel/
 │   └── New_jobs.xlsx               # Excel export of job matches (for testing)
 ├── Logs/
-│   └── Errors_log.txt              # Runtime error log
+│   └── Errors_log.txt              # Runtime error log (usually wrong slug in watchlist)
 ├── Database/
-│   └── jobs.db                     # SQLite database (with new jobs and history tables)
+│   └── jobs.db                     # SQLite database (with tables new jobs and history)
 ├── scripts/
 │   ├── Anthropic.py                # Claude API integration
 │   ├── check-boards.py             # Scrapes supported ATS job boards
