@@ -1,0 +1,22 @@
+[
+  {
+    "company": "Figma",
+    "platform": "greenhouse",
+    "slug": "figma"
+  },
+  {
+    "company": "Notion",
+    "platform": "ashby",
+    "slug": "notion"
+  },
+  {
+    "company": "Outreach",
+    "platform": "lever",
+    "slug": "outreach"
+  },
+  {
+    "company": "Relativity",
+    "platform": "workday",
+    "slug": "kcura/wd1/External_Career_Site"
+  }
+]

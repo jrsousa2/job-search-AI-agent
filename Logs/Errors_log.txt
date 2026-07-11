@@ -1,0 +1,5 @@
+Getir: bad board/API
+ 	Platform: lever
+ 	Slug: getir
+ 	Error: HTTP 404
+

@@ -1,0 +1,27 @@
+1. CONVERT YOUR MASTER RESUME WITH PANDOC:
+pandoc "D:\Agent\Auxi\Jose's resume-master.docx" -t gfm -o "D:\Agent\profile\og-resume.md"
+
+2. DOWNLOAD AND CONVERT LINKEDIN RESUME TO: (NOT BEING USED)
+pandoc "D:\Agent\Auxi\Jose's resume-master.docx" -t gfm -o "D:\Agent\profile\linkedin-profile.md"
+
+3. DOWNLOAD AND CONVERT GH SITE: 
+pandoc "D:\GH\index.html" -f html -o "D:\Agent\profile\projects.md"
+
+4. Watchlist is updated by the Claude agent.
+
+5. Modified check-boards.py so it saves the output in a SQLite database.
+TO RUN MANUALLY USE: 
+python scripts/check-boards.py
+python scripts/Creates_jobs_input.py
+
+6. I did a little tweak of your process. To flag remote or hybrid I'm checking the remote flag and looking for keywords in the JD too (with SQL).
+
+7. Prioritize big companies (more than 500 employees).
+
+8. Check if the links exist before sending to Claude.
+
+9. HE ONLY CHECKS TITLE FOR THE KW'S PROVIDED.
+
+10. I want the code to keep going when it errors out, since I can check the failed company url's in the log.
+
+11. Max Length to not cut-off.
