@@ -1,15 +1,19 @@
 # José R. Sousa
 
 LinkedIn: https://www.linkedin.com/in/jrsousa2/
+
 GitHub: https://github.com/jrsousa2
 
 **Data Analyst/Data Scientist** with 15+ years of experience (mostly in insurance and banking).
+
 I have experience in SAS, SQL, various databases, Python (not a full-stack dev), Big Data, predictive modeling, machine learning, AML,etc.
+
 I have working knowledge of Databricks, Apache Spark, PySpark, Snowflake and Cloud.
 
 
 ## Education
 I have degrees in both **statistics** and **math** from the University of São Paulo (one of the top universities in Brazil). 
+
 I also have an **MBA** from EAESP-FGV in São Paulo (an accredited business school).
 
 ------------------------------------------------------------------------
@@ -78,6 +82,17 @@ Here are some projects that I\'ve developed:
 - Passing functions as parameters using lambda and dynamic execution.
 - Image, audio, and video processing using ffmpeg.
 - Running Windows shell commands from Python.
+
+------------------------------------------------------------------------
+
+## Job search AI agent
+
+I\'m now working on my first Claude Code AI agent, a job search
+workflow hosted here on GitHub.\
+It uses Python code with a SQLite database and the Anthropic API for
+model Claude Sonnet 4-4.6, which is much cheaper than Opus and has
+excellent reasoning (for tailoring resumes, etc.).\
+Here is an in-progress write-up of the workflow: [AI agent](https://github.com/jrsousa2/job-search-AI-agent/blob/main/Readme.md "Go to page")
 
 ------------------------------------------------------------------------
 
