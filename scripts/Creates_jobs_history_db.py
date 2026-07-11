@@ -22,7 +22,7 @@ def create_history_jobs() -> None:
 
     # CREATES THE HISTORY TABLE LAYOUT
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS jobs_history (
+    CREATE TABLE IF NOT EXISTS jobs_hist (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
 
         platform TEXT NOT NULL,
@@ -44,13 +44,13 @@ def create_history_jobs() -> None:
     conn.commit()
     conn.close()
 
-# UPDATES THE JOBS HISTORY TABLE
+# UPDATES THE JOBS HISTORY TABLE (THIS IS A TEST RUN)
 def update_history_jobs() -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
     cursor.execute("""
-        INSERT OR IGNORE INTO jobs_history (
+        INSERT OR IGNORE INTO jobs_hist (
             platform,
             company,
             slug,

@@ -22,17 +22,17 @@ job-search-AI-agent/
 ├── Logs/
 │   └── Errors_log.txt              # Runtime error log (usually wrong slug in watchlist)
 ├── Database/
-│   └── jobs.db                     # SQLite database (with tables new jobs and history)
+│   └── jobs.db                     # SQLite database (with tables new_jobs and jobs_hist)
 ├── scripts/
 │   ├── Anthropic.py                # Claude API integration
 │   ├── check-boards.py             # Scrapes supported ATS job boards
-│   ├── Creates_jobs_AI_input.py    # Builds AI input from matched jobs
+│   ├── Creates_jobs_AI_input.py    # Builds the AI input (.md) from the New_jobs table
 │   ├── Creates_jobs_history_db.py  # Maintains job history database
 │   └── Export_db_to_Excel.py       # Exports database to Excel
 └── README.md                       # Repository overview
 ```
 
-### A snapshot of the New_jobs table:
+### A snapshot of the table new_jobs:
 
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Excel/New_jobs_snapshot.PNG)
 
