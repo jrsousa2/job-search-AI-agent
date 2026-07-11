@@ -2,6 +2,7 @@
 check-boards.py
 watchlist.json
 SCRIPT.txt
+Claude.md
 
 # Folder exclusions
 .vscode/
