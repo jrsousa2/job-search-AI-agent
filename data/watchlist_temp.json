@@ -1,0 +1,27 @@
+[
+  {
+    "company": "Figma",
+    "platform": "greenhouse",
+    "slug": "figma"
+  },
+  {
+    "company": "Notion",
+    "platform": "ashby",
+    "slug": "notion"
+  },
+  {
+    "company": "Databricks",
+    "platform": "greenhouse",
+    "slug": "databricks"
+  },
+  {
+    "company": "Klaviyo",
+    "platform": "greenhouse",
+    "slug": "klaviyo"
+  },
+  {
+    "company": "Stripe",
+    "platform": "greenhouse",
+    "slug": "stripe"
+  },
+]

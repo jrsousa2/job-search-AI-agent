@@ -9,14 +9,13 @@ import sqlite3
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 WATCHLIST_PATH = REPO_ROOT / "data" / "watchlist.json"
-# EVALUATED_CSV = REPO_ROOT / "data" / "evaluated-jobs.csv"
 
-
-# DB_FILE = "Database/jobs.db"
 DB_FILE = REPO_ROOT / "Database" / "jobs.db"
 
 # CREATES JOBS HISTORY DB TABLE
-def create_history_jobs() -> None:
+# In SQLite, you do not need to specify col lengths, and values will not be truncated.
+# The db handles the lengths
+def create_hist_jobs() -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
@@ -36,7 +35,7 @@ def create_history_jobs() -> None:
         url TEXT,
 
         UNIQUE(platform, company, job_id),
-        UNIQUE(platform, url),
+        UNIQUE(platform, url)
     )
     """)
     
@@ -45,7 +44,7 @@ def create_history_jobs() -> None:
     conn.close()
 
 # UPDATES THE JOBS HISTORY TABLE (THIS IS A TEST RUN)
-def update_history_jobs() -> None:
+def update_hist_jobs() -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
@@ -72,7 +71,11 @@ def update_history_jobs() -> None:
             is_hybrid,
             url
         FROM new_jobs
+        where is_remote=1 or is_hybrid=1
     """)
 
     conn.commit()
-    conn.close()    
+    conn.close()
+
+# CREATE HISTORY TABLE
+create_hist_jobs()    

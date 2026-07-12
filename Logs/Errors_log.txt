@@ -1,3 +1,88 @@
+Citi: bad board/API
+ 	Platform: workday
+ 	Slug: citi/wd5/CitiCareers
+ 	Error: HTTP 404
+
+Amerisure: bad board/API
+ 	Platform: workday
+ 	Slug: amerisure/wd5/Amerisure
+ 	Error: HTTP 422
+
+Snowflake: bad board/API
+ 	Platform: greenhouse
+ 	Slug: snowflake
+ 	Error: HTTP 404
+
+OpenAI: bad board/API
+ 	Platform: greenhouse
+ 	Slug: openai
+ 	Error: HTTP 404
+
+Temporal: bad board/API
+ 	Platform: greenhouse
+ 	Slug: temporal
+ 	Error: HTTP 404
+
+RunPod: bad board/API
+ 	Platform: greenhouse
+ 	Slug: runpod
+ 	Error: HTTP 404
+
+Ada: bad board/API
+ 	Platform: greenhouse
+ 	Slug: ada
+ 	Error: HTTP 404
+
+Lindy: bad board/API
+ 	Platform: ashby
+ 	Slug: lindy
+ 	Error: HTTP 404
+
+Factorial: bad board/API
+ 	Platform: greenhouse
+ 	Slug: factorial
+ 	Error: HTTP 404
+
+Tinybird: bad board/API
+ 	Platform: ashby
+ 	Slug: tinybird
+ 	Error: HTTP 404
+
+Clarity AI: bad board/API
+ 	Platform: lever
+ 	Slug: clarity-ai
+ 	Error: HTTP 404
+
+Travelperk: bad board/API
+ 	Platform: ashby
+ 	Slug: travelperk
+ 	Error: HTTP 404
+
+Forto: bad board/API
+ 	Platform: lever
+ 	Slug: forto
+ 	Error: HTTP 404
+
+Diabolocom: bad board/API
+ 	Platform: lever
+ 	Slug: diabolocom
+ 	Error: HTTP 404
+
+Vinted: bad board/API
+ 	Platform: lever
+ 	Slug: vinted
+ 	Error: HTTP 404
+
+Templafy: bad board/API
+ 	Platform: greenhouse
+ 	Slug: templafy
+ 	Error: HTTP 404
+
+Runway: bad board/API
+ 	Platform: greenhouse
+ 	Slug: runwayml
+ 	Error: HTTP 404
+
 Getir: bad board/API
  	Platform: lever
  	Slug: getir
