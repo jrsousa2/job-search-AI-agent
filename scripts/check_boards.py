@@ -161,6 +161,19 @@ def save_jobs_db(jobs: list[dict]) -> None:
     # SELECT ONLY JOB RECORDS THAT ARE NOT ONSITE
     rows = [row for row in rows 
             if row[fields.index("is_remote")] == 1 or row[fields.index("is_hybrid")] == 1]
+    
+    # DEDUPE RECORDS (COMPANIES ADDED MORE THAN ONCE TO WATCHLIST BY MISTAKE)
+    seen = set()
+    unique_rows = []
+
+    final_job_id_idx = fields.index("final_job_id")
+
+    for row in rows:
+        if row[final_job_id_idx] not in seen:
+            seen.add(row[final_job_id_idx])
+            unique_rows.append(row)
+
+    rows = unique_rows
 
     cursor.executemany(f"""
         INSERT INTO new_jobs ({','.join(fields)})
