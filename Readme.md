@@ -36,12 +36,15 @@ job-search-AI-agent/
 Since this job is supposed to run daily, the process I envisioned was to keep a jobs history table 
 and come up with a single unique key for the jobs (final_job_id), comprised of platform, company and 
 job_id (if job_id is not missing, which is nearly always the case). 
-<br>If on the other hand the job_id is missing, the unique key is platform, company and title.
+<br>If, on the other hand, the job_id is missing, the unique key is platform, company and title.
 <br>The purpose of the final_job_id is to deduplicate the new jobs list, based on previous results.
 
 Each day the job runs, the new jobs are added to the history table at the end of the process. 
 
 Besides, a flag called New is updated daily in table new_jobs, which is 1 if the job is actually new, and 0 otherwise.
+
+For reporting purposes, the table is exported to Excel (the flag allows to know which ones are new, and 
+also allows only new jobs to be passed to Claude for evaluation).
 
 ### A snapshot of the table new_jobs:
 
