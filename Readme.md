@@ -6,7 +6,7 @@ This is a work in progress.
 
 ```
 job-search-AI-agent/
-├── Claude.md                       # Instructions for Claude to score jobs based on resume (AI prompt)
+├── Claude.md                       # AI prompt for Claude to score jobs based on resume
 ├── Script.txt                      # Project notes and prompts
 ├── GitAI.bat                       # Git automation script
 ├── profile/
