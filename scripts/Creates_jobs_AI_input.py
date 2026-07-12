@@ -11,8 +11,6 @@ conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
 
 cursor.execute("""
-    SELECT *
-    FROM (
         SELECT
             company,
             title,
@@ -25,8 +23,7 @@ cursor.execute("""
             job_id,
             description
         FROM new_jobs a
-    )
-    WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1;
+        WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1;
 """)
 
 rows = cursor.fetchall()

@@ -6,9 +6,8 @@ This is a work in progress.
 
 ```
 job-search-AI-agent/
-├── .gitignore                      # Git exclusions
-├── Claude.md                       # Instructions Claude reads every session
-├── SCRIPT.txt                      # Project notes and prompts
+├── Claude.md                       # Instructions for Claude to score jobs based on resume (AI prompt)
+├── Script.txt                      # Project notes and prompts
 ├── GitAI.bat                       # Git automation script
 ├── profile/
 │   ├── og-resume.md                # Master resume
@@ -18,7 +17,7 @@ job-search-AI-agent/
 │   └── watchlist.json              # Target companies and ATS platforms (template)
 ├── daily-digest/                   # Daily AI-generated job summaries
 ├── Excel/
-│   └── New_jobs.xlsx               # Excel export of job matches (for testing)
+│   └── New_jobs.xlsx               # Excel export of job list (for testing)
 ├── Logs/
 │   └── Errors_log.txt              # Runtime error log (usually wrong slug in watchlist)
 ├── Database/
@@ -27,7 +26,8 @@ job-search-AI-agent/
 │   ├── Anthropic.py                # Claude API integration (for testing)
 │   ├── check-boards.py             # Queries APIs for supported ATS job boards
 │   ├── Creates_jobs_AI_input.py    # Builds the AI input (.md) from the new_jobs table
-│   ├── Creates_jobs_hist_db.py     # Maintains job history database
+│   ├── Creates_jobs_hist_db.py     # Creates initial job history database
+│   ├── List_db_info.py             # Displays database metadata info (for testing)
 │   └── Export_db_to_Excel.py       # Exports database to Excel
 └── README.md                       # Repository overview
 ```

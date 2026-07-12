@@ -1,7 +1,8 @@
 # FILE EXCLUSIONS
+check_boards.py
 check-boards.py
 watchlist.json
-SCRIPT.txt
+Script.txt
 Claude.md
 
 # EXCLUDE LOCKED FILES
