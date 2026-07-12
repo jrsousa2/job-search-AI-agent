@@ -25,3 +25,7 @@ To flag remote or hybrid I'm using the original remote flag, but also looking fo
 9. ORIGINAL CODE ONLY CHECKS THE TITLE FOR THE KW'S PROVIDED.
 
 10. Max Length of history table fields to not cut-off.
+
+pre-deduped against evaluated-jobs.csv by title and job ID
+
+11. Only US jobs.
