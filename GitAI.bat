@@ -16,7 +16,7 @@ IF "%~1"=="" (
  cd D:\Agent
  set GIT_TRACE=1
  echo TO FORCE A RE-READING OF THE .gitignore list uncomment the next line
- rem git rm -r --cached .
+ git rm -r --cached .
  git add -A
  REM git branch -M main
  git commit -m "%Desc%"
