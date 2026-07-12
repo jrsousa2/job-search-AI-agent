@@ -40,7 +40,7 @@ for the jobs (final_job_id &ndash; comprised of platform, company and job_id &md
 ). 
 <br>If, on the other hand, the job_id is missing, the unique key is platform, company and title.
 
-<br>The purpose of final_job_id is to deduplicate the new jobs list, based on previous results. 
+The purpose of final_job_id is to deduplicate the new jobs list, based on previous results. 
 Therefore, a jobs history table is kept as well. Every time the job runs, the new jobs are added to the history table at the end of the process. 
 
 Besides, a flag called New is updated daily in table new_jobs, with 1 if the job is actually new, and 0 otherwise.
