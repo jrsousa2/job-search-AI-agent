@@ -65,11 +65,27 @@ def update_jobs_hist() -> None:
     # COMMITS
     conn.commit()
 
+def get_col_names(input_table):
+    cursor.execute(f"PRAGMA table_info({input_table})")
+
+    # COLS
+    column_names = [row[1] for row in cursor.fetchall()]
+    print("Cols:",column_names)
+    
+    # ROWS
+    cursor.execute("SELECT COUNT(*) FROM jobs")
+    row_count = cursor.fetchone()[0]
+    print("Row count:",row_count)
+
 # CREATE HISTORY TABLE
 # drop_table("jobs_hist")    
 
 # CREATE HISTORY TABLE
-create_jobs_hist()    
+#create_jobs_hist()    
+
+# GET COL NAMES
+get_col_names("jobs_hist")
 
 # CLOSE CONNECTION
 conn.close()
+

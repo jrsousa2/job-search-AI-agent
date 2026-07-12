@@ -4,6 +4,10 @@ watchlist.json
 SCRIPT.txt
 Claude.md
 
+# EXCLUDE LOCKED FILES
+~$*.xlsx
+~$*.xls
+
 # Folder exclusions
 .vscode/
 Auxi/
