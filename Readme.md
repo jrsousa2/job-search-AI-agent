@@ -58,7 +58,7 @@ The main code (check_boards.py) is based on a code I got from [Scotty Peterson](
 
 ### A snapshot of the table new_jobs:
 
-![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Excel/New_jobs_snapshot.PNG)
+![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
 
 For a guide to this repository, please visit:
 
