@@ -70,12 +70,12 @@ def get_col_names(input_table):
 
     # COLS
     column_names = [row[1] for row in cursor.fetchall()]
-    print("Cols:",column_names)
+    print("Cols:\n",column_names)
     
     # ROWS
-    cursor.execute("SELECT COUNT(*) FROM jobs")
+    cursor.execute(f"SELECT COUNT(*) FROM {input_table}")
     row_count = cursor.fetchone()[0]
-    print("Row count:",row_count)
+    print("Row count:\n",row_count)
 
 # CREATE HISTORY TABLE
 # drop_table("jobs_hist")    
@@ -84,7 +84,8 @@ def get_col_names(input_table):
 #create_jobs_hist()    
 
 # GET COL NAMES
-get_col_names("jobs_hist")
+# get_col_names("jobs_hist")
+get_col_names("new_jobs")
 
 # CLOSE CONNECTION
 conn.close()
