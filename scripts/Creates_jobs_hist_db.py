@@ -78,11 +78,11 @@ def add_New_flag():
     conn.commit()
 
 def summarize_db(input_table: str,filter: str)->int:
-    # GET NUMBER OF NEW JOBS
+    # ROWS
     cursor.execute(f"SELECT COUNT(*) FROM {input_table} {filter}")
     row_count = cursor.fetchone()[0]
-    print("Table",input_table,":",row_count,"rows")
-
+    print("Table",input_table,":",row_count,"rows",filter)
+    # SUMMARY
     return row_count
 
 # DROP AND RECREATE HISTORY TABLE

@@ -91,7 +91,7 @@ def summarize_db(input_table: str,filter: str)->int:
     cursor.execute(f"SELECT COUNT(*) FROM {input_table} {filter}")
     row_count = cursor.fetchone()[0]
     conn.close()
-    print("Table",input_table,":",row_count,"rows")
+    print("Table",input_table,":",row_count,"rows",filter)
     # SUMMARY
     return row_count
 
@@ -527,18 +527,18 @@ def main() -> int:
     # UPDATED THIS PART:
     save_jobs_db(new_roles)
 
-    # UPDATES HISTORY
-
-    # {len(already_evaluated)}
-    print(f"\nSummary: {len(new_roles)} new | ? already evaluated | {len(errors)} errors")
-
     # ADDS FLAG "NEW" TO TABLE NEW_JOBS
-    add_New_flag()
+    new_jobs_count = add_New_flag()
+    # TOTAL TABLE COUNT
+    total_count = summarize_db("new_jobs","")
+
+    # IF THE NUMBERS DON'T ADD UP, THERE WERE DUPLICATES THAT WERE DISCARDED
+    print(f"\nSummary: {len(new_jobs_count)} new | {total_count-new_jobs_count} already evaluated | {len(errors)} errors")
 
     # EXPORT NEW_JOBS TO EXCEL
     exp_to_excel("new_jobs","new","")
 
-    # UPDATE JOBS_HIST TABLE
+    # UPDATE JOBS_HIST TABLE AT THIS POINT
     # update_jobs_hist()
 
     # EXPORT ALREADY EVALUATED TO EXCEL
