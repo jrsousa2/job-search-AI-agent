@@ -15,7 +15,7 @@ job-search-AI-agent/
 │   └── projects.md                 # Portfolio projects
 ├── data/
 │   ├── new_jobs.md                 # Current list of jobs to be scored by Claude
-│   └── watchlist.json              # Target companies and ATS platforms
+│   └── watchlist.json              # Target companies and ATS platforms (template)
 ├── daily-digest/                   # Daily AI-generated job summaries
 ├── Excel/
 │   └── New_jobs.xlsx               # Excel export of job matches (for testing)
@@ -45,6 +45,12 @@ Besides, a flag called New is updated daily in table new_jobs, with 1 if the job
 
 For reporting purposes, the table is exported to Excel (the flag allows to know which ones are new, and 
 also allows only new jobs to be passed to Claude for evaluation).
+
+File watchlist.json is a template (if you have a more complete list, feel free to forward it to me).
+
+The main code (check-boards.py) is based on a code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code), but I have since made major changes to it 
+(I think the SQLite approach has made the data more manageable).
+<br>If many people request it, and Scotty doesn't mind, I will upload it too.
 
 ### A snapshot of the table new_jobs:
 

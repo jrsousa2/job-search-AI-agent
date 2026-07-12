@@ -88,11 +88,11 @@ def add_New_flag():
     # COMMITS CHANGES
     conn.commit()
 
-def summarize(input: str,filter: bool)->int:
+def summarize_db(input_table: str,filter: str)->int:
     # GET NUMBER OF NEW JOBS
-    cursor.execute(f"SELECT COUNT(*) FROM {input} where New=0")
+    cursor.execute(f"SELECT COUNT(*) FROM {input_table} {filter}")
     row_count = cursor.fetchone()[0]
-    print("New jobs:",row_count)
+    print("Table",input_table,":",row_count,"rows")
 
     return row_count
 
@@ -101,11 +101,12 @@ def summarize(input: str,filter: bool)->int:
 # create_jobs_hist()
 
 # UPDATES JOBS_HIST MANUALLY
-update_jobs_hist()
+# update_jobs_hist()
+# summarize_db("jobs_hist","")
 
 # ADD NEW FLAG TO NEW_JOBS AND SUMMARIZE TABLE
 # add_New_flag()
-# summarize("new_jobs",True)
+summarize_db("new_jobs","where New=0")
 
 
 # CLOSE CONNECTION

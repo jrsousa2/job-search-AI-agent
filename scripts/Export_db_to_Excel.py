@@ -10,10 +10,22 @@ Table = "new_jobs"
 # Table = "jobs_hist"
 
 DB_FILE = REPO_ROOT / "Database" / "jobs.db"
-EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
+# EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
-conn = sqlite3.connect(DB_FILE)
+# EXPORT A DB TABLE TO EXCEL
+def exp_to_excel(input_table: str, suff: str, filter: str) -> None:
+    EXCEL_FILE = REPO_ROOT / "Excel" / f"{input_table}{suff}.xlsx"
+    conn = sqlite3.connect(DB_FILE)
 
-df = pd.read_sql_query(f"SELECT * FROM {Table}", conn)
+    # SAVE QUERY OUTPUT TO A DF
+    df = pd.read_sql_query(f"SELECT * FROM {input_table} {filter}", conn)
+    df.to_excel(EXCEL_FILE, index=False)
 
-df.to_excel(EXCEL_FILE, index=False)
+    print("Table",input_table,"exported to Excel")
+    conn.close()
+
+# exp_to_excel("new_jobs","3","")
+exp_to_excel("new_jobs","3","")
+
+ # EXPORT ALREADY EVALUATED TO EXCEL
+exp_to_excel("new_jobs","(old)","where New=0")
