@@ -41,7 +41,7 @@ job_id (if job_id is not missing, which is nearly always the case).
 
 Each day the job runs, the new jobs are added to the history table at the end of the process. 
 
-Besides, a flag called New is updated daily in table new_jobs, which is 1 if the job is actually new, and 0 otherwise.
+Besides, a flag called New is updated daily in table new_jobs, with 1 if the job is actually new, and 0 otherwise.
 
 For reporting purposes, the table is exported to Excel (the flag allows to know which ones are new, and 
 also allows only new jobs to be passed to Claude for evaluation).
