@@ -37,7 +37,8 @@ After querying the APIs of a few ATS systems, the data is saved to a SQLite data
 <br>Records for onsite jobs are discarded from that table.
 <br>Since this batch job is supposed to run daily, the process I envisioned was come up with a single unique key 
 for the jobs (final_job_id &ndash; comprised of platform, company and job_id &mdash; if job_id is not missing, which is nearly always the case
-). If, on the other hand, the job_id is missing, the unique key is platform, company and title.
+). 
+<br>If, on the other hand, the job_id is missing, the unique key is platform, company and title.
 
 <br>The purpose of final_job_id is to deduplicate the new jobs list, based on previous results. 
 Therefore, a jobs history table is kept as well. Every time the job runs, the new jobs are added to the history table at the end of the process. 
