@@ -48,8 +48,8 @@ records are checked for duplicate final_job_id before being added to the new_job
 
 Besides, a flag called New is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
-For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which ones are new, and 
-also allows only new jobs to be passed to Claude for evaluation).
+For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
+also allows only actual new jobs to be passed to Claude for evaluation).
 
 File watchlist.json is a template (if you have a more complete list, feel free to send it to me).
 
