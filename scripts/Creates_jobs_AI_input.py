@@ -17,15 +17,8 @@ cursor.execute("""
             company,
             title,
             location,
-            CASE 
-                WHEN a.is_remote=1 then 1
-                WHEN LOWER(description) LIKE '%remote%' THEN 1
-                ELSE 0
-            END AS is_remote,
-            CASE 
-                WHEN LOWER(description) LIKE '%hybrid%' THEN 1
-                ELSE 0
-            END AS is_hybrid,
+            is_remote,
+            is_hybrid,
             platform,
             slug,
             url,
@@ -33,7 +26,7 @@ cursor.execute("""
             description
         FROM new_jobs a
     )
-    WHERE is_remote = 1 OR is_hybrid = 1 and New = 1;
+    WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1;
 """)
 
 rows = cursor.fetchall()
