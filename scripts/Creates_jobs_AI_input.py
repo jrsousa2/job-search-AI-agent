@@ -33,7 +33,7 @@ cursor.execute("""
             description
         FROM new_jobs a
     )
-    WHERE is_remote = 1 OR is_hybrid = 1;
+    WHERE is_remote = 1 OR is_hybrid = 1 and New = 1;
 """)
 
 rows = cursor.fetchall()

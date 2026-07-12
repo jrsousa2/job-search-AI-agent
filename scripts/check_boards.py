@@ -197,7 +197,7 @@ def add_New_flag() -> int:
     cursor.execute("""
     UPDATE new_jobs
     SET New = CASE
-        WHEN EXISTS (
+        WHEN NOT EXISTS (
             SELECT 1
             FROM jobs_hist h
             WHERE h.final_job_id = new_jobs.final_job_id

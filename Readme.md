@@ -36,7 +36,7 @@ job-search-AI-agent/
 After querying the APIs of a few ATS systems, the data is saved to a SQLite database table (new_jobs).
 <br>Records for onsite jobs are discarded from the table.
 
-Since this batch job is supposed to run daily, the process I envisioned was come up with a single unique key 
+Since this batch job is supposed to run daily, the process I envisioned was to come up with a single unique key 
 for the jobs (final_job_id &ndash; comprised of platform, company and job_id &mdash; if job_id is not missing, which is nearly always the case
 ). If, however, the job_id is missing, the unique key is platform, company and title.
 
