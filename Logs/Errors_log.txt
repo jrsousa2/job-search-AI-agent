@@ -90,5 +90,5 @@ Getir: bad board/API
 
 
 
-Saved 127 jobs to D:\Agent\Database\jobs.db table new_jobs
+Saved 123 jobs to D:\Agent\Database\jobs.db table new_jobs
 

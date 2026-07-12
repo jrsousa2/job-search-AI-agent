@@ -211,7 +211,6 @@ def add_New_flag() -> int:
 
     # GET NUMBER OF NEW JOBS
     row_count = summarize_db("new_jobs","where New=1")
-    print("New jobs (includes onsite):",row_count)
     conn.close()
 
     return row_count

@@ -44,7 +44,7 @@ The purpose of the final_job_id is to deduplicate the new jobs list, based on pr
 Therefore, a jobs history table is kept as well (with final_job_id set as a unique key). Every time the job runs, the new jobs are added to the history table at the end of the process. 
 
 If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. Hence, 
-records are checked for duplicate final_job_id before being added into the new_jobs table, and any occasional duplicates are discarded.
+records are checked for duplicate final_job_id before being added to the new_jobs table, and any occasional duplicates are discarded.
 
 Besides, a flag called New is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
