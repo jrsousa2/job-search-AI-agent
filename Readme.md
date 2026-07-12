@@ -48,7 +48,7 @@ Besides, a flag called New is updated every time the job runs in table new_jobs 
 For reporting purposes, the table new_jobs is exported to Excel (the flag allows to know which ones are new, and 
 also allows only new jobs to be passed to Claude for evaluation).
 
-File watchlist.json is a template (if you have a more complete list, feel free to forward it to me).
+File watchlist.json is a template (if you have a more complete list, feel free to send it to me).
 
 The main code (check-boards.py) is based on a code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code), but I have since made major changes to it 
 (I think the SQLite approach has made the data much more manageable).
