@@ -6,9 +6,6 @@ import sqlite3
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-Table = "new_jobs"
-# Table = "jobs_hist"
-
 DB_FILE = REPO_ROOT / "Database" / "jobs.db"
 # EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
@@ -25,7 +22,7 @@ def exp_to_excel(input_table: str, suff: str, filter: str) -> None:
     conn.close()
 
 # exp_to_excel("new_jobs","3","")
-exp_to_excel("new_jobs","3","")
+#exp_to_excel("new_jobs","3","")
 
- # EXPORT ALREADY EVALUATED TO EXCEL
-exp_to_excel("new_jobs","(old)","where New=0")
+# EXPORT ALREADY EVALUATED TO EXCEL
+exp_to_excel("new_jobs_bak","(orig)","")

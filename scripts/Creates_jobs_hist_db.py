@@ -50,20 +50,9 @@ def create_jobs_hist() -> None:
     conn.commit()
     print("Table jobs_hist created!")
 
-# UPDATES THE JOBS HISTORY TABLE (THIS IS A TEST RUN)
-def update_jobs_hist() -> None:
-    cols = "final_job_id, platform, company, slug, job_id, title, location, is_remote, is_hybrid, url"
-    # INSERTS RECORDS
-    cursor.execute(f"""
-        INSERT OR IGNORE INTO jobs_hist
-        ({cols})
-        SELECT {cols}
-        FROM new_jobs
-        where is_remote=1 or is_hybrid=1
-    """)
-    # COMMITS
-    conn.commit()
-    print("Table jobs_hist updated!")
+def back_up(input_table):
+    cursor.execute(f"CREATE TABLE {input_table}_bak AS SELECT * FROM {input_table}")
+    print("Table",input_table,"has been backed up")
 
 # ADD NEW FLAG TO TABLE NEW_JOBS
 def add_New_flag():
@@ -106,8 +95,11 @@ def summarize_db(input_table: str,filter: str)->int:
 
 # ADD NEW FLAG TO NEW_JOBS AND SUMMARIZE TABLE
 # add_New_flag()
-summarize_db("new_jobs","where New=0")
+# summarize_db("new_jobs","where New=0")
 
+# BACK UP TABLE
+# back_up("new_jobs")
+# summarize_db("new_jobs_bak","")
 
 # CLOSE CONNECTION
 conn.close()

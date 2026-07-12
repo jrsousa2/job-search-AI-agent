@@ -88,3 +88,7 @@ Getir: bad board/API
  	Slug: getir
  	Error: HTTP 404
 
+
+
+Saved 127 jobs to D:\Agent\Database\jobs.db table new_jobs
+
