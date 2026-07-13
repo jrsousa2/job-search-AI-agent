@@ -24,7 +24,7 @@ job-search-AI-agent/
 │   └── jobs.db                     # SQLite database (with tables new_jobs and jobs_hist)
 ├── scripts/
 │   ├── Anthropic.py                # Claude API integration (for testing)
-│   ├── check-boards.py             # Queries APIs for supported ATS job boards
+│   ├── check_boards.py             # Queries APIs for supported ATS job boards
 │   ├── Creates_jobs_AI_input.py    # Builds the AI input (.md) from the new_jobs table
 │   ├── Creates_jobs_hist_db.py     # Creates initial job history database
 │   ├── List_db_info.py             # Displays database metadata info (for testing)
