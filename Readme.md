@@ -42,8 +42,10 @@ After querying the APIs of a few ATS systems, the data is saved to a SQLite data
 
 The main program (check_boards.py) used to query the ATS job boards is based on code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code).
 <br>But I have made major changes to it &mdash; I think the SQLite approach has made the data much more manageable. 
-<br>Another improvement is the use of the Claude API, which allows a better control of the cost.
-<br>After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
+
+Another improvement is the use of the Claude API, which allows a better control of the cost.
+
+After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
 <br>Eventually, I will upload it here too.
 
 ### Claude API
