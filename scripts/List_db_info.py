@@ -6,18 +6,11 @@ import sys
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-from scripts.check_boards import REPO_ROOT
-from scripts.check_boards import DB_FILE
-
 sys.path.append(str(REPO_ROOT))
 
-from scripts.check_boards import summarize_db
-
-# Table = "new_jobs"
-Table = "jobs_hist"
+from scripts.check_boards import DB_FILE, summarize_db
 
 DB_FILE = REPO_ROOT / "Database" / "jobs.db"
-EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
@@ -27,17 +20,18 @@ def list_db_tables():
     cursor.execute("SELECT name FROM sqlite_master")
     # PRINT
     for (table_name,) in cursor.fetchall():
-        print(table_name)
+        print(table_name.upper())
 
 def get_col_names(input_table):
     cursor.execute(f"PRAGMA table_info({input_table})")
     # COLS
     column_names = [row[1] for row in cursor.fetchall()]
-    print("\n",input_table,"table Cols:",column_names)
+    print("\n")
+    print(input_table.upper(),"table Cols:",column_names)
     # ROWS
     cursor.execute(f"SELECT COUNT(*) FROM {input_table}")
     row_count = cursor.fetchone()[0]
-    print(input_table,"Row count:",row_count,"\n")
+    print(input_table.upper(),"Row count:",row_count,"\n")
 
 def list_table_index(input_table):
     cursor.execute(f"PRAGMA index_list({input_table})")
