@@ -33,8 +33,11 @@ job-search-AI-agent/
 ```
 
 ### The workflow
+
 After querying the APIs of a few ATS systems, the data is saved to a SQLite database table (new_jobs).
 <br>Records for onsite jobs are discarded from the table.
+
+### Unique key to dedupe jobs
 
 Since this batch job is supposed to run daily, the process I envisioned was to come up with a single unique key 
 for the jobs (final_job_id &ndash; comprised of platform, company and job_id &mdash; if job_id is not missing, which is nearly always the case
@@ -44,17 +47,27 @@ The purpose of the final_job_id is to deduplicate the current jobs list, based o
 Therefore, a jobs history table is kept as well (with final_job_id set as a unique key). Every time the job runs, the new jobs are added to the history table at the end of the process. 
 
 If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. Hence, 
-records are checked for duplicate final_job_id before being added to the new_jobs table, and any occasional duplicates are discarded.
+records are checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
 
-Besides, a flag called "New" is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
+### Previously evaluated
+
+A flag called "New" is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
+
+### Remote/hybrid
 
 From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
 
+### Using Excel for testing
+
 For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
 also allows only actual new jobs to be passed to Claude for evaluation).
 
-File watchlist.json is a template (if you have a more complete list, feel free to send it to me).
+### ATS watchlist
+
+File watchlist.json is a template, you have to build your own one (if you have a more complete list, feel free to send it to me).
+
+### Main code
 
 The main code (check_boards.py) is based on a code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code), but I have since made major changes to it 
 (I think the SQLite approach has made the data much more manageable). Eventually, I will upload it here too.
