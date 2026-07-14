@@ -90,6 +90,6 @@ File watchlist.json is a template, you have to build your own one (if you have a
 Please forgive me for the clumsy tutorial, I'm updating it as I go (for now). 
 When it's cleaned up and finalized, I will make it into an HTML doc instead.
 
-For a guide to this repository, please visit:
+For a better guide to this repository, please visit:
 
 https://jrsousa2.github.io/#AI
