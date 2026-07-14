@@ -51,6 +51,9 @@ I obtained Python code from Claude to leverage the API &mdash; as opposed to usi
 a monthly subscription that would allow me to use Cowork (or Claude Code) &ndash; so if they work well this will save me money. 
 <br>The Python programs require anthropic, pandas, requests, markdown, jinja2, pypdf and weasyprint (possibly others).
 
+You must also install the native Windows dependencies (GTK/Pango/Cairo) of WeasyPrint, since the PDFs are generated in Python.
+<br>Download the GTK3 Runtime (64-bit) for Windows.
+
  I will eventually upload the *.py files and PDF templates here, when all is ready.
 
 ### Unique key to dedupe jobs
