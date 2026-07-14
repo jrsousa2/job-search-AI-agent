@@ -38,16 +38,16 @@ job-search-AI-agent/
 After querying the APIs of a few ATS systems, the data is saved to a SQLite database table (new_jobs).
 <br>Records for onsite jobs are discarded from the table.
 
-### Main code
+### Python code
 
-The main Python code (check_boards.py) used to query the ATS job boards is based on code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code).
+The main program (check_boards.py) used to query the ATS job boards is based on code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code).
 <br>But I have made major changes to it &mdash; I think the SQLite approach has made the data much more manageable. 
-<br>After the database new_jobs is created, the file fed to Claude is created from it (with only actual new jobs).
+<br>After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
 <br>Eventually, I will upload it here too.
 
 ### Claude API
 
-I was able to obtain Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
+I obtained Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
 a monthly subscription that would allow me to use Cowork (or Claude Code) &ndash; so if they work well this will save me money. 
 <br>The Python programs require pandas, requests, jinja2 and weasyprint (and possibly others).
 
