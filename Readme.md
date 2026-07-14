@@ -46,7 +46,8 @@ The main program (check_boards.py) used to query the ATS job boards is based on 
 Another improvement is the use of the Claude API, which allows a better control of the cost.
 
 After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
-<br>Eventually, I will upload it here too.
+
+<br>Eventually, I will upload them here.
 
 ### Claude API
 
