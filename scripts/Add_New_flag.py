@@ -10,13 +10,17 @@ sys.path.append(str(REPO_ROOT))
 
 from scripts.check_boards import DB_FILE, summarize_db
 
-DB_FILE = REPO_ROOT / "Database" / "jobs.db"
-
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 def add_New_flag() -> int:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
-    cursor.execute("ALTER TABLE new_jobs ADD COLUMN New INTEGER")
+
+    # CHECK IF COLUMN EXISTS
+    cursor.execute("PRAGMA table_info(new_jobs)")
+    columns = [row[1] for row in cursor.fetchall()]
+
+    if "New" not in columns:
+        cursor.execute("ALTER TABLE new_jobs ADD COLUMN New INTEGER")
 
     cursor.execute("""
     UPDATE new_jobs

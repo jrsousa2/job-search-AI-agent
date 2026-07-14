@@ -1,9 +1,13 @@
 # CREATES THE JOBS INPUT MD FILE FOR CLAUDE
 from pathlib import Path
 import sqlite3
+import sys
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DB_FILE = REPO_ROOT / "Database" / "jobs.db"
+
+sys.path.append(str(REPO_ROOT))
+
+from scripts.check_boards import DB_FILE, summarize_db
 
 OUTPUT_FILE = REPO_ROOT / "data" / "new_jobs.md"
 
