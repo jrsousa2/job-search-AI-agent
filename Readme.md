@@ -87,7 +87,7 @@ File watchlist.json is a template, you have to build your own one (if you have a
 
 ### Documentation
 
-Please forgive me for the clumsy tutorial, I'm updating as I go (for now). 
+Please forgive me for the clumsy tutorial, I'm updating it as I go (for now). 
 When it's cleaned up and finalized, I will make it into an HTML doc instead.
 
 For a guide to this repository, please visit:
