@@ -57,7 +57,7 @@ a monthly subscription &ndash; so if the programs work well this will save me mo
 <br>The Python programs require anthropic, pandas, requests, markdown, jinja2, pypdf and weasyprint.
 
 You must also install the native Windows dependencies (GTK/Pango/Cairo) of WeasyPrint, since the PDFs are generated in Python.
-<br>Download the GTK3 Runtime (64-bit) for Windows.
+Download the GTK3 Runtime (64-bit) for Windows.
 
 During development, I'm also saving data structures as external json files, so I don't have to use the API again and use more tokens.
 
