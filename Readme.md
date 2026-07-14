@@ -2,7 +2,7 @@
 
 A Claude Code agent that uses Python code with a SQLite database to match jobs to a resume.
 
-This is a work in progress.
+This is a work in progress. (Note I haven't uploaded files in development yet).
 
 ```
 job-search-AI-agent/
@@ -15,7 +15,7 @@ job-search-AI-agent/
 ├── data/
 │   ├── new_jobs.md                 # Current list of jobs to be scored by Claude
 │   └── watchlist.json              # Target companies and ATS platforms (template)
-├── daily-digest/                   # Daily AI-generated job summaries
+├── daily-digest/                   # Daily AI-generated files
 ├── Excel/
 │   └── New_jobs.xlsx               # Excel export of job list (for testing)
 ├── Logs/
@@ -23,11 +23,11 @@ job-search-AI-agent/
 ├── Database/
 │   └── jobs.db                     # SQLite database (with tables new_jobs and jobs_hist)
 ├── scripts/
-│   ├── Anthropic.py                # Claude API integration (for testing)
+│   ├── Anthropic.py                # Claude API integration (in progress)
 │   ├── check_boards.py             # Queries APIs for supported ATS job boards
 │   ├── Creates_jobs_AI_input.py    # Builds the AI input (.md) from the new_jobs table
 │   ├── Creates_jobs_hist_db.py     # Creates initial job history database
-│   ├── List_db_info.py             # Displays database metadata info (for testing)
+│   ├── List_db_info.py             # Displays database metadata (for dev/testing)
 │   └── Export_db_to_Excel.py       # Exports database to Excel
 └── README.md                       # Repository overview
 ```
