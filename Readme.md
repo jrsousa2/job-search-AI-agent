@@ -48,10 +48,10 @@ The main Python code (check_boards.py) used to query the ATS job boards is based
 ### Claude API
 
 I was able to obtain Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
-a monthly subscription that would allow me to use Cowork (or Claude Code), so if they work well this will save me money. 
+a monthly subscription that would allow me to use Cowork (or Claude Code) &ndash; so if they work well this will save me money. 
 <br>The Python programs require pandas, requests, jinja2 and weasyprint (and possibly others).
 
-I will eventually upload the *.py files and PDF templates I got from Claude here, when all is ready.
+I will eventually upload the *.py files and PDF templates here, when all is ready.
 
 ### Unique key to dedupe jobs
 
