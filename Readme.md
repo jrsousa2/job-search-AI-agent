@@ -65,7 +65,7 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 ### ATS watchlist
 
-File watchlist.json is a template, you have to build your own one (if you have a more complete list, feel free to send it to me).
+File watchlist.json is a template, you have to build your own one (if you have a more complete list, feel free to send me).
 
 ### Main code
 
@@ -75,6 +75,15 @@ The main code (check_boards.py) is based on a code I got from [Scotty Peterson](
 ### A snapshot of the table new_jobs:
 
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
+
+### Claude
+
+I was able to obtain Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
+a monthly subscription that allows me to use Cowork (or Claude Code), so if they work well this will save me money. 
+
+I will eventually upload the *.py files and PDF templates I got from Claude, when all is ready.
+
+### Documentation
 
 For a guide to this repository, please visit:
 
