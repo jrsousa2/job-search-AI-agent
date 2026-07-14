@@ -67,8 +67,9 @@ which leads to less token usage.
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
 whether the role is managerial, job location, etc.)
-Besides, working with AI is not foolproof, it can be frustrating at times (for example, seeing jobs that don't meet the criteria
+Besides, working with AI is not foolproof, it makes mistakes at times (for example, seeing jobs that don't meet the criteria
 of your AI prompt, such as non-US jobs). Be prepared to tweak your prompts constantly.
+<br>That is why I will keep running this manually for some time.
 
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
