@@ -5,6 +5,9 @@ watchlist.json
 Script.txt
 Claude.md
 
+# PDF's
+*.pdf
+
 # EXCLUDE LOCKED FILES
 ~$*.xlsx
 ~$*.xls
