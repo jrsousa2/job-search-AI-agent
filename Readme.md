@@ -30,6 +30,7 @@ job-search-AI-agent/
 │   ├── Creates_jobs_hist_db.py     # Creates initial job history database
 │   ├── List_db_info.py             # Displays database metadata (for dev/testing)
 │   └── Export_db_to_Excel.py       # Exports database to Excel
+├── templates/                      # Templates used to create the PDFs
 └── README.md                       # Repository overview
 ```
 
@@ -47,7 +48,7 @@ Another improvement is the use of the Claude API, which allows a better control 
 
 After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
 
-<br>Eventually, I will upload them here.
+Eventually, I will upload these here.
 
 ### Claude API
 
