@@ -37,6 +37,20 @@ job-search-AI-agent/
 After querying the APIs of a few ATS systems, the data is saved to a SQLite database table (new_jobs).
 <br>Records for onsite jobs are discarded from the table.
 
+### Main code
+
+The main Python code (check_boards.py) used to query ATS job boards is based on a code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code).
+<br>But I have since made major changes to it &mdash; I think the SQLite approach has made the data much more manageable. 
+<br>After the database new_jobs is created, the file fed to Claude is created from it (with only actual new jobs).
+<br>Eventually, I will upload it here too.
+
+### Claude API
+
+I was able to obtain Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
+a monthly subscription that would allows me to use Cowork (or Claude Code), so if they work well this will save me money. 
+
+I will eventually upload the *.py files and PDF templates I got from Claude, when all is ready.
+
 ### Unique key to dedupe jobs
 
 Since this batch job is supposed to run daily, the process I envisioned was to come up with a single unique key 
@@ -67,23 +81,14 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 File watchlist.json is a template, you have to build your own one (if you have a more complete list, feel free to send me).
 
-### Main code
-
-The main code (check_boards.py) is based on a code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code), but I have since made major changes to it 
-(I think the SQLite approach has made the data much more manageable). Eventually, I will upload it here too.
-
 ### A snapshot of the table new_jobs:
 
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
 
-### Claude
-
-I was able to obtain Python code from Claude to leverage the API &mdash; as opposed to using Claude Desktop and having to pay for 
-a monthly subscription that allows me to use Cowork (or Claude Code), so if they work well this will save me money. 
-
-I will eventually upload the *.py files and PDF templates I got from Claude, when all is ready.
-
 ### Documentation
+
+Please forgive me for the clumsy tutorial, I'm updating as I go (for now). 
+When it's cleaned up and finalized, I will make it into an HTML doc instead.
 
 For a guide to this repository, please visit:
 
