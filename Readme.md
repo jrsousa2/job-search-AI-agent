@@ -64,6 +64,9 @@ During development, I'm also saving data structures as external json files, so I
 Claude has moved some of the tasks of the AI to Python code (such as checking valid/active postings), so the AI prompt (Claude.md) was simplified, 
 which leads to less token usage.
 
+Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
+when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, whether the role is managerial, etc.)
+
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
 ### Unique key to dedupe jobs
