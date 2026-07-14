@@ -48,7 +48,7 @@ records are checked for duplicate final_job_id before being added to the new_job
 
 Besides, a flag called "New" is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
-From my observations, the is_remote flag is not always reliable, so it is tweaked with the job description. 
+From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
 
 For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
