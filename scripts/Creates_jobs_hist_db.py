@@ -77,17 +77,17 @@ def add_New_flag():
     # COMMITS CHANGES
     conn.commit()
 
-def summarize_db(input_table: str,filter: str)->int:
+def summarize_db(input_table: str,sql_filter: str)->int:
     # ROWS
-    cursor.execute(f"SELECT COUNT(*) FROM {input_table} {filter}")
+    cursor.execute(f"SELECT COUNT(*) FROM {input_table} {sql_filter}")
     row_count = cursor.fetchone()[0]
-    print("Table",input_table,":",row_count,"rows",filter)
+    print("Table",input_table,":",row_count,"rows",sql_filter)
     # SUMMARY
     return row_count
 
 # DROP AND RECREATE HISTORY TABLE
-# drop_table("jobs_hist")
-# create_jobs_hist()
+drop_table("jobs_hist")
+create_jobs_hist()
 
 # UPDATES JOBS_HIST MANUALLY
 # update_jobs_hist()

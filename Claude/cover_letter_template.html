@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
+    :root {
+        --ink: #1c1b1a;
+        --muted: #6f6d68;
+        --accent: #1f4a47;
+        --hairline: #d9d7d1;
+    }
+
+    @page { size: Letter; margin: 0.95in 1in; }
+
+    body {
+        font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+        font-weight: 300;
+        color: var(--ink);
+        font-size: 10.3pt;
+        line-height: 1.6;
+    }
+
+    .name {
+        font-family: 'Lora', Georgia, serif;
+        font-weight: 700;
+        font-size: 16pt;
+        margin: 0;
+        color: var(--ink);
+    }
+    .contact {
+        font-size: 8.6pt;
+        color: var(--muted);
+        margin: 2px 0 0 0;
+    }
+    .contact .sep { color: var(--hairline); margin: 0 6px; }
+    .contact a { color: var(--muted); text-decoration: none; }
+    .contact a:hover { text-decoration: underline; }
+    .header-rule {
+        border: none;
+        border-top: 1.4px solid var(--ink);
+        margin: 10px 0 22px 0;
+    }
+
+    .date { color: var(--muted); font-size: 9.3pt; margin-bottom: 18px; }
+
+    .addressee {
+        margin-bottom: 18px;
+        font-size: 10.3pt;
+    }
+    .addressee .company {
+        font-family: 'Lora', Georgia, serif;
+        font-weight: 600;
+        color: var(--accent);
+    }
+    .addressee .role { color: var(--muted); font-style: italic; }
+
+    p { margin: 0 0 13px 0; }
+
+    .signoff { margin-top: 6px; }
+    .signoff .name-sign {
+        font-family: 'Lora', Georgia, serif;
+        font-weight: 600;
+        margin-top: 10px;
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<p class="name">{{ full_name }}</p>
+<p class="contact">
+    {%- set parts = [] -%}
+    {%- if contact.location %}{% set _ = parts.append(contact.location) %}{% endif -%}
+    {%- if contact.phone %}{% set _ = parts.append(contact.phone) %}{% endif -%}
+    {%- if contact.email %}{% set _ = parts.append('<a href="mailto:' + contact.email + '">' + contact.email + '</a>') %}{% endif -%}
+    {{ parts | join("<span class='sep'>&#9670;</span>") | safe }}
+</p>
+<hr class="header-rule">
+
+<div class="date">{{ date }}</div>
+
+<div class="addressee">
+    <span class="company">{{ company }}</span><br>
+    <span class="role">Re: {{ job_title }}</span>
+</div>
+
+{% for paragraph in paragraphs %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+
+<p class="signoff">Sincerely,<span class="name-sign">{{ full_name }}</span></p>
+
+</body>
+</html>

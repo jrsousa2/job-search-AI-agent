@@ -2,8 +2,16 @@
 # USED FOR DEVELOPMENT
 from pathlib import Path
 import sqlite3
+import sys
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+from scripts.check_boards import REPO_ROOT
+from scripts.check_boards import DB_FILE
+
+sys.path.append(str(REPO_ROOT))
+
+from scripts.check_boards import summarize_db
 
 # Table = "new_jobs"
 Table = "jobs_hist"
@@ -36,7 +44,7 @@ def list_table_index(input_table):
     indexes = cursor.fetchall()
 
     for idx in indexes:
-        print("Table",input_table,"index:",idx)
+        print("Table",input_table.upper(),"index:",idx)
         if idx[2] == 1:  # unique
             index_name = idx[1]
             cursor.execute(f"PRAGMA index_info({index_name})")
@@ -51,6 +59,9 @@ get_col_names("new_jobs")
 
 # INDEX
 list_table_index("jobs_hist")
+
+# SUMMARIZE NEW_JOBS
+row_count = summarize_db("new_jobs","where New=1")
 
 # CLOSE CONNECTION
 conn.close()

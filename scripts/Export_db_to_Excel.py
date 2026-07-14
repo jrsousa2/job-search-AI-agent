@@ -10,13 +10,13 @@ DB_FILE = REPO_ROOT / "Database" / "jobs.db"
 # EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
 # EXPORT A DB TABLE TO EXCEL
-def exp_to_excel(input_table: str, suff: str, filter: str) -> None:
+def exp_to_excel(input_table: str, suff: str, sql_filter: str) -> None:
     output_file = f"{input_table}{suff}.xlsx"
     EXCEL_FILE = REPO_ROOT / "Excel" / output_file
     conn = sqlite3.connect(DB_FILE)
 
     # SAVE QUERY OUTPUT TO A DF
-    df = pd.read_sql_query(f"SELECT * FROM {input_table} {filter}", conn)
+    df = pd.read_sql_query(f"SELECT * FROM {input_table} {sql_filter}", conn)
     df.to_excel(EXCEL_FILE, index=False)
 
     print("Table",input_table,"exported to",output_file)
