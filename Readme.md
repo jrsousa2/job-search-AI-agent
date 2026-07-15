@@ -2,7 +2,7 @@
 
 An API-based Claude agent that uses Python code with a SQLite database to match jobs to a resume.
 
-Please forgive me for this clumsy tutorial, I'm updating it as I go (for now). 
+**Please forgive me for this clumsy tutorial, I'm updating it as I go (for now).**
 <br>When it's cleaned up and finalized, I will make it into a neater HTML page instead.
 
 This is a work in progress. (Note I haven't uploaded files in development yet).
