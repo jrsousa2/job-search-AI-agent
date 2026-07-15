@@ -19,7 +19,7 @@ job-search-AI-agent/
 ├── data/
 │   ├── new_jobs.md                 # Current list of jobs to be scored by Claude
 │   └── watchlist.json              # Target companies and ATS platforms (template)
-├── daily-digest/                   # Daily AI-generated files
+├── daily-digest/                   # Daily AI-generated files (postings URLs, company suggestions)
 ├── Excel/
 │   └── New_jobs.xlsx               # Excel export of job list (for testing)
 ├── Logs/
