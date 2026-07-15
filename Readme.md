@@ -64,8 +64,7 @@ Download the GTK3 Runtime (64-bit) for Windows.
 
 During development, I'm also saving data structures as external json files, so I don't have to use the API again and use more tokens.
 
-Claude has moved some of the tasks of the AI prompt to Python code (such as checking valid/active postings), so the AI prompt (Claude.md) was simplified, 
-which leads to less token usage.
+Claude has moved some of the tasks of the AI prompt to Python code (such as checking valid/active postings), so the AI prompt (Claude.md) was simplified, which leads to less token usage.
 
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
@@ -78,8 +77,8 @@ I will eventually upload the *.py files and PDF templates here, when all is read
 
 ### Pricing
 I'm using code created by Claude to help me estimate the price per run. 
-<br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist) and
-for the number of tailored resumes (and cover letters) that the user chose to create.
+<br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist). The 
+number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
