@@ -108,7 +108,7 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 ### ATS watchlist
 
-File watchlist.json is a template, you have to build your own one (if you have a more complete list, feel free to send me).
+File watchlist.json is a template, you have to build your own one. One of the programs Claude created can suggest more entries for it.
 
 ### A snapshot of the table new_jobs:
 
