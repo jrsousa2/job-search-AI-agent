@@ -1,17 +1,13 @@
 # USED FOR TESTING
 import sqlite3
-import sys
+from check_boards import REPO_ROOT
+from check_boards import DB_FILE
 
-from scripts.check_boards import REPO_ROOT
-from scripts.check_boards import DB_FILE
-
-sys.path.append(str(REPO_ROOT))
-
-from scripts.check_boards import summarize_db
+from check_boards import summarize_db
 
 # UPDATES THE JOBS HISTORY TABLE
 # UNIQUE KEY IS final_job_id (IGNORE WON'T INSERT DUPLICATES)
-def update_jobs_hist() -> None:
+def update_jobs_hist(DB_FILE) -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     start_count = summarize_db("jobs_hist","")
@@ -33,3 +29,6 @@ def update_jobs_hist() -> None:
 
 # UPDATE JOBS_HIST TABLE
 update_jobs_hist()    
+
+# BACK UP TABLE
+# summarize_db("new_jobs","where New=0")
