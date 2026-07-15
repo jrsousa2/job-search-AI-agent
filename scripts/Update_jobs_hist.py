@@ -6,7 +6,7 @@ from check_boards import summarize_db
 
 # UPDATES THE JOBS HISTORY TABLE
 # UNIQUE KEY IS final_job_id (IGNORE WON'T INSERT DUPLICATES)
-def update_jobs_hist() -> None:
+def update_jobs_hist(input_table) -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     start_count = summarize_db("jobs_hist","")
@@ -16,7 +16,7 @@ def update_jobs_hist() -> None:
         INSERT OR IGNORE INTO jobs_hist
         ({cols})
         SELECT {cols}
-        FROM new_jobs_bak
+        FROM {input_table}
         where is_remote=1 or is_hybrid=1
     """)
     # COMMITS
@@ -24,10 +24,12 @@ def update_jobs_hist() -> None:
     conn.close()
     # GET STATS
     end_count = summarize_db("jobs_hist","")
+    print("Start count:",start_count)
+    print("End count:",end_count)
     print("Added",end_count-start_count,"records to jobs_hist table")
 
-# UPDATE JOBS_HIST TABLE
-update_jobs_hist()   
+# UPDATE JOBS_HIST FROM SPECIFIED INPUT TABLE
+update_jobs_hist("new_jobs_bak")   
 
 # TOTAL TABLE COUNT
 total_count = summarize_db("jobs_hist","") 

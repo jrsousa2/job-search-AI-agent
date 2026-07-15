@@ -128,3 +128,7 @@ Brown & Brown Insurance: API error
  	Slug: bbinsurance/Careers
  	Error: not enough values to unpack (expected 3, got 2)
 
+
+
+Saved 127 jobs to D:\Agent\Database\jobs.db table new_jobs
+

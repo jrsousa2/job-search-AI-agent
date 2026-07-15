@@ -2,17 +2,15 @@
 # USED FOR DEVELOPMENT
 import sqlite3
 
-# from pathlib import Path
-# import sys
-# REPO_ROOT = Path(__file__).resolve().parent.parent
-# sys.path.append(str(REPO_ROOT))
-
 from check_boards import DB_FILE, summarize_db
 
-# ADDS FLAG "NEW" TO TABLE NEW_JOBS
+# ADD AND UPDATE FLAG "NEW" IN TABLE NEW_JOBS
 def add_New_flag() -> int:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
+
+    # START ROWS
+    total_count = summarize_db("new_jobs","")
 
     # CHECK IF COLUMN EXISTS
     cursor.execute("PRAGMA table_info(new_jobs)")
@@ -20,6 +18,9 @@ def add_New_flag() -> int:
 
     if "New" not in columns:
         cursor.execute("ALTER TABLE new_jobs ADD COLUMN New INTEGER")
+    else:
+        # GET NUMBER OF NEW JOBS
+        start_count = summarize_db("new_jobs","where New=1")    
 
     cursor.execute("""
     UPDATE new_jobs
@@ -35,14 +36,12 @@ def add_New_flag() -> int:
     """)
     # COMMITS CHANGES
     conn.commit()
-
     # GET NUMBER OF NEW JOBS
-    row_count = summarize_db("new_jobs","where New=1")
+    end_count = summarize_db("new_jobs","where New=1")
     conn.close()
-
-    return row_count
+    return end_count
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 new_jobs_count = add_New_flag()
 # TOTAL TABLE COUNT
-total_count = summarize_db("new_jobs","")
+#total_count = summarize_db("new_jobs","")
