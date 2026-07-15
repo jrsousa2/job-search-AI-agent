@@ -121,3 +121,5 @@ File watchlist.json is a template, you have to build your own one. One of the pr
 For a guide to this repository, please visit:
 
 https://jrsousa2.github.io/#AI
+
+PS - if you follow me here on GH, I will follow you back. Just make sure you have a picture of yourself.
