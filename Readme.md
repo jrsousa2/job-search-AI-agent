@@ -85,15 +85,17 @@ Btw, there's a very simple example of a tailored resume, under folder `resumes`,
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
-Here's an example of cost estimate for an actual run:
---- Cost estimate for this run ---
-  Input tokens:  531,227
-  Output tokens: 32,041
-  Token cost:    $2.07
-  Web searches:  15 ($0.15)
-  TOTAL:         $2.22 dollars
+*Here's an example of cost estimate for an actual run:*
+
+| Metric          | Value    |
+|-----------------|---------:|
+| Input tokens    | 531,227  |
+| Output tokens   | 32,041   |
+| Token cost      | $2.0743  |
+| Web searches    | 15 ($0.1500) |
+| **TOTAL**       | **$2.2243** |
   
-(Estimate only, at published list rates -- check console.anthropic.com for actual billing.)
+*Estimate only, at published list rates -- check console.anthropic.com for actual billing.*
 
 ### Unique key to dedupe jobs
 
