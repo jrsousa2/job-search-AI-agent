@@ -88,7 +88,43 @@ Getir: bad board/API
  	Slug: getir
  	Error: HTTP 404
 
+Travelers: API error
+ tPlatform: workday
+ 	Slug: travelers/External
+ 	Error: not enough values to unpack (expected 3, got 2)
 
+Nationwide: API error
+ tPlatform: workday
+ 	Slug: nationwide/Nationwide_Career
+ 	Error: not enough values to unpack (expected 3, got 2)
 
-Saved 123 jobs to D:\Agent\Database\jobs.db table new_jobs
+The Hartford: API error
+ tPlatform: workday
+ 	Slug: thehartford/Careers_External
+ 	Error: not enough values to unpack (expected 3, got 2)
+
+Humana: API error
+ tPlatform: workday
+ 	Slug: humana/Humana_External_Career_Site
+ 	Error: not enough values to unpack (expected 3, got 2)
+
+CVS Health / Aetna: API error
+ tPlatform: workday
+ 	Slug: cvshealth/cvs_health_careers
+ 	Error: not enough values to unpack (expected 3, got 2)
+
+LexisNexis Risk Solutions: API error
+ tPlatform: workday
+ 	Slug: relx/RiskSolutions
+ 	Error: not enough values to unpack (expected 3, got 2)
+
+Fiserv: API error
+ tPlatform: workday
+ 	Slug: fiserv/EXT
+ 	Error: not enough values to unpack (expected 3, got 2)
+
+Brown & Brown Insurance: API error
+ tPlatform: workday
+ 	Slug: bbinsurance/Careers
+ 	Error: not enough values to unpack (expected 3, got 2)
 
