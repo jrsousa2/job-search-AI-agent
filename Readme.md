@@ -91,9 +91,9 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 |-----------------|---------:|
 | Input tokens    | 531,227  |
 | Output tokens   | 32,041   |
-| Token cost      | $2.0743  |
-| Web searches    | 15 ($0.1500) |
-| **TOTAL**       | **$2.2243** |
+| Token cost      | $2.07  |
+| Web searches    | 15 ($0.15) |
+| **TOTAL**       | **$2.22** |
   
 *Estimate only, at published list rates -- check console.anthropic.com for actual billing.*
 
