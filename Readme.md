@@ -77,7 +77,9 @@ of your AI prompt, such as non-US jobs). Be prepared to tweak your prompts const
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
 ### Pricing
-I'm using code created by Claude to help me estimate the price per run. It's a program called pricing.py.
+I'm using code created by Claude to help me estimate the price per run. 
+<br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist) and
+for the number of tailored resumes (and cover letters) that the user chose to create.
 <br>Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
 ### Unique key to dedupe jobs
