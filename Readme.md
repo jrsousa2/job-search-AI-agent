@@ -78,8 +78,8 @@ I will eventually upload the *.py files and PDF templates here, when all is read
 ### Pricing
 I'm using code created by Claude to help me estimate the price per run. 
 <br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist). The 
-number of tailored resumes (and cover letters) that the user chose to create also adds to the price 
-(btw, there's a very simple example of a tailored resume, under folder `resumes`).
+number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
+Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
