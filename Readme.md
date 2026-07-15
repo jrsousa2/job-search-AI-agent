@@ -97,7 +97,7 @@ records are checked for duplicate final_job_id before being added to table new_j
 
 ### Previously evaluated
 
-A flag called "New" is updated every time the job runs in table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
+A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
 ### Remote/hybrid
 
