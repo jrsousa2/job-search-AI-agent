@@ -106,8 +106,9 @@ for the jobs (final_job_id &ndash; comprised of platform, company and job_id &md
 The purpose of the final_job_id is to deduplicate the current jobs list, based on previous results. 
 Therefore, a jobs history table is kept as well (with final_job_id set as a unique key). Every time the job runs, the new jobs are added to the history table at the end of the process. 
 
-If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. Hence, 
-records are checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
+If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. 
+<br>To avoid that, the json watchlist file is deduped by platform, company and slug, prior to being used. 
+<br>Regardless of that, the resulting records are still checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
 
 ### Previously evaluated
 
