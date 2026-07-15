@@ -1,4 +1,4 @@
-# Job Search AI Agent
+# Job search AI agent
 
 An API-based Claude agent that uses Python code with a SQLite database to match jobs to a resume.
 
