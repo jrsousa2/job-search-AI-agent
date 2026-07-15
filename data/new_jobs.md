@@ -539,32 +539,6 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 **Company:** Stripe
 
-**Title:** Credit Risk Strategy and Analytics
-
-**Location:** Remote 
-
-**Remote:** Yes
-
-**Work Arrangement:** Remote
-
-**Platform:** greenhouse
-
-**URL:** https://stripe.com/jobs/search?gh_jid=8044686
-
-**Job ID:** 8044686
-
-**Slug:** stripe
-
-### Description
-
-Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Capital team is responsible for managing the end-to-end risk strategy for Stripe's lending product. The team is based in the US and Canada, and is composed of curious, driven, and analytical individuals who are passionate about using their skills to shape the future of Stripe. We partner closely with Stripe's engineering, data science, product, and servicing teams to leverage existing platforms, integrate industry best practices, and develop novel solutions to evaluate and manage credit risk. If you are interested in joining a fast-growing organization and applying your experience to shape the future of Stripe, we encourage you to apply. What you’ll do As a key member of the Capital team, you will have the opportunity to shape the future of Stripe's credit policy by driving meaningful changes to the risk and underwriting framework. You will leverage Stripe's vast data assets to formulate your recommendations and work closely with our partners and, where applicable, leverage third-party data. We are a small and lean team, which means you will have the autonomy and the responsibility to manage end-to-end risk initiatives. Responsibilities Architect and implement credit policies based on Stripe's proprietary data and selected industry data to target, price, and size capital products. Utilize your analytical and technical skills to provide credit risk recommendations, deliver insights, and support strategic business decisions. Collaborate with cross-functional teams, such as Product, Data Science, Engineering, and Capital Markets to shape new product development across different geographies and industries. Incorporate third-party data, including bureau, bank account, financial statements, and less traditional data, into our credit assessment. Analyze account activity and monitor portfolio trends to identify opportunities for Stripe to reduce potential credit losses. Help scale risk processes by working with partners to design and optimize outsourced workflows. Who you are We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 5+ years of experience in credit analysis and underwriting. Bachelor's degree in finance, economics, statistics, or a related field. Experience in risk management, financial lending, or core credit risk management function. Strong analytical skills and a rigorous, data-driven approach to problem-solving. Experience working with both internal and external stakeholders and the ability to closely. manage expectations and deliverables in a timely manner. Ability to thrive in an unstructured and fast-moving organization. Strong technical expertise, including SQL, excel, google sheets. Self-starter who can work independently. Preferred qualifications Experience with quantitative tools such as Python, R, or Stata. Master's degree in finance, economics, statistics, or a related field. Superior communication and relationship management skills. Experience with credit scoring models. Experience working with machine learning teams. Ability to communicate results clearly with a focus on driving impact.
-
----
-
-## Job 12
-
-**Company:** Stripe
-
 **Title:** Sales Compensation Analytics & Systems Specialist
 
 **Location:** CHI, SF, NYC, SEA, US Remote
@@ -587,7 +561,7 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 ---
 
-## Job 13
+## Job 12
 
 **Company:** Stripe
 
@@ -613,85 +587,33 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 ---
 
+## Job 13
+
+**Company:** Allstate
+
+**Title:** Data and Business Analytics Sr. Consultant
+
+**Location:** US - Remote
+
+**Remote:** Yes
+
+**Work Arrangement:** Remote
+
+**Platform:** workday
+
+**URL:** https://allstate.wd5.myworkdayjobs.com/en-US/allstate_careers/job/US---Remote/Business-Analysis-Senior-Consultant-II_R29407-1
+
+**Job ID:** /job/US---Remote/Business-Analysis-Senior-Consultant-II_R29407-1
+
+**Slug:** allstate/wd5/allstate_careers
+
+### Description
+
+
+
+---
+
 ## Job 14
-
-**Company:** Allstate
-
-**Title:** Data Scientist Associate Manager - Remote
-
-**Location:** Remote - Remote
-
-**Remote:** Yes
-
-**Work Arrangement:** Remote
-
-**Platform:** workday
-
-**URL:** https://allstate.wd5.myworkdayjobs.com/en-US/allstate_careers/job/Remote---Remote/Data-Scientist-Associate-Manager---Remote_R31115-1
-
-**Job ID:** /job/Remote---Remote/Data-Scientist-Associate-Manager---Remote_R31115-1
-
-**Slug:** allstate/wd5/allstate_careers
-
-### Description
-
-
-
----
-
-## Job 15
-
-**Company:** Allstate
-
-**Title:** Business Intelligence and Data Analytics Consultant II - Remote
-
-**Location:** Remote - Remote
-
-**Remote:** Yes
-
-**Work Arrangement:** Remote
-
-**Platform:** workday
-
-**URL:** https://allstate.wd5.myworkdayjobs.com/en-US/allstate_careers/job/Remote---Remote/Business-Intelligence-and-Data-Analytics-Consultant-II---Remote_R32407
-
-**Job ID:** /job/Remote---Remote/Business-Intelligence-and-Data-Analytics-Consultant-II---Remote_R32407
-
-**Slug:** allstate/wd5/allstate_careers
-
-### Description
-
-
-
----
-
-## Job 16
-
-**Company:** Centene
-
-**Title:** Data Analyst III
-
-**Location:** 8 Locations
-
-**Remote:** Yes
-
-**Work Arrangement:** Remote
-
-**Platform:** workday
-
-**URL:** https://centene.wd5.myworkdayjobs.com/en-US/Centene_External/job/Remote-MO/Data-Analyst-III_1642364-1
-
-**Job ID:** /job/Remote-MO/Data-Analyst-III_1642364-1
-
-**Slug:** centene/wd5/Centene_External
-
-### Description
-
-
-
----
-
-## Job 17
 
 **Company:** Prog Leasing
 
@@ -717,7 +639,7 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 ---
 
-## Job 18
+## Job 15
 
 **Company:** Prog Leasing
 
@@ -743,7 +665,7 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 ---
 
-## Job 19
+## Job 16
 
 **Company:** Coinbase
 
@@ -765,11 +687,11 @@ Who we are About Stripe Stripe is a financial infrastructure platform for busine
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As the AMLCO & Senior Compliance Associate for Coinbase's Cyprus MiFID entity, you'll own Financial Crime Compliance (AML/CFT) while supporting the Head of Compliance in building and running the broader compliance program. The Compliance team ensures our Cyprus operations meet CySEC and EU regulatory expectations across AML/CFT, MiFID conduct, Market Abuse, and data protection, enabling the business to scale safely. You'll combine formal AMLCO responsibilities with hands-on second-line oversight of risk assessment, monitoring, policy governance, training, and regulatory engagement. Hybrid Role: Please expect to be remote 4 days per week and in-office on Wednesdays. What you'll do: Own all AMLCO deliverables for the Cyprus MiFID entity, including the Annual AMLCO Report, AML Risk Assessment, and periodic financial crime compliance reporting to senior management and the Board. Lead second-line monitoring and testing across AML/CFT and broader conduct/compliance areas, documenting results, findings, and remediation actions for internal governance bodies. Drive regulatory engagement with CySEC, the FIU, and competent authorities, coordinating responses to information requests, inspections, and thematic reviews. Partner with first-line teams to assess the effectiveness of onboarding, KYC/EDD, sanctions screening, transaction monitoring, and STR/SAR reporting controls, escalating gaps and driving remediation. Build and maintain local compliance and AML/CFT policies, procedures, and frameworks aligned with EU/Cyprus requirements (MiFID II, AMLD, MiCA) and group-level standards. Support the Head of Compliance with day-to-day oversight, governance preparation, and key projects, serving as deputy during periods of absence. Required Skills and Experience: 4-6 years in compliance roles within Cyprus-regulated financial services, with direct AML/CFT and MiFID investment services exposure, including at least 2 years in senior-level positions. CySEC Advanced and CySEC AML certifications held. Demonstrated experience preparing AMLCO deliverables (Annual Reports, AML Risk Assessments) and executing second-line monitoring/testing programs. Proven track record engaging with CySEC, the FIU, or external auditors through inspections, thematic reviews, or regulatory reporting cycles. Hands-on experience drafting compliance policies and operating or overseeing AML/CFT frameworks within EU-regulated entities. Fluency in English required; Greek language proficiency is a strong plus. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Req ID: P76940 #LI-Remote Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): €64.100 — €64.100 EUR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As the AMLCO & Senior Compliance Associate for Coinbase's Cyprus MiFID entity, you'll own Financial Crime Compliance (AML/CFT) while supporting the Head of Compliance in building and running the broader compliance program. The Compliance team ensures our Cyprus operations meet CySEC and EU regulatory expectations across AML/CFT, MiFID conduct, Market Abuse, and data protection, enabling the business to scale safely. You'll combine formal AMLCO responsibilities with hands-on second-line oversight of risk assessment, monitoring, policy governance, training, and regulatory engagement. Hybrid Role: Please expect to be remote 4 days per week and in-office on Wednesdays. What you'll do: Own all AMLCO deliverables for the Cyprus MiFID entity, including the Annual AMLCO Report, AML Risk Assessment, and periodic financial crime compliance reporting to senior management and the Board. Lead second-line monitoring and testing across AML/CFT and broader conduct/compliance areas, documenting results, findings, and remediation actions for internal governance bodies. Drive regulatory engagement with CySEC, the FIU, and competent authorities, coordinating responses to information requests, inspections, and thematic reviews. Partner with first-line teams to assess the effectiveness of onboarding, KYC/EDD, sanctions screening, transaction monitoring, and STR/SAR reporting controls, escalating gaps and driving remediation. Build and maintain local compliance and AML/CFT policies, procedures, and frameworks aligned with EU/Cyprus requirements (MiFID II, AMLD, MiCA) and group-level standards. Support the Head of Compliance with day-to-day oversight, governance preparation, and key projects, serving as deputy during periods of absence. Required Skills and Experience: 4-6 years in compliance roles within Cyprus-regulated financial services, with direct AML/CFT and MiFID investment services exposure, including at least 2 years in senior-level positions. CySEC Advanced and CySEC AML certifications held. Demonstrated experience preparing AMLCO deliverables (Annual Reports, AML Risk Assessments) and executing second-line monitoring/testing programs. Proven track record engaging with CySEC, the FIU, or external auditors through inspections, thematic reviews, or regulatory reporting cycles. Hands-on experience drafting compliance policies and operating or overseeing AML/CFT frameworks within EU-regulated entities. Fluency in English required; Greek language proficiency is a strong plus. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Req ID: P76940 #LI-Remote Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): €64.100 — €64.100 EUR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 20
+## Job 17
 
 **Company:** Coinbase
 
@@ -791,11 +713,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Analytics Engineer - Compliance Data As an Analytics Engineer on the Compliance Data team within Platform , you'll build and maintain the production-grade data foundations that every regulatory obligation at Coinbase depends on. This team owns the Compliance Data Mart (CDM), Coinbase's canonical source of truth for user, transaction, and compliance data. You'll own the full lifecycle of data models and pipelines that downstream reporting, analytics, and AI workflows all build on, while also delivering accurate, timely data when regulators come calling. What you'll do: Own end-to-end development of production-grade data models and pipelines at the core of the CDM, covering user, transaction, and compliance data across retail and institutional product lines, from architecture through deployment and maintenance. Build data quality checks, data contracts, validation logic, and monitoring that protect data integrity before issues propagate to downstream reports or workflows. Partner with upstream engineering teams to fix data gaps and absorb product changes at the source, taking accountability for data issues anywhere in the stack rather than passing them downstream. Support live regulatory exams, audits, and ad hoc regulator requests with accurate, timely data, balancing time-sensitive reactive work with long-term foundational projects. Automate recurring manual workflows into scalable pipelines and self-serve tooling, enabling downstream teams and AI agents to answer their own questions. Required Skills and Experience: 2+ years of experience building and maintaining production data pipelines and data models, with strong proficiency in SQL, Python, dbt, and a modern warehouse platform (Snowflake, Databricks, or similar). Track record implementing data quality frameworks including data contracts, validation logic, reconciliation, and monitoring to catch issues before they reach downstream reports. Experience supporting time-sensitive, high-stakes data needs (regulatory exams, audits, or financial reporting) where accuracy and timeliness are non-negotiable. Demonstrated ability to turn tribal knowledge and recurring manual workflows into durable, documented infrastructure. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Job ID: P77413 Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $152,405 — $179,300 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Analytics Engineer - Compliance Data As an Analytics Engineer on the Compliance Data team within Platform , you'll build and maintain the production-grade data foundations that every regulatory obligation at Coinbase depends on. This team owns the Compliance Data Mart (CDM), Coinbase's canonical source of truth for user, transaction, and compliance data. You'll own the full lifecycle of data models and pipelines that downstream reporting, analytics, and AI workflows all build on, while also delivering accurate, timely data when regulators come calling. What you'll do: Own end-to-end development of production-grade data models and pipelines at the core of the CDM, covering user, transaction, and compliance data across retail and institutional product lines, from architecture through deployment and maintenance. Build data quality checks, data contracts, validation logic, and monitoring that protect data integrity before issues propagate to downstream reports or workflows. Partner with upstream engineering teams to fix data gaps and absorb product changes at the source, taking accountability for data issues anywhere in the stack rather than passing them downstream. Support live regulatory exams, audits, and ad hoc regulator requests with accurate, timely data, balancing time-sensitive reactive work with long-term foundational projects. Automate recurring manual workflows into scalable pipelines and self-serve tooling, enabling downstream teams and AI agents to answer their own questions. Required Skills and Experience: 2+ years of experience building and maintaining production data pipelines and data models, with strong proficiency in SQL, Python, dbt, and a modern warehouse platform (Snowflake, Databricks, or similar). Track record implementing data quality frameworks including data contracts, validation logic, reconciliation, and monitoring to catch issues before they reach downstream reports. Experience supporting time-sensitive, high-stakes data needs (regulatory exams, audits, or financial reporting) where accuracy and timeliness are non-negotiable. Demonstrated ability to turn tribal knowledge and recurring manual workflows into durable, documented infrastructure. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Job ID: P77413 Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $152,405 — $179,300 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 21
+## Job 18
 
 **Company:** Coinbase
 
@@ -817,11 +739,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . We're hiring an Analytics Engineer to join the GFCO Analytics Engineering team and build the data foundations that power customer experience and compliance operations at Coinbase. You'll own end-to-end data pipelines, develop trusted metrics, and enable CX stakeholders to make faster, better decisions with clean, reliable data. This is a high-impact role where you'll directly influence how we serve and protect our customers while scaling our analytics capabilities. What you'll do: Own the design, build, and maintenance of data models and pipelines that support CX operations, compliance reporting, and customer insights, ensuring data is accurate, timely, and well-documented. Partner with CX Operations, Compliance, and Product teams to translate business needs into data requirements and deliver self-serve analytics solutions that reduce manual effort. Build and maintain dashboards, metrics, and reporting tools that give CX leaders visibility into performance, customer trends, and compliance health. Drive data quality and governance within the CX data domain by implementing testing, monitoring, and documentation standards that ensure stakeholder trust in the data. Identify opportunities to automate recurring data workflows and reporting processes, shifting the team from reactive requests toward scalable, self-serve solutions. Collaborate with broader Data Engineering and Analytics teams to align on best practices, share learnings, and contribute to Coinbase's overall data infrastructure. Required Skills and Experience: 3+ years of experience in analytics engineering, data engineering, or a related data role, with hands-on experience building and maintaining data pipelines and models. Proficiency in SQL and experience with modern data stack tools such as dbt, Airflow, and cloud data warehouses (Snowflake, Databricks, or similar). Experience with data modeling concepts (dimensional modeling, star/snowflake schemas) and building trusted, well-documented data products. Familiarity with BI/visualization tools (Looker, Tableau, or similar) and experience building dashboards and self-serve analytics solutions. Track record of partnering with non-technical stakeholders to translate business needs into data solutions, particularly in customer experience, operations, or compliance domains. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $152,405 — $179,300 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . We're hiring an Analytics Engineer to join the GFCO Analytics Engineering team and build the data foundations that power customer experience and compliance operations at Coinbase. You'll own end-to-end data pipelines, develop trusted metrics, and enable CX stakeholders to make faster, better decisions with clean, reliable data. This is a high-impact role where you'll directly influence how we serve and protect our customers while scaling our analytics capabilities. What you'll do: Own the design, build, and maintenance of data models and pipelines that support CX operations, compliance reporting, and customer insights, ensuring data is accurate, timely, and well-documented. Partner with CX Operations, Compliance, and Product teams to translate business needs into data requirements and deliver self-serve analytics solutions that reduce manual effort. Build and maintain dashboards, metrics, and reporting tools that give CX leaders visibility into performance, customer trends, and compliance health. Drive data quality and governance within the CX data domain by implementing testing, monitoring, and documentation standards that ensure stakeholder trust in the data. Identify opportunities to automate recurring data workflows and reporting processes, shifting the team from reactive requests toward scalable, self-serve solutions. Collaborate with broader Data Engineering and Analytics teams to align on best practices, share learnings, and contribute to Coinbase's overall data infrastructure. Required Skills and Experience: 3+ years of experience in analytics engineering, data engineering, or a related data role, with hands-on experience building and maintaining data pipelines and models. Proficiency in SQL and experience with modern data stack tools such as dbt, Airflow, and cloud data warehouses (Snowflake, Databricks, or similar). Experience with data modeling concepts (dimensional modeling, star/snowflake schemas) and building trusted, well-documented data products. Familiarity with BI/visualization tools (Looker, Tableau, or similar) and experience building dashboards and self-serve analytics solutions. Track record of partnering with non-technical stakeholders to translate business needs into data solutions, particularly in customer experience, operations, or compliance domains. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $152,405 — $179,300 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 22
+## Job 19
 
 **Company:** Coinbase
 
@@ -843,11 +765,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . The CX Intelligence Engineering team, part of Coinbase's Enterprise Applications and Architecture org, builds the multi-agent platform powering Coinbase Chat, Help Center, and agent tooling. As a Machine Learning Engineer on this team, you'll design and scale the agentic systems that automate complex customer support workflows, connecting LLMs with internal APIs and tools to deliver fast, accurate, and compliant AI-powered experiences for millions of customers. What you'll do: Architect multi-agent systems using advanced orchestration frameworks (LangGraph, Google ADK) to automate complex customer support procedures end-to-end. Build and scale integrations using Model Context Protocol (MCP) to connect LLMs with internal Coinbase APIs, databases, and third-party tooling. Develop automated "LLM-as-a-judge" evaluation pipelines to monitor, measure, and improve the performance of non-deterministic AI agents in production. Implement RAG, fine-tuning, and prompt engineering techniques to ensure chatbot responses are grounded, accurate, and compliant with Coinbase policies. Ship production-ready Python services that are resilient, low-latency, and capable of handling Coinbase-scale traffic across asynchronous microservices. Partner with Conversation Design and Product to translate complex business logic into executable agent procedures within the decentralized architecture. Required Skills and Experience: 3+ years building and scaling ML/AI systems in production, with demonstrated experience implementing agentic "Loop" or "ReAct" based systems where AI takes actions autonomously. Deep understanding of the LLM lifecycle including context window management, token optimization, structured output parsing (Pydantic, JSON mode), and multi-agent orchestration frameworks (LangGraph, Google ADK, or similar). Strong proficiency in Python with hands-on experience in microservices architecture, asynchronous programming, high-throughput APIs, and vector databases (Pinecone, Weaviate, or equivalent). Demonstrated ability to explain model behaviors and technical trade-offs to non-technical stakeholders across CX, Legal, and Product teams. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Job ID: P77545 Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): R$347.900 — R$347.900 BRL Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . The CX Intelligence Engineering team, part of Coinbase's Enterprise Applications and Architecture org, builds the multi-agent platform powering Coinbase Chat, Help Center, and agent tooling. As a Machine Learning Engineer on this team, you'll design and scale the agentic systems that automate complex customer support workflows, connecting LLMs with internal APIs and tools to deliver fast, accurate, and compliant AI-powered experiences for millions of customers. What you'll do: Architect multi-agent systems using advanced orchestration frameworks (LangGraph, Google ADK) to automate complex customer support procedures end-to-end. Build and scale integrations using Model Context Protocol (MCP) to connect LLMs with internal Coinbase APIs, databases, and third-party tooling. Develop automated "LLM-as-a-judge" evaluation pipelines to monitor, measure, and improve the performance of non-deterministic AI agents in production. Implement RAG, fine-tuning, and prompt engineering techniques to ensure chatbot responses are grounded, accurate, and compliant with Coinbase policies. Ship production-ready Python services that are resilient, low-latency, and capable of handling Coinbase-scale traffic across asynchronous microservices. Partner with Conversation Design and Product to translate complex business logic into executable agent procedures within the decentralized architecture. Required Skills and Experience: 3+ years building and scaling ML/AI systems in production, with demonstrated experience implementing agentic "Loop" or "ReAct" based systems where AI takes actions autonomously. Deep understanding of the LLM lifecycle including context window management, token optimization, structured output parsing (Pydantic, JSON mode), and multi-agent orchestration frameworks (LangGraph, Google ADK, or similar). Strong proficiency in Python with hands-on experience in microservices architecture, asynchronous programming, high-throughput APIs, and vector databases (Pinecone, Weaviate, or equivalent). Demonstrated ability to explain model behaviors and technical trade-offs to non-technical stakeholders across CX, Legal, and Product teams. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Job ID: P77545 Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): R$347.900 — R$347.900 BRL Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 23
+## Job 20
 
 **Company:** Coinbase
 
@@ -869,11 +791,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Payments Risk Analyst II As a Payments Risk Analyst II on the Risk & Fraud team within the Consumer & Business group, you'll own the identification and mitigation of fraud risk across Coinbase's fiat payment rails, protecting the company's bottom line and millions of customers without degrading the user experience. You'll join a team that is modernizing its risk controls and building next-generation fraud prevention systems, giving you the opportunity to shape how we protect customers at scale across one of crypto's highest-volume retail platforms. What you'll do: Own end-to-end risk controls for ACH payments, scaling fraud prevention processes to keep pace with business expansion. Drive detection and mitigation of fraudulent deposit activity by implementing targeting logic against bad actors and high-risk behavior. Lead quantitative analysis of fraud performance, measuring rule precision and recall, assessing the financial impact of decisions, and surfacing tradeoffs to leadership with clear, data-backed recommendations. Partner cross-functionally with Product, Growth, Data Science, Risk ML, and Engineering to develop and iterate on risk management strategies, including the transition from heuristic rules to model-driven and synchronous friction controls. Execute investigations into anomalous customer and transaction behavior, proactively identifying monitoring gaps and closing them before they become losses. Required Skills and Experience: 4+ years of experience in risk, fraud, or payments operations, with at least 2 years focused on payments fraud prevention in a fintech, e-commerce, or financial services environment. 2+ years of hands-on experience querying and analyzing large datasets using SQL, with the ability to independently scope and execute analytics projects end-to-end. Demonstrated experience using identity-provider data and fraud-detection tooling to implement and tune risk controls. Proven ability to measure the financial impact of fraud decisions and communicate findings to senior leadership and cross-functional stakeholders. Demonstrated working knowledge of ACH payment processing and applicable NACHA rules. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $135,320 — $159,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Payments Risk Analyst II As a Payments Risk Analyst II on the Risk & Fraud team within the Consumer & Business group, you'll own the identification and mitigation of fraud risk across Coinbase's fiat payment rails, protecting the company's bottom line and millions of customers without degrading the user experience. You'll join a team that is modernizing its risk controls and building next-generation fraud prevention systems, giving you the opportunity to shape how we protect customers at scale across one of crypto's highest-volume retail platforms. What you'll do: Own end-to-end risk controls for ACH payments, scaling fraud prevention processes to keep pace with business expansion. Drive detection and mitigation of fraudulent deposit activity by implementing targeting logic against bad actors and high-risk behavior. Lead quantitative analysis of fraud performance, measuring rule precision and recall, assessing the financial impact of decisions, and surfacing tradeoffs to leadership with clear, data-backed recommendations. Partner cross-functionally with Product, Growth, Data Science, Risk ML, and Engineering to develop and iterate on risk management strategies, including the transition from heuristic rules to model-driven and synchronous friction controls. Execute investigations into anomalous customer and transaction behavior, proactively identifying monitoring gaps and closing them before they become losses. Required Skills and Experience: 4+ years of experience in risk, fraud, or payments operations, with at least 2 years focused on payments fraud prevention in a fintech, e-commerce, or financial services environment. 2+ years of hands-on experience querying and analyzing large datasets using SQL, with the ability to independently scope and execute analytics projects end-to-end. Demonstrated experience using identity-provider data and fraud-detection tooling to implement and tune risk controls. Proven ability to measure the financial impact of fraud decisions and communicate findings to senior leadership and cross-functional stakeholders. Demonstrated working knowledge of ACH payment processing and applicable NACHA rules. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $135,320 — $159,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 24
+## Job 21
 
 **Company:** Coinbase
 
@@ -895,11 +817,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Senior Analytics Engineer As a Senior Analytics Engineer on the Platform team, you'll build the scalable data models and pipelines that power analytics, experimentation, and decision-making across Coinbase. Our Analytics Engineering team transforms raw data into trusted, well-modeled sources that stakeholders across Product, Engineering, and Data Science rely on daily. You'll own end-to-end data solutions for specific business domains, turning complex data flows into clean, reusable frameworks that unlock commercial value at scale. What you'll do: Own end-to-end data modeling for assigned business domains, from understanding source system data flows through designing modular, reusable models (star/snowflake schemas) that serve as the single source of truth for downstream teams. Build and optimize ETL/ELT pipelines using modern tools like dbt and Airflow, ensuring data quality, reliability, and performance at scale across Snowflake or similar warehouse architectures. Partner with Engineering, Product, and Data Science teams to identify data gaps, define requirements, and deliver data products that directly enable experimentation, ad hoc analysis, and business metric optimization. Develop scalable abstractions and frameworks (UDFs, Python packages, internal data apps) that multiply the efficiency of other data teams and reduce time-to-insight across the organization. Design and deliver dashboards and visualization layers using tools like Looker or Tableau, translating complex data into clear, actionable views for cross-functional stakeholders. Required Skills and Experience: 5+ years in analytics engineering or data engineering with demonstrated expertise in designing modular data models and building production ETL/ELT pipelines using dbt, Airflow, or similar. Advanced SQL proficiency for complex transformations and query optimization, plus intermediate-to-advanced Python for scripting, automation, and building scalable frameworks (OOP experience preferred). Production experience with modern data warehouse architectures (Snowflake, Databricks) including performance tuning, data quality monitoring, and version-controlled development workflows (GitHub, CI/CD). Proven track record delivering data solutions that generated measurable business impact, with the ability to independently build domain expertise and communicate technical trade-offs to Product, Engineering, and business stakeholders. Experience with prompt engineering for LLMs (e.g., GPT), including designing and optimizing prompts for internal tooling and automation use cases. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $180,370 — $212,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Senior Analytics Engineer As a Senior Analytics Engineer on the Platform team, you'll build the scalable data models and pipelines that power analytics, experimentation, and decision-making across Coinbase. Our Analytics Engineering team transforms raw data into trusted, well-modeled sources that stakeholders across Product, Engineering, and Data Science rely on daily. You'll own end-to-end data solutions for specific business domains, turning complex data flows into clean, reusable frameworks that unlock commercial value at scale. What you'll do: Own end-to-end data modeling for assigned business domains, from understanding source system data flows through designing modular, reusable models (star/snowflake schemas) that serve as the single source of truth for downstream teams. Build and optimize ETL/ELT pipelines using modern tools like dbt and Airflow, ensuring data quality, reliability, and performance at scale across Snowflake or similar warehouse architectures. Partner with Engineering, Product, and Data Science teams to identify data gaps, define requirements, and deliver data products that directly enable experimentation, ad hoc analysis, and business metric optimization. Develop scalable abstractions and frameworks (UDFs, Python packages, internal data apps) that multiply the efficiency of other data teams and reduce time-to-insight across the organization. Design and deliver dashboards and visualization layers using tools like Looker or Tableau, translating complex data into clear, actionable views for cross-functional stakeholders. Required Skills and Experience: 5+ years in analytics engineering or data engineering with demonstrated expertise in designing modular data models and building production ETL/ELT pipelines using dbt, Airflow, or similar. Advanced SQL proficiency for complex transformations and query optimization, plus intermediate-to-advanced Python for scripting, automation, and building scalable frameworks (OOP experience preferred). Production experience with modern data warehouse architectures (Snowflake, Databricks) including performance tuning, data quality monitoring, and version-controlled development workflows (GitHub, CI/CD). Proven track record delivering data solutions that generated measurable business impact, with the ability to independently build domain expertise and communicate technical trade-offs to Product, Engineering, and business stakeholders. Experience with prompt engineering for LLMs (e.g., GPT), including designing and optimizing prompts for internal tooling and automation use cases. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $180,370 — $212,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 25
+## Job 22
 
 **Company:** Coinbase
 
@@ -921,11 +843,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Senior Data Scientist on the CX Consumer Analytics team, you will serve as the foundational link between CX operations and top-line financial impact, owning the revenue calibration models, experimentation frameworks, and behavioral intelligence that connect every customer support interaction to Coinbase's asset accumulation flywheel. You will partner closely with CX Analytics Engineers, Program Managers, and Product teams to translate complex operational and behavioral data into defensible, executive-ready insights that drive measurable improvements in retention, product adoption, and automation quality. What you'll do: Own and evolve CX's Downstream Impact of Support (DSI) revenue calibration models, translating support interaction data into quantified revenue signals. Design and execute causal inference frameworks and experiments to measure the incremental impact of CX programs (Concierge, Proactive Outreach, automation interventions) on customer retention and product engagement. Build and maintain LLM-powered classification pipelines for CX contact taxonomy, customer friction detection, and issue attribution, partnering with Analytics Engineers to productionize models into CX's governed Source of Truth infrastructure. Partner with CX Program Managers and Product teams to define segmentation models and behavioral signals that enable personalized experiences and improve business outcomes. Maintain a high bar for statistical rigor across CX's analytics function, ensuring experimentation, causal analyses, and model outputs meet the standards required for executive reporting and regulatory defensibility. Required Skills and Experience: A BA/BS in a quantitative field (e.g., Statistics, Mathematics, Computer Science, Economics) with 5+ years of relevant experience, or a PhD in a quantitative field with 3+ years of relevant experience. Demonstrated experience building revenue attribution or causal impact models and driving data science projects through ambiguous problem spaces in a consumer-facing or operational analytics context. Practical expertise applying statistical concepts including A/B testing, causal inference, and ML to real-world business problems, with a high bar for production-grade accuracy and evaluation rigor. Experience designing and deploying LLM-based classification or NLP pipelines for operational or customer-facing use cases. Ability to influence cross-functional stakeholders by synthesizing complex model outputs into clear, actionable narratives for executive and product audiences. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $180,370 — $212,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Senior Data Scientist on the CX Consumer Analytics team, you will serve as the foundational link between CX operations and top-line financial impact, owning the revenue calibration models, experimentation frameworks, and behavioral intelligence that connect every customer support interaction to Coinbase's asset accumulation flywheel. You will partner closely with CX Analytics Engineers, Program Managers, and Product teams to translate complex operational and behavioral data into defensible, executive-ready insights that drive measurable improvements in retention, product adoption, and automation quality. What you'll do: Own and evolve CX's Downstream Impact of Support (DSI) revenue calibration models, translating support interaction data into quantified revenue signals. Design and execute causal inference frameworks and experiments to measure the incremental impact of CX programs (Concierge, Proactive Outreach, automation interventions) on customer retention and product engagement. Build and maintain LLM-powered classification pipelines for CX contact taxonomy, customer friction detection, and issue attribution, partnering with Analytics Engineers to productionize models into CX's governed Source of Truth infrastructure. Partner with CX Program Managers and Product teams to define segmentation models and behavioral signals that enable personalized experiences and improve business outcomes. Maintain a high bar for statistical rigor across CX's analytics function, ensuring experimentation, causal analyses, and model outputs meet the standards required for executive reporting and regulatory defensibility. Required Skills and Experience: A BA/BS in a quantitative field (e.g., Statistics, Mathematics, Computer Science, Economics) with 5+ years of relevant experience, or a PhD in a quantitative field with 3+ years of relevant experience. Demonstrated experience building revenue attribution or causal impact models and driving data science projects through ambiguous problem spaces in a consumer-facing or operational analytics context. Practical expertise applying statistical concepts including A/B testing, causal inference, and ML to real-world business problems, with a high bar for production-grade accuracy and evaluation rigor. Experience designing and deploying LLM-based classification or NLP pipelines for operational or customer-facing use cases. Ability to influence cross-functional stakeholders by synthesizing complex model outputs into clear, actionable narratives for executive and product audiences. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $180,370 — $212,000 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 26
+## Job 23
 
 **Company:** Coinbase
 
@@ -947,11 +869,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . The CX Intelligence team is part of Coinbase’s Enterprise Applications and Architecture org and builds the customer-facing and internal CX experiences that connect the Help Center, chatbots (CBCB), and agent workflows. The team owns the multi-agent platform which powers coinbase chat, Help Center and agent tooling surfaces, partnering closely with Conversation Design, CX, and other Engg teams to deliver secure, compliant, and scalable AI-powered support. Our work provides the trusted and accurate automated and agent-assisted experiences—helping customers get answers faster while enabling human agents to resolve cases more effectively. We are hiring an IC5 Machine Learning Engineer to drive the evolution of our conversational ecosystem by building a seamless hybrid vendor-internal chatbot experience. You will lead the design and implementation of a sophisticated unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants. This role is pivotal in managing complex state transitions, context sharing, and intent routing across a distributed environment. You’ll thrive here if you enjoy high ownership, architecting complex hand-off logic between disparate LLM frameworks, and building reliable AI-enabled products that are fast, measurable, and scalable. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Demonstrates the ability to responsibly use generative AI tools and copilots (e.g., LibreChat, Gemini, Glean) in daily workflows, continuously learn as tools evolve, and apply human‑in‑the‑loop practices to deliver business‑ready outputs and drive measurable improvements in efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): ₹6,612,600 — ₹6,612,600 INR Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 27
+## Job 24
 
 **Company:** Coinbase
 
@@ -973,11 +895,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Machine Learning Engineer on the CX Intelligence team within Enterprise Applications and Architecture, you'll build the AI-powered conversational systems that connect Coinbase's Help Center, chatbots, and agent workflows. The team owns the multi-agent platform powering Coinbase Chat and agent tooling, partnering with Conversation Design, CX, and Engineering to deliver secure, scalable automated support. You'll lead the design and implementation of a unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants, directly improving how millions of customers get help. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): R$455.500 — R$455.500 BRL Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Machine Learning Engineer on the CX Intelligence team within Enterprise Applications and Architecture, you'll build the AI-powered conversational systems that connect Coinbase's Help Center, chatbots, and agent workflows. The team owns the multi-agent platform powering Coinbase Chat and agent tooling, partnering with Conversation Design, CX, and Engineering to deliver secure, scalable automated support. You'll lead the design and implementation of a unified orchestration layer that coordinates interactions between vendor AI, internal multi-agent systems, and human participants, directly improving how millions of customers get help. What you'll do: Architect and deploy the orchestration layer that manages state transitions, context sharing, and intent routing across vendor and internal LLM frameworks in a distributed conversational environment. Build production-grade Python services that bridge advanced ML/AI research with reliable, measurable customer-facing products. Lead end-to-end project execution for complex ML initiatives, managing priorities, technical trade-offs, and cross-functional dependencies from design through delivery. Establish best practices for system design, coding standards, and AI/ML development workflows across the team. Mentor engineers on architectural integrity and modern AI/ML patterns, raising the technical bar for the broader team. Conduct design reviews to ensure every feature meets Coinbase's standards for security, scalability, and performance. Required Skills and Experience: 5+ years of professional experience in machine learning and software engineering, with a track record of shipping production-grade ML services at scale. Hands-on expertise building with modern AI architectures (LLMs, deep learning) and the generative AI ecosystem, including frameworks such as LangGraph, LangSmith, Google ADK, Vertex AI, or AWS Bedrock. Deep proficiency in Python with demonstrated ability to write clean, maintainable, highly-tested production code. Specialized knowledge in at least one domain: NLP, information retrieval, computer vision, or advanced statistical modeling. Proven ability to write technical design documents and present ML system architectures to cross-functional stakeholders, translating complex technical concepts for non-technical audiences. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: The target annual base salary for this position can range as detailed below. Total compensation may also include equity and bonus eligibility and benefits (including medical, dental, and vision). Annual base salary range (excluding equity and bonus): R$455.500 — R$455.500 BRL Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 28
+## Job 25
 
 **Company:** Coinbase
 
@@ -999,11 +921,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Senior Program Manager, Contracts & Analytics, you'll join Coinbase's Legal Operations team to own the strategic direction, in-house build roadmap, and ongoing optimization of our Contract Lifecycle Management (CLM) ecosystem. This role goes beyond configuration - you'll define what gets built, set the technical vision for contracting workflows, and drive AI enablement across the team. You'll serve as a strategic partner to Institutional Sales, Enterprise Architecture, and Engineering, ensuring Coinbase's contracting infrastructure scales with the business and delivers measurable speed, compliance, and insight improvements. What you'll do: Own the CLM technology roadmap and backlog, setting strategic direction for what to build, integrate, or optimize across Ironclad, Evisort, Salesforce, and emerging tools, and translating that vision into a prioritized delivery plan. Lead in-house builds and workflow development that extend beyond standard SaaS configuration, partnering with Enterprise Architecture and Engineering to design scalable, integrated contracting solutions. Drive AI enablement for the Legal Operations team by identifying high-impact automation opportunities, standing up proof of concepts (e.g., N8N, Workato, Claude, Glean), and facilitating trainings, office hours, and adoption programs that raise the team's AI fluency. Develop and manage the comprehensive contracts reporting framework and system of record for all agreements, including data extraction, metadata integrity, and data models that surface actionable insights to Institutional Sales and Legal leadership. Communicate roadmap enhancements, program outcomes, and strategic recommendations to senior stakeholders, ensuring cross-functional alignment on contracting priorities and technology investments. Lead large, cross-functional contracts initiatives end-to-end, managing dependencies across Legal, Sales, Engineering, and Compliance, and delivering on time and within scope. Required Skills and Experience: 8+ years of program or project management experience within Legal Operations, contract management, or a technology-driven operations function, with a track record of setting strategic direction for tooling and workflows, not just executing on them. Demonstrated experience owning a technology roadmap and backlog, including prioritizing build-vs-buy decisions, scoping in-house development work, and partnering with engineering and architecture teams to deliver integrated solutions. Expert-level, hands-on experience with Contract Lifecycle Management (CLM) systems (Ironclad required), including workflow design, template management, reporting, and integration planning with platforms like Salesforce. Proven ability to drive AI and automation adoption within a team, including evaluating tools, building proof of concepts, and leading enablement programs that result in measurable workflow improvements. Working knowledge of legal technology and AI-driven contract review tools (e.g., Evisort), with experience in data extraction, metadata management, and building reporting frameworks that serve as the system of record for agreements. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Postion ID: P77368 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $148,835 — $175,100 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Senior Program Manager, Contracts & Analytics, you'll join Coinbase's Legal Operations team to own the strategic direction, in-house build roadmap, and ongoing optimization of our Contract Lifecycle Management (CLM) ecosystem. This role goes beyond configuration - you'll define what gets built, set the technical vision for contracting workflows, and drive AI enablement across the team. You'll serve as a strategic partner to Institutional Sales, Enterprise Architecture, and Engineering, ensuring Coinbase's contracting infrastructure scales with the business and delivers measurable speed, compliance, and insight improvements. What you'll do: Own the CLM technology roadmap and backlog, setting strategic direction for what to build, integrate, or optimize across Ironclad, Evisort, Salesforce, and emerging tools, and translating that vision into a prioritized delivery plan. Lead in-house builds and workflow development that extend beyond standard SaaS configuration, partnering with Enterprise Architecture and Engineering to design scalable, integrated contracting solutions. Drive AI enablement for the Legal Operations team by identifying high-impact automation opportunities, standing up proof of concepts (e.g., N8N, Workato, Claude, Glean), and facilitating trainings, office hours, and adoption programs that raise the team's AI fluency. Develop and manage the comprehensive contracts reporting framework and system of record for all agreements, including data extraction, metadata integrity, and data models that surface actionable insights to Institutional Sales and Legal leadership. Communicate roadmap enhancements, program outcomes, and strategic recommendations to senior stakeholders, ensuring cross-functional alignment on contracting priorities and technology investments. Lead large, cross-functional contracts initiatives end-to-end, managing dependencies across Legal, Sales, Engineering, and Compliance, and delivering on time and within scope. Required Skills and Experience: 8+ years of program or project management experience within Legal Operations, contract management, or a technology-driven operations function, with a track record of setting strategic direction for tooling and workflows, not just executing on them. Demonstrated experience owning a technology roadmap and backlog, including prioritizing build-vs-buy decisions, scoping in-house development work, and partnering with engineering and architecture teams to deliver integrated solutions. Expert-level, hands-on experience with Contract Lifecycle Management (CLM) systems (Ironclad required), including workflow design, template management, reporting, and integration planning with platforms like Salesforce. Proven ability to drive AI and automation adoption within a team, including evaluating tools, building proof of concepts, and leading enablement programs that result in measurable workflow improvements. Working knowledge of legal technology and AI-driven contract review tools (e.g., Evisort), with experience in data extraction, metadata management, and building reporting frameworks that serve as the system of record for agreements. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Postion ID: P77368 #LI-Remote Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $148,835 — $175,100 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 29
+## Job 26
 
 **Company:** Coinbase
 
@@ -1025,11 +947,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Staff Machine Learning Engineer, Identity Verification As a Staff Machine Learning Engineer on the Identity Verification team within the Platform group, you'll own the ML systems that determine whether a person, document, and capture session are legitimate. Every signup, account recovery, and high-risk action at Coinbase depends on these models. You'll lead the technical strategy for IDV ML end-to-end, from architecture through production enforcement, protecting the integrity of millions of accounts. What you'll do: Own the full IDV ML stack, including document authenticity models, 1:1 and 1:N face-match, liveness detection, presentation-attack detection, and deepfake/injection detection from feature pipeline through threshold tuning and production enforcement. Build identity-graph systems using GNNs that cluster accounts sharing biometric, device, and document signals to detect synthetic-identity rings and coordinated fraud at onboarding. Develop behavioral and device-intelligence models for capture-session anomaly detection, bot-vs-human classification, and device-fingerprint-based risk scoring at real-time latency. Drive vendor ML strategy by benchmarking external models against a Coinbase-owned evaluation set, designing dynamic routing logic across providers and geographies, and building the in-house evaluation layer that catches regressions before they reach users. Lead and mentor senior and mid-level engineers in the pod while partnering with ML Platform and Risk ML teams to align cross-company ML system design. Required Skills and Experience: 8+ years deploying production ML systems at scale, with proven technical leadership owning cross-team ML architecture from design through production. Domain experience in identity verification, biometrics, or account integrity with deep applied ML in at least two of: computer vision/biometrics, GNNs, sequence models, or NLP/LLMs. Expert-level Python with production experience in TensorFlow or PyTorch, including model training, evaluation, and serving infrastructure. Track record translating KYC/AML requirements and fraud trends into ML roadmaps and communicating trade-offs to Product, Compliance, Risk, and Security stakeholders. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $218,025 — $256,500 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . Staff Machine Learning Engineer, Identity Verification As a Staff Machine Learning Engineer on the Identity Verification team within the Platform group, you'll own the ML systems that determine whether a person, document, and capture session are legitimate. Every signup, account recovery, and high-risk action at Coinbase depends on these models. You'll lead the technical strategy for IDV ML end-to-end, from architecture through production enforcement, protecting the integrity of millions of accounts. What you'll do: Own the full IDV ML stack, including document authenticity models, 1:1 and 1:N face-match, liveness detection, presentation-attack detection, and deepfake/injection detection from feature pipeline through threshold tuning and production enforcement. Build identity-graph systems using GNNs that cluster accounts sharing biometric, device, and document signals to detect synthetic-identity rings and coordinated fraud at onboarding. Develop behavioral and device-intelligence models for capture-session anomaly detection, bot-vs-human classification, and device-fingerprint-based risk scoring at real-time latency. Drive vendor ML strategy by benchmarking external models against a Coinbase-owned evaluation set, designing dynamic routing logic across providers and geographies, and building the in-house evaluation layer that catches regressions before they reach users. Lead and mentor senior and mid-level engineers in the pod while partnering with ML Platform and Risk ML teams to align cross-company ML system design. Required Skills and Experience: 8+ years deploying production ML systems at scale, with proven technical leadership owning cross-team ML architecture from design through production. Domain experience in identity verification, biometrics, or account integrity with deep applied ML in at least two of: computer vision/biometrics, GNNs, sequence models, or NLP/LLMs. Expert-level Python with production experience in TensorFlow or PyTorch, including model training, evaluation, and serving infrastructure. Track record translating KYC/AML requirements and fraud trends into ML roadmaps and communicating trade-offs to Product, Compliance, Risk, and Security stakeholders. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $218,025 — $256,500 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 30
+## Job 27
 
 **Company:** Coinbase
 
@@ -1051,11 +973,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Staff ML Risk Analyst on the Growth & Risk team within the Consumer & Business group, you'll sit at the intersection of fraud intelligence and machine learning infrastructure, defining how we identify, model, and respond to sophisticated fraud at scale. Fraud at Coinbase is fast-evolving, with professional, adaptive counterparties that outpace any human response team. You'll build and shape the ML-powered, automated solutions that detect and prevent account takeover (ATO) and scam activity before it reaches our users, setting the technical direction for the ML Analytics function within Growth & Risk. What you'll do: Define the ML data and feature strategy for fraud detection, determining what data needs to enter our systems so models can take intelligent, high-accuracy action on the small fraction of traffic where intervention matters most. Own the end-to-end feature engineering pipeline, identifying, building, validating, and promoting features that drive measurable improvements in ATO and scam ML performance. Diagnose gaps between current tooling infrastructure and the solutions needed, driving the roadmap to close them by applying deep knowledge of how the ML industry has evolved architecturally. Partner with Machine Learning Engineers to translate analytical insights into production-ready ML systems, ensuring models are instrumented, monitored, and continuously improved. Mentor junior team members across the ML Analytics function, defining the technical approach and translating direction into execution. Partner cross-functionally with Product Managers and Risk Analysts to surface fraud signals and translate ML findings into business-impacting decisions. Required Skills and Experience: 8+ years of hands-on experience in machine learning analytics, data science, or a related technical field, with meaningful experience applied to risk, fraud, or payments problems. Practitioner-level proficiency in Spark, Python, and big data ML as a core working stack, with demonstrated ability to operate beyond SQL and rule-based approaches. Proven experience in feature engineering for ML models, including identifying signals, building pipelines, and validating feature quality at scale. Working knowledge of the ML infrastructure landscape evolution, from Hadoop-era big data through modern feature stores (e.g., Tecton, Feast), with the ability to apply that context to close infrastructure gaps. Demonstrated ability to optimize ML systems for sensitivity and accuracy on high-stakes, low-volume fraud traffic rather than broad-coverage, high-volume use cases. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $193,970 — $228,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Staff ML Risk Analyst on the Growth & Risk team within the Consumer & Business group, you'll sit at the intersection of fraud intelligence and machine learning infrastructure, defining how we identify, model, and respond to sophisticated fraud at scale. Fraud at Coinbase is fast-evolving, with professional, adaptive counterparties that outpace any human response team. You'll build and shape the ML-powered, automated solutions that detect and prevent account takeover (ATO) and scam activity before it reaches our users, setting the technical direction for the ML Analytics function within Growth & Risk. What you'll do: Define the ML data and feature strategy for fraud detection, determining what data needs to enter our systems so models can take intelligent, high-accuracy action on the small fraction of traffic where intervention matters most. Own the end-to-end feature engineering pipeline, identifying, building, validating, and promoting features that drive measurable improvements in ATO and scam ML performance. Diagnose gaps between current tooling infrastructure and the solutions needed, driving the roadmap to close them by applying deep knowledge of how the ML industry has evolved architecturally. Partner with Machine Learning Engineers to translate analytical insights into production-ready ML systems, ensuring models are instrumented, monitored, and continuously improved. Mentor junior team members across the ML Analytics function, defining the technical approach and translating direction into execution. Partner cross-functionally with Product Managers and Risk Analysts to surface fraud signals and translate ML findings into business-impacting decisions. Required Skills and Experience: 8+ years of hands-on experience in machine learning analytics, data science, or a related technical field, with meaningful experience applied to risk, fraud, or payments problems. Practitioner-level proficiency in Spark, Python, and big data ML as a core working stack, with demonstrated ability to operate beyond SQL and rule-based approaches. Proven experience in feature engineering for ML models, including identifying signals, building pipelines, and validating feature quality at scale. Working knowledge of the ML infrastructure landscape evolution, from Hadoop-era big data through modern feature stores (e.g., Tecton, Feast), with the ability to apply that context to close infrastructure gaps. Demonstrated ability to optimize ML systems for sensitivity and accuracy on high-stakes, low-volume fraud traffic rather than broad-coverage, high-volume use cases. Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $193,970 — $228,200 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 31
+## Job 28
 
 **Company:** Coinbase
 
@@ -1077,11 +999,11 @@ Ready to do the most impactful work of your career? At Coinbase , we are uncompr
 
 ### Description
 
-Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Technical Program Manager on the GFCO Analytics Engineering team, you'll own the roadmap and execution for the data models, metrics, and dashboards that power Customer Experience and Compliance Operations at Coinbase. This team combines deep domain expertise in regulated operations with modern data engineering (Snowflake, Airflow, Superset/Looker, and AI tooling) to deliver trusted, self-serve data products that drive faster decisions and stronger customer outcomes. You'll distill requests from 15+ cross-functional teams, prioritize work based on impact and regulatory need, and create the operational leverage that lets analytics engineers focus on building rather than managing process. What You'll Do: Own the CX Analytics Engineering roadmap, distilling requests from Operations, Compliance, Risk, WFM, BizOps, and Product teams into a prioritized backlog scoped by impact, regulatory urgency, and team capacity Drive program execution across data model builds, pipeline development, dashboard delivery, and regulatory reporting workstreams, holding the team accountable to timelines and quality standards Build and automate project management processes, reducing operational overhead so analytics engineers spend more time building data products and less time on coordination Partner with CX Operations leadership, Compliance, and Data/Platform Engineering to resolve pipeline dependencies, align on shared data models, and ensure regulatory reporting accuracy Implement testing, monitoring, and documentation standards (data contracts, alerting, quality checks) that reduce ad-hoc firefighting and build stakeholder trust in CX data products Leverage AI-assisted workflows and tooling to compress speed-to-insight, automate reporting, and scale the team's impact without growing headcount linearly with business complexity Required Skills and Experience: 7+ years of experience in technical program management, with at least 3 years supporting data engineering, analytics, or data platform teams in a regulated environment (fintech, financial services, or crypto) Proven track record owning and prioritizing a technical roadmap across multiple concurrent workstreams, balancing competing stakeholder needs with engineering capacity and regulatory requirements Fluency with modern data stack components (e.g., Snowflake, Airflow, Looker/Superset, dbt) and the ability to engage technically on data modeling, pipeline architecture, and data quality frameworks Demonstrated ability to create operational leverage through process automation, tooling improvements, and structured program management that frees engineering teams to focus on high-value delivery Experience driving alignment across 10+ cross-functional stakeholders (Operations, Compliance, Risk, Product, Engineering) where ownership is distributed and trade-offs must be actively managed Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $148,835 — $175,100 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes . AI Disclosure: Coinbase is piloting an AI tool based on machine learning technologies to conduct initial screening interviews to qualified applicants. The tool simulates realistic interview scenarios and engages in dynamic conversation. Coinbase is also piloting an AI interview intelligence platform to transcribe and summarize interview notes, allowing our interviewers to fully focus on you as the candidate. Coinbase will not use AI to make decisions impacting employment.
+Ready to do the most impactful work of your career? At Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for "good enough," you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” learn more about working at Coinbase . As a Technical Program Manager on the GFCO Analytics Engineering team, you'll own the roadmap and execution for the data models, metrics, and dashboards that power Customer Experience and Compliance Operations at Coinbase. This team combines deep domain expertise in regulated operations with modern data engineering (Snowflake, Airflow, Superset/Looker, and AI tooling) to deliver trusted, self-serve data products that drive faster decisions and stronger customer outcomes. You'll distill requests from 15+ cross-functional teams, prioritize work based on impact and regulatory need, and create the operational leverage that lets analytics engineers focus on building rather than managing process. What You'll Do: Own the CX Analytics Engineering roadmap, distilling requests from Operations, Compliance, Risk, WFM, BizOps, and Product teams into a prioritized backlog scoped by impact, regulatory urgency, and team capacity Drive program execution across data model builds, pipeline development, dashboard delivery, and regulatory reporting workstreams, holding the team accountable to timelines and quality standards Build and automate project management processes, reducing operational overhead so analytics engineers spend more time building data products and less time on coordination Partner with CX Operations leadership, Compliance, and Data/Platform Engineering to resolve pipeline dependencies, align on shared data models, and ensure regulatory reporting accuracy Implement testing, monitoring, and documentation standards (data contracts, alerting, quality checks) that reduce ad-hoc firefighting and build stakeholder trust in CX data products Leverage AI-assisted workflows and tooling to compress speed-to-insight, automate reporting, and scale the team's impact without growing headcount linearly with business complexity Required Skills and Experience: 7+ years of experience in technical program management, with at least 3 years supporting data engineering, analytics, or data platform teams in a regulated environment (fintech, financial services, or crypto) Proven track record owning and prioritizing a technical roadmap across multiple concurrent workstreams, balancing competing stakeholder needs with engineering capacity and regulatory requirements Fluency with modern data stack components (e.g., Snowflake, Airflow, Looker/Superset, dbt) and the ability to engage technically on data modeling, pipeline architecture, and data quality frameworks Demonstrated ability to create operational leverage through process automation, tooling improvements, and structured program management that frees engineering teams to focus on high-value delivery Experience driving alignment across 10+ cross-functional stakeholders (Operations, Compliance, Risk, Product, Engineering) where ownership is distributed and trade-offs must be actively managed Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cost, and quality. Pay Transparency Notice: Base salary varies by location (see range below). Total compensation may also include equity and bonus eligibility, and benefits (medical, dental, vision, 401(k)). Annual base salary range (excluding equity and bonus): $148,835 — $175,100 USD Application Limit: Candidates may submit a maximum of 3 applications within a 6-month period. Equal Opportunity Employer: Coinbase is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, protected veteran status, or genetic information. Applicants with criminal histories will be considered consistent with applicable federal, state, and local laws. US Applicants: View Employee Rights , Know Your Rights , and E-Verify Notice of Participation. Accommodations: If you are an individual with a disability who needs a reasonable accommodation, email us your request and contact info at accommodations[at]coinbase.com. Need screen reading technology? Click here to download a free compatible screen reader and view the tutorial . Data Privacy & Arbitration: By submitting your application, you agree to our Candidate Privacy Notice . US applicants: By submitting your application, you agree to Arbitration of Disputes .
 
 ---
 
-## Job 32
+## Job 29
 
 **Company:** Anthropic
 
@@ -1107,7 +1029,7 @@ About Anthropic Anthropic’s mission is to create reliable, interpretable, and 
 
 ---
 
-## Job 33
+## Job 30
 
 **Company:** Intercom
 
@@ -1133,7 +1055,7 @@ Fin is the AI Customer Agent company on a mission to help businesses provide per
 
 ---
 
-## Job 34
+## Job 31
 
 **Company:** ElevenLabs
 
@@ -1244,7 +1166,7 @@ This role is remote and can be executed globally. If you prefer, you can work fr
 
 ---
 
-## Job 35
+## Job 32
 
 **Company:** Deepgram
 
@@ -1358,7 +1280,7 @@ Deepgram’s growth is powered by a usage-based model where customers pay for wh
 
 ---
 
-## Job 36
+## Job 33
 
 **Company:** Deepgram
 
@@ -1462,7 +1384,7 @@ At Deepgram, you’ll help shape the future of human–machine communication. Ou
 
 ---
 
-## Job 37
+## Job 34
 
 **Company:** n8n
 
@@ -1667,7 +1589,7 @@ BENEFITS
 
 ---
 
-## Job 38
+## Job 35
 
 **Company:** Boomi
 
@@ -1693,7 +1615,7 @@ About Boomi and What Makes Us Special Are you ready to work at a fast-growing co
 
 ---
 
-## Job 39
+## Job 36
 
 **Company:** Cohere
 
@@ -1808,7 +1730,7 @@ We may use AI-enabled tools to screen and assess applicants against the criteria
 
 ---
 
-## Job 40
+## Job 37
 
 **Company:** Cohere
 
@@ -1923,7 +1845,7 @@ We may use AI-enabled tools to screen and assess applicants against the criteria
 
 ---
 
-## Job 41
+## Job 38
 
 **Company:** Cohere
 
@@ -2055,7 +1977,7 @@ We may use AI-enabled tools to screen and assess applicants against the criteria
 
 ---
 
-## Job 42
+## Job 39
 
 **Company:** Cohere
 
@@ -2191,7 +2113,7 @@ We may use AI-enabled tools to screen and assess applicants against the criteria
 
 ---
 
-## Job 43
+## Job 40
 
 **Company:** Celonis
 
@@ -2217,7 +2139,7 @@ Celonis is the global leader in Process Intelligence and the pioneer of Process 
 
 ---
 
-## Job 44
+## Job 41
 
 **Company:** Celonis
 
@@ -2243,7 +2165,7 @@ Celonis is the global leader in Process Intelligence and the pioneer of Process 
 
 ---
 
-## Job 45
+## Job 42
 
 **Company:** Contentful
 
@@ -2269,7 +2191,7 @@ About the opportunity Contentful is seeking a Senior Business intelligence Analy
 
 ---
 
-## Job 46
+## Job 43
 
 **Company:** Photoroom
 
@@ -2393,7 +2315,7 @@ All qualified applicants receive consideration for employment without regard to 
 
 ---
 
-## Job 47
+## Job 44
 
 **Company:** Isomorphic Labs
 
@@ -2419,7 +2341,7 @@ Isomorphic Labs is applying frontier AI to help unlock deeper scientific insight
 
 ---
 
-## Job 48
+## Job 45
 
 **Company:** PhysicsX
 
@@ -2445,7 +2367,7 @@ About us PhysicsX is a deep-tech company with roots in numerical physics and For
 
 ---
 
-## Job 49
+## Job 46
 
 **Company:** PhysicsX
 
@@ -2471,7 +2393,7 @@ About us PhysicsX is a deep-tech company with roots in numerical physics and For
 
 ---
 
-## Job 50
+## Job 47
 
 **Company:** PhysicsX
 
@@ -2497,7 +2419,7 @@ About us PhysicsX is a deep-tech company with roots in numerical physics and For
 
 ---
 
-## Job 51
+## Job 48
 
 **Company:** PhysicsX
 
@@ -2523,7 +2445,7 @@ About us PhysicsX is a deep-tech company with roots in numerical physics and For
 
 ---
 
-## Job 52
+## Job 49
 
 **Company:** Faculty
 
@@ -2674,7 +2596,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 53
+## Job 50
 
 **Company:** Faculty
 
@@ -2830,7 +2752,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 54
+## Job 51
 
 **Company:** Faculty
 
@@ -2980,7 +2902,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 55
+## Job 52
 
 **Company:** Faculty
 
@@ -3141,7 +3063,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 56
+## Job 53
 
 **Company:** Faculty
 
@@ -3298,7 +3220,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 57
+## Job 54
 
 **Company:** Faculty
 
@@ -3464,7 +3386,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 58
+## Job 55
 
 **Company:** Faculty
 
@@ -3621,7 +3543,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 59
+## Job 56
 
 **Company:** Faculty
 
@@ -3784,7 +3706,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 60
+## Job 57
 
 **Company:** Faculty
 
@@ -3932,7 +3854,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 61
+## Job 58
 
 **Company:** Faculty
 
@@ -4084,7 +4006,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 62
+## Job 59
 
 **Company:** Faculty
 
@@ -4245,7 +4167,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 63
+## Job 60
 
 **Company:** Faculty
 
@@ -4407,7 +4329,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 64
+## Job 61
 
 **Company:** Faculty
 
@@ -4555,7 +4477,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 65
+## Job 62
 
 **Company:** Faculty
 
@@ -4710,7 +4632,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 66
+## Job 63
 
 **Company:** Faculty
 
@@ -4864,7 +4786,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 67
+## Job 64
 
 **Company:** Faculty
 
@@ -5018,7 +4940,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 68
+## Job 65
 
 **Company:** Faculty
 
@@ -5171,7 +5093,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 69
+## Job 66
 
 **Company:** Faculty
 
@@ -5312,7 +5234,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 70
+## Job 67
 
 **Company:** Faculty
 
@@ -5467,7 +5389,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 71
+## Job 68
 
 **Company:** Faculty
 
@@ -5626,7 +5548,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 72
+## Job 69
 
 **Company:** Faculty
 
@@ -5779,7 +5701,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 73
+## Job 70
 
 **Company:** Faculty
 
@@ -5930,7 +5852,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 74
+## Job 71
 
 **Company:** Faculty
 
@@ -6084,7 +6006,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 75
+## Job 72
 
 **Company:** Faculty
 
@@ -6235,7 +6157,7 @@ If you don’t feel you meet all the requirements, but are excited by the role a
 
 ---
 
-## Job 76
+## Job 73
 
 **Company:** Amplemarket
 
@@ -6261,7 +6183,7 @@ What is Amplemarket all about? Amplemarket's premise is that a lot of the playbo
 
 ---
 
-## Job 77
+## Job 74
 
 **Company:** Perplexity
 
@@ -6311,7 +6233,7 @@ Qualifications
 
 ---
 
-## Job 78
+## Job 75
 
 **Company:** Perplexity
 
@@ -6376,7 +6298,7 @@ PREFERRED QUALIFICATIONS
 
 ---
 
-## Job 79
+## Job 76
 
 **Company:** Perplexity
 
@@ -6445,7 +6367,7 @@ PREFERRED QUALIFICATIONS
 
 ---
 
-## Job 80
+## Job 77
 
 **Company:** Clay Labs
 
@@ -6559,7 +6481,7 @@ NICE TO HAVE
 
 ---
 
-## Job 81
+## Job 78
 
 **Company:** Hightouch
 
@@ -6585,7 +6507,7 @@ About Hightouch Hightouch is an Agentic Marketing Platform powered by the indust
 
 ---
 
-## Job 82
+## Job 79
 
 **Company:** Hightouch
 
@@ -6611,181 +6533,7 @@ About Hightouch Hightouch is an Agentic Marketing Platform powered by the indust
 
 ---
 
-## Job 83
-
-**Company:** Supabase
-
-**Title:** Staff Data Analyst, GTM
-
-**Location:** Remote
-
-**Remote:** Yes
-
-**Work Arrangement:** Remote
-
-**Platform:** ashby
-
-**URL:** https://jobs.ashbyhq.com/supabase/e7e19db2-8735-428b-bf22-c7109a3e336a
-
-**Job ID:** e7e19db2-8735-428b-bf22-c7109a3e336a
-
-**Slug:** supabase
-
-### Description
-
-ABOUT SUPABASE
-
-Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth.
-
-
-
-
-ABOUT THE ROLE
-
-We're looking for a Staff Data Analyst, GTM to join our Data Intelligence team and help build the analytical foundation that powers Supabase's growing sales org. You'll work closely with Sales, Customer Success, and GTM Ops, helping us connect the dots between systems, data, and strategy -- turning raw signals into trusted data products and actionable insight for GTM leadership.
-
-This role is ideal for someone who thrives in async, fast-paced environments, is AI-forward in how they work, and is excited about building something from the ground up alongside a scaling sales team.
-
-
-
-
-WHAT YOU’LL BE RESPONSIBLE FOR
-
-
-
-GTM Data Products
-
- - Build and own the canonical data products that Sales, CS, and GTM Ops rely on -- ARR, pipeline, account health, expansion signals, and renewal tracking
-
- - Define and document GTM metric standards so the whole org is working from consistent definitions
-
- - Build and maintain the underlying data models that power GTM reporting and analysis
-
-Stakeholder Partnership
-
- - Serve as the dedicated analytical resource for Sales, Customer Success, and GTM Ops leadership
-
- - Translate business questions into clean analytical specs and deliver decision-ready findings
-
- - Build self-service tools and context layers that enable GTM teams to answer their own questions -- the goal is scale, not dependency
-
- - Own the GTM analytics function end-to-end, from data model to business strategy
-
-Systems and Data Connectivity
-
- - Connect the dots between CRM, product usage, and billing data to give GTM teams a complete picture of the customer
-
- - Identify gaps and inconsistencies across systems and work cross-functionally to resolve them
-
-AI-Powered Analysis
-
- - Use AI tools to accelerate analysis, increase output, and go deeper than a traditional analyst workflow allows
-
- - Help establish AI-forward ways of working within the Data Intelligence team and model that approach for the broader GTM org
-
-
-
-
-YOU MIGHT BE A GOOD FIT IF YOU
-
- - Have 6+ years in analytics with meaningful time directly supporting Sales, Customer Success, or GTM Ops
-
- - Have built data models and BI layers from scratch, not just consumed them -- you understand the full stack from raw source data to business-facing output
-
- - Are comfortable working with CRM, product usage, and billing data and know how to connect them into a coherent picture of the customer
-
- - Have experience in a PLG or usage-based business and understand how self-serve signals translate into sales motion
-
- - Think in terms of self-service and scale -- your instinct is to build tools that make GTM teams independently capable, not to become a bottleneck
-
- - Can hold both the technical and strategic context at once -- you're as comfortable in a data model as you are in a conversation about territory design or expansion strategy
-
- - Are AI-forward in how you work -- you use LLMs and AI tooling habitually and have a clear point of view on how it changes what an analyst can do
-
- - Communicate insights clearly to non-technical stakeholders and know how to make data land in a business conversation
-
- - Thrive in async, autonomous environments and are energized by building something from the ground up
-
-
-
-
-WHAT WE OFFER
-
- - Fully Remote
-   
-   We hire globally. We believe you can do your best work from anywhere. There are no Supabase offices, but we provide a WeWork membership or co-working allowance you can use anywhere in the world.
-
- - ESOP
-   
-   Every team member receives ESOP (equity ownership) in the company. We want everyone to share in the upside of what we’re building together.
-
- - Tech Allowance
-   
-   Use this budget to set up your ideal work environment—laptop, monitor, headphones, or whatever helps you do your best work.
-
- - Health Benefits
-   
-   Supabase covers 100% of health insurance for employees and 80% for dependents, wherever you are. Your wellbeing and your family’s health are important to us.
-
- - Annual Off-Sites
-   
-   Once a year, the entire company gathers in a new city for a week of connection, collaboration, and fun. It’s a highlight of our year.
-
- - Flexible Work
-   
-   We operate asynchronously and trust you to manage your own time. You know what needs to be done and when.
-
- - Professional Development
-   
-   Every team member receives an annual education allowance to spend on learning—courses, books, conferences, or anything that supports your growth.
-   
-   
-
-
-ABOUT THE TEAM
-
-Supabase was born-remote and open-source-first. We believe our globally distributed team is our secret weapon in building tools developers love.
-
- - 280+ team members
-
- - 55+ countries
-
- - 20+ languages spoken
-
- - $500M raised
-
- - 500,000+ community members
-
-We move fast, build in public, and use what we ship. If it’s in your project, we probably use it in ours too. We believe deeply in the open-source ecosystem and strive to support—not replace—existing tools and communities.
-
-
-
-
-HIRING PROCESS
-
-We keep things simple, async-friendly, and respectful of your time:
-
- 1. Apply – Our team will review your application.
-
- 2. Intro Call – A short video chat to get to know each other.
-
- 3. Interviews – Up to four calls with:
-    
-    - Team Leads
-    
-    - Future teammates
-    
-    - Someone cross-functional from product, growth, or engineering (depending on the role)
-    
-    - Someone from our leadership/founding team
-
- 4. Decision – We may follow up with a final question or go straight to offer.
-
-All communication is remote and we aim to move fast.
-
----
-
-## Job 84
+## Job 80
 
 **Company:** Supabase
 

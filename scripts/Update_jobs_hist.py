@@ -34,5 +34,5 @@ update_jobs_hist("new_jobs_bak")
 # TOTAL TABLE COUNT
 total_count = summarize_db("jobs_hist","") 
 
-# BACK UP TABLE
+# PRINTS NEW_JOBS COUNT
 # summarize_db("new_jobs","where New=0")
