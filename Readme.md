@@ -99,8 +99,6 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | Web searches    | 15 ($0.15) |
 | **TOTAL**       | **$2.22** |
   
-*Estimate only, at published list rates -- check console.anthropic.com for actual billing.*
-
 ### Unique key to dedupe jobs
 
 Since this batch job is supposed to run daily, the process I envisioned was to come up with a single unique key 
