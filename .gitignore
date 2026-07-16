@@ -17,8 +17,12 @@ Claude.md
 Auxi/
 Old/
 Bak/
+
 Claude/
 # Database/
 
 # O ABAIXO INCLUI
 !SAMPLE_resume_with_clickable_links.pdf
+!agent.py
+!config.py
+!Read_scored_jobs_json.py
