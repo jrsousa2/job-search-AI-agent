@@ -18,7 +18,9 @@ Usage:
 
 import os
 import datetime
+import json
 
+# OTHER PROGRAMS
 import config
 from job_parser import parse_jobs
 from url_verifier import verify_url
@@ -26,11 +28,18 @@ from scorer import score_jobs
 from docs_gen import gen_docs_for_job
 from watchlist import disc_watchlist_comps, load_existing_watchlist, save_suggestions
 from pricing import estimate_token_cost, estimate_search_cost
-import json 
 
 # I ADDED THIS FUNCTION TO SHORTEN THE CODE
 from write_html_digest import write_html_digest
-# MY FUNCTIONS
+
+from pathlib import Path
+import sys
+
+# ADD SUBOLDER scripts
+REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+# MY FUNCTIONS IN scripts
 from Create_AI_input import Create_AI_input
 from Repo_root import DB_FILE
 
@@ -69,7 +78,6 @@ def main():
     print(f"  {len(valid_jobs)} valid, {len(skipped)} skipped")
 
     print("\n\nScoring jobs against resumes...")
-    # scored = score_jobs(valid_jobs, claude_md, og_resume, projects)
     scored, scorer_usage = score_jobs(valid_jobs, claude_md, og_resume, projects)
 
     # TODAY'S DATE
@@ -130,21 +138,24 @@ def main():
     # SKIPPED URLs HTML
     digest_skip_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Skipped_Jobs.html")
 
-    # write_html_digest(
-    #     digest_URLs_path,
-    #     f"Skipped Jobs — {date_str}",
-    #     skipped,
-    #     [
-    #        ("URL", "url"),
-    #        ("Reason", "skip_reason"),
-    #     ],)
+    # SKIPPED JOBS
+    write_html_digest(
+        digest_skip_path,
+        f"Skipped Jobs — {date_str}",
+        skipped,
+        [
+           ("URL", "url"),
+           ("Reason", "skip_reason"),
+        ],)
 
     print(f"\n\nGenerating tailored resume + cover letter for top {len(top_for_docs)} job(s)...\n")
+    USE_CACHING_THRESHOLD = 3  # or 3, per the margin note above
+    use_caching = len(top_for_docs) >= USE_CACHING_THRESHOLD
     doc_warnings = []
     for i, job in enumerate(top_for_docs):
-        result = gen_docs_for_job(i, job, claude_md, og_resume, projects)
+        result = gen_docs_for_job(i, job, claude_md, og_resume, projects, use_caching)
         job["_documents"] = result
-        print(f"{i}. {job['company']} — {job['title']}: done")
+        print(f"{i+1}. {job['company']} — {job['title']}: done")
         if result.get("page_warning"):
             doc_warnings.append(result["page_warning"])
 
@@ -156,35 +167,60 @@ def main():
     # --- Watchlist discovery ---
     print("\nRunning watchlist discovery (web search)...")
     existing_watchlist = load_existing_watchlist(config.WATCHLIST_FILE)
-    # suggestions = disc_watchlist_comps(claude_md, og_resume, existing_watchlist)
     suggestions, watchlist_usage = disc_watchlist_comps(claude_md, og_resume, existing_watchlist)
     suggestions_path = save_suggestions(suggestions, date_str)
     print(f"Wrote {suggestions_path} ({len(suggestions)} suggestion(s))")
 
+    # PRICING (IT'S MADE UP OF SCORER,  WATCHLIST AND TAILORED FILES)
     # PRICING (IT'S MADE UP OF SCORER AND WATCHLIST AND TAILORED RESUMES)
     # --- Cost estimate ---
-    total_input = scorer_usage.get("input_tokens", 0) + watchlist_usage.get("input_tokens", 0)
-    total_output = scorer_usage.get("output_tokens", 0) + watchlist_usage.get("output_tokens", 0)
-    
+    score_input = scorer_usage.get("input_tokens", 0)
+    score_cache_write = scorer_usage.get("cache_creation_input_tokens", 0)
+    score_cache_read = scorer_usage.get("cache_read_input_tokens", 0)
+    score_output = scorer_usage.get("output_tokens", 0)
+
+    watch_input = watchlist_usage.get("input_tokens", 0)
+    watch_cache_write = watchlist_usage.get("cache_creation_input_tokens", 0)
+    watch_cache_read = watchlist_usage.get("cache_read_input_tokens", 0)
+    watch_output = watchlist_usage.get("output_tokens", 0)
+
     # COST OF THE TAILORED FILES
+    tailor_input = 0
+    tailor_cache_write = 0
+    tailor_cache_read = 0
+    tailor_output = 0
     for job in top_for_docs:
         u = job.get("_documents", {}).get("usage", {})
-        total_input += u.get("input_tokens", 0)
-        total_output += u.get("output_tokens", 0)
+        tailor_input += u.get("input_tokens", 0)
+        tailor_cache_write += u.get("cache_creation_input_tokens", 0)
+        tailor_cache_read += u.get("cache_read_input_tokens", 0)
+        tailor_output += u.get("output_tokens", 0)
 
-    token_cost = estimate_token_cost(config.MODEL, total_input, total_output)
+    total_input = score_input + watch_input + tailor_input
+    total_cache_write = score_cache_write + watch_cache_write + tailor_cache_write
+    total_cache_read = score_cache_read + watch_cache_read + tailor_cache_read
+    total_output = score_output + watch_output + tailor_output
+
+    token_cost = estimate_token_cost(
+        config.MODEL, total_input, total_output,
+        cache_write_tokens=total_cache_write, cache_read_tokens=total_cache_read,
+    )
     search_count = watchlist_usage.get("server_tool_use", {}).get("web_search_requests", 0)
     search_cost = estimate_search_cost(search_count)
     total_cost = token_cost + search_cost
 
     print("\n--- Cost estimate for this run ---")
-    print(f"  Input tokens:  {total_input:,}")
-    print(f"  Output tokens: {total_output:,}")
-    print(f"  Token cost:    ${token_cost:.2f}")
-    print(f"  Web searches:  {search_count} (${search_cost:.2f})")
-    print(f"  TOTAL:         ${total_cost:.2f}")
-    print("  (Estimate only, at published list rates -- check console.anthropic.com for actual billing.)")
-    
+    print(f"{'':<15}{'Scorer':>12}{'Watchlist':>12}{'Tailor':>12}{'Total':>12}")
+    print(f"{'Input':<15}{score_input:>12,}{watch_input:>12,}{tailor_input:>12,}{total_input:>12,}")
+    print(f"{'Cache write':<15}{score_cache_write:>12,}{watch_cache_write:>12,}{tailor_cache_write:>12,}{total_cache_write:>12,}")
+    print(f"{'Cache read':<15}{score_cache_read:>12,}{watch_cache_read:>12,}{tailor_cache_read:>12,}{total_cache_read:>12,}")
+    print(f"{'Output':<15}{score_output:>12,}{watch_output:>12,}{tailor_output:>12,}{total_output:>12,}")
+    print()
+    print(f"Token cost:   ${token_cost:.2f}")
+    print(f"Web searches: {search_count} (${search_cost:.2f})")
+    print(f"TOTAL:        ${total_cost:.2f}")
+    print("(Estimate only, at published list rates -- check console.anthropic.com for actual billing.)")
+
     # END OF THE CODE
     print("\nDone.")
 

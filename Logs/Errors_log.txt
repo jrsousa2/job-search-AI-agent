@@ -3,15 +3,15 @@ Citi: bad board/API
  	Slug: citi/wd5/CitiCareers
  	Error: HTTP 404
 
-Amerisure: bad board/API
- 	Platform: workday
- 	Slug: amerisure/wd5/Amerisure
- 	Error: HTTP 422
-
 Snowflake: bad board/API
  	Platform: greenhouse
  	Slug: snowflake
  	Error: HTTP 404
+
+Amerisure: bad board/API
+ 	Platform: workday
+ 	Slug: amerisure/wd5/Amerisure
+ 	Error: HTTP 422
 
 OpenAI: bad board/API
  	Platform: greenhouse
@@ -48,29 +48,19 @@ Tinybird: bad board/API
  	Slug: tinybird
  	Error: HTTP 404
 
-Clarity AI: bad board/API
- 	Platform: lever
- 	Slug: clarity-ai
- 	Error: HTTP 404
-
 Travelperk: bad board/API
  	Platform: ashby
  	Slug: travelperk
  	Error: HTTP 404
 
+Clarity AI: bad board/API
+ 	Platform: lever
+ 	Slug: clarity-ai
+ 	Error: HTTP 404
+
 Forto: bad board/API
  	Platform: lever
  	Slug: forto
- 	Error: HTTP 404
-
-Diabolocom: bad board/API
- 	Platform: lever
- 	Slug: diabolocom
- 	Error: HTTP 404
-
-Vinted: bad board/API
- 	Platform: lever
- 	Slug: vinted
  	Error: HTTP 404
 
 Templafy: bad board/API
@@ -83,12 +73,27 @@ Runway: bad board/API
  	Slug: runwayml
  	Error: HTTP 404
 
+Vinted: bad board/API
+ 	Platform: lever
+ 	Slug: vinted
+ 	Error: HTTP 404
+
 Getir: bad board/API
  	Platform: lever
  	Slug: getir
  	Error: HTTP 404
 
+Radian Group: bad board/API
+ 	Platform: workday
+ 	Slug: compass/wd5/Radian_External_Career_Site
+ 	Error: HTTP 422
+
+Diabolocom: bad board/API
+ 	Platform: lever
+ 	Slug: diabolocom
+ 	Error: HTTP 404
 
 
-Saved 271 jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Saved 272 jobs to D:\Agent\Database\jobs.db table new_jobs
 

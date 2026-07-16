@@ -49,6 +49,10 @@ The main program (check_boards.py) used to query the ATS job boards is based on 
 
 Another improvement is the use of the Claude API, which allows a better control of the cost.
 
+I also made a change to speed up the ATS querying using module concurrent.futures.
+With ThreadPoolExecutor, one can submit all (or many) requests to a thread pool.
+This lets multiple ATS boards (Workday, Greenhouse, Lever, Ashby) be queried simultaneously.
+
 After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
 
 Eventually, I will upload these here.

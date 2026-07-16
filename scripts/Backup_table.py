@@ -1,6 +1,6 @@
 # CREATES A BACKUP OF A TABLE
 import sqlite3
-from check_boards import DB_FILE
+from check_boards_old import DB_FILE
 from Summarize_db import Summarize_db
 
 # THE CONNECTION AND CURSOR ARE GLOBAL
