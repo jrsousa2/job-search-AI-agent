@@ -4,13 +4,9 @@
 
 from pathlib import Path
 import sqlite3
-import sys
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-
-sys.path.append(str(REPO_ROOT))
-
-from scripts.check_boards import DB_FILE, summarize_db
+from check_boards import DB_FILE
+#from Summarize_db import summarize_db
 
 # THE CONNECTION AND CURSOR ARE GLOBAL
 conn = sqlite3.connect(DB_FILE)

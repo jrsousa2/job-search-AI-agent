@@ -1,11 +1,8 @@
 # THIS CODE MANUALLY ADDS A FIELD
-# USED FOR DEVELOPMENT
-from pathlib import Path
+# USED ONLY ONCE FOR DEVELOPMENT
 import sqlite3
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-
-DB_FILE = REPO_ROOT / "Database" / "jobs.db"
+from check_boards import DB_FILE
 
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
