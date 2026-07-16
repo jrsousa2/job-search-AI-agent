@@ -85,8 +85,7 @@ Btw, there's a very simple example of a tailored resume, under folder `resumes`,
 
 According to Claude, I can enable prompt caching in the code that generates the tailored files for savings.
 <br>Caching only pays off when the same content gets reused across multiple calls. 
-<br>"Program docs_gen.py is called up to 10 times per run, and — this is the key part — 
-its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
+<br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
