@@ -96,7 +96,7 @@ def main():
     # TOP 10 JOBS
     top_for_docs = recommended[: config.TOP_N_FOR_DOCUMENTS]
     # ALL REMAINING JOBS (complement of top 10)
-    remain_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
+    other_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
 
     # --- Write daily-digest files ---
     os.makedirs(config.DIGEST_DIR, exist_ok=True)
@@ -106,7 +106,7 @@ def main():
 
     write_html_digest(
         top10_URLs_path,
-        f"Job URLs — {date_str}",
+        f"Top 10 Job URLs — {date_str}",
         top_for_docs,
         [
             ("Score", "score"),
@@ -119,8 +119,8 @@ def main():
 
     write_html_digest(
         other_URLs_path,
-        f"Job URLs — {date_str}",
-        remain_jobs,
+        f"Other Job URLs — {date_str}",
+        other_jobs,
         [
           ("Score", "score"),
           ("Work arrangement", "work_arrangement"),
@@ -188,7 +188,7 @@ def main():
     # END OF THE CODE
     print("\nDone.")
 
-
+# CALLS THE CODE
 if __name__ == "__main__":
     # CREATE AI INPUT
     rows = Create_AI_input(DB_FILE)
