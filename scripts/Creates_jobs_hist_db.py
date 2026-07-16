@@ -5,7 +5,7 @@
 from pathlib import Path
 import sqlite3
 
-from check_boards_old import DB_FILE
+from Repo_root import DB_FILE
 from Summarize_db import Summarize_db
 
 # THE CONNECTION AND CURSOR ARE GLOBAL

@@ -2,7 +2,7 @@
 # USED FOR DEVELOPMENT
 import sqlite3
 
-from check_boards_old import DB_FILE
+from Repo_root import DB_FILE
 from Summarize_db import Summarize_db
 
 conn = sqlite3.connect(DB_FILE)
