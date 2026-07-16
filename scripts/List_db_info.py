@@ -19,7 +19,7 @@ def get_col_names(input_table):
     cursor.execute(f"PRAGMA table_info({input_table})")
     # COLS
     column_names = [row[1] for row in cursor.fetchall()]
-    print("\n")
+    #print("\n")
     print(input_table.upper(),"table Cols:",column_names)
     # ROWS
     cursor.execute(f"SELECT COUNT(*) FROM {input_table}")
@@ -31,7 +31,7 @@ def list_table_index(input_table):
     indexes = cursor.fetchall()
 
     for idx in indexes:
-        print("Table",input_table.upper(),"index:",idx)
+        print("\nTable",input_table.upper(),"index:",idx)
         if idx[2] == 1:  # unique
             index_name = idx[1]
             cursor.execute(f"PRAGMA index_info({index_name})")
@@ -48,7 +48,7 @@ get_col_names("new_jobs")
 list_table_index("jobs_hist")
 
 # SUMMARIZE NEW_JOBS
-row_count = Summarize_db("new_jobs","where New=1")
+row_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
 
 # CLOSE CONNECTION
 conn.close()

@@ -1,0 +1,13 @@
+
+
+JOBS_HIST table Cols: ['final_job_id', 'platform', 'company', 'slug', 'job_id', 'title', 'location', 'is_remote', 'is_hybrid', 'url']
+JOBS_HIST Row count: 80 
+
+
+
+NEW_JOBS table Cols: ['final_job_id', 'platform', 'company', 'slug', 'job_id', 'title', 'location', 'is_remote', 'is_hybrid', 'url', 'description', 'New']
+NEW_JOBS Row count: 92 
+
+Table JOBS_HIST index: (0, 'sqlite_autoindex_jobs_hist_1', 1, 'u', 0)
+[(0, 0, 'final_job_id')]
+Table NEW_JOBS : 13 rows where New=1
