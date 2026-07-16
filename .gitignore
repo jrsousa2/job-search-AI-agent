@@ -3,6 +3,7 @@ check_boards.py
 watchlist.json
 Script.txt
 Claude.md
+*.pyc
 
 # PDF's
 *.pdf
