@@ -10,6 +10,8 @@ def Update_New_flag(DB_FILE) -> int:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
+    # PRINTS NEW_JOBS COUNT
+    print("Updating New flag...")
     # START ROWS
     total_count = Summarize_db(DB_FILE,"new_jobs","")
 

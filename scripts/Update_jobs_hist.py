@@ -9,6 +9,8 @@ from Summarize_db import Summarize_db
 def Update_jobs_hist(DB_FILE, input_table) -> None:
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
+    # PRINTS NEW_JOBS COUNT
+    print("Updating jobs_hist...")
     start_count = Summarize_db(DB_FILE,"jobs_hist","")
     cols = "final_job_id, platform, company, slug, job_id, title, location, is_remote, is_hybrid, url"
     # INSERTS RECORDS
