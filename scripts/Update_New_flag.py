@@ -13,6 +13,7 @@ def Update_New_flag(DB_FILE) -> int:
     # PRINTS NEW_JOBS COUNT
     print("Updating New flag...")
     # START ROWS
+    print("Total before SQL update...")
     total_count = Summarize_db(DB_FILE,"new_jobs","")
 
     # CHECK IF COLUMN EXISTS
@@ -23,6 +24,7 @@ def Update_New_flag(DB_FILE) -> int:
         cursor.execute("ALTER TABLE new_jobs ADD COLUMN New INTEGER")
     else:
         # GET NUMBER OF NEW JOBS
+        print("New before SQL update...")
         start_count = Summarize_db(DB_FILE,"new_jobs","where New=1")    
 
     cursor.execute("""
@@ -40,13 +42,15 @@ def Update_New_flag(DB_FILE) -> int:
     # COMMITS CHANGES
     conn.commit()
     # GET NUMBER OF NEW JOBS
+    print("New after SQL update...")
     end_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
     conn.close()
     return end_count
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 if __name__ == "__main__":
-    new_jobs_count = Update_New_flag(DB_FILE)
-
-# TOTAL TABLE COUNT
-#total_count = summarize_db("new_jobs","")
+    #new_jobs_count = Update_New_flag(DB_FILE)
+    # TOTAL TABLE COUNT
+    Hist_count = Summarize_db(DB_FILE,"jobs_hist","")
+    New_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
+    Old_count = Summarize_db(DB_FILE,"new_jobs","where New=0")

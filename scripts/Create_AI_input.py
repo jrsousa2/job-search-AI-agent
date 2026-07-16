@@ -12,7 +12,7 @@ def Create_AI_input(DB_FILE):
 
     # PRINTS NEW_JOBS COUNT
     print("Creating AI input...")
-    Summarize_db("new_jobs","where New=1")
+    Summarize_db(DB_FILE,"new_jobs","where New=1")
 
     cursor.execute("""
             SELECT
@@ -56,7 +56,8 @@ def Create_AI_input(DB_FILE):
     conn.close()
     # PRINTS ROWS
     print(f"Created {OUTPUT_FILE} with {len(rows)} jobs.")
+    return len(rows)
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 if __name__ == "__main__":
-    new_jobs_count = Create_AI_input(DB_FILE)    
+    new_jobs_count = Create_AI_input(DB_FILE)

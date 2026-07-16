@@ -25,11 +25,14 @@ from url_verifier import verify_url
 from scorer import score_jobs
 from docs_gen import gen_docs_for_job
 from watchlist import disc_watchlist_comps, load_existing_watchlist, save_suggestions
+from pricing import estimate_token_cost, estimate_search_cost
 import json 
 
 # I ADDED THIS FUNCTION TO SHORTEN THE CODE
 from write_html_digest import write_html_digest
-from pricing import estimate_token_cost, estimate_search_cost
+# MY FUNCTIONS
+from Create_AI_input import Create_AI_input
+from Repo_root import DB_FILE
 
 
 def read_file(path: str) -> str:
@@ -187,4 +190,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # CREATE AI INPUT
+    rows = Create_AI_input(DB_FILE)
+    if rows>0:
+       main()
