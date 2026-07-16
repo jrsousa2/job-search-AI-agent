@@ -138,6 +138,10 @@ which appear in the external log.
 
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
 
+### Log
+An external log file is created to indentify and troubleshoot ATS-related errors during job data extraction and processing. 
+<br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
+
 ### Documentation
 
 For a guide to this repository, please visit:
