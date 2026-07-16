@@ -1,6 +1,8 @@
 # SUMMARIZES A DATABASE TABLE
 import sqlite3
 
+from Repo_root import DB_FILE
+
 # GET NUMBER OF ROWS FROM TABLE WITH A FILTER
 def Summarize_db(DB_FILE:str, input_table: str, sql_filter: str)->int:
     conn = sqlite3.connect(DB_FILE)
@@ -14,3 +16,7 @@ def Summarize_db(DB_FILE:str, input_table: str, sql_filter: str)->int:
     conn.close()
     # RETURN ROWS
     return row_count
+
+# PRINTS JOBS_HIST COUNT
+if __name__ == "__main__": 
+    Summarize_db(DB_FILE,"jobs_hist","where 1")

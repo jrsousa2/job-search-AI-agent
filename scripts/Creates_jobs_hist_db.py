@@ -6,7 +6,7 @@ from pathlib import Path
 import sqlite3
 
 from check_boards import DB_FILE
-#from Summarize_db import summarize_db
+from Summarize_db import Summarize_db
 
 # THE CONNECTION AND CURSOR ARE GLOBAL
 conn = sqlite3.connect(DB_FILE)
@@ -45,9 +45,6 @@ def create_jobs_hist() -> None:
     conn.commit()
     print("Table jobs_hist created!")
 
-def back_up(input_table):
-    cursor.execute(f"CREATE TABLE {input_table}_bak AS SELECT * FROM {input_table}")
-    print("Table",input_table,"has been backed up")
 
 # DROP AND RECREATE HISTORY TABLE
 drop_table("jobs_hist")
@@ -55,11 +52,7 @@ create_jobs_hist()
 
 # UPDATES JOBS_HIST MANUALLY
 # update_jobs_hist()
-# summarize_db("jobs_hist","")
-
-# BACK UP TABLE
-# back_up("new_jobs")
-# summarize_db("new_jobs_bak","")
+# Summarize_db("jobs_hist","")
 
 # CLOSE CONNECTION
 conn.close()

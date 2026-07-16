@@ -1,7 +1,9 @@
 # THIS CODE LISTS TABLES IN THE SQLITE DB
 # USED FOR DEVELOPMENT
 import sqlite3
-from check_boards import DB_FILE, summarize_db
+
+from check_boards import DB_FILE
+from Summarize_db import Summarize_db
 
 conn = sqlite3.connect(DB_FILE)
 cursor = conn.cursor()
@@ -46,7 +48,7 @@ get_col_names("new_jobs")
 list_table_index("jobs_hist")
 
 # SUMMARIZE NEW_JOBS
-row_count = summarize_db("new_jobs","where New=1")
+row_count = Summarize_db("new_jobs","where New=1")
 
 # CLOSE CONNECTION
 conn.close()
