@@ -1,8 +1,6 @@
 # THIS CODE LISTS TABLES IN THE SQLITE DB
 # USED FOR DEVELOPMENT
-from pathlib import Path
 import sqlite3
-
 from check_boards import DB_FILE, summarize_db
 
 conn = sqlite3.connect(DB_FILE)

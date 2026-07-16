@@ -128,7 +128,11 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 ### ATS watchlist
 
-File watchlist.json is a template, you have to build your own one. One of the programs Claude created can suggest more entries for it.
+File watchlist.json is a template, you have to build your own. 
+
+One of the programs Claude created suggests more entries for it, but it adds to the cost.
+<br>It was suggesting wrong workday entries (slug without three parts), but the prompt has been tweaked to prevent issues,
+which appear in the external log.
 
 ### A snapshot of the table new_jobs:
 
