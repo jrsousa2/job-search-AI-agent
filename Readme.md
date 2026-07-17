@@ -79,10 +79,13 @@ when they start to actually look at the retrieved data (such as time zones, inac
 whether the role is managerial, job location, etc.)
 <br>Besides, working with AI is not foolproof, it makes mistakes at times (for example, including jobs that don't meet the criteria
 of your AI prompt, such as non-US jobs). Be prepared to tweak your prompts constantly.
-<br>The way the AI is scoring the jobs is still not great, I will have to tweak it with explicit rules.
-That is why I will keep running this manually for some time.
 
 I will eventually upload the *.py files and PDF templates here, when all is ready.
+
+### Scoring logic
+The way the AI is scoring the jobs is still not great, because the prompt is not explicitly telling it how scoring should be done.
+<br>I will tweak it to use explicit rules.
+<br>And for now, I will keep running this process manually, until it's more accurate.
 
 ### Pricing
 I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
