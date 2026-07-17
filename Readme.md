@@ -120,7 +120,7 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | Web searches    | 15 ($0.15) |
 | **TOTAL**       | **$2.22** |
 
-<br>One run entails feeding roughly 90 jobs to be scored by Claude. 
+One run entails feeding roughly 90 jobs to be scored by Claude. 
 <br>Running a few web searches with AI for new entries into the companies watchlist. 
 And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
 
