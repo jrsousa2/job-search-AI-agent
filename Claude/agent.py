@@ -140,9 +140,9 @@ def main():
         ],)
     
     # Failed AI Prompt Filters - Job URLs
-    failed_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_Job_URLs.html")
+    fail_AI_filter_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Fail_AI_Filter_URLs.html")
     write_html_digest(
-    failed_URLs_path,
+    fail_AI_filter_path,
     f"Failed filter - Job URLs — {date_str}",
     failed_filter,
     [
@@ -152,10 +152,10 @@ def main():
       ("Reason", "filter_notes"),],)
 
     # Failed URL TEST - Job URLs
-    digest_skip_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Fail_URL_Jobs.html")
+    failed_URL_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Failed_URLs.html")
     # SKIPPED JOBS
     write_html_digest(
-        digest_skip_path,
+        failed_URL_path,
         f"Skipped Jobs — {date_str}",
         skipped,
         [
