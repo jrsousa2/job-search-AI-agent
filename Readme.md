@@ -70,14 +70,17 @@ During development, I'm also saving data structures as external json files, so I
 <br>I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
-Claude has moved some of the tasks of the AI prompt to Python code (such as checking valid/active postings), so the AI prompt (Claude.md) was simplified, which leads to less token usage.
+Some of the tasks of the original AI prompt to Python code (such as checking valid/active postings) have been moved to scripts, 
+so the AI prompt (Claude.md) was simplified, which leads to less token usage.
+<br>The tasks can be run separately (for example, adding entries to watchlist is a separate job).
 
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
 whether the role is managerial, job location, etc.)
 <br>Besides, working with AI is not foolproof, it makes mistakes at times (for example, including jobs that don't meet the criteria
 of your AI prompt, such as non-US jobs). Be prepared to tweak your prompts constantly.
-<br>That is why I will keep running this manually for some time.
+<br>The way the AI is scoring the jobs is still not great, I will have to tweak it with explicit rules.
+That is why I will keep running this manually for some time.
 
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
@@ -141,10 +144,10 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 File watchlist.json is a template, you have to build your own. 
 
-One of the programs Claude created suggests more entries for it, but it adds to the cost.
-<br>It was suggesting wrong workday entries (slug without three parts), but the prompt has been tweaked to prevent issues,
-which appear in the external log. I will probably disable this script, as it can be done for free and
-for way more entries &mdash; it will also simplify the workflow.
+A Python script created Claude and fixed by me suggests more entries for the watchlist. 
+<br>It's run separately from the other two tasks (scoring jobs and tailoring resumes).
+<br>URL errors which appear in the external log. 
+<br>This script is not strictly necessary, as searching for more entries can be done for free.
 
 ### A snapshot of the table new_jobs:
 

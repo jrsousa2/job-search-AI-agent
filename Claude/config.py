@@ -8,12 +8,14 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # --- Your 4 source files -------------------------------------------------
 CLAUDE_MD_FILE = REPO_ROOT / "Claude.md"
+
 NEW_JOBS_FILE = REPO_ROOT / "data" / "new_jobs.md"
 OG_RESUME_FILE = REPO_ROOT / "profile" / "og-resume.md"
 PROJECTS_FILE = REPO_ROOT / "profile" / "projects.md"
 
 # --- Existing watchlist (read-only; script must never write to this) -----
 WATCHLIST_FILE = REPO_ROOT / "data" / "watchlist.json"
+INDUSTRY_FILE = REPO_ROOT / "Industry.md"
 
 # --- Root output folder. 
 # The script creates these subfolders inside it:
