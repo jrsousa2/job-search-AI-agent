@@ -144,12 +144,12 @@ to just platform, company and title (URL is too much).
 
 A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
-### Remote/hybrid
+### Remote/hybrid flags
 
 From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
 
-### US jobs
+### US jobs flag
 
 I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
 
