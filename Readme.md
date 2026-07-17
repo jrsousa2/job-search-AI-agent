@@ -94,9 +94,8 @@ I'm using code created by Claude to help me estimate the price per run, with a b
 Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
-<br>It seems prompt caching can only lead to savings in the scripts used generate the tailored files and to add entries to the watchlist.
-One can enable prompt caching in the code that generates the tailored files, for savings, if there
-are a minimum of 2 or 3 files (so using caching is conditional). 
+It seems prompt caching only leads to savings in the scripts used to generate the tailored files and to add entries to the watchlist.
+It's possible to enable prompt caching in the code that generates the tailored files, if there are a minimum of 2 or 3 files (caching is conditional). 
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 <br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
 
