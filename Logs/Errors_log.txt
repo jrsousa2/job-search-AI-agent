@@ -365,5 +365,6 @@ CVS Health / Aetna: bad board/API
 
 
 
-Jobs list had 457 recordsSaved 217 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Jobs list had 457 records
+Saved 217 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
