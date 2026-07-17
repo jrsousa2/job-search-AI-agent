@@ -28,16 +28,34 @@ if len(recommended) < config.MIN_RECOMMENDED_JOBS:
         f"available in this batch ({len(recommended)} found).")
 
 # --- Write daily-digest files ---
-os.makedirs(config.DIGEST_DIR, exist_ok=True)
+# os.makedirs(config.DIGEST_DIR, exist_ok=True)
 
 # TOP 10 JOBS
 top_for_docs = recommended[: config.TOP_N_FOR_DOCUMENTS]
 # ALL REMAINING JOBS (complement of top 10)
 remain_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
 
+# REJECTED (DIDN'T PASS THE FILTER)
+#failed_filter = [j for j in scored if not j.get("meets_filters")]
+
+failed_filter = sorted(
+    [j for j in scored if not j.get("meets_filters")],
+    key=lambda j: j.get("score", 0), reverse=True, )
+
+# FAILED FILTERS
+failed_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Failed_Filter_URLs.html")
+write_html_digest(
+failed_URLs_path,
+f"Failed filter - Job URLs — {date_str}",
+failed_filter,
+[
+    ("Score", "score"),
+    ("Work arrangement", "work_arrangement"),
+    ("URL", "url"),
+    ("Reason", "filter_notes"),],)
+
 # Top 10 Job_URLs.html
 top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10_Job_URLs.html")
-
 write_html_digest(
     top10_URLs_path,
     f"Job URLs — {date_str}",
@@ -50,7 +68,6 @@ write_html_digest(
 
 # OTHER Job_URLs.html
 other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_Job_URLs.html")
-
 write_html_digest(
     other_URLs_path,
     f"Job URLs — {date_str}",
@@ -62,7 +79,6 @@ write_html_digest(
 
 # OTHER Job_URLs.html
 skip_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_Job_URLs.html")
-
 write_html_digest(
         skip_URLs_path,
         f"Job URLs — {date_str}",

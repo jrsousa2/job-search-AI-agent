@@ -75,6 +75,7 @@ def main():
         if result["valid"] and result.get("confidence") == "high":
             job["_url_check"] = result
             valid_jobs.append(job)
+            # IF THE RESULT IS NOT VALID WITH HIGH CONFIDENCE, THE JOB LISTING IS SKIPPED.
         else:
             skipped.append({**job, "skip_reason": result["reason"]})
     print(f"  {len(valid_jobs)} valid, {len(skipped)} skipped")
@@ -90,18 +91,21 @@ def main():
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(scored, f, indent=2, ensure_ascii=False)
 
+    # THESE PASSED THE FILTER (IN DESC ORDER)
     recommended = sorted(
         [j for j in scored if j.get("meets_filters")],
-        key=lambda j: j.get("score", 0),
-        reverse=True,
-    )
+        key=lambda j: j.get("score", 0), reverse=True, )
+
+    # THESE DIDN'T PASS THE FILTER 
+    failed_filter = sorted(
+        [j for j in scored if not j.get("meets_filters")],
+        key=lambda j: j.get("score", 0), reverse=True, )
 
     print(f"  {len(recommended)} job(s) meet all filters")
     if len(recommended) < config.MIN_RECOMMENDED_JOBS:
         print(
             f"  NOTE: fewer than {config.MIN_RECOMMENDED_JOBS} qualifying jobs were "
-            f"available in this batch ({len(recommended)} found)."
-        )
+            f"available in this batch ({len(recommended)} found).")
 
     # TOP 10 JOBS
     top_for_docs = recommended[: config.TOP_N_FOR_DOCUMENTS]
@@ -111,9 +115,8 @@ def main():
     # --- Write daily-digest files ---
     os.makedirs(config.DIGEST_DIR, exist_ok=True)
 
-    # Top 10 Job_URLs.html
+    # Top 10 - Job URLs
     top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10_Job_URLs.html")
-
     write_html_digest(
         top10_URLs_path,
         f"Top 10 Job URLs — {date_str}",
@@ -124,9 +127,8 @@ def main():
             ("URL", "url"),
         ],)
 
-    # JobS_URLs.html
+    # Other Scored - Job URLs
     other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_Job_URLs.html")
-
     write_html_digest(
         other_URLs_path,
         f"Other Job URLs — {date_str}",
@@ -136,20 +138,30 @@ def main():
           ("Work arrangement", "work_arrangement"),
           ("URL", "url"),
         ],)
+    
+    # Failed AI Prompt Filters - Job URLs
+    failed_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_Job_URLs.html")
+    write_html_digest(
+    failed_URLs_path,
+    f"Failed filter - Job URLs — {date_str}",
+    failed_filter,
+    [
+      ("Score", "score"),
+      ("Work arrangement", "work_arrangement"),
+      ("URL", "url"),
+      ("Reason", "filter_notes"),],)
 
-    # SKIPPED URLs HTML
-    digest_skip_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Skipped_Jobs.html")
-
+    # Failed URL TEST - Job URLs
+    digest_skip_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Fail_URL_Jobs.html")
     # SKIPPED JOBS
     write_html_digest(
         digest_skip_path,
         f"Skipped Jobs — {date_str}",
         skipped,
         [
-           ("Work arrangement", "work_arrangement"),
-           ("URL", "url"),
-           ("Reason", "skip_reason"),
-        ],)
+          ("Work arrangement", "work_arrangement"),
+          ("URL", "url"),
+          ("Reason", "skip_reason"),],)
 
     print(f"\n\nGenerating tailored resume + cover letter for top {len(top_for_docs)} job(s)...\n")
     USE_CACHING_THRESHOLD = 3  # or 3, per the margin note above
