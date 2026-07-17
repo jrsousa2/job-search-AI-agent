@@ -146,6 +146,7 @@ def main():
         f"Skipped Jobs — {date_str}",
         skipped,
         [
+           ("Work arrangement", "work_arrangement"),
            ("URL", "url"),
            ("Reason", "skip_reason"),
         ],)
