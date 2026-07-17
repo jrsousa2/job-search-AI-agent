@@ -70,8 +70,8 @@ During development, I'm also saving data structures as external json files, so I
 <br>I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
-AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands it and carries our your intructions correctly.
-Unfortunately neither a prompt nor an AI are perfect, but here we assume our NLP instructions will be executed correctly.
+AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
+<br>Unfortunately neither a prompt nor an AI are perfect, but here we assume our NLP instructions will be executed correctly.
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
 so the prompt (Claude.md) was simplified, leading to less token usage.
