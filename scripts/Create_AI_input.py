@@ -27,7 +27,7 @@ def Create_AI_input(DB_FILE):
                 job_id,
                 description
             FROM new_jobs a
-            WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1;
+            WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1 and location not;
     """)
 
     rows = cursor.fetchall()

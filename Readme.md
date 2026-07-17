@@ -70,8 +70,11 @@ During development, I'm also saving data structures as external json files, so I
 <br>I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
-Some of the tasks of the original AI prompt to Python code (such as checking valid/active postings) have been moved to scripts, 
-so the AI prompt (Claude.md) was simplified, which leads to less token usage.
+AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands it and carries our your intructions correctly.
+Unfortunately neither a prompt nor an AI are perfect, but here we assume our NLP instructions will be executed correctly.
+
+Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
+so the prompt (Claude.md) was simplified, leading to less token usage.
 <br>The tasks can be run separately (for example, adding entries to watchlist is a separate job).
 
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
@@ -130,7 +133,7 @@ If the same company is added more than once to the watchlist by mistake, duplica
 <br>Regardless of that, the resulting records are still checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
 
 Since some identical jobs (with only different URLs) showed up in the top 10 jobs list, I am simplifying the key 
-to just platform, company and title.
+to just platform, company and title (URL is too much).
 
 ### Previously evaluated
 

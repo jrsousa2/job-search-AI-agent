@@ -12,9 +12,13 @@ def back_up(input_table,suff):
     print(f"Table {input_table} has been backed up to {input_table}{suff}")
 
 # BACK UP TABLE
-back_up("new_jobs","_v2")
-Summarize_db(DB_FILE,"new_jobs_v2","")
-Summarize_db(DB_FILE,"new_jobs_v2","where New=1")
+#back_up("jobs_hist","_v1")
+Summarize_db(DB_FILE,"jobs_hist_v1","")
+Summarize_db(DB_FILE,"new_jobs","")
+
+# back_up("new_jobs","_v2")
+# Summarize_db(DB_FILE,"new_jobs_v2","")
+# Summarize_db(DB_FILE,"new_jobs_v2","where New=1")
 
 # CLOSE CONNECTION
 conn.close()
