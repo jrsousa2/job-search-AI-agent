@@ -29,8 +29,7 @@ from job_parser import parse_jobs
 from url_verifier import verify_url
 from scorer import score_jobs
 from docs_gen import gen_docs_for_job
-from watchlist import disc_watchlist_comps, load_existing_watchlist, save_suggestions
-from pricing import estimate_token_cost, estimate_search_cost
+from pricing import estimate_token_cost
 
 # I ADDED THIS FUNCTION TO SHORTEN THE CODE
 from write_html_digest import write_html_digest
@@ -167,12 +166,7 @@ def main():
         for w in doc_warnings:
             print(f"  - {w}")
 
-    # --- Watchlist discovery ---
-    print("\nRunning watchlist discovery (web search)...")
-    existing_watchlist = load_existing_watchlist(config.WATCHLIST_FILE)
-    suggestions, watchlist_usage = disc_watchlist_comps(claude_md, og_resume, existing_watchlist)
-    suggestions_path = save_suggestions(suggestions, date_str)
-    print(f"Wrote {suggestions_path} ({len(suggestions)} suggestion(s))")
+
 
     # PRICING (IT'S MADE UP OF SCORER,  WATCHLIST AND TAILORED FILES)
     # --- Cost estimate ---
@@ -180,11 +174,6 @@ def main():
     score_cache_write = scorer_usage.get("cache_creation_input_tokens", 0)
     score_cache_read = scorer_usage.get("cache_read_input_tokens", 0)
     score_output = scorer_usage.get("output_tokens", 0)
-
-    watch_input = watchlist_usage.get("input_tokens", 0)
-    watch_cache_write = watchlist_usage.get("cache_creation_input_tokens", 0)
-    watch_cache_read = watchlist_usage.get("cache_read_input_tokens", 0)
-    watch_output = watchlist_usage.get("output_tokens", 0)
 
     # COST OF THE TAILORED FILES
     tailor_input = 0
@@ -198,28 +187,29 @@ def main():
         tailor_cache_read += u.get("cache_read_input_tokens", 0)
         tailor_output += u.get("output_tokens", 0)
 
-    total_input = score_input + watch_input + tailor_input
-    total_cache_write = score_cache_write + watch_cache_write + tailor_cache_write
-    total_cache_read = score_cache_read + watch_cache_read + tailor_cache_read
-    total_output = score_output + watch_output + tailor_output
+    total_input = score_input + tailor_input
+    total_cache_write = score_cache_write + tailor_cache_write
+    total_cache_read = score_cache_read + tailor_cache_read
+    total_output = score_output + tailor_output
 
     token_cost = estimate_token_cost(
         config.MODEL, total_input, total_output,
         cache_write_tokens=total_cache_write, cache_read_tokens=total_cache_read,
     )
-    search_count = watchlist_usage.get("server_tool_use", {}).get("web_search_requests", 0)
-    search_cost = estimate_search_cost(search_count)
-    total_cost = token_cost + search_cost
+    #search_count = watchlist_usage.get("server_tool_use", {}).get("web_search_requests", 0)
+    #search_cost = estimate_search_cost(search_count)
+    # total_cost = token_cost + search_cost
+    total_cost = token_cost
 
     print("\n--- Cost estimate for this run ---")
     print(f"{'':<15}{'Scorer':>12}{'Watchlist':>12}{'Tailor':>12}{'Total':>12}")
-    print(f"{'Input':<15}{score_input:>12,}{watch_input:>12,}{tailor_input:>12,}{total_input:>12,}")
-    print(f"{'Cache write':<15}{score_cache_write:>12,}{watch_cache_write:>12,}{tailor_cache_write:>12,}{total_cache_write:>12,}")
-    print(f"{'Cache read':<15}{score_cache_read:>12,}{watch_cache_read:>12,}{tailor_cache_read:>12,}{total_cache_read:>12,}")
-    print(f"{'Output':<15}{score_output:>12,}{watch_output:>12,}{tailor_output:>12,}{total_output:>12,}")
+    print(f"{'Input':<15}{score_input:>12,}{tailor_input:>12,}{total_input:>12,}")
+    print(f"{'Cache write':<15}{score_cache_write:>12,}{tailor_cache_write:>12,}{total_cache_write:>12,}")
+    print(f"{'Cache read':<15}{score_cache_read:>12,}{tailor_cache_read:>12,}{total_cache_read:>12,}")
+    print(f"{'Output':<15}{score_output:>12,}{tailor_output:>12,}{total_output:>12,}")
     print()
     print(f"Token cost:   ${token_cost:.2f}")
-    print(f"Web searches: {search_count} (${search_cost:.2f})")
+    #print(f"Web searches: {search_count} (${search_cost:.2f})")
     print(f"TOTAL:        ${total_cost:.2f}")
     print("(Estimate only, at published list rates -- check console.anthropic.com for actual billing.)")
 

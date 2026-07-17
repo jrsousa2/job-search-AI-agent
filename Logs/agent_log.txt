@@ -1,0 +1,175 @@
+
+(process:7280): GLib-GIO-WARNING **: 12:58:05.414: Unexpectedly, UWP app `Microsoft.OutlookForWindows_1.2026.520.0_x64__8wekyb3d8bbwe' (AUMId `Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows') supports 4 extensions but has no verbs
+
+(process:7280): GLib-GIO-WARNING **: 13:14:21.998: Unexpectedly, UWP app `Microsoft.OutlookForWindows_1.2026.520.0_x64__8wekyb3d8bbwe' (AUMId `Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows') supports 4 extensions but has no verbs
+Creating AI input...
+Table NEW_JOBS : 168 rows where New=1
+Created D:\Agent\data\new_jobs.md with 168 jobs.
+Reading source files...
+Parsing job postings...
+	Found 168 job(s) in new_jobs.md
+Verifying job URLs...
+  127 valid, 41 skipped
+
+
+Scoring jobs against resumes...
+SCORER DATA USAGE:
+input_tokens: 188736
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 0
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 11867
+service_tier: standard
+inference_geo: global
+
+
+  58 job(s) meet all filters
+
+Wrote D:\Agent\daily-digest\2026-07-17_Top10_Job_URLs.html
+
+Wrote D:\Agent\daily-digest\2026-07-17_Other_Job_URLs.html
+
+Wrote D:\Agent\daily-digest\2026-07-17_Skipped_Jobs.html
+
+
+Generating tailored resume + cover letter for top 10 job(s)...
+
+DOCS GENERATION DATA USAGE:
+input_tokens: 1115
+cache_creation_input_tokens: 6167
+cache_read_input_tokens: 0
+cache_creation: {'ephemeral_5m_input_tokens': 6167, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2345
+service_tier: standard
+inference_geo: global
+
+
+1. Block — Staff Data Analyst, Block Compliance: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1116
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2332
+service_tier: standard
+inference_geo: global
+
+
+2. Block — Staff Data Analyst, Block Compliance: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1116
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2386
+service_tier: standard
+inference_geo: global
+
+
+3. Block — Staff Data Analyst, Block Compliance: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1414
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2202
+service_tier: standard
+inference_geo: global
+
+
+4. Ramp — AML Operations Analyst: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1336
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2399
+service_tier: standard
+inference_geo: global
+
+
+5. Affirm — Analytics Lead, Full Stack (Credit Analytics): done
+DOCS GENERATION DATA USAGE:
+input_tokens: 47
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2405
+service_tier: standard
+inference_geo: global
+
+
+6. Allstate — Data Scientist- Hybrid: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1282
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2262
+service_tier: standard
+inference_geo: global
+
+
+7. Affirm — Analyst II, Full Stack (Credit Analytics): done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1043
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2321
+service_tier: standard
+inference_geo: global
+
+
+8. EarnIn — Staff Risk Analyst: done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1162
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2171
+service_tier: standard
+inference_geo: global
+
+
+9. Affirm — Analyst II, Full Stack (Fraud Analytics): done
+DOCS GENERATION DATA USAGE:
+input_tokens: 1193
+cache_creation_input_tokens: 0
+cache_read_input_tokens: 6167
+cache_creation: {'ephemeral_5m_input_tokens': 0, 'ephemeral_1h_input_tokens': 0}
+output_tokens: 2335
+service_tier: standard
+inference_geo: global
+
+
+10. Affirm — Analyst II, Full Stack (Core Analytics): done
+
+Running watchlist discovery (web search)...
+Traceback (most recent call last):
+  File "D:\Agent\Claude\watchlist.py", line 107, in disc_watchlist_comps
+    return json.loads(text), usage
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Agent\Claude\agent.py", line 234, in <module>
+    main()
+  File "D:\Agent\Claude\agent.py", line 173, in main
+    suggestions, watchlist_usage = disc_watchlist_comps(claude_md, og_resume, existing_watchlist)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Agent\Claude\watchlist.py", line 110, in disc_watchlist_comps
+    raise ValueError(f"Watchlist discovery response wasn't valid JSON:\n\nError: {e}")
+ValueError: Watchlist discovery response wasn't valid JSON:
+
+Error: Expecting value: line 1 column 1 (char 0)
