@@ -81,8 +81,8 @@ def Update_New_flag(DB_FILE) -> int:
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 if __name__ == "__main__":
-    #new_jobs_count = Update_New_flag(DB_FILE)
+    new_jobs_count = Update_New_flag(DB_FILE)
     # TOTAL TABLE COUNT
-    Hist_count = Summarize_db(DB_FILE,"jobs_hist","")
-    New_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
-    Old_count = Summarize_db(DB_FILE,"new_jobs","where New=0")
+    # Hist_count = Summarize_db(DB_FILE,"jobs_hist","")
+    # New_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
+    # Old_count = Summarize_db(DB_FILE,"new_jobs","where New=0")

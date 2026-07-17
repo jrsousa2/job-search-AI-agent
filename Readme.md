@@ -75,7 +75,7 @@ AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
 so the prompt (Claude.md) was simplified, leading to less token usage.
-<br>The tasks can be run separately (for example, adding entries to watchlist is a separate job).
+<br>The tasks can be run separately (for example, adding entries to the companies watchlist is a separate job).
 
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
