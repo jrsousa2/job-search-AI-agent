@@ -83,16 +83,16 @@ I will eventually upload the *.py files and PDF templates here, when all is read
 
 ### Pricing
 I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
-(input and output) for the scorer, the watchlist and the tailored files creation. 
-<br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist). The 
-number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
+(input and output) for both the scorer, the watchlist and the tailored files creation. 
+<br>It's a program called pricing.py that captures data usage from three main scripts (scorer, watchlist and docs_gen). 
+Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
+<br>It seems prompt caching can only lead to savings in the scripts used generate the tailored files and to add entries to the watchlist.
 One can enable prompt caching in the code that generates the tailored files, for savings, if there
 are a minimum of 2 or 3 files (so using caching is conditional). 
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 <br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
-<br>It seems prompt caching might lead to great savings in the code used to add entries to the watchlist.
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
@@ -106,7 +106,9 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | Web searches    | 15 ($0.15) |
 | **TOTAL**       | **$2.22** |
 
-<br>One run entails providing roughly 90 jobs to be scored by Claude. Running a few web searches with AI for new entries into the companies watchlist. 
+<br>One run entails feeding roughly 90 jobs to be scored by Claude. 
+<br>Running a few web searches with AI for new entries into the companies watchlist (I will probably disable this, as it can be done for free,
+for many more entries -- it will also simplify the workflow). 
 And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
 
 ### Unique key to dedupe jobs
