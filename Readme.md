@@ -151,7 +151,7 @@ From my observations, the is_remote flag is not always reliable, so it's tweaked
 
 ### US jobs only
 
-I also added a is_US flag, with a simple logic, since I noticed some locations are not in the US.
+I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
 
 ### Excel for testing
 
