@@ -148,6 +148,7 @@ A flag called "New" is updated every time the job runs, in the table new_jobs (b
 
 From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
+<br>I also added a is_US, with a simple logic, since I noticed some locations are not in the US.
 
 ### Excel for testing
 

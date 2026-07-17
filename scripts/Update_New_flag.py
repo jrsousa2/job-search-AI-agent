@@ -5,6 +5,29 @@ import sqlite3
 from Repo_root import DB_FILE
 from Summarize_db import Summarize_db
 
+LOCATION_FILTER = """
+    location NOT LIKE '%Canada%'
+AND location NOT LIKE '%Toronto%'
+AND location NOT LIKE '%Ontario%'
+AND location NOT LIKE '%Cyprus%'
+AND location NOT LIKE '%Germany%'
+AND location NOT LIKE '%Berlin%'
+AND location NOT LIKE '%Ireland%'
+AND location NOT LIKE '%Dublin%'
+AND location NOT LIKE '%England%'
+AND location NOT LIKE '%London%'
+AND location NOT LIKE '%United Kingdom%'
+AND location NOT LIKE '%UK%'
+AND location NOT LIKE '%Paris%'
+AND location NOT LIKE '%India%'
+AND location NOT LIKE '%Bangalore%'
+AND location NOT LIKE '%Poland%'
+AND location NOT LIKE '%Mexico%'
+AND location NOT LIKE '%Europe%'
+AND location NOT LIKE '%EMEA%'
+AND location NOT LIKE '%LATAM%'
+"""
+
 # ADD AND UPDATE FLAG "NEW" IN TABLE NEW_JOBS
 def Update_New_flag(DB_FILE) -> int:
     conn = sqlite3.connect(DB_FILE)
@@ -27,7 +50,11 @@ def Update_New_flag(DB_FILE) -> int:
         print("New before SQL update...")
         start_count = Summarize_db(DB_FILE,"new_jobs","where New=1")    
 
-    cursor.execute("""
+    # US flag
+    if "is_US" not in columns:
+        cursor.execute("ALTER TABLE new_jobs ADD COLUMN is_US INTEGER")
+
+    cursor.execute(f"""
     UPDATE new_jobs
     SET New = CASE
         WHEN NOT EXISTS (
@@ -35,6 +62,11 @@ def Update_New_flag(DB_FILE) -> int:
             FROM jobs_hist h
             WHERE h.final_job_id = new_jobs.final_job_id
         )
+        THEN 1
+        ELSE 0
+    END,
+    is_US = CASE
+        WHEN ({LOCATION_FILTER})
         THEN 1
         ELSE 0
     END
