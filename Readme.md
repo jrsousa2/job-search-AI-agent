@@ -147,9 +147,9 @@ also allows only actual new jobs to be passed to Claude for evaluation).
 
 File watchlist.json is a template, you have to build your own. 
 
-A Python script created Claude and fixed by me suggests more entries for the watchlist. 
+A Python script created by Claude and fixed by me suggests more entries for the watchlist. 
 <br>It's run separately from the other two tasks (scoring jobs and tailoring resumes).
-<br>URL errors which appear in the external log. 
+<br>URL errors appear in the external log. 
 <br>This script is not strictly necessary, as searching for more entries can be done for free.
 
 ### A snapshot of the table new_jobs:
