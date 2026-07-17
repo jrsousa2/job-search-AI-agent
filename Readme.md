@@ -137,8 +137,9 @@ If the same company is added more than once to the watchlist by mistake, duplica
 <br>To avoid that, the json watchlist file is deduped by platform, company and slug, prior to being used. 
 <br>Regardless of that, the resulting records are still checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
 
-Since some identical jobs (with only different URLs) showed up in the top 10 jobs list, I am simplifying the key 
-to just platform, company and title (URL is too much).
+Since some identical jobs showed up in the top 10 jobs list, I might simplify the key 
+to just platform, company and title in the future (if the AI prompt can't handle it properly). These duplicates usually
+have a different location or URL, so they're not fully duplicates.
 
 ### Previously evaluated flag
 
