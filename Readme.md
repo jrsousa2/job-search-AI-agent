@@ -82,14 +82,17 @@ of your AI prompt, such as non-US jobs). Be prepared to tweak your prompts const
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
 ### Pricing
-I'm using code created by Claude to help me estimate the price per run. 
+I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
+(input and output) for the scorer, the watchlist and the tailored files creation. 
 <br>It's a program called pricing.py that captures data usage from two main scripts (scorer and watchlist). The 
 number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
-According to Claude, I can enable prompt caching in the code that generates the tailored files, for savings.
+According to Claude, I can enable prompt caching in the code that generates the tailored files, for savings, if there
+are a minimum of 2 or 3 files (so using caching is conditional). 
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 <br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
+<br>It seems prompt caching might lead to great savings in the code used to add entries to the watchlist.
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 

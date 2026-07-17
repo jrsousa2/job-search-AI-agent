@@ -1,3 +1,6 @@
+# THE AI USAGE HAPPENS IN 3 TASKS: SCORING, WATCHLIST AND DOC GENERATION.
+# PROMPT CACHING IS ONLY RECOMMENDED FOR WATCHLIST AND DOC GENERATION.
+
 """
 Full pipeline, following Claude.md:
 
@@ -172,7 +175,6 @@ def main():
     print(f"Wrote {suggestions_path} ({len(suggestions)} suggestion(s))")
 
     # PRICING (IT'S MADE UP OF SCORER,  WATCHLIST AND TAILORED FILES)
-    # PRICING (IT'S MADE UP OF SCORER AND WATCHLIST AND TAILORED RESUMES)
     # --- Cost estimate ---
     score_input = scorer_usage.get("input_tokens", 0)
     score_cache_write = scorer_usage.get("cache_creation_input_tokens", 0)
