@@ -129,6 +129,9 @@ If the same company is added more than once to the watchlist by mistake, duplica
 <br>To avoid that, the json watchlist file is deduped by platform, company and slug, prior to being used. 
 <br>Regardless of that, the resulting records are still checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
 
+Since some identical jobs (with only different URLs) showed up in the top 10 jobs list, I am simplifying the key 
+to just platform, company and title.
+
 ### Previously evaluated
 
 A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
