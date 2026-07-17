@@ -140,7 +140,7 @@ If the same company is added more than once to the watchlist by mistake, duplica
 Since some identical jobs (with only different URLs) showed up in the top 10 jobs list, I am simplifying the key 
 to just platform, company and title (URL is too much).
 
-### Previously evaluated
+### Previously evaluated flag
 
 A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
 
