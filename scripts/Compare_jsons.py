@@ -1,3 +1,4 @@
+# CHECK THAT MODIFIED JSON (ONE ENTRY PER LINE) IS NOT BROKEN
 import json
 
 def json_subset(file1, file2):
