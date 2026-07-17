@@ -88,7 +88,7 @@ I'm using code created by Claude to help me estimate the price per run, with a b
 number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
-According to Claude, I can enable prompt caching in the code that generates the tailored files, for savings, if there
+One can enable prompt caching in the code that generates the tailored files, for savings, if there
 are a minimum of 2 or 3 files (so using caching is conditional). 
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 <br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
@@ -105,7 +105,10 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | Token cost      | $2.07  |
 | Web searches    | 15 ($0.15) |
 | **TOTAL**       | **$2.22** |
-  
+
+<br>One run entails providing roughly 90 jobs to be scored by Claude. Running a few web searches with AI for new entries into the companies watchlist. 
+And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
+
 ### Unique key to dedupe jobs
 
 Since this batch job is supposed to run daily, the process I envisioned was to come up with a single unique key 
