@@ -80,8 +80,8 @@ so the prompt (Claude.md) was simplified, leading to less token usage.
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
 whether the role is managerial, job location, etc.)
-<br>Besides, working with AI is not foolproof, it makes mistakes at times (for example, including jobs that don't meet the criteria
-of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (but with different URLs), etc). 
+<br>Besides, working with AI is not foolproof, it makes mistakes at times [for example, including jobs that don't meet the criteria
+of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (with different URLs), etc]. 
 <br>Be prepared to tweak your prompts constantly.
 
 I will eventually upload the *.py files and PDF templates here, when all is ready.
@@ -148,7 +148,10 @@ A flag called "New" is updated every time the job runs, in the table new_jobs (b
 
 From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
-<br>I also added a is_US, with a simple logic, since I noticed some locations are not in the US.
+
+### US jobs only
+
+I also added a is_US flag, with a simple logic, since I noticed some locations are not in the US.
 
 ### Excel for testing
 
