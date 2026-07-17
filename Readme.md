@@ -107,8 +107,7 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | **TOTAL**       | **$2.22** |
 
 <br>One run entails feeding roughly 90 jobs to be scored by Claude. 
-<br>Running a few web searches with AI for new entries into the companies watchlist (I will probably disable this, as it can be done for free,
-for many more entries -- it will also simplify the workflow). 
+<br>Running a few web searches with AI for new entries into the companies watchlist. 
 And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
 
 ### Unique key to dedupe jobs
@@ -144,7 +143,8 @@ File watchlist.json is a template, you have to build your own.
 
 One of the programs Claude created suggests more entries for it, but it adds to the cost.
 <br>It was suggesting wrong workday entries (slug without three parts), but the prompt has been tweaked to prevent issues,
-which appear in the external log.
+which appear in the external log. I will probably disable this script, as it can be done for free and
+for way more entries &mdash; it will also simplify the workflow.
 
 ### A snapshot of the table new_jobs:
 
