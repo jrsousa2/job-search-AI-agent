@@ -7,6 +7,7 @@ import sqlite3
 
 from Repo_root import DB_FILE
 from Summarize_db import Summarize_db
+from Update_jobs_hist import Update_jobs_hist
 
 # THE CONNECTION AND CURSOR ARE GLOBAL
 conn = sqlite3.connect(DB_FILE)
@@ -49,6 +50,12 @@ def create_jobs_hist() -> None:
 # DROP AND RECREATE HISTORY TABLE
 drop_table("jobs_hist")
 create_jobs_hist()
+
+# UPDATES THE HIST TABLE
+Update_jobs_hist(DB_FILE,"new_jobs_v2")
+
+# PRINTS NEW ROW COUNT
+Summarize_db(DB_FILE,"jobs_hist","")
 
 # UPDATES JOBS_HIST MANUALLY
 # update_jobs_hist()

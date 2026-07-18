@@ -10,10 +10,11 @@ cursor = conn.cursor()
 
 # WHERE type='table'
 def list_db_tables():
-    cursor.execute("SELECT name FROM sqlite_master")
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
     # PRINT
     for (table_name,) in cursor.fetchall():
-        print(table_name.upper())
+        # print(table_name.upper())
+        Summarize_db(DB_FILE,f"{table_name}","")
 
 def get_col_names(input_table):
     cursor.execute(f"PRAGMA table_info({input_table})")
@@ -38,17 +39,17 @@ def list_table_index(input_table):
             print(cursor.fetchall())    
 
 # LIST TABLES
-# list_db_tables()
+list_db_tables()
 
 # GET COL NAMES
-get_col_names("jobs_hist")
-get_col_names("new_jobs")
+# get_col_names("jobs_hist")
+# get_col_names("new_jobs")
 
 # INDEX
-list_table_index("jobs_hist")
+# list_table_index("jobs_hist")
 
 # SUMMARIZE NEW_JOBS
-row_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
+# row_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
 
 # CLOSE CONNECTION
 conn.close()

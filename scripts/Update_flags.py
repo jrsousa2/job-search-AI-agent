@@ -34,7 +34,7 @@ def Update_flags(DB_FILE) -> int:
     cursor = conn.cursor()
 
     # PRINTS NEW_JOBS COUNT
-    print("Updating New flag...")
+    print("Updating flags New/is_US...")
     # START ROWS
     print("Total before SQL update...")
     total_count = Summarize_db(DB_FILE,"new_jobs","")
