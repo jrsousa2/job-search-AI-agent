@@ -103,8 +103,8 @@ I'm using code created by Claude to help me estimate the price per run, with a b
 Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
 Btw, there's a very simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
-It seems prompt caching only leads to savings in the scripts used to generate the tailored files and to add entries to the watchlist.
-It's possible to enable prompt caching in the code that generates the tailored files, if there are a minimum of 2 or 3 files (caching is conditional). 
+It seems prompt caching only leads to savings in the scripts used to generate the tailored files and the one used to suggest entries to the watchlist.
+Still, it's only advisable to enable prompt caching in the code that generates the tailored files if there are a minimum of 2 or 3 files (caching is conditional).
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 <br>"Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls." 
 
@@ -134,12 +134,12 @@ The purpose of the final_job_id is to deduplicate the current jobs list, based o
 Therefore, a jobs history table is kept as well (with final_job_id set as a unique key). Every time the job runs, the new jobs are added to the history table at the end of the process. 
 
 If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. 
-<br>To avoid that, the json watchlist file is deduped by platform, company and slug, prior to being used. 
-<br>Regardless of that, the resulting records are still checked for duplicate final_job_id before being added to table new_jobs, and any occasional duplicates are discarded.
+<br>To avoid that, the json watchlist file is deduped by platform, company and slug before use. 
+<br>The resulting records are still checked for duplicate final_job_id before being added to the new_jobs table, and any occasional duplicates are discarded.
 
-Since some identical jobs showed up in the top 10 jobs list, I might simplify the key 
-to just platform, company and title in the future (if the AI prompt can't handle it properly). These duplicates usually
-have a different location or URL, so they're not fully duplicates.
+Since some identical jobs showed up in the top 10 jobs list, I may simplify the key 
+to just platform, company and title in the future (if the AI prompt doesn't handle it properly). 
+These duplicates usually have a different location or URL, so they're not full duplicates.
 
 ### Previously evaluated flag
 
