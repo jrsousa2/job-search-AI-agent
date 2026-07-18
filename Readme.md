@@ -93,7 +93,7 @@ and reliability before the jobs list is passed to Claude. The script checks HTTP
 
 ### Scoring logic
 The way the AI is scoring the jobs is still not great, because the prompt is not explicitly telling it how scoring should be done.
-<br>I will later replace it with a simple heuristic, leaving only the resume tailoring to the AI.
+<br>I will later replace it with a simple heuristic, leaving only the resume tailoring to the AI (I can use the savings too).
 <br>And for now, I will keep running this process manually, until it's more accurate.
 
 ### Pricing
