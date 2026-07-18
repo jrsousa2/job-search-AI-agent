@@ -86,14 +86,14 @@ of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (w
 
 I will eventually upload the *.py files and PDF templates here, when all is ready.
 
-### ATS job URL is active
+### Checking if posting is active
 The ATS is not being verified by Claude, it's being verified by function verify_url(), which checks the URL accessibility
 and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
 <br>If the result is not valid with high confidence, the job listing is skipped.
 
 ### Scoring logic
 The way the AI is scoring the jobs is still not great, because the prompt is not explicitly telling it how scoring should be done.
-<br>I will tweak it to use explicit rules.
+<br>I will later replace it with a simple heuristic, leaving only the resume tailoring to the AI.
 <br>And for now, I will keep running this process manually, until it's more accurate.
 
 ### Pricing
