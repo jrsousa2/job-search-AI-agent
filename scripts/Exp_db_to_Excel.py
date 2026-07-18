@@ -10,7 +10,7 @@ DB_FILE = REPO_ROOT / "Database" / "jobs.db"
 # EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
 # EXPORT A DB TABLE TO EXCEL
-def exp_to_excel(input_table: str, suff: str, sql_filter: str) -> None:
+def Exp_db_to_Excel(DB_FILE, input_table: str, suff: str, sql_filter: str) -> None:
     output_file = f"{input_table}{suff}.xlsx"
     EXCEL_FILE = REPO_ROOT / "Excel" / output_file
     conn = sqlite3.connect(DB_FILE)
@@ -18,14 +18,15 @@ def exp_to_excel(input_table: str, suff: str, sql_filter: str) -> None:
     # SAVE QUERY OUTPUT TO A DF
     df = pd.read_sql_query(f"SELECT * FROM {input_table} {sql_filter}", conn)
     df.to_excel(EXCEL_FILE, index=False)
-
+    # DISPLAY MSG
     print("Table",input_table,"exported to",output_file)
     conn.close()
 
-# exp_to_excel("new_jobs","3","")
-#exp_to_excel("new_jobs","3","")
+# MAIN CODE
+if __name__ == "__main__":
+    # exp_to_excel("new_jobs","3","")
+    Exp_db_to_Excel(DB_FILE,"new_jobs","Test","")
 
-# EXPORT ALREADY EVALUATED TO EXCEL
-#exp_to_excel("new_jobs_bak","(orig)","")
-
-exp_to_excel("jobs_hist","(orig)","")
+    # EXPORT ALREADY EVALUATED TO EXCEL
+    # Exp_db_to_excel(DB_FILE,"new_jobs_bak","(orig)","")
+    # Exp_db_to_excel(DB_FILE,"jobs_hist","(orig)","")
