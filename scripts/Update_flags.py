@@ -5,7 +5,7 @@ import sqlite3
 from Repo_root import DB_FILE
 from Summarize_db import Summarize_db
 
-LOCATION_FILTER = """
+loc_not_US = """
     location NOT LIKE '%Canada%'
 AND location NOT LIKE '%Toronto%'
 AND location NOT LIKE '%Ontario%'
@@ -26,6 +26,12 @@ AND location NOT LIKE '%Mexico%'
 AND location NOT LIKE '%Europe%'
 AND location NOT LIKE '%EMEA%'
 AND location NOT LIKE '%LATAM%'
+"""
+
+loc_US="""
+   location LIKE '%United States%' 
+OR location LIKE '%USA%' 
+OR location LIKE '%Canada%'
 """
 
 # ADD AND UPDATE FLAG "NEW" IN TABLE NEW_JOBS
@@ -66,17 +72,39 @@ def Update_flags(DB_FILE) -> int:
         ELSE 0
     END,
     is_US = CASE
-        WHEN ({LOCATION_FILTER})
+        WHEN ({loc_not_US}) or ({loc_US})
         THEN 1
         ELSE 0
     END
     """)
+
+    # ADD SCORE COLUMN
+    # US flag
+    if "is_US" not in columns:
+        cursor.execute("ALTER TABLE new_jobs ADD COLUMN score INTEGER DEFAULT 0")
+
+    # CALCULATE SCORE BASED ON KEYWORDS
+    cursor.execute("""
+        UPDATE new_jobs
+        SET score =
+          pow(10, 8) * (instr(LOWER(description), 'sas') > 0)
+        + pow(10, 7) * ((instr(LOWER(description), 'insurance')>0) or (instr(LOWER(description), 'p&c')>0))
+        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'analyst')>0)
+        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'analytic')>0)
+        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'management')>0)
+        + pow(10, 5) * (instr(LOWER(description), 'sql') > 0)
+        + pow(10, 4) * (instr(LOWER(description), 'sas') > 0)
+        + pow(10, 3) * (instr(LOWER(description), 'etl') > 0)
+        + pow(10, 2) * (instr(LOWER(description), 'python') > 0)
+        + pow(10, 1) * (instr(LOWER(description), 'hadoop') > 0)
+        + pow(10, 0) * (instr(LOWER(description), 'spark') > 0)
+    """)
     # COMMITS CHANGES
     conn.commit()
+    conn.close()
     # GET NUMBER OF NEW JOBS
     print("New after SQL update...")
     end_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
-    conn.close()
     return end_count
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
