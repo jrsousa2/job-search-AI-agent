@@ -1,4 +1,4 @@
-# THIS CODE ADDS AND/OR UPDATES THE FLAGS "NEW" AND "IS_US"
+# THIS CODE ADDS AND/OR UPDATES FLAGS "NEW", "IS_US" AND "SCORE"
 # AS A SINGLE CODE IT'S EASIER TO MAINTAIN
 import sqlite3
 
@@ -32,6 +32,7 @@ loc_US="""
    location LIKE '%United States%' 
 OR location LIKE '%USA%' 
 OR location LIKE '%U.S.%'
+OR (instr(location,'US')>0 )
 """
 
 # ADD AND UPDATE FLAG "NEW" IN TABLE NEW_JOBS
@@ -80,24 +81,24 @@ def Update_flags(DB_FILE) -> int:
 
     # ADD SCORE COLUMN
     # US flag
-    if "is_US" not in columns:
+    if "score" not in columns:
         cursor.execute("ALTER TABLE new_jobs ADD COLUMN score INTEGER DEFAULT 0")
 
     # CALCULATE SCORE BASED ON KEYWORDS
     cursor.execute("""
         UPDATE new_jobs
         SET score =
-          pow(10, 8) * (instr(LOWER(description), 'sas') > 0)
-        + pow(10, 7) * ((instr(LOWER(description), 'insurance')>0) or (instr(LOWER(description), 'p&c')>0))
-        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'analyst')>0)
-        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'analytic')>0)
-        + pow(10, 6) * (instr(LOWER(title), 'data')>0 and instr(LOWER(title), 'management')>0)
-        + pow(10, 5) * (instr(LOWER(description), 'sql') > 0)
-        + pow(10, 4) * (instr(LOWER(description), 'sas') > 0)
-        + pow(10, 3) * (instr(LOWER(description), 'etl') > 0)
-        + pow(10, 2) * (instr(LOWER(description), 'python') > 0)
-        + pow(10, 1) * (instr(LOWER(description), 'hadoop') > 0)
-        + pow(10, 0) * (instr(LOWER(description), 'spark') > 0)
+          pow(10, 8) * ((instr(LOWER(description),' sas ')>0) or (instr(LOWER(description),'viya')>0))
+        + pow(10, 7) * ((instr(LOWER(description),'insurance')>0) or (instr(LOWER(description),'p&c')>0))
+        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'analyst')>0))
+        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'analytic')>0))
+        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'management')>0))
+        + pow(10, 6) * (instr(LOWER(title),'data')>0 )
+        + pow(10, 5) * (instr(LOWER(description),'sql')>0)
+        + pow(10, 3) * (instr(LOWER(description),'etl')>0)
+        + pow(10, 2) * (instr(LOWER(description),'python')>0)
+        + pow(10, 1) * (instr(LOWER(description),'hadoop')>0)
+        + pow(10, 0) * (instr(LOWER(description),'spark')>0)
     """)
     # COMMITS CHANGES
     conn.commit()

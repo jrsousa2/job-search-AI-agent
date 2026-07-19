@@ -70,6 +70,7 @@ During development, I'm also saving data structures as external json files, so I
 <br>I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
+
 AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
 <br>Unfortunately neither a prompt nor an AI are perfect.
 
@@ -85,11 +86,13 @@ of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (w
 <br>Be prepared to tweak your prompts constantly.
 
 ### Checking if posting is active
+
 The ATS is not being verified by Claude, it's being verified by a function verify_url(), which checks the URL accessibility
 and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
 <br>If the result is not valid with high confidence, the job listing is skipped.
 
 ### Scoring logic
+
 The way the AI is scoring the jobs is still not great, because the prompt is not telling it objectively how scoring should be done.
 <br>I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
 such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (after all, I can use the savings too).
@@ -99,6 +102,7 @@ I think this will be much more useful and accurate than the AI prompt.
 And for now, I will keep running this process manually, until it's more accurate.
 
 ### Pricing
+
 I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
 (input and output) for both the scorer, the tailored files creation and the watchlist suggestions. 
 <br>It's a program that captures data usage from these three main scripts. 
@@ -177,10 +181,14 @@ This script is not strictly necessary, as searching for more entries can be done
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
 
 ### Log
+
 An external log file is created to indentify and troubleshoot ATS-related errors during job data extraction and processing. 
 <br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
 ### Documentation
+
+The bottom line is, I'm now only using AI for resume tailoring. The heuristic score is more accurate, and the rationale
+is much easier to verify.
 
 For a guide to this repository, please visit:
 
