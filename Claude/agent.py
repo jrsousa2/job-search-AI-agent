@@ -31,6 +31,8 @@ from scorer import score_jobs
 from docs_gen import gen_docs_for_job
 from pricing import estimate_token_cost
 
+Score_with_AI = False
+
 # I ADDED THIS FUNCTION TO SHORTEN THE CODE
 from write_html_digest import write_html_digest
 
@@ -80,21 +82,28 @@ def main():
             skipped.append({**job, "skip_reason": result["reason"]})
     print(f"  {len(valid_jobs)} valid, {len(skipped)} skipped")
 
-    print("\n\nScoring jobs against resumes...")
-    scored, scorer_usage = score_jobs(valid_jobs, claude_md, og_resume, projects)
+    if Score_with_AI:
+        print("\n\nScoring jobs against resumes...")
+        scored, scorer_usage = score_jobs(valid_jobs, claude_md, og_resume, projects)
+
+        # SAVES RESULTS TO JSON FILE
+        json_file = os.path.join(config.DATA_DIR, f"{date_str}_scored_jobs.json")
+        with open(json_file, "w", encoding="utf-8") as f:
+             json.dump(scored, f, indent=2, ensure_ascii=False)
+
+        # THESE PASSED THE FILTER (IN DESC ORDER)
+        recommended = sorted(
+        [j for j in scored if j.get("meets_filters")],
+        key=lambda j: j.get("score", 0), reverse=True, )
+    else:
+        x=1    
 
     # TODAY'S DATE
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
 
-    # SAVES RESULTS TO JSON FILE
-    json_file = os.path.join(config.DATA_DIR, f"{date_str}_scored_jobs.json")
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(scored, f, indent=2, ensure_ascii=False)
+    
 
-    # THESE PASSED THE FILTER (IN DESC ORDER)
-    recommended = sorted(
-        [j for j in scored if j.get("meets_filters")],
-        key=lambda j: j.get("score", 0), reverse=True, )
+    
 
     # THESE DIDN'T PASS THE FILTER 
     failed_filter = sorted(
