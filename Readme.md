@@ -71,7 +71,7 @@ During development, I'm also saving data structures as external json files, so I
 
 ### AI prompt
 AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
-<br>Unfortunately neither a prompt nor an AI are perfect, but here we assume our NLP instructions will be executed correctly.
+<br>Unfortunately neither a prompt nor an AI are perfect.
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
 so the prompt (Claude.md) was simplified, leading to less token usage.
@@ -84,10 +84,8 @@ whether the role is managerial, job location, etc.)
 of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (with different URLs), etc]. 
 <br>Be prepared to tweak your prompts constantly.
 
-I will eventually upload the *.py files and PDF templates here, when all is ready.
-
 ### Checking if posting is active
-The ATS is not being verified by Claude, it's being verified by function verify_url(), which checks the URL accessibility
+The ATS is not being verified by Claude, it's being verified by a function verify_url(), which checks the URL accessibility
 and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
 <br>If the result is not valid with high confidence, the job listing is skipped.
 
