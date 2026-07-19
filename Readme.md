@@ -93,7 +93,7 @@ and reliability before the jobs list is passed to Claude. The script checks HTTP
 
 ### Scoring logic
 The way the AI is scoring the jobs is still not great, because the prompt is not telling it objectively how scoring should be done.
-I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
+<br>I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
 such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (after all, I can use the savings too).
 
 I think this will be much more useful and accurate than the AI prompt.
