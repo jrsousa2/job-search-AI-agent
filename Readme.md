@@ -188,7 +188,7 @@ An external log file is created to indentify and troubleshoot ATS-related errors
 ### Conclusion
 
 The bottom line is, I'm now only using AI for resume tailoring. The heuristic score is more accurate, and the rationale
-is much easier to verify.
+is much easier to change and verify.
 
 ### Documentation
 
