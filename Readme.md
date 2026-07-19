@@ -185,10 +185,12 @@ This script is not strictly necessary, as searching for more entries can be done
 An external log file is created to indentify and troubleshoot ATS-related errors during job data extraction and processing. 
 <br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
-### Documentation
+### Conclusion
 
 The bottom line is, I'm now only using AI for resume tailoring. The heuristic score is more accurate, and the rationale
 is much easier to verify.
+
+### Documentation
 
 For a guide to this repository, please visit:
 
