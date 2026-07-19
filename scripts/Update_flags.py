@@ -31,7 +31,7 @@ AND location NOT LIKE '%LATAM%'
 loc_US="""
    location LIKE '%United States%' 
 OR location LIKE '%USA%' 
-OR location LIKE '%Canada%'
+OR location LIKE '%U.S.%'
 """
 
 # ADD AND UPDATE FLAG "NEW" IN TABLE NEW_JOBS

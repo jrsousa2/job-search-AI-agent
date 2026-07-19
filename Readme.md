@@ -167,8 +167,10 @@ File watchlist.json is a template, you have to build your own.
 
 A Python script created by Claude and fixed by me suggests more entries for the watchlist. 
 <br>It's run separately from the other two tasks (scoring jobs and tailoring resumes).
-<br>URL errors go in the external log. 
-<br>This script is not strictly necessary, as searching for more entries can be done for free.
+<br>URL errors go in the external log. Wrong entries are fixed manually with ChatGpt or Claude,
+and another script replaces the fixed entries in the list.
+
+This script is not strictly necessary, as searching for more entries can be done for free anyway.
 
 ### A snapshot of the table new_jobs:
 
