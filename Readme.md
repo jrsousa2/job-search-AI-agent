@@ -136,7 +136,7 @@ I also added a is_US flag in the main table, with a simple logic, since I notice
 
 ### Time zone field
 
-Because a candidate may not be interested in working outside of his time zone, this flag is very important. But
+Because a candidate may not be interested in working far outside of his time zone, this flag is very important. But
 job locations can be messy in the data, so it's not easy to use geolocator modules available in Python.
 
 I've decided to just use the field location and a simple logic based on states (case-insensitive) and major cities to assign the time zones (ET,
