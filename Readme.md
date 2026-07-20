@@ -134,13 +134,14 @@ From my observations, the is_remote flag is not always reliable, so it's tweaked
 
 I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
 
-### Time zone flag
+### Time zone field
 
 Because a candidate may not be interested in working outside of his time zone, this flag is very important. But
 job locations can be messy in the data, so it's not easy to use geolocator modules available in Python.
 
-I've decided to just use the field location and a simple logic based on states (case-insensitive) and major cities to assign the time zone. 
-The logic is useful, because some states and major cities appear in the description more frequently than others.
+I've decided to just use the field location and a simple logic based on states (case-insensitive) and major cities to assign the time zones (ET,
+CT, MT and PT, which are assigned in this order).  
+The logic is useful and reasonably accurate, since some states and major cities appear in the description more frequently than others.
 
 ### Excel for testing
 
