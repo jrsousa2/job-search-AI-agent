@@ -6,13 +6,13 @@ Querying 1 of 1: ('greenhouse', 'Figma', 'figma')
 
 Jobs list had 4 records
 Saved 4 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Updating timezone by state...
+Timezone update based on state/cities complete.
 Updating flags New/is_US...
 Total before SQL update...
 Table NEW_JOBS : 4 rows 
 New after SQL update...
 Table NEW_JOBS : 0 rows where New=1
-Updating timezone by state...
-Timezone update based on state/cities complete.
 Table NEW_JOBS : 4 rows 
 
 Summary: 0 new | 4 already evaluated | 0 errors
@@ -20,7 +20,7 @@ Summary: 0 new | 4 already evaluated | 0 errors
 Table JOBS_HIST : 80 rows 
 Table new_jobs exported to new_jobs_2026-07-19.xlsx
 
-Start time: 2026-07-19 22:55:26.206855
-End time: 2026-07-19 22:55:28.039315
+Start time: 2026-07-19 23:00:41.253070
+End time: 2026-07-19 23:00:43.319579
 Elapsed time: 0.03 minutes
 
