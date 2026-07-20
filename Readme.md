@@ -95,42 +95,14 @@ and reliability before the jobs list is passed to Claude. The script checks HTTP
 
 ### Scoring logic
 
-The way the AI is scoring the jobs is still not great, because the prompt is not telling it objectively how scoring should be done.
-<br>I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
-such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (after all, I can use the savings too).
+The way the AI is scoring the jobs was not great, because the prompt was not telling it objectively how scoring should be done.
+<br>Hence, I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
+such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (besides, I can use the savings too).
 
-I think this will be much more useful and accurate than the AI prompt.
+I think this new way makes more sense and is more accurate than the AI prompt. The hierarchy allows me to exclude certain types of roles 
+(such as managerial, for which I don't have much experience), to give priority to jobs located in ET or CT, to some industries, and to jobs that include my main skills, etc.
 
 And for now, I will keep running this process manually, until it's more accurate.
-
-### Pricing
-
-I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
-(input and output) for both the scorer, the tailored files creation and the watchlist suggestions. 
-<br>It's a program that captures data usage from these three main scripts. 
-Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
-Btw, there's a simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
-
-It seems prompt caching only leads to savings in the scripts used to generate the tailored files and the one used to suggest entries to the watchlist.
-Still, it's only advisable to enable prompt caching in the code that generates the tailored files if there are a minimum of 2 or 3 files (caching is conditional).
-<br>Caching only pays off when the same content gets reused across multiple calls. 
-<br>Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls. 
-
-Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
-
-*Here's an example of cost estimate for an actual run:*
-
-| Metric          | Value    |
-|-----------------|---------:|
-| Input tokens    | 531,227  |
-| Output tokens   | 32,041   |
-| Token cost      | $2.07  |
-| Web searches    | 15 ($0.15) |
-| **TOTAL**       | **$2.22** |
-
-One run entails feeding roughly 90 jobs to be scored by Claude. 
-<br>Running a few web searches with AI for new entries into the companies watchlist. 
-And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
 
 ### Unique key to dedupe jobs
 
@@ -185,6 +157,35 @@ A Python script created by Claude and fixed by me suggests more entries for the 
 and another script replaces the fixed entries in the list.
 
 This script is not strictly necessary, as searching for more entries can be done for free anyway.
+
+### Pricing
+
+I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
+(input and output) for both the scorer, the tailored files creation and the watchlist suggestions. 
+<br>It's a program that captures data usage from these three main scripts. 
+Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
+Btw, there's a simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
+
+It seems prompt caching only leads to savings in the scripts used to generate the tailored files and the one used to suggest entries to the watchlist.
+Still, it's only advisable to enable prompt caching in the code that generates the tailored files if there are a minimum of 2 or 3 files (caching is conditional).
+<br>Caching only pays off when the same content gets reused across multiple calls. 
+<br>Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls. 
+
+Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
+
+*Here's an example of cost estimate for an actual run:*
+
+| Metric          | Value    |
+|-----------------|---------:|
+| Input tokens    | 531,227  |
+| Output tokens   | 32,041   |
+| Token cost      | $2.07  |
+| Web searches    | 15 ($0.15) |
+| **TOTAL**       | **$2.22** |
+
+One run entails feeding roughly 90 jobs to be scored by Claude. 
+<br>Running a few web searches with AI for new entries into the companies watchlist. 
+And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
 
 ### A snapshot of the table new_jobs:
 
