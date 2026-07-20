@@ -72,7 +72,9 @@ During development, I'm also saving data structures as external json files, so I
 ### AI prompt
 
 AI prompt is a new tech (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
-<br>Unfortunately neither a prompt nor an AI are perfect.
+<br>Unfortunately neither a prompt nor an AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
+that, although useful, require polishing. If you ask the AI if the code it produced is all right, it will usually point out issues
+(this is inconsistency, it can't agree with itself at times).
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
 so the prompt (Claude.md) was simplified, leading to less token usage.
@@ -159,6 +161,13 @@ From my observations, the is_remote flag is not always reliable, so it's tweaked
 ### US jobs flag
 
 I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
+
+### Time zone flag
+
+Because a candidate may not be interested in working outside of his time zone, this flag is very important. Because
+job locations can be messy in the data, it's not so easy to use geolocator modules available in Python.
+
+But maybe they can still be used, and only jobs where a reliable time zone is returned will have tailored resumes. 
 
 ### Excel for testing
 

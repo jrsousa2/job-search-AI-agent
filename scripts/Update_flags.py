@@ -88,17 +88,49 @@ def Update_flags(DB_FILE) -> int:
     cursor.execute("""
         UPDATE new_jobs
         SET score =
-          pow(10, 8) * ((instr(LOWER(description),' sas ')>0) or (instr(LOWER(description),'viya')>0))
-        + pow(10, 7) * ((instr(LOWER(description),'insurance')>0) or (instr(LOWER(description),'p&c')>0))
-        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'analyst')>0))
-        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'analytic')>0))
-        + pow(10, 6) * ((instr(LOWER(title),'data')>0) and (instr(LOWER(title),'management')>0))
-        + pow(10, 6) * (instr(LOWER(title),'data')>0 )
-        + pow(10, 5) * (instr(LOWER(description),'sql')>0)
-        + pow(10, 3) * (instr(LOWER(description),'etl')>0)
-        + pow(10, 2) * (instr(LOWER(description),'python')>0)
-        + pow(10, 1) * (instr(LOWER(description),'hadoop')>0)
-        + pow(10, 0) * (instr(LOWER(description),'spark')>0)
+          pow(10, 10) * (instr(LOWER(description),'manager')==0)
+        + pow(10, 9) * (
+                        (instr(LOWER(description),' sas ')>0) OR 
+                        (instr(LOWER(description),'viya')>0)
+                        )
+        + pow(10, 8) * (
+                        (instr(LOWER(description),'insurance')>0) OR
+                        (instr(LOWER(description),'p&c')>0) OR
+                        (instr(LOWER(description),'loss triangle')>0)
+                        )
+        + pow(10, 7) * ( 
+                        (instr(LOWER(title),'data')>0) AND 
+                        (
+                         (instr(LOWER(title),'analyst')>0) OR 
+                         (instr(LOWER(title),'analytic')>0) OR 
+                         (instr(LOWER(title),'management')>0)
+                         ) 
+                         )
+        + pow(10, 6) * (
+                        (instr(LOWER(description),'sql')>0) OR
+                        (instr(LOWER(description),'database')>0) OR
+                        (instr(LOWER(description),'data warehouse')>0)
+                        )
+        + pow(10, 5) * (instr(LOWER(description),'etl')>0)
+        + pow(10, 4) * ( 
+                        (instr(LOWER(description),'oracle')>0) OR
+                        (instr(LOWER(description),'teradata')>0) OR
+                        (instr(LOWER(description),'sql server')>0)
+                        )
+        + pow(10, 3) * (
+                        (instr(LOWER(description),'statistic')>0) OR
+                        (instr(LOWER(description),'predictive')>0) OR
+                        (instr(LOWER(description),' aml ')>0) OR
+                        (instr(LOWER(description),' kyc ')>0) OR
+                        (instr(LOWER(description),' cdd ')>0) OR
+                        (instr(LOWER(description),' fcc ')>0)
+                        )
+        + pow(10, 2) * (instr(LOWER(description),'hadoop')>0)
+        + pow(10, 1) * (instr(LOWER(description),'vba')>0)
+        + pow(10, 0) * (instr(LOWER(description),'python')>0)
+        + pow(10, -1) * (instr(LOWER(description),'spark')>0)
+        + pow(10, -2) * (instr(LOWER(description),'databrick')>0)
+        
     """)
     # COMMITS CHANGES
     conn.commit()
