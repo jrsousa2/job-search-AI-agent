@@ -116,6 +116,53 @@ OR  location LIKE '%Lincoln%'
 OR  location LIKE '%Sioux Falls%'
 """
 
+PT_states = """
+    (instr(location,'CA')>0) OR location LIKE '%California%'
+OR  (instr(location,'WA')>0) OR location LIKE '%Washington%'
+OR  (instr(location,'OR')>0) OR location LIKE '%Oregon%'
+OR  (instr(location,'NV')>0) OR location LIKE '%Nevada%'
+"""
+
+PT_cities = """
+    location LIKE '%San Francisco%'
+OR  location LIKE '%SF%'
+OR  location LIKE '%San Jose%'
+OR  location LIKE '%Silicon Valley%'
+OR  location LIKE '%Palo Alto%'
+OR  location LIKE '%Mountain View%'
+OR  location LIKE '%Sunnyvale%'
+OR  location LIKE '%Santa Clara%'
+OR  location LIKE '%Fremont%'
+OR  location LIKE '%Oakland%'
+OR  location LIKE '%Berkeley%'
+OR  location LIKE '%Sacramento%'
+OR  location LIKE '%San Mateo%'
+OR  location LIKE '%Redwood City%'
+OR  location LIKE '%Foster City%'
+OR  location LIKE '%Irvine%'
+OR  location LIKE '%Los Angeles%'
+OR  location LIKE '%LA%'
+OR  location LIKE '%San Diego%'
+OR  location LIKE '%Santa Monica%'
+OR  location LIKE '%Pasadena%'
+OR  location LIKE '%Burbank%'
+OR  location LIKE '%Anaheim%'
+OR  location LIKE '%Long Beach%'
+OR  location LIKE '%Riverside%'
+OR  location LIKE '%Fresno%'
+OR  location LIKE '%Bakersfield%'
+OR  location LIKE '%Seattle%'
+OR  location LIKE '%Bellevue%'
+OR  location LIKE '%Redmond%'
+OR  location LIKE '%Kirkland%'
+OR  location LIKE '%Tacoma%'
+OR  location LIKE '%Portland%'
+OR  location LIKE '%Eugene%'
+OR  location LIKE '%Salem%'
+OR  location LIKE '%Las Vegas%'
+OR  location LIKE '%Reno%'
+"""
+
 def Update_TZ(DB_FILE):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -134,6 +181,7 @@ def Update_TZ(DB_FILE):
     SET TZ = CASE
         WHEN ({ET_states}) OR ({ET_cities}) THEN 'ET'
         WHEN ({CT_states}) OR ({CT_cities}) THEN 'CT'
+        WHEN ({PT_states}) OR ({PT_cities}) THEN 'PT'
         ELSE (
             SELECT TZ
             FROM location_TZ lt

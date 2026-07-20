@@ -167,7 +167,7 @@ I also added a is_US flag in the main table, with a simple logic, since I notice
 Because a candidate may not be interested in working outside of his time zone, this flag is very important. But
 job locations can be messy in the data, so it's not easy to use geolocator modules available in Python.
 
-But maybe they can still be used, and only jobs where a reliable time zone is returned will have tailored resumes. 
+I've decided to use field location and a simple logic based on states (case-insensitive) and major cities to assign the time zone. 
 
 ### Excel for testing
 
