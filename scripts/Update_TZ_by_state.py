@@ -72,6 +72,50 @@ OR  location LIKE '%Washington DC%'
 OR  location LIKE '%West Palm Beach%'
 """
 
+CT_states = """
+    (instr(location,'AL')>0) OR location LIKE '%Alabama%'
+OR  (instr(location,'AR')>0) OR location LIKE '%Arkansas%'
+OR  (instr(location,'IA')>0) OR location LIKE '%Iowa%'
+OR  (instr(location,'IL')>0) OR location LIKE '%Illinois%'
+OR  (instr(location,'KS')>0) OR location LIKE '%Kansas%'
+OR  (instr(location,'LA')>0) OR location LIKE '%Louisiana%'
+OR  (instr(location,'MN')>0) OR location LIKE '%Minnesota%'
+OR  (instr(location,'MO')>0) OR location LIKE '%Missouri%'
+OR  (instr(location,'MS')>0) OR location LIKE '%Mississippi%'
+OR  (instr(location,'NE')>0) OR location LIKE '%Nebraska%'
+OR  (instr(location,'ND')>0) OR location LIKE '%North Dakota%'
+OR  (instr(location,'OK')>0) OR location LIKE '%Oklahoma%'
+OR  (instr(location,'SD')>0) OR location LIKE '%South Dakota%'
+OR  (instr(location,'WI')>0) OR location LIKE '%Wisconsin%'
+"""
+
+CT_cities = """
+    location LIKE '%Chicago%'
+OR  location LIKE '%Dallas%'
+OR  location LIKE '%Fort Worth%'
+OR  location LIKE '%Houston%'
+OR  location LIKE '%Austin%'
+OR  location LIKE '%San Antonio%'
+OR  location LIKE '%Minneapolis%'
+OR  location LIKE '%St. Paul%'
+OR  location LIKE '%Saint Paul%'
+OR  location LIKE '%St Louis%'
+OR  location LIKE '%St. Louis%'
+OR  location LIKE '%Kansas City%'
+OR  location LIKE '%Omaha%'
+OR  location LIKE '%Oklahoma City%'
+OR  location LIKE '%Tulsa%'
+OR  location LIKE '%New Orleans%'
+OR  location LIKE '%Baton Rouge%'
+OR  location LIKE '%Little Rock%'
+OR  location LIKE '%Des Moines%'
+OR  location LIKE '%Madison%'
+OR  location LIKE '%Milwaukee%'
+OR  location LIKE '%Wichita%'
+OR  location LIKE '%Lincoln%'
+OR  location LIKE '%Sioux Falls%'
+"""
+
 def Update_TZ(DB_FILE):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -88,8 +132,8 @@ def Update_TZ(DB_FILE):
     cursor.execute(f"""
     UPDATE new_jobs
     SET TZ = CASE
-        WHEN ({ET_states}) OR ({ET_cities})
-        THEN 'ET'
+        WHEN ({ET_states}) OR ({ET_cities}) THEN 'ET'
+        WHEN ({CT_states}) OR ({CT_cities}) THEN 'CT'
         ELSE (
             SELECT TZ
             FROM location_TZ lt
