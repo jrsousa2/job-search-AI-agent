@@ -198,7 +198,7 @@ OR  location LIKE '%Idaho Falls%'
 OR  location LIKE '%Missoula%'
 """
 
-def Update_TZ(DB_FILE):
+def Update_TZ_by_state(DB_FILE):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
 
@@ -227,9 +227,10 @@ def Update_TZ(DB_FILE):
     # CLOSE CONNECTION
     conn.commit()
     conn.close()
-
+    # THE END
     print("Timezone update based on state/cities complete.")
+    return 0
 
 # CALL FUNCTION
 if __name__ == "__main__":
-    Update_TZ(DB_FILE)
+    Update_TZ_by_state(DB_FILE)

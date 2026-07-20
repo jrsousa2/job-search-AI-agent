@@ -88,7 +88,9 @@ def Update_flags(DB_FILE) -> int:
     cursor.execute("""
         UPDATE new_jobs
         SET score =
-          pow(10, 10) * (instr(LOWER(description),'manager')==0)
+          pow(10, 12) * (instr(LOWER(description),'manager')==0)
+        + pow(10, 11) * (TZ='ET') 
+        + pow(10, 10) * (TZ='CT') 
         + pow(10, 9) * (
                         (instr(LOWER(description),' sas ')>0) OR 
                         (instr(LOWER(description),'viya')>0)

@@ -26,7 +26,7 @@ def Exp_db_to_Excel(DB_FILE, input_table: str, suff: str, sql_filter: str) -> No
 if __name__ == "__main__":
     # exp_to_excel("new_jobs","3","")
     # Exp_db_to_Excel(DB_FILE,"new_jobs","Test","")
-    Exp_db_to_Excel(DB_FILE,"new_jobs","(flags)","")
+    Exp_db_to_Excel(DB_FILE,"new_jobs","(flags)2","")
 
     # EXPORT ALREADY EVALUATED TO EXCEL
     # Exp_db_to_excel(DB_FILE,"new_jobs_bak","(orig)","")
