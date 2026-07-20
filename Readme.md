@@ -168,6 +168,7 @@ Because a candidate may not be interested in working outside of his time zone, t
 job locations can be messy in the data, so it's not easy to use geolocator modules available in Python.
 
 I've decided to just use the field location and a simple logic based on states (case-insensitive) and major cities to assign the time zone. 
+The logic is useful, because some states and major cities appear in the description more frequently than others.
 
 ### Excel for testing
 

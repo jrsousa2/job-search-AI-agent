@@ -163,6 +163,41 @@ OR  location LIKE '%Las Vegas%'
 OR  location LIKE '%Reno%'
 """
 
+MT_states = """
+    (instr(location,'CO')>0) OR location LIKE '%Colorado%'
+OR  (instr(location,'AZ')>0) OR location LIKE '%Arizona%'
+OR  (instr(location,'UT')>0) OR location LIKE '%Utah%'
+OR  (instr(location,'NM')>0) OR location LIKE '%New Mexico%'
+OR  (instr(location,'WY')>0) OR location LIKE '%Wyoming%'
+OR  (instr(location,'MT')>0) OR location LIKE '%Montana%'
+OR  (instr(location,'ID')>0) OR location LIKE '%Idaho%'
+"""
+
+MT_cities = """
+    location LIKE '%Denver%'
+OR  location LIKE '%Boulder%'
+OR  location LIKE '%Colorado Springs%'
+OR  location LIKE '%Fort Collins%'
+OR  location LIKE '%Aurora%'
+OR  location LIKE '%Lakewood%'
+OR  location LIKE '%Pueblo%'
+OR  location LIKE '%Phoenix%'
+OR  location LIKE '%Scottsdale%'
+OR  location LIKE '%Tempe%'
+OR  location LIKE '%Mesa%'
+OR  location LIKE '%Tucson%'
+OR  location LIKE '%Salt Lake City%'
+OR  location LIKE '%Provo%'
+OR  location LIKE '%Ogden%'
+OR  location LIKE '%Albuquerque%'
+OR  location LIKE '%Santa Fe%'
+OR  location LIKE '%Cheyenne%'
+OR  location LIKE '%Billings%'
+OR  location LIKE '%Boise%'
+OR  location LIKE '%Idaho Falls%'
+OR  location LIKE '%Missoula%'
+"""
+
 def Update_TZ(DB_FILE):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -182,6 +217,7 @@ def Update_TZ(DB_FILE):
         WHEN ({ET_states}) OR ({ET_cities}) THEN 'ET'
         WHEN ({CT_states}) OR ({CT_cities}) THEN 'CT'
         WHEN ({PT_states}) OR ({PT_cities}) THEN 'PT'
+        WHEN ({MT_states}) OR ({MT_cities}) THEN 'MT'
         ELSE (
             SELECT TZ
             FROM location_TZ lt
