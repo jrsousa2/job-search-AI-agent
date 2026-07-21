@@ -77,8 +77,9 @@ that, although useful, require polishing. For example, if you ask the AI if the 
 point out issues (this is inconsistency, it can't agree with itself at times).
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
-so the prompt (Claude.md) was simplified, leading to less token usage.
-<br>The tasks can be run separately (for example, adding entries to the companies watchlist is a separate job).
+so the prompt (Claude.md) was simplified, leading to less token usage. The tasks can be run separately.
+<br>Btw, adding entries to the companies watchlist is no longer needed, I've found a huge source
+of ATS platforms and companies.
 
 Remember this is a job search, so the AI prompt needs to take into account multiple factors that one only realizes 
 when they start to actually look at the retrieved data (such as time zones, inaccurate or missing data, 
