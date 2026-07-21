@@ -24,7 +24,7 @@ Summary: 4 new | 13 already evaluated | 0 errors
 Table JOBS_HIST : 254 rows 
 Table new_jobs exported to new_jobs_2026-07-21.xlsx
 
-Start time: 2026-07-21 02:04:02.256677
-End time: 2026-07-21 02:04:08.974277
-Elapsed time: 0.11 minutes
+Start time: 2026-07-21 02:11:59.272475
+End time: 2026-07-21 02:12:06.767757
+Elapsed time: 0.12 minutes
 
