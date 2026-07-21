@@ -1,5 +1,229 @@
+API Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'osv_amerisure.wd5.myworkdayjobs.com'. (_ssl.c:1006)> 	Key: {"company":"Amerisure", "platform":"workday", "slug":"osv_amerisure/wd5/Amerisure"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Snowflake", "platform":"greenhouse", "slug":"snowflakecomputing"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Lindy", "platform":"ashby", "slug":"lindy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"RunPod", "platform":"greenhouse", "slug":"runpod"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Factorial", "platform":"greenhouse", "slug":"factorial"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Travelperk", "platform":"greenhouse", "slug":"travelperk"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Diabolocom", "platform":"lever", "slug":"diabolocom"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Templafy", "platform":"greenhouse", "slug":"templafy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Forto", "platform":"lever", "slug":"forto"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Runway", "platform":"greenhouse", "slug":"runwayml"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Vinted", "platform":"lever", "slug":"vinted"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Getir", "platform":"lever", "slug":"getir"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Opendoor", "platform":"greenhouse", "slug":"opendoor"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Retool", "platform":"greenhouse", "slug":"retool"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Forethought", "platform":"greenhouse", "slug":"forethought"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Grammarly", "platform":"greenhouse", "slug":"grammarly"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Motion", "platform":"ashby", "slug":"motion"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mutiny", "platform":"greenhouse", "slug":"mutiny"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Thumbtack", "platform":"greenhouse", "slug":"thumbtack"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alchemy", "platform":"greenhouse", "slug":"alchemy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Allbirds", "platform":"greenhouse", "slug":"allbirds"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"JPMorgan Chase", "platform":"workday", "slug":"jpmc/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"American Express", "platform":"workday", "slug":"amex/wd5/External"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"Discover Financial Services", "platform":"workday", "slug":"discover/wd5/External"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"State Farm", "platform":"workday", "slug":"statefarm/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Liberty Mutual Insurance", "platform":"workday", "slug":"libertymutual/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Chubb", "platform":"workday", "slug":"chubb/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"UnitedHealth Group", "platform":"workday", "slug":"uhg/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Erie Insurance", "platform":"workday", "slug":"erieinsurance/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Quest Diagnostics", "platform":"workday", "slug":"questdiagnostics/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Molina Healthcare", "platform":"workday", "slug":"molina/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Salesforce", "platform":"workday", "slug":"salesforce/wd1/External_Career_Site"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Ford Motor Company", "platform":"workday", "slug":"ford/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Caterpillar", "platform":"workday", "slug":"caterpillar/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Honeywell", "platform":"workday", "slug":"honeywell/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Eaton", "platform":"workday", "slug":"eaton/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Albertsons", "platform":"workday", "slug":"albertsons/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"FedEx", "platform":"workday", "slug":"fedex/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Kroger", "platform":"workday", "slug":"kroger/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Costco Wholesale", "platform":"workday", "slug":"costco/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Best Buy", "platform":"workday", "slug":"bestbuy/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"UPS", "platform":"workday", "slug":"ups/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Delta Air Lines", "platform":"workday", "slug":"delta/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Oracle", "platform":"workday", "slug":"oracle/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"SAP", "platform":"workday", "slug":"sap/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"ServiceNow", "platform":"workday", "slug":"servicenow/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Eli Lilly", "platform":"workday", "slug":"lilly/wd5/LLY"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Tokio Marine HCC", "platform":"workday", "slug":"tmhcc/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"FNB Corporation", "platform":"workday", "slug":"fnbcorp/wd1/FNBCORP"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Abeilleassurances", "platform":"workday", "slug":"abeilleassurances/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Academymortgage", "platform":"workday", "slug":"academymortgage/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Americanredcross", "platform":"workday", "slug":"americanredcross/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bamfhealth", "platform":"workday", "slug":"bamfhealth/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bamfunds", "platform":"workday", "slug":"bamfunds/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bioclinica", "platform":"workday", "slug":"bioclinica/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Blockone", "platform":"workday", "slug":"blockone/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Cambiahealth", "platform":"workday", "slug":"cambiahealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Capbluecross", "platform":"workday", "slug":"capbluecross/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Capitalenergy", "platform":"workday", "slug":"capitalenergy/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Capitalone", "platform":"workday", "slug":"capitalone/wd1"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Carbonhealth", "platform":"workday", "slug":"carbonhealth/wd1/Careers"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Carethrough", "platform":"workday", "slug":"carethrough/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Changehealthcare", "platform":"workday", "slug":"changehealthcare/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chime", "platform":"workday", "slug":"chime/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chimesolutions", "platform":"workday", "slug":"chimesolutions/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Citi", "platform":"workday", "slug":"citi/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Citicclsa", "platform":"workday", "slug":"citicclsa/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Conehealth", "platform":"workday", "slug":"conehealth/wd12"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Covenantcare", "platform":"workday", "slug":"covenantcare/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Cuehealth", "platform":"workday", "slug":"cuehealth/wd1"}
+
+API Error: The read operation timed out 	Key: {"company":"Chubbfiresecurity", "platform":"workday", "slug":"chubbfiresecurity/wd3/chubbfs"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Eversidehealth", "platform":"workday", "slug":"eversidehealth/wd501"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Fideliscare", "platform":"workday", "slug":"fideliscare/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"G6hospitality", "platform":"workday", "slug":"g6hospitality/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Goodlifefitness", "platform":"workday", "slug":"goodlifefitness/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Halyardhealth", "platform":"workday", "slug":"halyardhealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Healthcarepartners", "platform":"workday", "slug":"healthcarepartners/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Healthnowny", "platform":"workday", "slug":"healthnowny/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Healthplanone", "platform":"workday", "slug":"healthplanone/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Horizonpharma", "platform":"workday", "slug":"horizonpharma/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Imshealth", "platform":"workday", "slug":"imshealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Innovacare", "platform":"workday", "slug":"innovacare/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Intertrust", "platform":"workday", "slug":"intertrust/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Kindercare", "platform":"workday", "slug":"kindercare/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Lakelandhealth", "platform":"workday", "slug":"lakelandhealth/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Landsecurities", "platform":"workday", "slug":"landsecurities/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Lghealth", "platform":"workday", "slug":"lghealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Marlincapitalsolutions", "platform":"workday", "slug":"marlincapitalsolutions/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Marshfieldclinichealthsystems", "platform":"workday", "slug":"marshfieldclinichealthsystems/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Mcrtrust", "platform":"workday", "slug":"mcrtrust/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Medlyhealth", "platform":"workday", "slug":"medlyhealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Nbcunicareers", "platform":"workday", "slug":"nbcunicareers/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Netcare", "platform":"workday", "slug":"netcare/wd103"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Nortonlifelock", "platform":"workday", "slug":"nortonlifelock/wd1"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Obviohealth", "platform":"workday", "slug":"obviohealth/wd5/ObvioHealthCareers"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Opendoorhealth", "platform":"workday", "slug":"opendoorhealth/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Operosehealth", "platform":"workday", "slug":"operosehealth/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Osv Momentapharma", "platform":"workday", "slug":"osv-momentapharma/wd1"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Amerisure", "platform":"workday", "slug":"osv-amerisure/wd5/Amerisure"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Pennmutual", "platform":"workday", "slug":"pennmutual/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Phoebehealth", "platform":"workday", "slug":"phoebehealth/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Rabobank", "platform":"workday", "slug":"rabobank/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Redcare", "platform":"workday", "slug":"redcare/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Regionalhealth", "platform":"workday", "slug":"regionalhealth/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Stellahealth", "platform":"workday", "slug":"stellahealth/wd5"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Stanfordhealthcare", "platform":"workday", "slug":"stanfordhealthcare/wd5/SHC_External_Career_Site"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Trustmark", "platform":"workday", "slug":"trustmark/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Tuftshealthplan", "platform":"workday", "slug":"tuftshealthplan/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Udghealthcare", "platform":"workday", "slug":"udghealthcare/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Valleyhealthlink", "platform":"workday", "slug":"valleyhealthlink/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Valorhospitality", "platform":"workday", "slug":"valorhospitality/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Wyndhamcapital", "platform":"workday", "slug":"wyndhamcapital/wd1"}
 
 
-Jobs list had 17 records
-Saved 17 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Jobs list had 1967 records
+Saved 537 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 

@@ -123,8 +123,8 @@ These duplicates usually have a different location or URL, so they're not full d
 
 ### Job posting date
 
-I've added the job posting date to the table as well, since that is a very important part of the scoring logic. First-come
-applicants have advantage over late ones. Unfortunately workday uses a description, as opposed to an actual date.
+I've added the job posting date to the table as well, since that is a very important part of the scoring logic. Jobs posted
+more recently have higher weight. Unfortunately workday uses a description, as opposed to an actual date.
 
 ### Previously evaluated flag
 
