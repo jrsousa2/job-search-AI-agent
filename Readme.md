@@ -107,7 +107,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize specific industries.
 - Prioritize jobs that match my main skills.
 
-I'm also only taking the posting with the highest score per platform and company (I tailor resumes for the top 10, and apply for the rest with a regular resume).If there are more than one highest-scoring posting per company, I take only one. 
+I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there are more than one highest-scoring posting per company/platform, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
 
 And for now, I will keep running this process manually, until it's more accurate.
