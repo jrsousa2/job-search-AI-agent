@@ -5,23 +5,14 @@ import sqlite3
 from Repo_root import JOBS_DB, ATS_DB
 from Summarize_db import Summarize_db
 
-# WHERE type='table'
-def list_db_tables(input_db):
-    conn = sqlite3.connect(input_db)
-    cursor = conn.cursor()
-    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
-    # PRINT
-    for (table_name,) in cursor.fetchall():
-        # print(table_name.upper())
-        Summarize_db(input_db,f"{table_name}","")
-    conn.close()    
 
 def get_col_names(input_db,input_table):
     conn = sqlite3.connect(input_db)
     cursor = conn.cursor()
     cursor.execute(f"PRAGMA table_info({input_table})")
+    tables = cursor.fetchall()
     # COLS
-    column_names = [row[1] for row in cursor.fetchall()]
+    column_names = [row[1] for row in tables]
     #print("\n")
     print(input_table.upper(),"table Cols:",column_names)
     # ROWS
@@ -29,6 +20,22 @@ def get_col_names(input_db,input_table):
     row_count = cursor.fetchone()[0]
     print(input_table.upper(),"Row count:",row_count,"\n")
     conn.close() 
+
+# WHERE type='table'
+def list_db_tables(input_db):
+    conn = sqlite3.connect(input_db)
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
+    tables = cursor.fetchall()
+    # ROWS PER TABLE
+    for (table_name,) in tables:
+        # print(table_name.upper())
+        Summarize_db(input_db,f"{table_name}","")
+    print()
+    # COLS PER TABLE    
+    for (table_name,) in tables:
+        get_col_names(input_db,f"{table_name}")
+    conn.close()  
 
 def list_table_index(input_db,input_table):
     conn = sqlite3.connect(input_db)
