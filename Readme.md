@@ -71,7 +71,7 @@ During development, I'm also saving data structures returned by the AI as extern
 
 ### AI prompt
 
-AI prompt is a new tool (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
+AI prompt is a new tool (NLP) that allows you pass intructions to an AI model and it understands and carries out your intructions correctly.
 <br>Unfortunately, neither prompts nor AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
 that, although useful, require polishing. For example, if you ask the AI if the code it just produced is all right, it will usually 
 point out issues (this is inconsistency, it can't agree with itself at times).
@@ -108,7 +108,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize specific industries.
 - Prioritize jobs that match my main skills.
 
-I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there are more than one highest-scoring posting per company/platform, I take only one. 
+I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company/platform, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
 
 And for now, I will keep running this process manually, until it's more accurate.
@@ -126,10 +126,6 @@ If the same company is added more than once to the watchlist by mistake, duplica
 <br>To avoid that, the json watchlist file is deduped by platform, company and slug before use. 
 <br>The resulting records are still checked for duplicate final_job_id before being added to the new_jobs table, and any occasional duplicates are discarded.
 
-Since some identical jobs showed up in the top 10 jobs list, I may simplify the key 
-to just platform, company and title in the future (if the AI prompt doesn't handle it properly). 
-These duplicates usually have a different location or URL, so they're not full duplicates.
-
 ### Job posting date
 
 I've added the job posting date to the table as well, since that is a very important part of the scoring logic. Jobs posted
@@ -144,7 +140,7 @@ A flag called "New" is updated every time the job runs, in the table new_jobs (b
 From my observations, the is_remote flag is not always reliable, so it's tweaked based on the job description. 
 <br>The is_hybrid flag, on the other hand, is based entirely on the description.
 
-### US jobs flag
+### US posting flag
 
 I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
 E.g., if a foreign country name appears in the location (but US and its variants don't), then is_US=0.
