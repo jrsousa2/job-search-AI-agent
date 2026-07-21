@@ -158,6 +158,12 @@ I've decided to just use the field location and a simple logic based on states (
 CT, MT and PT, which are assigned in this order).  
 The logic is useful and reasonably accurate, since some states and major cities appear in the description more frequently than others.
 
+### Modularization
+
+Since I'm always improving or tweaking the main flags, I've created modules that can be run without executing the entire pipeline. 
+For example, I can easily update the scoring logic, and the highest-scoring job per company in the database by changing and running Update_flags.
+<br>I can also verify the results easily by exporting the database to Excel.
+
 ### ATS watchlist
 
 File watchlist.json is a template, you have to build your own. 
