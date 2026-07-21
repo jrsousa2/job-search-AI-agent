@@ -158,7 +158,12 @@ A Python script created by Claude and fixed by me suggests more entries for the 
 <br>URL errors go in the external log. Wrong entries are fixed manually with ChatGpt or Claude,
 and another script replaces the fixed entries in the list.
 
-This script is not strictly necessary, as searching for more entries can be done for free anyway.
+It seems I've found a useful source for ATS tenants, with lots of entries. But it
+needs to be cleaned up first, for the entries to be what my script expects. I've been querying
+mostly tech companies with the list I have, but not having worked in big tech before, the results
+have not been great. Switching to industries that I have more experience in should help.
+
+As I thought, the Claude script is not strictly necessary, as searching for more entries can be done for free.
 
 ### Pricing
 

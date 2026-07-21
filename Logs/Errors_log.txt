@@ -1,5 +1,99 @@
+API Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'osv_amerisure.wd5.myworkdayjobs.com'. (_ssl.c:1006)> 	Key: {"company":"Amerisure", "platform":"workday", "slug":"osv_amerisure/wd5/Amerisure"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Snowflake", "platform":"greenhouse", "slug":"snowflakecomputing"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Lindy", "platform":"ashby", "slug":"lindy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Factorial", "platform":"greenhouse", "slug":"factorial"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Travelperk", "platform":"greenhouse", "slug":"travelperk"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"RunPod", "platform":"greenhouse", "slug":"runpod"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Forto", "platform":"lever", "slug":"forto"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Diabolocom", "platform":"lever", "slug":"diabolocom"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Templafy", "platform":"greenhouse", "slug":"templafy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Vinted", "platform":"lever", "slug":"vinted"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Runway", "platform":"greenhouse", "slug":"runwayml"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Getir", "platform":"lever", "slug":"getir"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Opendoor", "platform":"greenhouse", "slug":"opendoor"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Retool", "platform":"greenhouse", "slug":"retool"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Forethought", "platform":"greenhouse", "slug":"forethought"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Grammarly", "platform":"greenhouse", "slug":"grammarly"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Motion", "platform":"ashby", "slug":"motion"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mutiny", "platform":"greenhouse", "slug":"mutiny"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alchemy", "platform":"greenhouse", "slug":"alchemy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Allbirds", "platform":"greenhouse", "slug":"allbirds"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Thumbtack", "platform":"greenhouse", "slug":"thumbtack"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"JPMorgan Chase", "platform":"workday", "slug":"jpmc/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"American Express", "platform":"workday", "slug":"amex/wd5/External"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"State Farm", "platform":"workday", "slug":"statefarm/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Liberty Mutual Insurance", "platform":"workday", "slug":"libertymutual/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"UnitedHealth Group", "platform":"workday", "slug":"uhg/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Erie Insurance", "platform":"workday", "slug":"erieinsurance/wd5/External"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"Discover Financial Services", "platform":"workday", "slug":"discover/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Chubb", "platform":"workday", "slug":"chubb/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Molina Healthcare", "platform":"workday", "slug":"molina/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Quest Diagnostics", "platform":"workday", "slug":"questdiagnostics/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Salesforce", "platform":"workday", "slug":"salesforce/wd1/External_Career_Site"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Ford Motor Company", "platform":"workday", "slug":"ford/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Honeywell", "platform":"workday", "slug":"honeywell/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Caterpillar", "platform":"workday", "slug":"caterpillar/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Eaton", "platform":"workday", "slug":"eaton/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Kroger", "platform":"workday", "slug":"kroger/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Albertsons", "platform":"workday", "slug":"albertsons/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Costco Wholesale", "platform":"workday", "slug":"costco/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Best Buy", "platform":"workday", "slug":"bestbuy/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Delta Air Lines", "platform":"workday", "slug":"delta/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"UPS", "platform":"workday", "slug":"ups/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"FedEx", "platform":"workday", "slug":"fedex/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"SAP", "platform":"workday", "slug":"sap/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Oracle", "platform":"workday", "slug":"oracle/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"ServiceNow", "platform":"workday", "slug":"servicenow/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Eli Lilly", "platform":"workday", "slug":"lilly/wd5/LLY"}
 
 
-Jobs list had 4 records
-Saved 4 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Jobs list had 926 records
+Saved 254 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 

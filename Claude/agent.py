@@ -67,22 +67,25 @@ def main():
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
 
     # CREATING JOBS    
-    print("Parsing job postings...")
+    print("Loading job postings...")
     jobs = load_jobs_db(DB_FILE)
     # jobs = parse_jobs(new_jobs_md)
     print(f"\tFound {len(jobs)} job(s) in database")
 
     print("Verifying job URLs...")
     valid_jobs, skipped = [], []
-    for job in jobs:
-        result = verify_url(job, timeout=config.URL_REQUEST_TIMEOUT)
-        # if result["valid"]:
-        if result["valid"] and result.get("confidence") == "high":
-            job["_url_check"] = result
-            valid_jobs.append(job)
-            # IF THE RESULT IS NOT VALID WITH HIGH CONFIDENCE, THE JOB LISTING IS SKIPPED.
-        else:
-            skipped.append({**job, "skip_reason": result["reason"]})
+    verify_urls = False
+    if verify_urls:
+        for job in jobs:
+            result = verify_url(job, timeout=config.URL_REQUEST_TIMEOUT)
+            # if result["valid"]:
+            if result["valid"] and result.get("confidence") == "high":
+                job["_url_check"] = result
+                valid_jobs.append(job)
+                # IF THE RESULT IS NOT VALID WITH HIGH CONFIDENCE, THE JOB LISTING IS SKIPPED.
+            else:
+                skipped.append({**job, "skip_reason": result["reason"]})
+    # PRINTS COUNTS
     print(f"  {len(valid_jobs)} valid, {len(skipped)} skipped")
 
     if Score_with_AI:
@@ -126,7 +129,8 @@ def main():
         ("URL", "url"),
         ("Reason", "filter_notes"),],)
     else:
-        recommended = valid_jobs
+        #recommended = valid_jobs
+        recommended = jobs
         score_input = 0
         score_cache_write = 0
         score_cache_read = 0

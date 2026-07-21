@@ -216,23 +216,24 @@ def Update_TZ_by_state(DB_FILE):
 
     # UPDATE JOBS TABLE
     cursor.execute(f"""
-    UPDATE new_jobs
+    UPDATE new_jobs as a
     SET TZ = CASE
         WHEN ({ET_states}) OR ({ET_cities}) THEN 'ET'
         WHEN ({CT_states}) OR ({CT_cities}) THEN 'CT'
         WHEN ({PT_states}) OR ({PT_cities}) THEN 'PT'
         WHEN ({MT_states}) OR ({MT_cities}) THEN 'MT'
         ELSE (
-            SELECT TZ
-            FROM location_TZ lt
-            WHERE lt.location = LOWER(TRIM(new_jobs.location))
-        ) END""")
+              SELECT TZ 
+              FROM location_TZ lt 
+              WHERE lt.location = LOWER(TRIM(a.location)) 
+              )
+        END""")
 
     # CLOSE CONNECTION
     conn.commit()
     conn.close()
     # THE END
-    print("Timezone update based on state/cities complete.")
+    print("Timezone update based on state/cities complete")
     return 0
 
 # CALL FUNCTION

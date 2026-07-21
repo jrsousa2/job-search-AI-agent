@@ -52,7 +52,7 @@ drop_table("jobs_hist")
 create_jobs_hist()
 
 # UPDATES THE HIST TABLE
-Update_jobs_hist(DB_FILE,"new_jobs_v2")
+#Update_jobs_hist(DB_FILE,"new_jobs_v2")
 
 # PRINTS NEW ROW COUNT
 Summarize_db(DB_FILE,"jobs_hist","")
