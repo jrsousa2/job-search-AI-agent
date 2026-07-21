@@ -6,7 +6,8 @@ import sqlite3
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-DB_FILE = REPO_ROOT / "Database" / "jobs.db"
+DB_Jobs_FILE = REPO_ROOT / "Database" / "jobs.db"
+DB_ATS_FILE = REPO_ROOT / "Database" / "ATS.db"
 # EXCEL_FILE = REPO_ROOT / "Excel" / Table / ".xlsx"
 
 # EXPORT A DB TABLE TO EXCEL
@@ -27,8 +28,7 @@ if __name__ == "__main__":
     # exp_to_excel("new_jobs","3","")
     # Exp_db_to_Excel(DB_FILE,"new_jobs","Test","")
     #Exp_db_to_Excel(DB_FILE,"new_jobs","(post)","WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1 and is_US = 1")
-    Exp_db_to_Excel(DB_FILE,"new_jobs","(post)","")
+    # Exp_db_to_Excel(DB_Jobs_FILE,"new_jobs","(post)","")
 
     # EXPORT ALREADY EVALUATED TO EXCEL
-    # Exp_db_to_excel(DB_FILE,"new_jobs_bak","(orig)","")
-    # Exp_db_to_excel(DB_FILE,"jobs_hist","(orig)","")
+    Exp_db_to_Excel(DB_ATS_FILE,"Ashby","(new)","")
