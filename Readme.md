@@ -101,12 +101,11 @@ such as SQL or titles, dominate all others, in a cascading process), leaving onl
 
 I think this new way makes more sense and is more accurate than the AI prompt. The hierarchy allows me to:
 
-- Exclude certain types of roles (such as managerial positions, for which I have limited experience)
-- Prioritize jobs located in the Eastern or Central Time zones
-- Prioritize recent job postings
-- Prioritize specific industries
-- Prioritize jobs that match my main skills
- 
+- Exclude certain types of roles (such as managerial positions, for which I have limited experience).
+- Prioritize jobs located in the Eastern or Central Time zones.
+- Prioritize recent job postings.
+- Prioritize specific industries.
+- Prioritize jobs that match my main skills.
 
 I'm also only taking the posting with the highest score per platform and company (I tailor resumes for the top 10, and apply for the rest with a regular resume).If there are more than one highest-scoring posting per company, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
