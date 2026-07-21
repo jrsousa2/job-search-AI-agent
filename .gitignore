@@ -8,7 +8,7 @@ jobs.db
 Update_flags.py
 *.pyc
 *.docx
-*.xls
+*.xlsx
 
 # PDF's
 *.pdf
