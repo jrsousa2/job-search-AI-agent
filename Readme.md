@@ -100,7 +100,11 @@ The way the AI was scoring the jobs was not great, because the prompt was not te
 such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (besides, I can use the savings too).
 
 I think this new way makes more sense and is more accurate than the AI prompt. The hierarchy allows me to exclude certain types of roles 
-(such as managerial, for which I don't have much experience), to give priority to jobs located in ET or CT, to some industries, and to jobs that include my main skills, etc.
+(such as managerial, for which I don't have much experience), to give priority to jobs located in ET or CT, to recent postings,
+to some industries, and to jobs that include my main skills, etc.
+
+I'm only taking the job posting with the highest score per company (I will tailor resumes for the top 10, and apply for the rest with a regular resume).
+If the there are more than one highest-scoring posting per company, I take only one.
 
 And for now, I will keep running this process manually, until it's more accurate.
 
