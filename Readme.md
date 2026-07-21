@@ -163,6 +163,9 @@ needs to be cleaned up first, for the entries to be what my script expects. I've
 mostly tech companies with the list I have, but not having worked in big tech before, the results
 have not been great. Switching to industries that I have more experience in should help.
 
+I think the best way to handle such an overwhelming number of ATS entries now is to create a database 
+(or an Excel file), since there are thousands. It would be very useful to have a field for the industry too.
+
 As I thought, the Claude script is not strictly necessary, as searching for more entries can be done for free.
 
 ### Pricing
