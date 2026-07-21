@@ -144,11 +144,6 @@ I've decided to just use the field location and a simple logic based on states (
 CT, MT and PT, which are assigned in this order).  
 The logic is useful and reasonably accurate, since some states and major cities appear in the description more frequently than others.
 
-### Excel for testing
-
-For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
-also allows only actual new jobs to be passed to Claude for evaluation).
-
 ### ATS watchlist
 
 File watchlist.json is a template, you have to build your own. 
@@ -196,6 +191,11 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 
 One run here entails feeding roughly a hundred jobs to be scored by Claude. Running a few web searches with AI for new entries into the companies watchlist. 
 And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
+
+### Excel for testing
+
+For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
+also allows only actual new jobs to be passed to Claude for evaluation).
 
 ### A snapshot of the table new_jobs:
 
