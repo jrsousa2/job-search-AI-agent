@@ -3,7 +3,6 @@
 An API-based Claude agent that uses Python code with a SQLite database to match jobs to a resume.
 
 **Please forgive me for the clumsy tutorial, I'm updating it as I go (for now).**
-<br>When it's cleaned up and finalized, I will make it into a neater HTML page instead.
 
 This is a work in progress. (Note I haven't uploaded files in development yet).
 
@@ -44,14 +43,15 @@ After querying the APIs of a few ATS systems, the data is saved to a SQLite data
 
 ### Python code
 
-The main program (check_boards.py) used to query the ATS job boards is based on code I got from [Scotty Peterson](https://www.scottypeterson.net/blog/how-to-build-a-job-hunt-system-with-claude-code).
-<br>But I have made major changes to it &mdash; I think the SQLite approach has made the data much more manageable. 
+The main program (check_boards.py) used to query the ATS job boards fetches job postings from four portals: Workday, Greenhouse, Lever and Ashby.
+Since taking it over, I have made major changes to it, such as moving from CSV flat files to a SQLite database &mdash; I think the SQLite approach has made the data much more manageable. 
+I've also expanded the collected data to include fields such as a hybrid flag, a US flag, the post date, the time zone, etc.
 
-Another improvement is the use of the Claude API, which allows a better control of the cost.
+Another improvement I introduced is the use of the Claude API, which allows a better control of the cost.
 
-I also made a change to speed up the ATS querying using module concurrent.futures.
-<br>With ThreadPoolExecutor, you can submit all (or many) requests to a thread pool.
-<br>This lets multiple ATS boards (Workday, Greenhouse, Lever, Ashby) be queried simultaneously.
+Another change was made to speed up the ATS querying, using Python's module concurrent.futures.
+<br>With this module, one can submit all (or many) requests to a thread pool, which allows 
+multiple ATS boards to be queried simultaneously.
 
 After the new_jobs database is created, the file that is fed to Claude is created from it (with only actual new jobs).
 
@@ -157,7 +157,7 @@ The logic is useful and reasonably accurate, since some states and major cities 
 ### Modularization
 
 Since I'm always improving or tweaking the main flags, I've created modules that can be run without executing the entire pipeline. 
-For example, I can easily update the scoring logic, and the highest-scoring job per company in the database by changing and running Update_flags.
+For example, I can easily update the scoring logic and the highest-scoring job per company in the database by changing and running Update_flags.
 <br>I can also verify the results easily by exporting the database to Excel.
 
 ### ATS watchlist
@@ -181,7 +181,7 @@ As I thought, the Claude script wasn't strictly necessary.
 
 ### Pricing
 
-I'm using code created by Claude to help me estimate the price per run, with a breakdown ot tokens
+I'm using a script created by Claude to help me estimate the price per run, with a breakdown ot tokens
 (input and output) for both the scorer, the tailored files creation and the watchlist suggestions. 
 <br>It's a program that captures data usage from these three main scripts. 
 Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
