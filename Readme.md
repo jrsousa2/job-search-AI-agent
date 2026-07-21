@@ -121,6 +121,11 @@ Since some identical jobs showed up in the top 10 jobs list, I may simplify the 
 to just platform, company and title in the future (if the AI prompt doesn't handle it properly). 
 These duplicates usually have a different location or URL, so they're not full duplicates.
 
+### Job posting date
+
+I need to try and add the posted date to the table as well, since that is a very important part of the scoring logic. First-come
+applicants have advantage over late ones.
+
 ### Previously evaluated flag
 
 A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise.
