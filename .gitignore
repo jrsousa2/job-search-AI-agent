@@ -8,6 +8,7 @@ jobs.db
 Update_flags.py
 *.pyc
 *.docx
+*.xls
 
 # PDF's
 *.pdf
@@ -31,3 +32,4 @@ Claude/*
 !Claude/agent.py
 !Claude/config.py
 !Claude/Read_scored_jobs_json.py
+!new_jobs_2026-07-21.xlsx
