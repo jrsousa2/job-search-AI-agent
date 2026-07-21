@@ -5,6 +5,7 @@ Script.txt
 Claude.md
 Update_flags.py
 *.pyc
+*.docx
 
 # PDF's
 *.pdf
@@ -22,8 +23,7 @@ Json/
 Claude/*
 
 # Database/
-
-# O ABAIXO INCLUI
+# THE BELOW INCLUDES
 !SAMPLE_resume_with_clickable_links.pdf
 !Claude/agent.py
 !Claude/config.py
