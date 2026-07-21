@@ -69,6 +69,9 @@ def main():
     # CREATING JOBS    
     print("Loading job postings...")
     jobs = load_jobs_db(DB_FILE)
+
+    # ONLY TOP COMPANY JOBS
+    jobs = [job for job in jobs if job["top_company_job"] == 1]
     # jobs = parse_jobs(new_jobs_md)
     print(f"\tFound {len(jobs)} job(s) in database")
 
@@ -148,13 +151,25 @@ def main():
     # ALL REMAINING JOBS (complement of top 10)
     other_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
 
+    # ONLY TOP COMPANY JOBS
+    # top_company_jobs = [job for job in recommended if job["top_company_job"] == 1]
+
+    # # TOP N JOBS
+    # top_for_docs = top_company_jobs[:config.TOP_N_FOR_DOCUMENTS]
+
+    # # ALL REMAINING TOP COMPANY JOBS
+    # other_jobs = top_company_jobs[config.TOP_N_FOR_DOCUMENTS:]
+
     # Top 10 - Job URLs
     top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10_URLs.html")
     write_html_digest(
         top10_URLs_path,
         f"Top 10 Job URLs — {date_str}",
         top_for_docs,
-        [("Score", "score"),
+        [("Platform", "platform"),
+         ("Posted", "post_date"),
+         ("Location", "location"),
+         ("Score", "score"),
          ("Work arrangement", "work_arrangement"),
          ("URL", "url"),],)
 
@@ -164,7 +179,10 @@ def main():
         other_URLs_path,
         f"Other Job URLs — {date_str}",
         other_jobs,
-        [("Score", "score"),
+        [("Platform", "platform"),
+         ("Posted", "post_date"),
+         ("Location", "location"),
+         ("Score", "score"),
          ("Work arrangement", "work_arrangement"),
          ("URL", "url"),],)
  
@@ -175,7 +193,10 @@ def main():
         failed_URL_path,
         f"Skipped Jobs — {date_str}",
         skipped,
-        [("Work arrangement", "work_arrangement"),
+        [("Platform", "platform"),
+         ("Posted", "post_date"),
+         ("Location", "location"),
+         ("Work arrangement", "work_arrangement"),
          ("URL", "url"),
          ("Reason", "skip_reason"),],)
 
