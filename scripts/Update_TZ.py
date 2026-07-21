@@ -1,6 +1,6 @@
 import sqlite3
 
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB
 from TZ_codes import get_timezone
 
 ET_states = """
@@ -29,8 +29,8 @@ OR  (instr(location,'WV')>0) OR location LIKE '%West Virginia%'
 OR  (instr(location,'DC')>0) OR location LIKE '%District of Columbia%'
 """
 
-def Update_TZ(DB_FILE):
-    conn = sqlite3.connect(DB_FILE)
+def Update_TZ(JOBS_DB):
+    conn = sqlite3.connect(JOBS_DB)
     cursor = conn.cursor()
 
     print("Updating timezone...")
@@ -100,4 +100,4 @@ def Update_TZ(DB_FILE):
 
 # CALL FUNCTION
 if __name__ == "__main__":
-    Update_TZ(DB_FILE)
+    Update_TZ(JOBS_DB)

@@ -18,6 +18,7 @@ Update_flags.py
 
 # Folder exclusions
 .vscode/
+openroles/
 Auxi/
 Old/
 Bak/

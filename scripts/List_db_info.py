@@ -2,21 +2,23 @@
 # USED FOR DEVELOPMENT
 import sqlite3
 
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB, ATS_DB
 from Summarize_db import Summarize_db
 
-conn = sqlite3.connect(DB_FILE)
-cursor = conn.cursor()
-
 # WHERE type='table'
-def list_db_tables():
+def list_db_tables(input_db):
+    conn = sqlite3.connect(input_db)
+    cursor = conn.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
     # PRINT
     for (table_name,) in cursor.fetchall():
         # print(table_name.upper())
-        Summarize_db(DB_FILE,f"{table_name}","")
+        Summarize_db(input_db,f"{table_name}","")
+    conn.close()    
 
-def get_col_names(input_table):
+def get_col_names(input_db,input_table):
+    conn = sqlite3.connect(input_db)
+    cursor = conn.cursor()
     cursor.execute(f"PRAGMA table_info({input_table})")
     # COLS
     column_names = [row[1] for row in cursor.fetchall()]
@@ -26,8 +28,11 @@ def get_col_names(input_table):
     cursor.execute(f"SELECT COUNT(*) FROM {input_table}")
     row_count = cursor.fetchone()[0]
     print(input_table.upper(),"Row count:",row_count,"\n")
+    conn.close() 
 
-def list_table_index(input_table):
+def list_table_index(input_db,input_table):
+    conn = sqlite3.connect(input_db)
+    cursor = conn.cursor()
     cursor.execute(f"PRAGMA index_list({input_table})")
     indexes = cursor.fetchall()
 
@@ -36,10 +41,12 @@ def list_table_index(input_table):
         if idx[2] == 1:  # unique
             index_name = idx[1]
             cursor.execute(f"PRAGMA index_info({index_name})")
-            print(cursor.fetchall())    
+            print(cursor.fetchall())  
+    conn.close()          
 
 # LIST TABLES
-list_db_tables()
+# list_db_tables(JOBS_DB)
+list_db_tables(ATS_DB)
 
 # GET COL NAMES
 # get_col_names("jobs_hist")
@@ -49,7 +56,6 @@ list_db_tables()
 # list_table_index("jobs_hist")
 
 # SUMMARIZE NEW_JOBS
-# row_count = Summarize_db(DB_FILE,"new_jobs","where New=1")
+# row_count = Summarize_db(JOBS_DB,"new_jobs","where New=1")
 
 # CLOSE CONNECTION
-conn.close()

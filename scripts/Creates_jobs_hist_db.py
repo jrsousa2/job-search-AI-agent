@@ -5,12 +5,12 @@
 from pathlib import Path
 import sqlite3
 
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB
 from Summarize_db import Summarize_db
 from Update_jobs_hist import Update_jobs_hist
 
 # THE CONNECTION AND CURSOR ARE GLOBAL
-conn = sqlite3.connect(DB_FILE)
+conn = sqlite3.connect(JOBS_DB)
 cursor = conn.cursor()
 
 # IF TABLE jobs_hist LAYOUT IS MODIFIED, DROP AND RECREATE
@@ -52,10 +52,10 @@ drop_table("jobs_hist")
 create_jobs_hist()
 
 # UPDATES THE HIST TABLE
-#Update_jobs_hist(DB_FILE,"new_jobs_v2")
+#Update_jobs_hist(JOBS_DB,"new_jobs_v2")
 
 # PRINTS NEW ROW COUNT
-Summarize_db(DB_FILE,"jobs_hist","")
+Summarize_db(JOBS_DB,"jobs_hist","")
 
 # UPDATES JOBS_HIST MANUALLY
 # update_jobs_hist()

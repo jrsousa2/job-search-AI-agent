@@ -4,7 +4,7 @@
 # THE SCORING LOGIC USED THE TIME ZONE (AS EXPLAINED IN THE README.MD FILE)
 import sqlite3
 
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB
 
 ET_states = """
     (instr(location,'CT')>0) OR location LIKE '%Connecticut%'
@@ -202,8 +202,8 @@ OR  location LIKE '%Idaho Falls%'
 OR  location LIKE '%Missoula%'
 """
 
-def Update_TZ_by_state(DB_FILE):
-    conn = sqlite3.connect(DB_FILE)
+def Update_TZ_by_state(JOBS_DB):
+    conn = sqlite3.connect(JOBS_DB)
     cursor = conn.cursor()
 
     print("Updating timezone by state...")
@@ -238,4 +238,4 @@ def Update_TZ_by_state(DB_FILE):
 
 # CALL FUNCTION
 if __name__ == "__main__":
-    Update_TZ_by_state(DB_FILE)
+    Update_TZ_by_state(JOBS_DB)

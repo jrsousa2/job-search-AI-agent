@@ -2,9 +2,9 @@
 # USED ONLY ONCE FOR DEVELOPMENT
 import sqlite3
 
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB
 
-conn = sqlite3.connect(DB_FILE)
+conn = sqlite3.connect(JOBS_DB)
 cursor = conn.cursor()
 
 # Create new table with final_job_id as first column

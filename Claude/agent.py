@@ -46,7 +46,7 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 # MY FUNCTIONS IN scripts
 from Create_AI_input import Create_AI_input
-from Repo_root import DB_FILE
+from Repo_root import JOBS_DB
 
 
 def read_file(path: str) -> str:
@@ -68,7 +68,7 @@ def main():
 
     # CREATING JOBS    
     print("Loading job postings...")
-    jobs = load_jobs_db(DB_FILE)
+    jobs = load_jobs_db(JOBS_DB)
 
     # ONLY TOP COMPANY JOBS
     jobs = [job for job in jobs if job["top_company_job"] == 1]
@@ -251,6 +251,6 @@ def main():
 # CALLS THE CODE
 if __name__ == "__main__":
     # CREATE AI INPUT
-    # rows = Create_AI_input(DB_FILE)
+    # rows = Create_AI_input(JOBS_DB)
     # if rows>0:
     main()

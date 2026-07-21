@@ -1,18 +1,18 @@
 # CREATES THE JOBS INPUT MD FILE FOR CLAUDE
 import sqlite3
 
-from Repo_root import REPO_ROOT, DB_FILE
+from Repo_root import REPO_ROOT, JOBS_DB
 from Summarize_db import Summarize_db
 
 OUTPUT_FILE = REPO_ROOT / "data" / "new_jobs.md"
 
-def Create_AI_input(DB_FILE):
-    conn = sqlite3.connect(DB_FILE)
+def Create_AI_input(JOBS_DB):
+    conn = sqlite3.connect(JOBS_DB)
     cursor = conn.cursor()
 
     # PRINTS NEW_JOBS COUNT
     print("Creating AI input...")
-    Summarize_db(DB_FILE,"new_jobs","where New=1")
+    Summarize_db(JOBS_DB,"new_jobs","where New=1")
 
     cursor.execute("""
             SELECT
@@ -60,4 +60,4 @@ def Create_AI_input(DB_FILE):
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
 if __name__ == "__main__":
-    new_jobs_count = Create_AI_input(DB_FILE)
+    new_jobs_count = Create_AI_input(JOBS_DB)
