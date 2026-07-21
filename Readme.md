@@ -103,8 +103,8 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 (such as managerial, for which I don't have much experience), to give priority to jobs located in ET or CT, to recent postings,
 to some industries, and to jobs that include my main skills, etc.
 
-I'm only taking the job posting with the highest score per company (I will tailor resumes for the top 10, and apply for the rest with a regular resume).
-If the there are more than one highest-scoring posting per company, I take only one. It's amazing how using SQL makes these tasks easy.
+I'm only taking the job posting with the highest score per company (I tailor resumes for the top 10, and apply for the rest with a regular resume).
+If there are more than one highest-scoring posting per company, I take only one. It's amazing how using SQL makes these tasks easy.
 
 And for now, I will keep running this process manually, until it's more accurate.
 
