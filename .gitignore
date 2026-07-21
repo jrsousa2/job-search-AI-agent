@@ -3,6 +3,8 @@ check_boards.py
 watchlist.json
 Script.txt
 Claude.md
+ATS.db
+jobs.db
 Update_flags.py
 *.pyc
 *.docx
