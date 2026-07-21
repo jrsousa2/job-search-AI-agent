@@ -154,8 +154,8 @@ A Python script created by Claude and fixed by me suggests more entries for the 
 and another script replaces the fixed entries in the list.
 
 It seems I've found a useful source for ATS tenants, with lots of entries. But it
-needs to be cleaned up first, for the entries to be what my script expects. I've been querying
-mostly tech companies with the list I have, but not having worked in big tech before, the results
+needs to be cleaned up first, for the entries to be what the script expects. I've been querying
+mostly tech companies so far with the list I have &mdash; but not having worked in big tech before, the results
 have not been great. Switching to industries that I have more experience in should help.
 
 I think the best way to handle such an overwhelming number of ATS entries now is to create a database 
