@@ -104,7 +104,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 to some industries, and to jobs that include my main skills, etc.
 
 I'm only taking the job posting with the highest score per company (I will tailor resumes for the top 10, and apply for the rest with a regular resume).
-If the there are more than one highest-scoring posting per company, I take only one.
+If the there are more than one highest-scoring posting per company, I take only one. It's amazing how using SQL makes these tasks easy.
 
 And for now, I will keep running this process manually, until it's more accurate.
 
