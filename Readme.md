@@ -72,9 +72,9 @@ During development, I'm also saving data structures returned by the AI as extern
 ### AI prompt
 
 AI prompt is a new tool (NLP) whereby you pass intructions to an AI model and it understands and carries out your intructions correctly.
-<br>Unfortunately neither a prompt nor an AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
-that, although useful, require polishing. If you ask the AI if the code it produced is all right, it will usually point out issues
-(this is inconsistency, it can't agree with itself at times).
+<br>Unfortunately, neither prompts nor AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
+that, although useful, require polishing. For example, if you ask the AI if the code it just produced is all right, it will usually 
+point out issues (this is inconsistency, it can't agree with itself at times).
 
 Some of the tasks of the original AI prompt (such as checking valid/active postings) have been moved to scripts, 
 so the prompt (Claude.md) was simplified, leading to less token usage.
