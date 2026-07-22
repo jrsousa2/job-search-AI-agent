@@ -152,30 +152,30 @@ def main():
     other_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
 
     # Top 10 - Job URLs
-    top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10.html")
+    # top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10.html")
     write_html_digest(
-        top10_URLs_path,
-        f"Top 10 Job URLs — {date_str}",
-        top_for_docs,
+        jobs,
         [("Platform", "platform"),
          ("Posted", "post_date"),
          ("Location", "location"),
          ("Score", "score"),
          ("Work arrangement", "work_arrangement"),
-         ("URL", "url"),],)
+         ("URL", "url"),])
+    
+    x=1
 
     # Other Scored - Job URLs
-    other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other.html")
-    write_html_digest(
-        other_URLs_path,
-        f"Other Job URLs — {date_str}",
-        other_jobs,
-        [("Platform", "platform"),
-         ("Posted", "post_date"),
-         ("Location", "location"),
-         ("Score", "score"),
-         ("Work arrangement", "work_arrangement"),
-         ("URL", "url"),],)
+    # other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other.html")
+    # write_html_digest(
+    #     other_URLs_path,
+    #     f"Other Job URLs — {date_str}",
+    #     other_jobs,
+    #     [("Platform", "platform"),
+    #      ("Posted", "post_date"),
+    #      ("Location", "location"),
+    #      ("Score", "score"),
+    #      ("Work arrangement", "work_arrangement"),
+    #      ("URL", "url"),],)
  
     # Failed URL TEST - Job URLs
     failed_URL_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Failed_URLs.html")
