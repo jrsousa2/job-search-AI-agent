@@ -177,8 +177,8 @@ mostly tech companies so far with the list I have &mdash; but not having worked 
 have not been great. Switching to industries that I have more experience in should help.
 
 I think the best way to handle such an overwhelming number of ATS entries now is to create a database, 
-since there are thousands. Unfortunately, it doesn't have a field for the industry.
-<br>But having all the entries in a database, it will be much easier to handle the ATS querying.
+since there are thousands. Unfortunately, it doesn't have a field for the industry. 
+But having all the entries in a database, it will be much easier to handle the ATS querying.
 
 This change has been made. The watchlist is now created from a database.
 
