@@ -1,10 +1,12 @@
+# CREATES A COPY OF THE CHROME DATABASE
 from pathlib import Path
 import shutil
 import sqlite3
-import tempfile
 
-# Chrome History database
-history_db = (
+from Exp_db_to_Excel import Exp_db_to_Excel
+from Summarize_db import Summarize_db
+
+chrome_dir = (
     Path.home()
     / "AppData"
     / "Local"
@@ -12,18 +14,22 @@ history_db = (
     / "Chrome"
     / "User Data"
     / "Default"
-    / "History"
 )
 
-# Make a temporary copy (History is usually locked by Chrome)
-# tmp_db = Path(tempfile.gettempdir()) / "Chrome_History_Copy.db"
+dest_dir = Path(r"D:\Agent\Database")
+new_db = dest_dir / "History"
 
-tmp_db = Path(tempfile.gettempdir()) / "Chrome_History.db"
+# dest_dir.mkdir(exist_ok=True)
 
-shutil.copy2(history_db, tmp_db)
+for file in ["History", "History-wal", "History-shm"]:
+    src = chrome_dir / file
+    if src.exists():
+        shutil.copy2(src, dest_dir / file)
+
+print("Chrome history copied")
 
 # Load all visited URLs into a set
-conn = sqlite3.connect(tmp_db)
+conn = sqlite3.connect(new_db)
 cursor = conn.cursor()
 
 # Create a new table
@@ -34,6 +40,8 @@ cursor.execute("""
     )
 """)
 
+end_count = Summarize_db(new_db, "urls", "")
+
 # Chrome stores timestamps as microseconds since 1601-01-01 UTC
 cursor.execute("""
     INSERT OR REPLACE INTO visited_urls (url, visited_at)
@@ -41,12 +49,11 @@ cursor.execute("""
         url,
         datetime(last_visit_time / 1000000 - 11644473600, 'unixepoch')
     FROM urls
-    WHERE last_visit_time > 0
+    --WHERE last_visit_time > 0
 """)
 
+conn.commit()
 conn.close()
-tmp_db.unlink()
 
-# Example:
-# if job["url"] in visited_urls:
-#     print("Already visited")
+end_count = Summarize_db(new_db, "visited_urls", "")
+Exp_db_to_Excel(new_db,"visited_urls","","")

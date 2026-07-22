@@ -139,7 +139,10 @@ more recently have higher weight. Unfortunately workday uses a description, as o
 
 ### Previously evaluated flag
 
-A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. Maybe I could use Chrome's visited URLs SQLite database to flag applied jobs, currently it's somewhat manual.
+A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. 
+
+The next change will use the Chrome's visited URLs SQLite database to flag applied jobs, as currently it's very manual. It's a daily process,
+where I insert visited URLs into an existing history table. Then the URLs are used to flag new versus old postings.
 
 ### Remote/hybrid flags
 
