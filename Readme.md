@@ -86,13 +86,15 @@ when they start to actually look at the retrieved data (such as time zones, inac
 whether the role is managerial, job location, etc.)
 <br>Besides, working with AI is not foolproof, it makes mistakes at times [for example, including jobs that don't meet the criteria
 of your AI prompt -- such as non-US jobs -- duplicate jobs in the top 10 list (with different URLs), etc]. 
-<br>Be prepared to tweak your prompts constantly.
+
+Be prepared to tweak your prompts constantly.
 
 ### Checking if posting is active
 
 The ATS is not being verified by Claude, it's being verified by a function verify_url(), which checks the URL accessibility
 and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
-<br>If the result is not valid with high confidence, the job listing is skipped.
+
+If the result is not valid with high confidence, the job listing is skipped.
 
 ### Scoring logic
 
