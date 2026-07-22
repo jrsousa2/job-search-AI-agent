@@ -66,8 +66,8 @@ The Python programs require anthropic, pandas, requests, markdown, jinja2, pypdf
 You must also install the native Windows dependencies (GTK/Pango/Cairo) of WeasyPrint, since the PDFs are generated in Python.
 Download the GTK3 Runtime (64-bit) for Windows.
 
-During development, I'm also saving data structures returned by the AI as external json files, so I don't have to use the API again and use more tokens.
-<br>I'm also taking backups of the tables, if something goes wrong.
+During development, I'm saving data structures returned by the AI as external json files, so I don't have to use the API again and use more tokens.
+I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
 
