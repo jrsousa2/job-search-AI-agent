@@ -231,6 +231,9 @@ An external log file is created to indentify and troubleshoot ATS-related errors
 The bottom line is, I'm now only using AI for resume tailoring. The heuristic score is more accurate, and the rationale
 is much easier to create, manage and verify.
 
+I'm now creating four single URL lists, one for each ATS portal. Still thinking about how to improve this process, but
+I've come a long way, I've put in many hours of work on this pipeline.
+
 ### Documentation
 
 For a guide to this repository, please visit:
