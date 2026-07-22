@@ -152,7 +152,7 @@ def main():
     other_jobs = recommended[config.TOP_N_FOR_DOCUMENTS:]
 
     # Top 10 - Job URLs
-    top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10_URLs.html")
+    top10_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Top10.html")
     write_html_digest(
         top10_URLs_path,
         f"Top 10 Job URLs — {date_str}",
@@ -165,7 +165,7 @@ def main():
          ("URL", "url"),],)
 
     # Other Scored - Job URLs
-    other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other_URLs.html")
+    other_URLs_path = os.path.join(config.DIGEST_DIR, f"{date_str}_Other.html")
     write_html_digest(
         other_URLs_path,
         f"Other Job URLs — {date_str}",

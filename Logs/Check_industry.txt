@@ -1,0 +1,1447 @@
+Company: 3y Health -> Industry: healthcare
+Company: Abby Care -> Industry: healthcare
+Company: Acorns -> Industry: banking_finance
+Company: Agentis Capital Advisors -> Industry: banking_finance
+Company: Allarahealth -> Industry: healthcare
+Company: Allica Bank -> Industry: banking_finance
+Company: Alpacahealth -> Industry: healthcare
+Company: Ambiencehealthcare -> Industry: healthcare
+Company: Anglehealth -> Industry: healthcare
+Company: Annaautismcare -> Industry: healthcare
+Company: Ansiblehealth -> Industry: healthcare
+Company: Arb Interactive -> Industry: banking_finance
+Company: Argon Ai -> Industry: insurance
+Company: Array Behavioral Care -> Industry: healthcare
+Company: Artafinance -> Industry: banking_finance
+Company: Artemisanalytics -> Industry: other
+Company: Aso Careers -> Industry: healthcare
+Company: Assorthealth -> Industry: healthcare
+Company: Atomic Financial -> Industry: banking_finance
+Company: Atroposhealth -> Industry: healthcare
+Company: August Health -> Industry: healthcare
+Company: Avelios Medical -> Industry: healthcare
+Company: Axle Careers -> Industry: healthcare
+Company: Axle Health -> Industry: healthcare
+Company: Backmarket -> Industry: other
+Company: Bankjoy -> Industry: banking_finance
+Company: Basiccapital -> Industry: banking_finance
+Company: Bayesianhealth -> Industry: healthcare
+Company: Big Leap Health -> Industry: healthcare
+Company: Bjakcareer -> Industry: healthcare
+Company: Block Labs -> Industry: banking_finance
+Company: Blockdaemon -> Industry: banking_finance
+Company: Blockhouse -> Industry: banking_finance
+Company: Blockit -> Industry: banking_finance
+Company: Blockstream -> Industry: banking_finance
+Company: Blockworks -> Industry: banking_finance
+Company: Blooming Health -> Industry: healthcare
+Company: Blossom Health -> Industry: healthcare
+Company: Braintrust -> Industry: banking_finance
+Company: Branchinsurance -> Industry: insurance
+Company: Bravehealth -> Industry: healthcare
+Company: Brooklyn Health -> Industry: healthcare
+Company: Bunkerhillhealth -> Industry: healthcare
+Company: Candidhealth -> Industry: healthcare
+Company: Canvas Medical -> Industry: healthcare
+Company: Capital V Strategies -> Industry: banking_finance
+Company: Careerstrengo -> Industry: healthcare
+Company: Careswift -> Industry: healthcare
+Company: Cargo One -> Industry: insurance
+Company: Casdin Capital -> Industry: banking_finance
+Company: Centuro Global Careers -> Industry: healthcare
+Company: Chainalysis Careers -> Industry: healthcare
+Company: Citizen -> Industry: banking_finance
+Company: Civicmarketplace -> Industry: other
+Company: Claim Health -> Industry: insurance
+Company: Claimsorted -> Industry: insurance
+Company: Clearbank -> Industry: banking_finance
+Company: Climate Finance Solutions -> Industry: banking_finance
+Company: Clinicallyai -> Industry: healthcare
+Company: Codes Health -> Industry: healthcare
+Company: Common Fund -> Industry: banking_finance
+Company: Conduit Health -> Industry: healthcare
+Company: Confusioncapital -> Industry: banking_finance
+Company: Coursecareers -> Industry: healthcare
+Company: Creditgenie -> Industry: banking_finance
+Company: Crossjoin Solutions -> Industry: healthcare
+Company: Cylinderhealth -> Industry: healthcare
+Company: Dave -> Industry: banking_finance
+Company: Decodahealth -> Industry: healthcare
+Company: Deeter Analytics -> Industry: other
+Company: Definelycareers -> Industry: healthcare
+Company: Develop Health -> Industry: healthcare
+Company: Earnedwealth -> Industry: banking_finance
+Company: Emergence Capital Partners -> Industry: banking_finance
+Company: Epsilon Health -> Industry: healthcare
+Company: Fetch Pet Health -> Industry: healthcare
+Company: Finni Health -> Industry: healthcare
+Company: Fira Health -> Industry: healthcare
+Company: Flaglerhealth -> Industry: healthcare
+Company: Fortuna Health -> Industry: healthcare
+Company: Foundationhealthcareers -> Industry: healthcare
+Company: Frontcareers -> Industry: healthcare
+Company: Fundamental -> Industry: banking_finance
+Company: Fundamentalresearchlabs -> Industry: banking_finance
+Company: Fundamentalxr -> Industry: banking_finance
+Company: Fundingcircle -> Industry: banking_finance
+Company: Fundwell -> Industry: banking_finance
+Company: Generatorhealth -> Industry: healthcare
+Company: Greenlitecareers -> Industry: healthcare
+Company: Gridcare -> Industry: healthcare
+Company: H2analytics -> Industry: other
+Company: Healthaxis -> Industry: healthcare
+Company: Healthleap -> Industry: healthcare
+Company: Healthmatch -> Industry: healthcare
+Company: Healthsherpa -> Industry: healthcare
+Company: Healthtech 1 -> Industry: healthcare
+Company: Hightop Health -> Industry: healthcare
+Company: Hike Medical -> Industry: healthcare
+Company: Hinge Health -> Industry: healthcare
+Company: Hivehealth -> Industry: healthcare
+Company: Homera Health -> Industry: healthcare
+Company: Hubstaff -> Industry: banking_finance
+Company: Humanarchive -> Industry: insurance
+Company: Humatahealth -> Industry: healthcare
+Company: Infisical -> Industry: banking_finance
+Company: Interrahealth -> Industry: healthcare
+Company: Jellyfish -> Industry: banking_finance
+Company: Jellyfishcareers -> Industry: banking_finance
+Company: Jordandigitalmarketing -> Industry: other
+Company: Joyfulhealth -> Industry: healthcare
+Company: Kairon Health -> Industry: healthcare
+Company: Kinsteadhealth -> Industry: healthcare
+Company: Kyanhealth -> Industry: healthcare
+Company: Latitudecareers -> Industry: healthcare
+Company: Leadbank -> Industry: banking_finance
+Company: Legionhealth -> Industry: healthcare
+Company: Lemon Markets -> Industry: other
+Company: Lemonade -> Industry: insurance
+Company: Life Space Digital -> Industry: insurance
+Company: Lotushealth -> Industry: healthcare
+Company: Macquarie Airfinance Careers -> Industry: banking_finance
+Company: Maneuver Marketing -> Industry: other
+Company: Marblehealth -> Industry: healthcare
+Company: Mariner Careers -> Industry: healthcare
+Company: Montauk Capital -> Industry: banking_finance
+Company: Myedspacecareers -> Industry: healthcare
+Company: Nabihealth -> Industry: healthcare
+Company: Nativemarkets -> Industry: other
+Company: Neko Health -> Industry: healthcare
+Company: Neofinancial -> Industry: banking_finance
+Company: Neon Health -> Industry: healthcare
+Company: Nest Health -> Industry: healthcare
+Company: Netwealth -> Industry: banking_finance
+Company: Nevoya -> Industry: insurance
+Company: Nexus Marketing -> Industry: other
+Company: Niramedical -> Industry: healthcare
+Company: Nollahealth -> Industry: healthcare
+Company: Onehealth -> Industry: healthcare
+Company: Onoshealth -> Industry: healthcare
+Company: Onramp -> Industry: banking_finance
+Company: Openloophealth -> Industry: healthcare
+Company: Openobserve Careers -> Industry: healthcare
+Company: Outmarket -> Industry: other
+Company: Partisiablockchain -> Industry: banking_finance
+Company: Pavebank -> Industry: banking_finance
+Company: Pearlhealth -> Industry: healthcare
+Company: Pivotal Health -> Industry: healthcare
+Company: Plaid -> Industry: banking_finance
+Company: Pluralfinance -> Industry: banking_finance
+Company: Pluto Health -> Industry: healthcare
+Company: Polaranalytics -> Industry: other
+Company: Politanalytics -> Industry: other
+Company: Polymarket -> Industry: other
+Company: Pplwise -> Industry: banking_finance
+Company: Prevail Fund -> Industry: banking_finance
+Company: Qualified Health Pbc -> Industry: healthcare
+Company: Quantilehealth -> Industry: healthcare
+Company: Radiant -> Industry: insurance
+Company: Radiant Industries -> Industry: insurance
+Company: Radiantgraph -> Industry: insurance
+Company: Rainfallhealth -> Industry: healthcare
+Company: Ramp -> Industry: banking_finance
+Company: Relevanceai -> Industry: insurance
+Company: Rogerhealthcare -> Industry: healthcare
+Company: Sagecare -> Industry: healthcare
+Company: Sailorhealth -> Industry: healthcare
+Company: Savvyinsurance Trellis -> Industry: insurance
+Company: Scoreplay -> Industry: insurance
+Company: Seriesai -> Industry: insurance
+Company: Sheerhealth -> Industry: healthcare
+Company: Siftwell Analytics -> Industry: other
+Company: Slash Financial -> Industry: banking_finance
+Company: Smarkets -> Industry: other
+Company: Sola Insurance -> Industry: insurance
+Company: Sprinter Health -> Industry: healthcare
+Company: Standinsurance -> Industry: insurance
+Company: Starfish Space Inc -> Industry: banking_finance
+Company: Stealth Healthtech Startup -> Industry: healthcare
+Company: Stealthventurecapitalfirm -> Industry: banking_finance
+Company: Stellar Health -> Industry: healthcare
+Company: Subsets -> Industry: banking_finance
+Company: Substack -> Industry: banking_finance
+Company: Summerhealth -> Industry: healthcare
+Company: Tandem Health -> Industry: healthcare
+Company: Tavahealth -> Industry: healthcare
+Company: Teal Health -> Industry: healthcare
+Company: Tembo Health -> Industry: healthcare
+Company: Tesslcareers -> Industry: healthcare
+Company: Triedge Investments -> Industry: banking_finance
+Company: Truelinkfinancial -> Industry: banking_finance
+Company: Trust Wallet -> Industry: banking_finance
+Company: Trustlab -> Industry: banking_finance
+Company: Turquoise Health -> Industry: healthcare
+Company: Unblock Computing -> Industry: banking_finance
+Company: Unblocked -> Industry: banking_finance
+Company: Valeriehealth -> Industry: insurance
+Company: Vantageanalytics -> Industry: other
+Company: Variant Fund -> Industry: banking_finance
+Company: Versemedical -> Industry: healthcare
+Company: Virahealth -> Industry: healthcare
+Company: Virtahealth -> Industry: healthcare
+Company: Vivian Health -> Industry: healthcare
+Company: Volition Capital -> Industry: banking_finance
+Company: Voyant Photonics -> Industry: insurance
+Company: Wealth Com -> Industry: banking_finance
+Company: Wealthsimple -> Industry: banking_finance
+Company: Willow Health -> Industry: healthcare
+Company: Xbowcareers -> Industry: healthcare
+Company: You Health -> Industry: healthcare
+Company: Zedfinancial -> Industry: banking_finance
+Company: 1uphealth -> Industry: healthcare
+Company: 30thstreetanimalhospital -> Industry: healthcare
+Company: 3dayblindscorporate -> Industry: insurance
+Company: Abdielcapital -> Industry: banking_finance
+Company: Acadiapharmaceuticals -> Industry: healthcare
+Company: Acgcareers -> Industry: healthcare
+Company: Achievementfirstnetworksupportcareers -> Industry: healthcare
+Company: Acornhealth -> Industry: healthcare
+Company: Adahealth -> Industry: healthcare
+Company: Adamsstreetpartnersearlycareers -> Industry: healthcare
+Company: Adaptivebiotechnologies -> Industry: healthcare
+Company: Adyen -> Industry: banking_finance
+Company: Affirm -> Industry: banking_finance
+Company: Affirmedrxpbc -> Industry: banking_finance
+Company: Affordablepetcareatfourcorners -> Industry: healthcare
+Company: Agecareers -> Industry: healthcare
+Company: Agwestfarmcredit -> Industry: banking_finance
+Company: Aizerhealth -> Industry: healthcare
+Company: Akunacapital -> Industry: banking_finance
+Company: Alayacare -> Industry: healthcare
+Company: Allcareers -> Industry: healthcare
+Company: Allenanimalhospital -> Industry: healthcare
+Company: Allworthfinancial -> Industry: banking_finance
+Company: Alphagrepsecurities -> Industry: banking_finance
+Company: Altruist -> Industry: banking_finance
+Company: Altscore -> Industry: insurance
+Company: Amaehealth -> Industry: healthcare
+Company: Americanfloodcoalition -> Industry: insurance
+Company: Americanmarketingassociation -> Industry: other
+Company: Amplemarket -> Industry: other
+Company: Animalmedicalcenter -> Industry: healthcare
+Company: Annexushealth -> Industry: healthcare
+Company: Ansabiotechnologies -> Industry: healthcare
+Company: Applytoboltwise -> Industry: banking_finance
+Company: Applytopassagehealth -> Industry: healthcare
+Company: Appsmartcareers -> Industry: healthcare
+Company: Appstarfinancial -> Industry: banking_finance
+Company: Aquaticcapitalmanagement -> Industry: banking_finance
+Company: Arbitalhealth -> Industry: healthcare
+Company: Arcadiacareers -> Industry: healthcare
+Company: Arielinvestments -> Industry: banking_finance
+Company: Arizonaliverhealth -> Industry: healthcare
+Company: Arlingtoncatclinic -> Industry: healthcare
+Company: Arnoldveterinaryhospital -> Industry: healthcare
+Company: Arspharmaceuticalsoperationsinc -> Industry: healthcare
+Company: Ascendanalytics -> Industry: other
+Company: Ascendhealthcare -> Industry: healthcare
+Company: Assemblyhealth -> Industry: healthcare
+Company: Asubsidiaryofsca -> Industry: banking_finance
+Company: Atomwise -> Industry: banking_finance
+Company: Authenticinsurance -> Industry: insurance
+Company: Automatticcareers -> Industry: healthcare
+Company: Automatticfinance -> Industry: banking_finance
+Company: Avalynpharma -> Industry: healthcare
+Company: Axicorpfinancialservicesptyltd -> Industry: banking_finance
+Company: Ayahealthcare -> Industry: healthcare
+Company: Azuritypharmaceuticals -> Industry: healthcare
+Company: Azuritypharmaceuticalsindia -> Industry: healthcare
+Company: Baincapitalventures -> Industry: banking_finance
+Company: Baroncapital -> Industry: banking_finance
+Company: Bathurstdundasdentalclinic -> Industry: healthcare
+Company: Bauerhockeycascademaveriklacrosse -> Industry: healthcare
+Company: Bauerhockeycascademaveriklacrossefc -> Industry: healthcare
+Company: Bcapitalgroup54 -> Industry: banking_finance
+Company: Bcifinanceltd -> Industry: banking_finance
+Company: Bcscareers -> Industry: healthcare
+Company: Beamhealthcare -> Industry: healthcare
+Company: Bebiopharma -> Industry: healthcare
+Company: Belltowerfundgroup -> Industry: banking_finance
+Company: Belonghealth -> Industry: healthcare
+Company: Beltsvilleveterinaryhospital -> Industry: healthcare
+Company: Bertramcapitalmanagement -> Industry: banking_finance
+Company: Bescareers -> Industry: healthcare
+Company: Betterment -> Industry: banking_finance
+Company: Bevicareers -> Industry: healthcare
+Company: Beyondfinance -> Industry: banking_finance
+Company: Beyondtrust -> Industry: banking_finance
+Company: Bicyclehealth -> Industry: healthcare
+Company: Billtrust -> Industry: banking_finance
+Company: Billtrust1 -> Industry: banking_finance
+Company: Blackbirdhealth -> Industry: healthcare
+Company: Blackedgecapital -> Industry: banking_finance
+Company: Blinkhealth -> Industry: healthcare
+Company: Block -> Industry: banking_finance
+Company: Blockchain -> Industry: banking_finance
+Company: Blockgraph -> Industry: banking_finance
+Company: Blockrenovation -> Industry: banking_finance
+Company: Bluecrestcapitalmanagement -> Industry: banking_finance
+Company: Bluecurrent -> Industry: banking_finance
+Company: Bluefishai -> Industry: banking_finance
+Company: Bluelabsanalyticsinc -> Industry: other
+Company: Boostinsurance -> Industry: insurance
+Company: Bouldercare -> Industry: healthcare
+Company: Bracebridgecapital -> Industry: banking_finance
+Company: Braintrusttutors -> Industry: banking_finance
+Company: Brandermillanimalhospital -> Industry: healthcare
+Company: Brex -> Industry: banking_finance
+Company: Brileysecurities -> Industry: banking_finance
+Company: Brscorporate -> Industry: insurance
+Company: Bryantparkconsulting -> Industry: insurance
+Company: Bubbleskincare -> Industry: healthcare
+Company: Buckeystownveterinaryhospital -> Industry: healthcare
+Company: Buildingdecarbonizationcoalition -> Industry: insurance
+Company: C6bank -> Industry: banking_finance
+Company: Cadencehealth -> Industry: healthcare
+Company: Calahealth -> Industry: healthcare
+Company: Caliberhealth -> Industry: healthcare
+Company: Callinglakesdentalclinic -> Industry: healthcare
+Company: Canopycare -> Industry: healthcare
+Company: Capitalize -> Industry: banking_finance
+Company: Capitalontap -> Industry: banking_finance
+Company: Capitalrx -> Industry: banking_finance
+Company: Capitaltg -> Industry: banking_finance
+Company: Capstoneinvestmentadvisors -> Industry: banking_finance
+Company: Careaccess -> Industry: healthcare
+Company: Caredxinc -> Industry: healthcare
+Company: Careem -> Industry: healthcare
+Company: Careersatkokua -> Industry: healthcare
+Company: Careersday -> Industry: healthcare
+Company: Careerteam -> Industry: healthcare
+Company: Careervillage -> Industry: healthcare
+Company: Carefeed -> Industry: healthcare
+Company: Careportalinc -> Industry: healthcare
+Company: Cargomatic -> Industry: insurance
+Company: Cartahealthcare -> Industry: healthcare
+Company: Castaigroupinc -> Industry: insurance
+Company: Centriahealthcare -> Industry: healthcare
+Company: Cerebralclinicalrecruiting -> Industry: healthcare
+Company: Cerulacare -> Industry: healthcare
+Company: Chameleonconsultinggroup -> Industry: banking_finance
+Company: Chaparralmedicalgroup -> Industry: healthcare
+Company: Charlesriveranalytics90 -> Industry: other
+Company: Charliehealth -> Industry: healthcare
+Company: Charliehealthbehavioralhealthoperations -> Industry: healthcare
+Company: Charliehealthepd -> Industry: healthcare
+Company: Charliehealthinternalcandidates -> Industry: healthcare
+Company: Chime -> Industry: banking_finance
+Company: Chompscareers -> Industry: healthcare
+Company: Christiancareministry -> Industry: healthcare
+Company: Cipherhealth -> Industry: healthcare
+Company: Citycentredentalclinic -> Industry: healthcare
+Company: Civicnation -> Industry: insurance
+Company: Civisanalytics -> Industry: other
+Company: Clarksoneyecare -> Industry: healthcare
+Company: Clearscoretechnologylimited -> Industry: insurance
+Company: Cleerlyhealth -> Industry: healthcare
+Company: Cloverhealth -> Industry: healthcare
+Company: Clubmonaco -> Industry: banking_finance
+Company: Coalition -> Industry: insurance
+Company: Coherehealth -> Industry: healthcare
+Company: Collahealth -> Industry: healthcare
+Company: Collectivehealth -> Industry: healthcare
+Company: Collegiumpharma -> Industry: healthcare
+Company: Compasshealthcenter -> Industry: healthcare
+Company: Compeerfinancial -> Industry: banking_finance
+Company: Concerthealth -> Industry: healthcare
+Company: Connectwise -> Industry: banking_finance
+Company: Convelocareers -> Industry: healthcare
+Company: Copperstatefarms -> Industry: insurance
+Company: Coretrustpurchasinggroupllc -> Industry: banking_finance
+Company: Weights & Biases (CoreWeave) -> Industry: insurance
+Company: Corporatecareers -> Industry: healthcare
+Company: Corviascorporateservicesllc -> Industry: insurance
+Company: Cottinghambutlerinsuranceservicesinc -> Industry: insurance
+Company: Courierhealth -> Industry: healthcare
+Company: Coverahealth -> Industry: healthcare
+Company: Creditkarma -> Industry: banking_finance
+Company: Creditunionofcolorado -> Industry: banking_finance
+Company: Crescendohealth -> Industry: healthcare
+Company: Crestwoodcareers -> Industry: healthcare
+Company: Crossbeam -> Industry: healthcare
+Company: Crossmediainc -> Industry: healthcare
+Company: Crossriverbank -> Industry: banking_finance
+Company: Crossroadshealth -> Industry: healthcare
+Company: Culinahealth -> Industry: healthcare
+Company: Culthealth -> Industry: healthcare
+Company: Curicapital -> Industry: banking_finance
+Company: Current -> Industry: banking_finance
+Company: Current81 -> Industry: banking_finance
+Company: Currentcatalog -> Industry: banking_finance
+Company: Currentglobal -> Industry: banking_finance
+Company: Daggerwinggroup -> Industry: banking_finance
+Company: Daybreakhealth -> Industry: healthcare
+Company: Daymarkhealth -> Industry: healthcare
+Company: Dayonebiopharmaceuticals -> Industry: healthcare
+Company: Debutbiotech25 -> Industry: healthcare
+Company: Dexisconsultinggroup -> Industry: banking_finance
+Company: Dianahealth94 -> Industry: healthcare
+Company: Dicefm Careers -> Industry: healthcare
+Company: Discord -> Industry: insurance
+Company: Divergehealth -> Industry: healthcare
+Company: Dlpbank -> Industry: banking_finance
+Company: Dmarket -> Industry: other
+Company: Dmgtcareers -> Industry: healthcare
+Company: Documocareers -> Industry: healthcare
+Company: Doximity -> Industry: healthcare
+Company: Drivewealth -> Industry: banking_finance
+Company: Earlycareerprograms -> Industry: healthcare
+Company: Eastern Pennsylvania Veterinary Medical Center -> Industry: healthcare
+Company: Eclinicalsolutions -> Industry: healthcare
+Company: Edgewoodpartnersinsurancecenter -> Industry: insurance
+Company: Elationhealth -> Industry: healthcare
+Company: Eldersburgveterinaryhospital -> Industry: healthcare
+Company: Eleoshealth -> Industry: healthcare
+Company: Elephantcareers -> Industry: healthcare
+Company: Elliginthealth -> Industry: healthcare
+Company: Emarketer -> Industry: other
+Company: Emigrantbank -> Industry: banking_finance
+Company: Employerdirecthealthcare -> Industry: healthcare
+Company: Enavatecareers -> Industry: healthcare
+Company: Enlacehealth -> Industry: healthcare
+Company: Ennoblecare -> Industry: healthcare
+Company: Eqfund -> Industry: banking_finance
+Company: Erc8585757pathlight53t353 -> Industry: banking_finance
+Company: Ethos Life -> Industry: insurance
+Company: Ethoslife -> Industry: insurance
+Company: Eumaterialbank -> Industry: banking_finance
+Company: Evergreenresidentialemployeeservicescorp -> Industry: insurance
+Company: EverQuote -> Industry: insurance
+Company: Everstreamanalytics -> Industry: other
+Company: Extenteamcareers -> Industry: healthcare
+Company: Familypethealthctr -> Industry: healthcare
+Company: Faralloncapitalmanagementllc -> Industry: banking_finance
+Company: Fartherfinance -> Industry: banking_finance
+Company: Fidelityguarantylife -> Industry: banking_finance
+Company: Financialtechnologypartners -> Industry: banking_finance
+Company: Financialtimes33 -> Industry: banking_finance
+Company: Finfare Financial -> Industry: banking_finance
+Company: Fireblocks -> Industry: banking_finance
+Company: Firstconnectinsurance -> Industry: insurance
+Company: Flatironhealth -> Industry: healthcare
+Company: Flohealth -> Industry: healthcare
+Company: Florencehealthcare -> Industry: healthcare
+Company: Floridamedicalclinic -> Industry: healthcare
+Company: Flumehealth -> Industry: healthcare
+Company: Focusfinancialpartners -> Industry: banking_finance
+Company: Focuspartnerswealth -> Industry: banking_finance
+Company: Foliahealth -> Industry: healthcare
+Company: Folxhealth -> Industry: healthcare
+Company: Forafinancial -> Industry: banking_finance
+Company: Foresightmentalhealth -> Industry: healthcare
+Company: Formhealth -> Industry: healthcare
+Company: Fosphamarketing -> Industry: other
+Company: Fractylhealthinc -> Industry: healthcare
+Company: Freedomcare -> Industry: healthcare
+Company: Fronterahealth -> Industry: healthcare
+Company: Fueledcareers -> Industry: healthcare
+Company: Fundedclub -> Industry: banking_finance
+Company: Fundraiseup -> Industry: banking_finance
+Company: Futurhealth -> Industry: healthcare
+Company: Fuzehealth -> Industry: healthcare
+Company: Galileofinancialtechnologies -> Industry: banking_finance
+Company: Garnerhealth -> Industry: healthcare
+Company: Garonitpharmaceutical -> Industry: healthcare
+Company: Georgepjohnsonexperiencemarketing -> Industry: insurance
+Company: Getitstraightorthodontics -> Industry: insurance
+Company: Globalfishingwatch -> Industry: banking_finance
+Company: Globalhealthcareexchangeinc -> Industry: healthcare
+Company: Glyphicbiotechnologies -> Industry: healthcare
+Company: Gmrmarketing -> Industry: other
+Company: Gofundme -> Industry: banking_finance
+Company: Goldencustomercare -> Industry: healthcare
+Company: Goprocareers -> Industry: healthcare
+Company: Grahamcapitalmanagement -> Industry: banking_finance
+Company: Grassrootsanalytics -> Industry: other
+Company: Gravitonresearchcapital -> Industry: insurance
+Company: Grayscaleinvestments -> Industry: banking_finance
+Company: Greenworkssunriseglobalmarketing -> Industry: other
+Company: Gsacapital -> Industry: banking_finance
+Company: Gsrmarkets -> Industry: other
+Company: Guidelighthealth -> Industry: healthcare
+Company: Habitathealth -> Industry: healthcare
+Company: Harrowhealth -> Industry: healthcare
+Company: Hatchcareers -> Industry: healthcare
+Company: Headoutcareers -> Industry: healthcare
+Company: Healthesystems -> Industry: healthcare
+Company: Healthjoy -> Industry: healthcare
+Company: Healthverity -> Industry: healthcare
+Company: Herselfhealth -> Industry: healthcare
+Company: Homemarketfoods -> Industry: other
+Company: Honehealth -> Industry: healthcare
+Company: Honeycombinsurance -> Industry: insurance
+Company: Hopscotchprimarycare -> Industry: healthcare
+Company: Horacemannagents -> Industry: insurance
+Company: Horacemannservicecorporation -> Industry: insurance
+Company: Hostanalytics -> Industry: other
+Company: Hotmartcareersbr -> Industry: healthcare
+Company: Hotmartcareersen -> Industry: healthcare
+Company: Hotmartcareersesp -> Industry: healthcare
+Company: Hpsinvestmentpartners -> Industry: banking_finance
+Company: HubSpot -> Industry: banking_finance
+Company: Hubspotjobs -> Industry: banking_finance
+Company: Hubspotmarketing -> Industry: banking_finance
+Company: Hubspotstudents -> Industry: banking_finance
+Company: Humanagency -> Industry: insurance
+Company: Hyperfine53 -> Industry: banking_finance
+Company: Icapitalnetwork -> Industry: banking_finance
+Company: Iconcareers -> Industry: healthcare
+Company: Imafinancialgroup -> Industry: banking_finance
+Company: Infotrust -> Industry: banking_finance
+Company: Inmarket -> Industry: other
+Company: Insightassurance -> Industry: insurance
+Company: Instituteforclinicalandeconomicreview -> Industry: healthcare
+Company: Instridehealth -> Industry: healthcare
+Company: Interwellhealth -> Industry: healthcare
+Company: Ironwoodpharmaceuticals -> Industry: healthcare
+Company: Irradianttechnologies -> Industry: insurance
+Company: Isccareers -> Industry: healthcare
+Company: Iterativehealth -> Industry: healthcare
+Company: Ivxhealth -> Industry: healthcare
+Company: J2health -> Industry: healthcare
+Company: Jukeboxhealth -> Industry: healthcare
+Company: Justfund -> Industry: banking_finance
+Company: Kardfinancialinc -> Industry: banking_finance
+Company: Kargo -> Industry: insurance
+Company: Kargo22 -> Industry: insurance
+Company: Kcare -> Industry: healthcare
+Company: Kervinteractive -> Industry: banking_finance
+Company: Ketchumuscareers -> Industry: healthcare
+Company: Khealthcareers -> Industry: healthcare
+Company: Kiniksapharmaceuticals -> Industry: healthcare
+Company: Kirbynagelhoutcareers -> Industry: healthcare
+Company: Kmgmedicalgroup -> Industry: healthcare
+Company: Knvisionscareers -> Industry: healthcare
+Company: Kolmacintegratedbehavioralhealth -> Industry: healthcare
+Company: Komodohealth -> Industry: healthcare
+Company: Ksqtxcareers -> Industry: healthcare
+Company: Kunumi -> Industry: insurance
+Company: Kyocare -> Industry: healthcare
+Company: Lakeforestanimalhospital -> Industry: healthcare
+Company: Launchyourcareer -> Industry: healthcare
+Company: Lawrenceavenuedentalclinic -> Industry: healthcare
+Company: Layerhealth -> Industry: healthcare
+Company: Legendcareers -> Industry: healthcare
+Company: Legendcareerseu -> Industry: healthcare
+Company: Lendingtree -> Industry: banking_finance
+Company: Lenusehealth -> Industry: healthcare
+Company: Libertasfunding -> Industry: banking_finance
+Company: Life360 -> Industry: insurance
+Company: Lifeedittherapeutics -> Industry: insurance
+Company: Lifelinkiii -> Industry: insurance
+Company: Lifeminetx -> Industry: insurance
+Company: Lifeskillsautismacademy -> Industry: insurance
+Company: Lifespanmontessori -> Industry: insurance
+Company: Lifetrading -> Industry: insurance
+Company: Lighthousebehavioralhealthsolutions -> Industry: healthcare
+Company: Livecareer -> Industry: healthcare
+Company: Livescore9 -> Industry: insurance
+Company: Lumahealth -> Industry: healthcare
+Company: Luminishealth -> Industry: healthcare
+Company: Lyellimmunopharma -> Industry: healthcare
+Company: Lynxanalytics -> Industry: other
+Company: Magnamarketing -> Industry: other
+Company: Mainstreethealth -> Industry: healthcare
+Company: Makersfund -> Industry: banking_finance
+Company: Mantrahealth -> Industry: healthcare
+Company: Maravailifesciences -> Industry: insurance
+Company: Marketaxesscorporation -> Industry: insurance
+Company: Marqeta -> Industry: banking_finance
+Company: Maslanskycareers -> Industry: healthcare
+Company: Materialbank -> Industry: banking_finance
+Company: Mavenclinic -> Industry: healthcare
+Company: Mavenclinicproviders -> Industry: healthcare
+Company: Mavensecuritiesholdingltd -> Industry: banking_finance
+Company: Maxmanufacturingcareers -> Industry: healthcare
+Company: Mboothhealth -> Industry: healthcare
+Company: Mcghealth -> Industry: healthcare
+Company: Medeanalytics -> Industry: other
+Company: Meditelecare -> Industry: healthcare
+Company: Mentalhealthcenterofdenver -> Industry: healthcare
+Company: Mercury -> Industry: banking_finance
+Company: Meruhealth -> Industry: healthcare
+Company: Metropolitancommercialbank -> Industry: banking_finance
+Company: Mezzettacareers -> Industry: healthcare
+Company: Midihealth -> Industry: healthcare
+Company: Mirumpharmaceuticals -> Industry: healthcare
+Company: Misfitsmarket -> Industry: other
+Company: Mlmultiplecareerlocations -> Industry: healthcare
+Company: Mochihealth -> Industry: healthcare
+Company: Modernhealth -> Industry: healthcare
+Company: Modulrfinance -> Industry: banking_finance
+Company: Montaihealth -> Industry: healthcare
+Company: Morgansideveterinaryclinic -> Industry: healthcare
+Company: Moxehealth -> Industry: healthcare
+Company: N26 -> Industry: banking_finance
+Company: Nationallifeinsurancecompany -> Industry: insurance
+Company: Neptunemedical -> Industry: healthcare
+Company: Neuehealth -> Industry: healthcare
+Company: Neurahealth -> Industry: healthcare
+Company: Newlabcareers -> Industry: healthcare
+Company: Nexhealth -> Industry: healthcare
+Company: Nextinsurance66 -> Industry: insurance
+Company: Nflcareers -> Industry: healthcare
+Company: Noahmedical -> Industry: healthcare
+Company: Noctrixhealth -> Industry: healthcare
+Company: Nomadhealth -> Industry: healthcare
+Company: Nonantumveterinaryclinic -> Industry: healthcare
+Company: Nonprofitfinancefund -> Industry: banking_finance
+Company: Northeastanimalclinic -> Industry: healthcare
+Company: Northstarfund -> Industry: banking_finance
+Company: Novacredit -> Industry: banking_finance
+Company: Noyocareers -> Industry: healthcare
+Company: Nubank -> Industry: banking_finance
+Company: Oasishealthpartners -> Industry: healthcare
+Company: Octanelending -> Industry: banking_finance
+Company: Odlesalescareers -> Industry: healthcare
+Company: Ogilvyearlycareers -> Industry: healthcare
+Company: Ogilvyhealthcanada -> Industry: healthcare
+Company: Ogilvyhealthuk -> Industry: healthcare
+Company: Ogilvyhealthusa -> Industry: healthcare
+Company: Olaplexcareers -> Industry: healthcare
+Company: Oldmissioncapital -> Industry: banking_finance
+Company: Olympusproperty -> Industry: insurance
+Company: Omadahealth -> Industry: healthcare
+Company: Omnicomhealth -> Industry: healthcare
+Company: Oncoverycare -> Industry: healthcare
+Company: Oneacrefund -> Industry: banking_finance
+Company: Oneacrefundburundi -> Industry: banking_finance
+Company: Oneacrefundence -> Industry: banking_finance
+Company: Oneacrefundethiopia -> Industry: banking_finance
+Company: Oneacrefundglobal -> Industry: banking_finance
+Company: Oneacrefundmalawi -> Industry: banking_finance
+Company: Oneacrefundnigeria -> Industry: banking_finance
+Company: Oneacrefundrwanda -> Industry: banking_finance
+Company: Oneacrefundtanzania -> Industry: banking_finance
+Company: Oneacrefunduganda -> Industry: banking_finance
+Company: Oneacrefundzambia -> Industry: banking_finance
+Company: Onecampaign -> Industry: insurance
+Company: One Medical -> Industry: healthcare
+Company: Onetrust -> Industry: banking_finance
+Company: Oodlefinance -> Industry: banking_finance
+Company: Operationscareers -> Industry: healthcare
+Company: Optimadermatologycareers -> Industry: healthcare
+Company: Oshihealth -> Industry: healthcare
+Company: Ossiumhealth -> Industry: healthcare
+Company: Otrcapital1 -> Industry: banking_finance
+Company: Oulahealth -> Industry: healthcare
+Company: Ounceofcare -> Industry: healthcare
+Company: Outsetmedical -> Industry: healthcare
+Company: Owscapitalmanagement -> Industry: banking_finance
+Company: Oxforddentalclinic -> Industry: healthcare
+Company: Oxosmedical -> Industry: healthcare
+Company: Pagerhealth -> Industry: healthcare
+Company: Panteracapitalcareers -> Industry: banking_finance
+Company: Parachutehealth -> Industry: healthcare
+Company: Paragoncareers -> Industry: healthcare
+Company: Paratekpharmaceuticals -> Industry: healthcare
+Company: Parkcareers -> Industry: healthcare
+Company: Parsleyhealth -> Industry: healthcare
+Company: Partumhealth -> Industry: healthcare
+Company: Paulaschoiceskincare -> Industry: healthcare
+Company: Penninteractive -> Industry: banking_finance
+Company: Peregrinehealth -> Industry: healthcare
+Company: Perryhealthinc -> Industry: healthcare
+Company: Petersonpetclinic -> Industry: healthcare
+Company: Pharmacann -> Industry: healthcare
+Company: Pharmacy -> Industry: healthcare
+Company: Philzcoffeecareers -> Industry: healthcare
+Company: Pieinsurance -> Industry: insurance
+Company: Piermontbank -> Industry: banking_finance
+Company: Pinnacolassurance -> Industry: insurance
+Company: Plootocareers -> Industry: healthcare
+Company: Pointdigitalfinance -> Industry: banking_finance
+Company: Pokemoncareers -> Industry: healthcare
+Company: Polycamcareers -> Industry: healthcare
+Company: Polychaincapital -> Industry: banking_finance
+Company: Pomelocare -> Industry: healthcare
+Company: Powerdigitalmarketing -> Industry: other
+Company: Powerfinance -> Industry: banking_finance
+Company: Privategdcareers -> Industry: healthcare
+Company: Privatehealthmanagement -> Industry: healthcare
+Company: Procaresolutions -> Industry: healthcare
+Company: Prosperhealth -> Industry: healthcare
+Company: Pursuecare -> Industry: healthcare
+Company: Pzenainvestmentmanagement -> Industry: banking_finance
+Company: Quadraturecapital -> Industry: banking_finance
+Company: Quanthealth -> Industry: healthcare
+Company: Radiantsecurity -> Industry: insurance
+Company: Radiclehealth -> Industry: healthcare
+Company: Radixexperienced -> Industry: insurance
+Company: Rakutenmedical18 -> Industry: healthcare
+Company: Rakutenmedicaljpn -> Industry: healthcare
+Company: Rampanttechnologies -> Industry: banking_finance
+Company: Rampnetwork -> Industry: banking_finance
+Company: Rdccareers -> Industry: healthcare
+Company: Rectanglehealth -> Industry: healthcare
+Company: Recurrent -> Industry: banking_finance
+Company: Recursionpharmaceuticals -> Industry: healthcare
+Company: Reflexionmedical -> Industry: healthcare
+Company: Remodelhealth -> Industry: healthcare
+Company: Renaissancelearning Emea -> Industry: insurance
+Company: Renaissancelearning Nam -> Industry: insurance
+Company: Reunionmarketing -> Industry: other
+Company: Revolutionmedicines -> Industry: banking_finance
+Company: Rightwayhealthcare -> Industry: healthcare
+Company: Roarkcapitalgroup -> Industry: banking_finance
+Company: Robinhood -> Industry: banking_finance
+Company: Robinsonhospitalforanimals -> Industry: healthcare
+Company: Rothesaylife -> Industry: insurance
+Company: Runwise -> Industry: banking_finance
+Company: Rushstreetinteractive -> Industry: banking_finance
+Company: Rvohealth -> Industry: healthcare
+Company: Ryanstuartdev -> Industry: insurance
+Company: Sagehomeloanscorporation -> Industry: insurance
+Company: Salaryfinance -> Industry: banking_finance
+Company: Sanabiotech -> Industry: healthcare
+Company: Sandscapitalmanagementllc -> Industry: banking_finance
+Company: Sandstonecare -> Industry: healthcare
+Company: Sandstonecarealexandria -> Industry: healthcare
+Company: Sandstonecareboulder -> Industry: healthcare
+Company: Sandstonecarebroomfield -> Industry: healthcare
+Company: Sandstonecarecastlerock -> Industry: healthcare
+Company: Sandstonecarerichmond -> Industry: healthcare
+Company: Sandstonecarevirginiabeach -> Industry: healthcare
+Company: Sandstonecoloradomedicaldetox -> Industry: healthcare
+Company: Schimenticonstructioncompany -> Industry: banking_finance
+Company: Scorpionenterprisesllc -> Industry: insurance
+Company: Scoutveterinarycare -> Industry: healthcare
+Company: Scsfinancial -> Industry: banking_finance
+Company: Securityscorecard -> Industry: insurance
+Company: Seenhealth -> Industry: healthcare
+Company: Selffinancial -> Industry: banking_finance
+Company: Sensiblecare -> Industry: healthcare
+Company: Seymourveterinaryclinic -> Industry: healthcare
+Company: Shennonbiotechnologies -> Industry: healthcare
+Company: Shieldshealthsolutions -> Industry: healthcare
+Company: Shinvestmentsllc -> Industry: banking_finance
+Company: Shubhashrayhousingcareers -> Industry: healthcare
+Company: Shunnarahcareers -> Industry: healthcare
+Company: Sidecarhealth -> Industry: healthcare
+Company: Sifthealthcare -> Industry: healthcare
+Company: Simplifed -> Industry: insurance
+Company: Sironamedical -> Industry: healthcare
+Company: Skildai Careers -> Industry: healthcare
+Company: Skilledwoundcare -> Industry: healthcare
+Company: Socialfinance -> Industry: banking_finance
+Company: SoFi -> Industry: banking_finance
+Company: Solarisbank -> Industry: banking_finance
+Company: Sollishealth -> Industry: healthcare
+Company: Solmentalhealth -> Industry: healthcare
+Company: Songtrust -> Industry: banking_finance
+Company: Sonyinteractiveentertainmentglobal -> Industry: banking_finance
+Company: Sonymusicasiacareers -> Industry: healthcare
+Company: Sonymusiccareersafrica -> Industry: healthcare
+Company: Sonymusiccareersaustralia -> Industry: healthcare
+Company: Sonymusiccareersbelgium -> Industry: healthcare
+Company: Sonymusiccareersfinland -> Industry: healthcare
+Company: Sonymusiccareersfrance -> Industry: healthcare
+Company: Sonymusiccareersitaly -> Industry: healthcare
+Company: Sonymusiccareersnetherlands -> Industry: healthcare
+Company: Sonymusiccareerspoland -> Industry: healthcare
+Company: Sonymusiccareerssweden -> Industry: healthcare
+Company: Southstarcareers -> Industry: healthcare
+Company: Sparkfund -> Industry: banking_finance
+Company: Splashfinancial -> Industry: banking_finance
+Company: Spotsylvaniaanimalhospital -> Industry: healthcare
+Company: Springhealth66 -> Industry: healthcare
+Company: Squarepointcapital -> Industry: banking_finance
+Company: Starfishneuroscience -> Industry: banking_finance
+Company: Stemhealthcare -> Industry: healthcare
+Company: Straightarrownews -> Industry: insurance
+Company: Stratacareers -> Industry: healthcare
+Company: Strivehealth -> Industry: healthcare
+Company: Strivepharmacy -> Industry: healthcare
+Company: Studycareers -> Industry: healthcare
+Company: Subskribe -> Industry: banking_finance
+Company: Subsplash -> Industry: banking_finance
+Company: SumUp -> Industry: banking_finance
+Company: Synthesishealth -> Industry: healthcare
+Company: Tailorcare2023 -> Industry: healthcare
+Company: Takecommandhealth -> Industry: healthcare
+Company: Teachablecareers -> Industry: healthcare
+Company: Teampaycareers -> Industry: healthcare
+Company: Technisyscareers -> Industry: healthcare
+Company: Territorialdentalclinic -> Industry: healthcare
+Company: Themarketingarm -> Industry: other
+Company: Theoriamedical -> Industry: healthcare
+Company: Thepharmacyhub -> Industry: healthcare
+Company: Thesiscareers -> Industry: healthcare
+Company: Thevascularcaregroup -> Industry: healthcare
+Company: Thltestcareers -> Industry: healthcare
+Company: Thrivemarket -> Industry: other
+Company: Tiltingfuturescareers -> Industry: healthcare
+Company: Toast -> Industry: banking_finance
+Company: Toastmastersinternational -> Industry: banking_finance
+Company: Tomorrowhealth -> Industry: healthcare
+Company: Tonixpharmaceuticals -> Industry: healthcare
+Company: Towerresearchcapital -> Industry: insurance
+Company: Townsquareinteractive -> Industry: banking_finance
+Company: Trade Republic -> Industry: banking_finance
+Company: Transmarketgroup -> Industry: other
+Company: Trellahealth -> Industry: healthcare
+Company: Trilinkbiotechnologies -> Industry: healthcare
+Company: Trinitylogistics -> Industry: healthcare
+Company: Trinityparktalent -> Industry: healthcare
+Company: Tripwireinteractive -> Industry: banking_finance
+Company: Trovohealth -> Industry: healthcare
+Company: Trustautomation -> Industry: banking_finance
+Company: Trustbank -> Industry: banking_finance
+Company: Trustedhealth -> Industry: banking_finance
+Company: Trustpilot -> Industry: banking_finance
+Company: Trustwill -> Industry: banking_finance
+Company: Tuesdayhealth -> Industry: healthcare
+Company: Twinhealth -> Industry: healthcare
+Company: Ultragenyxpharmaceutical -> Industry: healthcare
+Company: Umojabiopharma -> Industry: healthcare
+Company: Underscoremarketing -> Industry: insurance
+Company: Unispacelifesciences -> Industry: insurance
+Company: Unlockhealth -> Industry: healthcare
+Company: Uprisehealth -> Industry: healthcare
+Company: Upwardhealth -> Industry: healthcare
+Company: Urgentcareforchildren -> Industry: healthcare
+Company: Valerahealth -> Industry: healthcare
+Company: Valohealth -> Industry: healthcare
+Company: Vanguarddermatology -> Industry: insurance
+Company: Vascularcarect -> Industry: healthcare
+Company: Veocorporatecareers -> Industry: healthcare
+Company: Veranahealth -> Industry: healthcare
+Company: Virbiotechnologyinc -> Industry: healthcare
+Company: Vocationaltraineeworkexperience -> Industry: insurance
+Company: Vogliodigitalmarketing -> Industry: other
+Company: Vorbiopharma -> Industry: healthcare
+Company: Voyagertechnologiesinc -> Industry: insurance
+Company: Voyagertherapeutics -> Industry: insurance
+Company: Walleyecapital External Fulltime -> Industry: banking_finance
+Company: Walleyecapital External Students -> Industry: banking_finance
+Company: Waltzhealth -> Industry: healthcare
+Company: Welbehealth -> Industry: healthcare
+Company: Wildlifestudios -> Industry: insurance
+Company: Williamsdentalclinic -> Industry: healthcare
+Company: Wisetack -> Industry: banking_finance
+Company: Wundercapital -> Industry: banking_finance
+Company: Xohealthinc -> Industry: healthcare
+Company: Xphealth -> Industry: healthcare
+Company: Xtxmarketstechnologies -> Industry: other
+Company: Yuvohealthllc -> Industry: healthcare
+Company: Zocalohealth -> Industry: healthcare
+Company: Zulilycareers -> Industry: healthcare
+Company: Zyngacareers -> Industry: healthcare
+Company: Abovelending -> Industry: banking_finance
+Company: Acselhealth -> Industry: healthcare
+Company: Actionlife -> Industry: insurance
+Company: Activecampaign -> Industry: insurance
+Company: Additionwealth -> Industry: banking_finance
+Company: Aigen -> Industry: insurance
+Company: Amarbank -> Industry: banking_finance
+Company: Ansatzcapital -> Industry: banking_finance
+Company: Aperturehealth -> Industry: healthcare
+Company: Arbitalhealth -> Industry: healthcare
+Company: Assurance -> Industry: insurance
+Company: Avalerehealth -> Industry: healthcare
+Company: Aviahealth -> Industry: healthcare
+Company: Bannerbank -> Industry: banking_finance
+Company: Betterlifepartners -> Industry: insurance
+Company: Bighealth -> Industry: healthcare
+Company: Blackbirdinteractive -> Industry: banking_finance
+Company: Bloomwellcare -> Industry: healthcare
+Company: Caliza Financial Technologies -> Industry: banking_finance
+Company: Canvasmedical -> Industry: healthcare
+Company: Capital -> Industry: banking_finance
+Company: Capitalsolutionsgroup -> Industry: banking_finance
+Company: Carbonhealth -> Industry: healthcare
+Company: Careernowbrands -> Industry: healthcare
+Company: Caremessage -> Industry: healthcare
+Company: Careology -> Industry: healthcare
+Company: Carestino -> Industry: healthcare
+Company: Carewest -> Industry: healthcare
+Company: Cargo Partner -> Industry: insurance
+Company: Chironhealth -> Industry: healthcare
+Company: Circadiahealth -> Industry: healthcare
+Company: Circlepharma -> Industry: healthcare
+Company: Clarifyhealth -> Industry: healthcare
+Company: Clearcapital -> Industry: banking_finance
+Company: Cogentanalytics -> Industry: other
+Company: Coinmarketcap -> Industry: other
+Company: Coloradocoalition -> Industry: insurance
+Company: Computercare -> Industry: healthcare
+Company: Crosscountry Consulting -> Industry: healthcare
+Company: Crossfit -> Industry: healthcare
+Company: Crossing Minds -> Industry: healthcare
+Company: Crosslaketech -> Industry: healthcare
+Company: Crossvale -> Industry: healthcare
+Company: Dexcarehealth -> Industry: healthcare
+Company: Dun & Bradstreet -> Industry: other
+Company: Ekohealth -> Industry: healthcare
+Company: Emitwise -> Industry: banking_finance
+Company: Endpointclinical -> Industry: healthcare
+Company: Energeticcapital -> Industry: banking_finance
+Company: Eqbank -> Industry: banking_finance
+Company: Femalefounders Fund -> Industry: banking_finance
+Company: Figfinancial -> Industry: banking_finance
+Company: Fiscalnote -> Industry: banking_finance
+Company: Flowlife -> Industry: insurance
+Company: Forbrightbank -> Industry: banking_finance
+Company: Forourfuturefund -> Industry: banking_finance
+Company: Fundrise -> Industry: banking_finance
+Company: Futureof Life -> Industry: insurance
+Company: Genome Medical -> Industry: healthcare
+Company: Glass Health Inc -> Industry: healthcare
+Company: Globalelitecareers -> Industry: healthcare
+Company: Guidestareldercare -> Industry: healthcare
+Company: Hap Capital -> Industry: banking_finance
+Company: Heartbeathealth -> Industry: healthcare
+Company: Highbarhealth -> Industry: healthcare
+Company: Hivemind Capital -> Industry: banking_finance
+Company: Includedhealth -> Industry: healthcare
+Company: Incompasshealth -> Industry: healthcare
+Company: Inductivehealth -> Industry: healthcare
+Company: Kingfish Company -> Industry: banking_finance
+Company: Koalahealth -> Industry: healthcare
+Company: Life -> Industry: insurance
+Company: Lifeforce -> Industry: insurance
+Company: Lifen -> Industry: insurance
+Company: Lifestance -> Industry: insurance
+Company: Lincolninst -> Industry: insurance
+Company: Lyraclinical -> Industry: healthcare
+Company: Lyrahealth -> Industry: healthcare
+Company: Maple Finance -> Industry: banking_finance
+Company: Margo Group -> Industry: insurance
+Company: Marigoldhealth -> Industry: healthcare
+Company: Marketcircle -> Industry: other
+Company: Marketer Hire -> Industry: other
+Company: Mbcapital -> Industry: banking_finance
+Company: Medcarepediatric -> Industry: healthcare
+Company: Medical Outsourcing Solutions -> Industry: healthcare
+Company: Metawealth -> Industry: banking_finance
+Company: Metlife -> Industry: insurance
+Company: Milocredit -> Industry: banking_finance
+Company: Modernlife -> Industry: insurance
+Company: Mulliganfunding -> Industry: banking_finance
+Company: Nemesiscorporation -> Industry: insurance
+Company: Next Health -> Industry: healthcare
+Company: Nielsen -> Industry: other
+Company: Nomihealth -> Industry: healthcare
+Company: Plaid -> Industry: banking_finance
+Company: Pointclickcare -> Industry: healthcare
+Company: Project Healthy Minds -> Industry: healthcare
+Company: Qonto -> Industry: banking_finance
+Company: Questanalytics -> Industry: other
+Company: Quilted Health -> Industry: healthcare
+Company: Recognisebank -> Industry: banking_finance
+Company: Revenueanalytics -> Industry: other
+Company: Revhealth -> Industry: healthcare
+Company: Salvohealth -> Industry: healthcare
+Company: Satoricapital -> Industry: banking_finance
+Company: Scholarsoffinance -> Industry: banking_finance
+Company: Seedify Fund -> Industry: banking_finance
+Company: Seerinteractive -> Industry: banking_finance
+Company: Sensefinance -> Industry: banking_finance
+Company: Smiledigitalhealth -> Industry: healthcare
+Company: Solvhealth -> Industry: healthcare
+Company: Starkbank -> Industry: banking_finance
+Company: Startuplifers -> Industry: insurance
+Company: Straighterline -> Industry: insurance
+Company: Sunwatercapital -> Industry: banking_finance
+Company: Swissblock -> Industry: banking_finance
+Company: Swordhealth -> Industry: healthcare
+Company: Symmetryinvestments -> Industry: banking_finance
+Company: Theblockcrypto -> Industry: banking_finance
+Company: Transcarent -> Industry: healthcare
+Company: Translifeline -> Industry: insurance
+Company: Trinityhunt -> Industry: healthcare
+Company: Trustarc -> Industry: banking_finance
+Company: Trustly -> Industry: banking_finance
+Company: Trustyou -> Industry: banking_finance
+Company: Ultrahealthproviders -> Industry: healthcare
+Company: Visotrust -> Industry: banking_finance
+Company: Vivo Care -> Industry: healthcare
+Company: Wealthfront -> Industry: banking_finance
+Company: Wealthsimple -> Industry: banking_finance
+Company: Wisecode -> Industry: banking_finance
+Company: Zurichinstruments -> Industry: insurance
+Company: Zushealth -> Industry: healthcare
+Company: CSAA Insurance Group -> Industry: insurance
+Company: Abbluecross -> Industry: healthcare
+Company: Abcfinancial -> Industry: banking_finance
+Company: Abeilleassurances -> Industry: insurance
+Company: Academymortgage -> Industry: banking_finance
+Company: Acendahealth -> Industry: healthcare
+Company: Adventhealth -> Industry: healthcare
+Company: Adventisthealthcare -> Industry: healthcare
+Company: Agecare -> Industry: healthcare
+Company: Agilonhealth -> Industry: healthcare
+Company: AIG -> Industry: insurance
+Company: Alignmenthealthcare -> Industry: healthcare
+Company: Alirahealth -> Industry: healthcare
+Company: Allcatclaims -> Industry: insurance
+Company: Allstate -> Industry: insurance
+Company: Altaishealthsolutions -> Industry: healthcare
+Company: Americanfidelity -> Industry: banking_finance
+Company: Americanredcross -> Industry: healthcare
+Company: Amerilife -> Industry: insurance
+Company: Amerisbank -> Industry: banking_finance
+Company: American Express -> Industry: banking_finance
+Company: American Family Insurance -> Industry: insurance
+Company: Anglefinance -> Industry: banking_finance
+Company: Anglicare -> Industry: healthcare
+Company: Auto-Owners Insurance -> Industry: insurance
+Company: Apexcapitalcorp -> Industry: banking_finance
+Company: Aquafinance -> Industry: banking_finance
+Company: Aquilacapital -> Industry: banking_finance
+Company: Arch Capital Group -> Industry: insurance
+Company: Argogroup -> Industry: insurance
+Company: Argonne -> Industry: insurance
+Company: Arkbluecross -> Industry: healthcare
+Company: Arrowstreetcapital -> Industry: banking_finance
+Company: Ashealthnet -> Industry: healthcare
+Company: Aspenvalleyhealth -> Industry: healthcare
+Company: Associatedbank -> Industry: banking_finance
+Company: Assuranceamerica -> Industry: insurance
+Company: Assurant -> Industry: insurance
+Company: Assurant -> Industry: insurance
+Company: Athenahealth -> Industry: healthcare
+Company: Atriumhospitality -> Industry: healthcare
+Company: AXIS Capital -> Industry: banking_finance
+Company: Baincapital -> Industry: banking_finance
+Company: Bamfhealth -> Industry: healthcare
+Company: Bamfunds -> Industry: banking_finance
+Company: Bankatfirst -> Industry: banking_finance
+Company: Bankeasy -> Industry: banking_finance
+Company: Bannerhealth -> Industry: healthcare
+Company: Barclays -> Industry: banking_finance
+Company: Bayareahospital -> Industry: healthcare
+Company: Baystatehealth -> Industry: healthcare
+Company: Brown & Brown Insurance -> Industry: insurance
+Company: Beautyhealth -> Industry: healthcare
+Company: Bestcare -> Industry: healthcare
+Company: Bioclinica -> Industry: healthcare
+Company: Biotechne -> Industry: healthcare
+Company: Blackrock -> Industry: banking_finance
+Company: Blackstone -> Industry: banking_finance
+Company: Blockone -> Industry: banking_finance
+Company: BMO -> Industry: banking_finance
+Company: Bozemanhealth -> Industry: healthcare
+Company: Broadridge Financial Solutions -> Industry: banking_finance
+Company: Argo Group (Brookfield P&C) -> Industry: insurance
+Company: Brownhealth -> Industry: healthcare
+Company: Cambiahealth -> Industry: healthcare
+Company: Campaignmonitor -> Industry: insurance
+Company: Canassurance -> Industry: insurance
+Company: Canohealth -> Industry: healthcare
+Company: Capbluecross -> Industry: healthcare
+Company: Capitaland -> Industry: banking_finance
+Company: Capitalauto -> Industry: banking_finance
+Company: Capitalenergy -> Industry: banking_finance
+Company: Capitalhealth -> Industry: banking_finance
+Company: Capitalone -> Industry: banking_finance
+Company: Capital One -> Industry: banking_finance
+Company: Capitalpower -> Industry: banking_finance
+Company: Carbonhealth -> Industry: healthcare
+Company: Cardinal Health -> Industry: healthcare
+Company: Cardinalhealth -> Industry: healthcare
+Company: Careabout -> Industry: healthcare
+Company: Careoregon -> Industry: healthcare
+Company: Caresource -> Industry: healthcare
+Company: Carethrough -> Industry: healthcare
+Company: Carilionclinic -> Industry: healthcare
+Company: Carislifesciences -> Industry: insurance
+Company: Celltrionhealthcare -> Industry: healthcare
+Company: Centene -> Industry: healthcare
+Company: Changehealthcare -> Industry: healthcare
+Company: Chaptershealth -> Industry: healthcare
+Company: Chghealthcare -> Industry: healthcare
+Company: Chime -> Industry: banking_finance
+Company: Chimesolutions -> Industry: banking_finance
+Company: Christianacare -> Industry: healthcare
+Company: Chubb -> Industry: insurance
+Company: Chubbfiresecurity -> Industry: insurance
+Company: Cigna Healthcare -> Industry: healthcare
+Company: Circlehealth -> Industry: healthcare
+Company: Citi -> Industry: banking_finance
+Company: Citi -> Industry: banking_finance
+Company: Citicclsa -> Industry: banking_finance
+Company: Cityblockhealth -> Industry: banking_finance
+Company: Clarioclinical -> Industry: healthcare
+Company: Clearskyhealth -> Industry: healthcare
+Company: Clearwateranalytics -> Industry: other
+Company: Cmcmarkets -> Industry: other
+Company: CNA Financial -> Industry: insurance
+Company: Columbiabank -> Industry: banking_finance
+Company: Columbinehealth -> Industry: healthcare
+Company: Commercebank -> Industry: banking_finance
+Company: Communicarehealth -> Industry: healthcare
+Company: Radian Group -> Industry: insurance
+Company: Comscore -> Industry: insurance
+Company: Conehealth -> Industry: healthcare
+Company: Confluentmedical -> Industry: healthcare
+Company: Corebridge Financial -> Industry: banking_finance
+Company: Corespecialtyinsurance -> Industry: insurance
+Company: Corrohealth -> Industry: healthcare
+Company: Countryfinancial -> Industry: banking_finance
+Company: Coveainsurance -> Industry: insurance
+Company: Covenantcare -> Industry: healthcare
+Company: Coxhealth -> Industry: healthcare
+Company: Creditacceptance -> Industry: banking_finance
+Company: Creditreform -> Industry: banking_finance
+Company: Crossagency -> Industry: healthcare
+Company: Crosscountrymortgage -> Industry: banking_finance
+Company: Crossoverhealth -> Industry: healthcare
+Company: Crossroadstreatmentcenters -> Industry: healthcare
+Company: Cuehealth -> Industry: healthcare
+Company: Cumminggroup -> Industry: banking_finance
+Company: Customersbank -> Industry: banking_finance
+Company: CVS Health / Aetna -> Industry: insurance
+Company: Daveandbusters -> Industry: banking_finance
+Company: Denverhealth -> Industry: healthcare
+Company: Discover Financial Services -> Industry: banking_finance
+Company: Ehealthinsurance -> Industry: insurance
+Company: Eisneramper -> Industry: banking_finance
+Company: Elevance Health -> Industry: insurance
+Company: Elevancehealth -> Industry: insurance
+Company: Entrust -> Industry: banking_finance
+Company: Epicstaffinggroup -> Industry: banking_finance
+Company: Equifax -> Industry: other
+Company: Equifax -> Industry: other
+Company: Equitylifestyleproperties -> Industry: insurance
+Company: Erie Insurance -> Industry: insurance
+Company: Essentiahealth -> Industry: healthcare
+Company: Estiahealth -> Industry: healthcare
+Company: Everest -> Industry: insurance
+Company: Eversidehealth -> Industry: healthcare
+Company: Evoyageurs -> Industry: insurance
+Company: Exactcare -> Industry: healthcare
+Company: Exeterfinance -> Industry: banking_finance
+Company: Extendicare -> Industry: healthcare
+Company: Fideliscare -> Industry: healthcare
+Company: Fieracapital -> Industry: banking_finance
+Company: Fifth Third Bank -> Industry: banking_finance
+Company: Financialombudsman -> Industry: banking_finance
+Company: First American Financial -> Industry: insurance
+Company: Fis -> Industry: banking_finance
+Company: Fiserv -> Industry: banking_finance
+Company: Fiskars -> Industry: banking_finance
+Company: FNB Corporation -> Industry: banking_finance
+Company: Fnbcorp -> Industry: banking_finance
+Company: Franklintempleton -> Industry: banking_finance
+Company: Freemanhealth -> Industry: healthcare
+Company: Freseniusmedicalcare -> Industry: healthcare
+Company: Frostbank -> Industry: banking_finance
+Company: G6hospitality -> Industry: healthcare
+Company: Great American Insurance Group -> Industry: insurance
+Company: Gatecitybank -> Industry: banking_finance
+Company: GEICO -> Industry: insurance
+Company: Genesiscare -> Industry: healthcare
+Company: Geodehealth -> Industry: healthcare
+Company: Georgfischer -> Industry: banking_finance
+Company: Germaniainsurance -> Industry: insurance
+Company: Bank of America -> Industry: banking_finance
+Company: Globelife -> Industry: insurance
+Company: Globusmedical -> Industry: healthcare
+Company: Genworth -> Industry: insurance
+Company: Gohealthuc -> Industry: healthcare
+Company: Goodlifefitness -> Industry: insurance
+Company: Gphealth -> Industry: healthcare
+Company: Greatriverhealth -> Industry: healthcare
+Company: Greenleafhospitalitygroup -> Industry: healthcare
+Company: Gtefinancial -> Industry: banking_finance
+Company: Guardianlife -> Industry: insurance
+Company: Guardianpharmacy -> Industry: healthcare
+Company: Guggenheiminvestment -> Industry: banking_finance
+Company: Guidewire Software -> Industry: insurance
+Company: Gundersenhealth -> Industry: healthcare
+Company: Haihospitality -> Industry: healthcare
+Company: Halifaxhealth -> Industry: healthcare
+Company: Halyardhealth -> Industry: healthcare
+Company: Hammondcare -> Industry: healthcare
+Company: Harborcapital -> Industry: banking_finance
+Company: Health -> Industry: healthcare
+Company: Healthcare -> Industry: healthcare
+Company: Healthcarepartners -> Industry: healthcare
+Company: Healthcarerealty -> Industry: healthcare
+Company: Healthcatalyst -> Industry: healthcare
+Company: Healthfirst -> Industry: healthcare
+Company: Healthnowny -> Industry: healthcare
+Company: Healthonellc -> Industry: healthcare
+Company: Healthplanone -> Industry: healthcare
+Company: Healthresearch -> Industry: healthcare
+Company: Hebrewseniorlife -> Industry: insurance
+Company: Highmarkhealth -> Industry: healthcare
+Company: Highridgemedical -> Industry: healthcare
+Company: Hiscox -> Industry: insurance
+Company: Hollandhospital -> Industry: healthcare
+Company: Homeequitybank -> Industry: banking_finance
+Company: Honesthealth -> Industry: healthcare
+Company: Honorhealth -> Industry: healthcare
+Company: Horizonpharma -> Industry: healthcare
+Company: Humana -> Industry: insurance
+Company: Humancapitalmanagement -> Industry: banking_finance
+Company: Huntington Bancshares -> Industry: banking_finance
+Company: Huntingtonhospital -> Industry: banking_finance
+Company: Huntingtonlibrary -> Industry: banking_finance
+Company: ICW Group -> Industry: insurance
+Company: Illimitybank -> Industry: banking_finance
+Company: Imshealth -> Industry: healthcare
+Company: Inarimedical -> Industry: healthcare
+Company: Ingenovishealth -> Industry: healthcare
+Company: Innovacare -> Industry: healthcare
+Company: Integralife -> Industry: insurance
+Company: Integritymarketing -> Industry: other
+Company: Intertrust -> Industry: banking_finance
+Company: Invesco -> Industry: banking_finance
+Company: Islandfinance -> Industry: banking_finance
+Company: Jacksonhealthcare -> Industry: healthcare
+Company: Jeffersonhealth -> Industry: healthcare
+Company: JPMorgan Chase -> Industry: banking_finance
+Company: Kansashealthsystem -> Industry: healthcare
+Company: Kaweahhealth -> Industry: healthcare
+Company: Kemper Insurance -> Industry: insurance
+Company: KeyBank -> Industry: banking_finance
+Company: Keystonehealth -> Industry: healthcare
+Company: Kindercare -> Industry: healthcare
+Company: Kramp -> Industry: banking_finance
+Company: Lakelandhealth -> Industry: healthcare
+Company: Landsecurities -> Industry: banking_finance
+Company: Largo -> Industry: insurance
+Company: Latitudefinancial -> Industry: banking_finance
+Company: Lcmchealth -> Industry: healthcare
+Company: Lendingclub -> Industry: banking_finance
+Company: Lendmarkfinancial -> Industry: banking_finance
+Company: Lesschwab -> Industry: banking_finance
+Company: Lghealth -> Industry: healthcare
+Company: Liberty Mutual Insurance -> Industry: insurance
+Company: Lifefitness -> Industry: insurance
+Company: Lifespacecommunities -> Industry: insurance
+Company: Lifestance -> Industry: insurance
+Company: Lifestylecommunities -> Industry: insurance
+Company: Lifetime -> Industry: insurance
+Company: Lifeworks -> Industry: insurance
+Company: Liveramp -> Industry: banking_finance
+Company: Lloyds -> Industry: banking_finance
+Company: Loewscorp -> Industry: insurance
+Company: Loganhealth -> Industry: healthcare
+Company: Lplfinancial -> Industry: banking_finance
+Company: Luxexperience -> Industry: insurance
+Company: Madrigalpharma -> Industry: healthcare
+Company: Magellanhealth -> Industry: healthcare
+Company: Magmutual -> Industry: insurance
+Company: Manulife -> Industry: insurance
+Company: Marathonhealth -> Industry: healthcare
+Company: Markel -> Industry: insurance
+Company: Marlincapitalsolutions -> Industry: banking_finance
+Company: Marshallmedical -> Industry: healthcare
+Company: Marshfieldclinichealthsystems -> Industry: healthcare
+Company: Marywashingtonhealthcare -> Industry: healthcare
+Company: Massmutual -> Industry: insurance
+Company: Mcrtrust -> Industry: banking_finance
+Company: Mechanicsbank -> Industry: banking_finance
+Company: Medimarketgroup -> Industry: other
+Company: Medlyhealth -> Industry: healthcare
+Company: Meharrymedicalcollege -> Industry: healthcare
+Company: Memorialhealthcare -> Industry: healthcare
+Company: Mercyagedcare -> Industry: healthcare
+Company: Mercycare -> Industry: healthcare
+Company: Methodisthealth -> Industry: healthcare
+Company: Methodisthealthsystem -> Industry: healthcare
+Company: Mizuho -> Industry: banking_finance
+Company: Mjhlifesciences -> Industry: insurance
+Company: Modivcare -> Industry: healthcare
+Company: Molina Healthcare -> Industry: healthcare
+Company: Montagehealth -> Industry: healthcare
+Company: Monumenthealth -> Industry: healthcare
+Company: Morgan Stanley -> Industry: banking_finance
+Company: M&T Bank -> Industry: banking_finance
+Company: Multicare -> Industry: healthcare
+Company: Mundipharma -> Industry: healthcare
+Company: Mvphealthcare -> Industry: healthcare
+Company: Mymarinhealth -> Industry: healthcare
+Company: Nationalbanken -> Industry: banking_finance
+Company: Berkshire Hathaway Homestate Companies -> Industry: insurance
+Company: National Indemnity Company -> Industry: insurance
+Company: Nationwide -> Industry: insurance
+Company: Nationwidechildrens -> Industry: insurance
+Company: Nbcunicareers -> Industry: healthcare
+Company: Netcare -> Industry: healthcare
+Company: Nilfisk -> Industry: banking_finance
+Company: Northbridgefinancial -> Industry: banking_finance
+Company: Northwesternmutual -> Industry: insurance
+Company: Nortonlifelock -> Industry: insurance
+Company: Northern Trust -> Industry: banking_finance
+Company: Nuffieldhealth -> Industry: healthcare
+Company: Oakvalleyhealth -> Industry: healthcare
+Company: Obviohealth -> Industry: healthcare
+Company: Ohiohealth -> Industry: healthcare
+Company: Oldmutual -> Industry: insurance
+Company: Onehealthineers -> Industry: healthcare
+Company: Opendoorhealth -> Industry: healthcare
+Company: Operosehealth -> Industry: healthcare
+Company: Optioncare -> Industry: healthcare
+Company: Optrust -> Industry: banking_finance
+Company: Orientalbank -> Industry: banking_finance
+Company: Originbank -> Industry: banking_finance
+Company: Orthoclinical -> Industry: healthcare
+Company: Osv Amerisure -> Industry: insurance
+Company: Osv Momentapharma -> Industry: healthcare
+Company: Amerisure -> Industry: insurance
+Company: Ovationhealthcare -> Industry: healthcare
+Company: Overlakemedicalcenter -> Industry: healthcare
+Company: Owensborohealth -> Industry: healthcare
+Company: Pacifichospitality -> Industry: healthcare
+Company: Pacific Life -> Industry: insurance
+Company: Pennmutual -> Industry: insurance
+Company: Pewtrusts -> Industry: banking_finance
+Company: Phelpshealth -> Industry: healthcare
+Company: Phoebehealth -> Industry: healthcare
+Company: Piramalpharma -> Industry: healthcare
+Company: Plmarketing -> Industry: other
+Company: PNC Financial Services -> Industry: banking_finance
+Company: Point32health -> Industry: healthcare
+Company: Polpharma -> Industry: healthcare
+Company: Proassurance -> Industry: insurance
+Company: Propertyguru -> Industry: insurance
+Company: Propharmagroup -> Industry: healthcare
+Company: Prudential Financial -> Industry: insurance
+Company: Prudential -> Industry: insurance
+Company: Publichealthontario -> Industry: healthcare
+Company: Pullmanregionalhospital -> Industry: healthcare
+Company: Pureinsurance -> Industry: insurance
+Company: Q2ebanking -> Industry: banking_finance
+Company: QBE North America -> Industry: insurance
+Company: Rabobank -> Industry: banking_finance
+Company: Radiancetech -> Industry: insurance
+Company: Ramsayhealthcare -> Industry: healthcare
+Company: Raymondjames -> Industry: banking_finance
+Company: Redcare -> Industry: healthcare
+Company: Regionalfinance -> Industry: banking_finance
+Company: Regionalhealth -> Industry: healthcare
+Company: Regions Bank -> Industry: banking_finance
+Company: Rehabhospital -> Industry: healthcare
+Company: Reidhealth -> Industry: healthcare
+Company: Relation Insurance -> Industry: insurance
+Company: LexisNexis Risk Solutions -> Industry: other
+Company: RenaissanceRe -> Industry: insurance
+Company: Resolutionlife -> Industry: insurance
+Company: Resonantclinical -> Industry: healthcare
+Company: Rhahealthservices -> Industry: healthcare
+Company: Rialtocapital -> Industry: banking_finance
+Company: Ryan -> Industry: insurance
+Company: Ryancompanies -> Industry: insurance
+Company: Ryansg -> Industry: insurance
+Company: Ryan Specialty -> Industry: insurance
+Company: Rytbank -> Industry: banking_finance
+Company: Salinasvalleyhealth -> Industry: healthcare
+Company: Santander -> Industry: banking_finance
+Company: Saukprairiehealthcare -> Industry: healthcare
+Company: Saxobank -> Industry: banking_finance
+Company: Scanhealthplan -> Industry: healthcare
+Company: Sedgwick -> Industry: insurance
+Company: Sedgwick -> Industry: insurance
+Company: Sentry Insurance -> Industry: insurance
+Company: Sharecare -> Industry: healthcare
+Company: Shelterinsurance -> Industry: insurance
+Company: Silvercross -> Industry: healthcare
+Company: Simmonsbank -> Industry: banking_finance
+Company: Smartbank -> Industry: banking_finance
+Company: Smartcare -> Industry: healthcare
+Company: Solutionhealth -> Industry: healthcare
+Company: Soterahealth -> Industry: healthcare
+Company: Southerncross -> Industry: healthcare
+Company: Southshorehealth -> Industry: healthcare
+Company: Southstatebank -> Industry: banking_finance
+Company: Southwestcare -> Industry: healthcare
+Company: Spectrumhealth -> Industry: healthcare
+Company: Stanfordhealthcare -> Industry: healthcare
+Company: Starfish -> Industry: banking_finance
+Company: State Farm -> Industry: insurance
+Company: Stellahealth -> Industry: healthcare
+Company: Stmonicatrust -> Industry: banking_finance
+Company: Streamlinehealthcare -> Industry: healthcare
+Company: Sumitomoheavyindustries -> Industry: banking_finance
+Company: Sumitomopharma -> Industry: banking_finance
+Company: Sunlife -> Industry: insurance
+Company: Sun Life U.S. -> Industry: insurance
+Company: Sutterhealth -> Industry: healthcare
+Company: SWBC -> Industry: insurance
+Company: Swisslife -> Industry: insurance
+Company: Synchrony Financial -> Industry: banking_finance
+Company: Syneoshealth -> Industry: healthcare
+Company: Tbkbank -> Industry: banking_finance
+Company: TD Bank -> Industry: banking_finance
+Company: Teamcarcare -> Industry: healthcare
+Company: Texascapitalbank -> Industry: banking_finance
+Company: Texasmutual -> Industry: insurance
+Company: Thedacare -> Industry: healthcare
+Company: Theglobalfund -> Industry: banking_finance
+Company: The Hartford -> Industry: insurance
+Company: Themutualgroup -> Industry: insurance
+Company: Thermo Fisher Scientific -> Industry: banking_finance
+Company: Thrivent -> Industry: insurance
+Company: Tiaa -> Industry: insurance
+Company: Tidelandshealth -> Industry: healthcare
+Company: Tihinsurance -> Industry: insurance
+Company: Tokio Marine HCC -> Industry: insurance
+Company: Transamerica -> Industry: insurance
+Company: Travelers -> Industry: insurance
+Company: Trinity -> Industry: healthcare
+Company: Trinity Health -> Industry: healthcare
+Company: Troweprice -> Industry: banking_finance
+Company: Truist -> Industry: banking_finance
+Company: Trustage -> Industry: banking_finance
+Company: Trustetc -> Industry: banking_finance
+Company: Trustmark -> Industry: banking_finance
+Company: Tuftshealthplan -> Industry: healthcare
+Company: Udghealthcare -> Industry: healthcare
+Company: UnitedHealth Group -> Industry: healthcare
+Company: Umchealthsystem -> Industry: healthcare
+Company: Unitedfidelity -> Industry: banking_finance
+Company: Unitingcareqld -> Industry: healthcare
+Company: Universalproperty -> Industry: insurance
+Company: Unum Group -> Industry: insurance
+Company: Uoflhealth -> Industry: healthcare
+Company: USAA -> Industry: insurance
+Company: Usagenesiscare -> Industry: healthcare
+Company: Usbank -> Industry: banking_finance
+Company: U.S. Bank -> Industry: banking_finance
+Company: Uvmhealth -> Industry: healthcare
+Company: Valleyhealth -> Industry: healthcare
+Company: Valleyhealthlink -> Industry: healthcare
+Company: Valorhospitality -> Industry: healthcare
+Company: Vanguard -> Industry: insurance
+Company: Vcuhealth -> Industry: healthcare
+Company: Verawholehealth -> Industry: healthcare
+Company: Vhchealth -> Industry: healthcare
+Company: Wasatchproperty -> Industry: insurance
+Company: Waverlyhealthcenter -> Industry: healthcare
+Company: Wealthenhancement -> Industry: banking_finance
+Company: Webster Bank -> Industry: banking_finance
+Company: Wellcarehealth -> Industry: healthcare
+Company: Westernalliancebank -> Industry: banking_finance
+Company: Wells Fargo -> Industry: insurance
+Company: Wfscorp -> Industry: insurance
+Company: Wintrust -> Industry: banking_finance
+Company: Worldmarket -> Industry: other
+Company: Wsfsbank -> Industry: banking_finance
+Company: Wyndhamcapital -> Industry: banking_finance
+Company: Xrevextendicare -> Industry: healthcare
+Company: Younglife -> Industry: insurance
+Company: Zealandpharma -> Industry: healthcare
