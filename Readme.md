@@ -180,6 +180,8 @@ I think the best way to handle such an overwhelming number of ATS entries now is
 since there are thousands. Unfortunately, it doesn't have a field for the industry.
 <br>But having all the entries in a database, it will be much easier to handle the ATS querying.
 
+This change has been made. The watchlist is now created from a database.
+
 As I thought, the Claude script wasn't strictly necessary.
 
 ### Pricing

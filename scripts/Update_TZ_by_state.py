@@ -206,7 +206,7 @@ def Update_TZ_by_state(JOBS_DB):
     conn = sqlite3.connect(JOBS_DB)
     cursor = conn.cursor()
 
-    print("Updating timezone by state...")
+    print("\nUpdating timezone by state...")
     # ADD COLUMN IF MISSING
     cursor.execute("PRAGMA table_info(new_jobs)")
     columns = [row[1] for row in cursor.fetchall()]
