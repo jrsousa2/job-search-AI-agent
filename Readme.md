@@ -99,7 +99,8 @@ If the result is not valid with high confidence, the job listing is skipped.
 ### Scoring logic
 
 The way the AI was scoring the jobs was not great, because the prompt was not telling it objectively how scoring should be done.
-<br>Hence, I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
+
+Hence, I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
 such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (besides, I can use the savings too).
 
 I think this new way makes more sense and is more accurate than the AI prompt. The hierarchy allows me to:
@@ -109,6 +110,9 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize recent job postings.
 - Prioritize specific industries.
 - Prioritize jobs that match my main skills.
+
+Currently, the scoring logic  has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
+for postings to include some of my hard skills.
 
 I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company/platform, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
