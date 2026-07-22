@@ -25,7 +25,7 @@ import json
 
 # OTHER PROGRAMS
 import config
-from job_parser import parse_jobs
+# from job_parser import parse_jobs
 from url_verifier import verify_url
 from scorer import score_jobs
 from docs_gen import gen_docs_for_job
@@ -45,7 +45,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 # MY FUNCTIONS IN scripts
-from Create_AI_input import Create_AI_input
+# from Create_AI_input import Create_AI_input
 from Repo_root import JOBS_DB
 
 
