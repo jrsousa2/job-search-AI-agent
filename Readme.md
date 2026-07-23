@@ -71,7 +71,7 @@ I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
 
-AI prompt is a new tool (NLP) that allows you to pass intructions to an AI model and it understands and carries out your intructions correctly.
+AI prompt is a new tool (NLP) that allows you to pass instructions to an AI model and it understands and carries out your intructions correctly.
 Unfortunately, neither prompts nor AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
 that, although very useful, require polishing. For example, if you ask the AI if the code it just produced is all right, it will usually 
 point out issues (this is inconsistency, it can't agree with itself at times).
