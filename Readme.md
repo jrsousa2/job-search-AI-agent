@@ -125,10 +125,15 @@ Since this batch job is supposed to run daily, the process I envisioned was to c
 for the jobs (final_job_id &ndash; comprised of platform, company and job_id &mdash; if job_id is not missing, which is nearly always the case
 ). If, however, the job_id is missing, the unique key is platform, company and title.
 
-The purpose of the final_job_id is to deduplicate the current jobs list, based on previous results. 
-Therefore, a jobs history table is kept as well (with final_job_id set as a unique key). Every time the job runs, the new jobs are added to the history table at the end of the process. 
+The purpose of the final_job_id was to deduplicate the current jobs list, based on previous results. 
+Therefore, a jobs history table was kept as well (with final_job_id set as a unique key). 
 
-If the same company is added more than once to the watchlist by mistake, duplicated records by final_job_id may show up in table new_jobs. 
+However, I have since modified the process to rely on Chrome's SQLite database, which is working. 
+A posting is old if its URL has already been visited in Chrome, and it's skipped for selection purposes.
+<br>Since I only take one job per company (the one with the highest score), a job that didn't score high previously
+may reappear on the final list (once the one with the greatest match is ignored). 
+
+The key is also used to prevent adding duplicated records (by final_job_id) in the database, if the same company is added more than once to the watchlist by mistake. 
 <br>To avoid that, the json watchlist file is deduped by platform, company and slug before use. 
 <br>The resulting records are still checked for duplicate final_job_id before being added to the new_jobs table, and any occasional duplicates are discarded.
 
