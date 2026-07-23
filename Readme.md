@@ -201,7 +201,7 @@ Btw, there's a simple example of a tailored resume, under folder `resumes`, [sam
 It seems prompt caching may lead to savings in the script used to generate the tailored files.
 Still, it's only advisable to enable prompt caching in that code if there are a minimum of 2 or 3 files (caching is conditional).
 <br>Caching only pays off when the same content gets reused across multiple calls. 
-<br>Which is the case, since docs_gen.py is called up to 10 times per run, and its entire system_prompt is byte-for-byte identical across all 10 calls. 
+Which is the case, since docs_gen.py is called up to 10 times per run, and its entire system_prompt is byte-for-byte identical across all 10 calls. 
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
