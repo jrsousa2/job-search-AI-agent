@@ -4,10 +4,7 @@ import pandas as pd
 from pathlib import Path
 import sqlite3
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-
-Jobs_DB = REPO_ROOT / "Database" / "jobs.db"
-ATS_DB = REPO_ROOT / "Database" / "ATS.db"
+from Repo_root import REPO_ROOT, JOBS_DB, ATS_DB, INDUS_DB
 
 # EXPORT A DB TABLE TO EXCEL
 def Exp_db_to_Excel(JOBS_DB, input_table: str, suff: str, sql_filter: str) -> None:
@@ -25,11 +22,13 @@ def Exp_db_to_Excel(JOBS_DB, input_table: str, suff: str, sql_filter: str) -> No
 # MAIN CODE
 if __name__ == "__main__":
     # Exp_db_to_Excel(JOBS_DB,"new_jobs","(post)","WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1 and is_US = 1")
-    Exp_db_to_Excel(Jobs_DB,"new_jobs","(new)","")
+    Exp_db_to_Excel(JOBS_DB,"new_jobs","(new)","")
+
+    # Exp_db_to_Excel(INDUS_DB,"Industry","(new)","")
 
     # EXPORT ATS TABLES
-    #Exp_db_to_Excel(ATS_DB,"Ashby","(new)","")
-    #Exp_db_to_Excel(ATS_DB,"Workday","(new)","")
+    # Exp_db_to_Excel(ATS_DB,"Ashby","(new)","")
+    # Exp_db_to_Excel(ATS_DB,"Workday","(new)","")
     # Exp_db_to_Excel(ATS_DB,"Lever","(new)","")
     # Exp_db_to_Excel(ATS_DB,"Greenhouse","(new)","")
     # Exp_db_to_Excel(ATS_DB,"Watchlist","(new)","")

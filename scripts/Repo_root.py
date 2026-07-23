@@ -15,3 +15,5 @@ ATS_DB = REPO_ROOT / "Database" / "ATS.db"
 
 # THE CHROME DB
 CHROME_DB = Path(r"D:\Agent\Database\Chrome_db.db")
+
+INDUS_DB = r"D:\Agent\Database\Industry.db"
