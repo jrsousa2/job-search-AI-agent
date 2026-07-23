@@ -135,8 +135,8 @@ If the same company is added more than once to the watchlist by mistake, duplica
 ### Job posting date
 
 I've added the job posting date to the table as well, since that is a very important part of the scoring logic. Jobs posted
-more recently have higher weight. Unfortunately, workday uses a description for the post date -- but it can be easily converted 
-to an actual post date.
+more recently have higher weight. Unfortunately, workday uses a description for the post date -- but it can be converted 
+to an actual post date (despite values such as "Posted 30+ Days Ago").
 
 ### Previously evaluated flag
 
