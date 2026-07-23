@@ -144,10 +144,10 @@ to an actual post date (despite values such as "Posted 30+ Days Ago").
 
 ### Previously evaluated flag
 
-A flag called "New" is updated every time the job runs, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. 
+A flag called "New" was updated every time the job ran, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. 
 
-The next change will use the Chrome's visited URLs SQLite database to flag applied jobs, as currently it's very manual. It's a daily process,
-where I insert visited URLs into an existing history table. Then the URLs are used to flag new versus old postings.
+It has now been changed to use Chrome's SQLite database to flag applied jobs, as it was very manual. It's a daily process,
+where visited URLs are inserted into a history table. Then the URLs are used to flag new versus old postings.
 
 ### Remote/hybrid flags
 
