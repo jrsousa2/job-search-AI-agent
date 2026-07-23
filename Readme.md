@@ -190,16 +190,14 @@ As I thought, the Claude script wasn't strictly necessary.
 
 ### Pricing
 
-I'm using a script created by Claude to help me estimate the price per run, with a breakdown ot tokens
-(input and output) for both the scorer, the tailored files creation and the watchlist suggestions. 
-<br>It's a program that captures data usage from these three main scripts. 
-Thus, the number of tailored resumes (and cover letters) that the user chose to create also adds to the price.
+I'm using a script created by Claude to help me estimate the price per run, which is now only comprised of resume tailoring. 
+<br>The number of tailored resumes (and cover letters) that the user chose to create adds to the price.
 Btw, there's a simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
-It seems prompt caching only leads to savings in the scripts used to generate the tailored files and the one used to suggest entries to the watchlist.
-Still, it's only advisable to enable prompt caching in the code that generates the tailored files if there are a minimum of 2 or 3 files (caching is conditional).
+It seems prompt caching may lead to savings in the script used to generate the tailored files.
+Still, it's only advisable to enable prompt caching in that code if there are a minimum of 2 or 3 files (caching is conditional).
 <br>Caching only pays off when the same content gets reused across multiple calls. 
-<br>Program docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls. 
+<br>Which is the case, since docs_gen.py is called up to 10 times per run, and its entire **system_prompt** is byte-for-byte identical across all 10 calls. 
 
 Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
 
@@ -213,8 +211,7 @@ Pricing depends on how large the AI prompt is, the response length, what model i
 | Web searches    | 15 ($0.15) |
 | **TOTAL**       | **$2.22** |
 
-One run here entails feeding roughly a hundred jobs to be scored by Claude. Running a few web searches with AI for new entries into the companies watchlist. 
-And tailoring about 10 resumes/cover letters. All those use AI prompts and hence tokens.
+This is an out-of-date cost estimate though, as the process has changed. Here one run entailed feeding roughly a hundred jobs to be scored by Claude, running a few web searches with AI for the ATS watchlist, and tailoring about 10 resumes/cover letters. 
 
 ### Excel for testing
 
