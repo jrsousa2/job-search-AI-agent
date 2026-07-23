@@ -18,10 +18,6 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bam
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Baincapitalventures", "platform":"greenhouse", "slug":"baincapitalventures"}
 
-API Error: <urlopen error _ssl.c:989: The handshake operation timed out> 	Key: {"company":"Anglefinance", "platform":"workday", "slug":"anglefinance/wd105/Angle_Finance_Careers"}
-
-API Error: <urlopen error _ssl.c:989: The handshake operation timed out> 	Key: {"company":"Anglicare", "platform":"workday", "slug":"anglicare/wd105/Anglicare_Careers"}
-
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bioclinica", "platform":"workday", "slug":"bioclinica/wd1"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Blockone", "platform":"workday", "slug":"blockone/wd3"}
@@ -42,9 +38,11 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Car
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Changehealthcare", "platform":"workday", "slug":"changehealthcare/wd5"}
 
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chime", "platform":"workday", "slug":"chime/wd3"}
+
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chimesolutions", "platform":"workday", "slug":"chimesolutions/wd1"}
 
-API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chime", "platform":"workday", "slug":"chime/wd3"}
+API Error: The read operation timed out 	Key: {"company":"Blackrock", "platform":"workday", "slug":"blackrock/wd1/BlackRock_Professional"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Chubb", "platform":"workday", "slug":"chubb/wd5/External"}
 
@@ -72,8 +70,6 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Fid
 
 Bad board/API Error: HTTP 422 	Key: {"company":"FNB Corporation", "platform":"workday", "slug":"fnbcorp/wd1/FNBCORP"}
 
-API Error: <urlopen error _ssl.c:989: The handshake operation timed out> 	Key: {"company":"Estiahealth", "platform":"workday", "slug":"estiahealth/wd105/Estia_Health_Careers"}
-
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"G6hospitality", "platform":"workday", "slug":"g6hospitality/wd5"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Galileofinancialtechnologies", "platform":"greenhouse", "slug":"galileofinancialtechnologies"}
@@ -100,15 +96,13 @@ Bad board/API Error: HTTP 422 	Key: {"company":"JPMorgan Chase", "platform":"wor
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Kindercare", "platform":"workday", "slug":"kindercare/wd5"}
 
-API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Landsecurities", "platform":"workday", "slug":"landsecurities/wd3"}
-
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Lakelandhealth", "platform":"workday", "slug":"lakelandhealth/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Landsecurities", "platform":"workday", "slug":"landsecurities/wd3"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Lghealth", "platform":"workday", "slug":"lghealth/wd1"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Liberty Mutual Insurance", "platform":"workday", "slug":"libertymutual/wd5/External"}
-
-API Error: Remote end closed connection without response 	Key: {"company":"Mariner Careers", "platform":"ashby", "slug":"mariner-careers"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Marlincapitalsolutions", "platform":"workday", "slug":"marlincapitalsolutions/wd5"}
 
@@ -117,8 +111,6 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Mar
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Mcrtrust", "platform":"workday", "slug":"mcrtrust/wd1"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Medlyhealth", "platform":"workday", "slug":"medlyhealth/wd1"}
-
-API Error: The read operation timed out 	Key: {"company":"Marqeta", "platform":"greenhouse", "slug":"marqeta"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Molina Healthcare", "platform":"workday", "slug":"molina/wd5/External"}
 
@@ -142,19 +134,19 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Pen
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Phoebehealth", "platform":"workday", "slug":"phoebehealth/wd5"}
 
+Bad board/API Error: HTTP 520 	Key: {"company":"Nationwidechildrens", "platform":"workday", "slug":"nationwidechildrens/wd5/NCHCareers"}
+
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Rabobank", "platform":"workday", "slug":"rabobank/wd3"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Redcare", "platform":"workday", "slug":"redcare/wd3"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Regionalhealth", "platform":"workday", "slug":"regionalhealth/wd1"}
 
-API Error: The read operation timed out 	Key: {"company":"Privatehealthmanagement", "platform":"greenhouse", "slug":"privatehealthmanagement"}
-
-API Error: <urlopen error _ssl.c:989: The handshake operation timed out> 	Key: {"company":"Sedgwick", "platform":"workday", "slug":"sedgwick/wd1/Sedgwick"}
-
-API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Stellahealth", "platform":"workday", "slug":"stellahealth/wd5"}
+API Error: <urlopen error _ssl.c:989: The handshake operation timed out> 	Key: {"company":"Revhealth", "platform":"lever", "slug":"revhealth"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Stanfordhealthcare", "platform":"workday", "slug":"stanfordhealthcare/wd5/SHC_External_Career_Site"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Stellahealth", "platform":"workday", "slug":"stellahealth/wd5"}
 
 Bad board/API Error: HTTP 401 	Key: {"company":"State Farm", "platform":"workday", "slug":"statefarm/wd1/External"}
 
@@ -176,8 +168,10 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Val
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Wyndhamcapital", "platform":"workday", "slug":"wyndhamcapital/wd1"}
 
+API Error: The read operation timed out 	Key: {"company":"Urgentcareforchildren", "platform":"greenhouse", "slug":"urgentcareforchildren"}
 
 
-Jobs list had 1817 records
-Saved 539 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Jobs list had 1819 records
+Saved 546 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 

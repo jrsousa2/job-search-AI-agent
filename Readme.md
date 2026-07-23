@@ -164,8 +164,7 @@ E.g., if a foreign country name appears in the location (but US and its variants
 Because a candidate may not be interested in working far outside of his time zone, this flag is very important. But
 job locations can be messy in the data, so it's not easy to use geolocator modules available in Python.
 
-I've decided to just use the field location and a simple logic based on states (case-insensitive) and major cities to assign the time zones (ET,
-CT, MT and PT, which are assigned in this order).  
+I've decided to just use the field location and a simple logic based on states (case-sensitive for the abbreviation) and major cities (case-insensitive) to assign the time zones (ET, CT, MT and PT, which are assigned in this order).  
 The logic is useful and reasonably accurate, since some states and major cities appear in the description more frequently than others.
 
 ### Modularization
