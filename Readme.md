@@ -227,7 +227,7 @@ For testing purposes, the database tables can be exported to Excel with just a c
 
 ### Log
 
-An external log file is created to indentify and troubleshoot ATS-related errors during job data extraction and processing. 
+An external log file is created to identify and troubleshoot ATS-related errors during job data extraction and processing. 
 <br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
 ### Conclusion
