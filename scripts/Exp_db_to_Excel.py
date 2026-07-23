@@ -25,7 +25,10 @@ def Exp_db_to_Excel(JOBS_DB, input_table: str, suff: str, sql_filter: str) -> No
 # MAIN CODE
 if __name__ == "__main__":
     # Exp_db_to_Excel(JOBS_DB,"new_jobs","(post)","WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1 and is_US = 1")
-    Exp_db_to_Excel(Jobs_DB,"new_jobs","(new)","")
+    # Exp_db_to_Excel(Jobs_DB,"new_jobs","(new)","")
+
+    Exp_db_to_Excel(Jobs_DB,"new_jobs","(test)","where (is_remote = 1 OR is_hybrid = 1) and New = 1 and is_US = 1 and (TZ in ('ET','CT') or TZ is null) and top_company_job = 1")
+     
 
     # EXPORT ATS TABLES
     #Exp_db_to_Excel(ATS_DB,"Ashby","(new)","")
