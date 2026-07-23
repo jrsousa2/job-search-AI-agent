@@ -236,7 +236,8 @@ The bottom line is, I'm now only using AI for resume tailoring. The heuristic sc
 is much easier to create, manage and verify.
 
 I'm now creating four single URL lists, one for each ATS portal. Still thinking about how to improve this process, but
-I've come a long way, I've put in many hours of work on this pipeline! 
+I've come a long way, I've put in many hours of work on this pipeline! (And tbh I'm reasonably satisfied with the outputs
+now, whereas a while ago I was getting pretty dismayed with the results!).
 
 The daily-digest folder has some samples of posting URLs, if you want to check it out.
 
