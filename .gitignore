@@ -11,6 +11,7 @@ Update_TZ_by_state.py
 *.docx
 *.xlsx
 *.json
+*.db
 
 # PDF's
 *.pdf
@@ -27,9 +28,8 @@ Old/
 Bak/
 Json/
 Claude/*
-Database/*
 
-# 
+
 # THE BELOW INCLUDES
 !SAMPLE_resume_with_clickable_links.pdf
 !Claude/agent.py
@@ -38,4 +38,4 @@ Database/*
 !new_jobs_2026-07-21.xlsx
 !watchlist_temp.json
 !watchlist_test.json
-!Database/New_jobs_snapshot.PNG
+!New_jobs_snapshot.PNG
