@@ -91,7 +91,7 @@ Be prepared to tweak your prompts constantly.
 
 ### Checking if posting is active
 
-The ATS is not being verified by Claude, it's being verified by a function verify_url(), which checks the URL accessibility
+The ATS is not being verified by Claude, it's being verified by a function, which checks the URL accessibility
 and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
 
 If the result is not valid with high confidence, the job listing is skipped.
