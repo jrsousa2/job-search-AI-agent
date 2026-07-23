@@ -71,7 +71,7 @@ I'm also taking backups of the tables, if something goes wrong.
 
 ### AI prompt
 
-AI prompt is a new tool (NLP) that allows you pass intructions to an AI model and it understands and carries out your intructions correctly.
+AI prompt is a new tool (NLP) that allows you to pass intructions to an AI model and it understands and carries out your intructions correctly.
 Unfortunately, neither prompts nor AI are perfect. AI solutions often require touch-ups by a human -- it often gives answers
 that, although very useful, require polishing. For example, if you ask the AI if the code it just produced is all right, it will usually 
 point out issues (this is inconsistency, it can't agree with itself at times).
@@ -101,7 +101,7 @@ If the result is not valid with high confidence, the job listing is skipped.
 The way the AI was scoring the jobs was not great, because the prompt was not telling it objectively how scoring should be done.
 
 Hence, I have replaced the black-box AI logic with a simple heuristic with a keyword-driven hierarchy (i.e., some keywords, 
-such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (besides, I can use the savings too).
+such as SQL or titles, dominate all others, in a cascading process), leaving only the resume tailoring to the AI (besides, I can use the savings).
 
 I think this new way makes more sense and is more accurate than the AI prompt. The hierarchy allows me to:
 
@@ -111,8 +111,8 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize specific industries.
 - Prioritize jobs that match my main skills.
 
-Currently, the scoring logic  has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
-for postings to include some of my hard skills.
+Currently, the scoring logic has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
+for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score.
 
 I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company/platform, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
@@ -135,7 +135,8 @@ If the same company is added more than once to the watchlist by mistake, duplica
 ### Job posting date
 
 I've added the job posting date to the table as well, since that is a very important part of the scoring logic. Jobs posted
-more recently have higher weight. Unfortunately workday uses a description, as opposed to an actual date.
+more recently have higher weight. Unfortunately, workday uses a description for the post date -- but it can be easily converted 
+to an actual post date.
 
 ### Previously evaluated flag
 
@@ -172,22 +173,18 @@ I can also verify the results easily by exporting the database to Excel.
 
 ### ATS watchlist
 
-File watchlist.json is a template, you have to build your own. 
+A Python script created by Claude and fixed by me was used to suggest more entries for the watchlist. 
+<br>It was run separately from the other two tasks (scoring jobs and tailoring resumes).
 
-A Python script created by Claude and fixed by me suggests more entries for the watchlist. 
-<br>It's run separately from the other two tasks (scoring jobs and tailoring resumes).
-<br>URL errors go in the external log. Wrong entries are fixed manually with ChatGpt or Claude,
-and another script replaces the fixed entries in the list.
+But I've finally found a useful source for ATS tenants though, with lots of entries. I had been querying
+mostly tech companies with the list I had &mdash; but not having worked in big tech before, the results
+were not great. 
 
-I've finally found a useful source for ATS tenants though, with lots of entries. I've been querying
-mostly tech companies so far with the list I have &mdash; but not having worked in big tech before, the results
-have not been great. Switching to industries that I have more experience in should help.
-
-I think the best way to handle such an overwhelming number of ATS entries now is to create a database, 
-since there are thousands. Unfortunately, it doesn't have a field for the industry. 
-But having all the entries in a database, it will be much easier to handle the ATS querying.
-
-This change has been made. The watchlist is now created from a database.
+To handle such an overwhelming number of new ATS entries, a new database was created, with the records
+of the four ATS systems that the script is able to query. The watchlist can now be creatd from that database.
+Unfortunately, it doesn't include a field for the industry, so an approximate logic is used to select companies in specific industries.
+<br>Switching to industries that I have more experience in should help now.
+ATS querying errors go in an external log file.
 
 As I thought, the Claude script wasn't strictly necessary.
 
@@ -221,8 +218,7 @@ And tailoring about 10 resumes/cover letters. All those use AI prompts and hence
 
 ### Excel for testing
 
-For testing purposes, the table new_jobs is exported to Excel (the flag allows to know which jobs are new, and 
-also allows only actual new jobs to be passed to Claude for evaluation).
+For testing purposes, the database tables can be exported to Excel with just a click, whenever changes need to be inspected.
 
 ### A snapshot of the table new_jobs:
 
