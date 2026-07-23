@@ -142,6 +142,8 @@ I've added the job posting date to the table as well, since that is a very impor
 more recently have higher weight. Unfortunately, workday uses a description for the post date -- but it can be converted 
 to an actual post date (despite values such as "Posted 30+ Days Ago").
 
+Postings older than 3 weeks are ignored.
+
 ### Previously evaluated flag
 
 A flag called "New" was updated every time the job ran, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. 
