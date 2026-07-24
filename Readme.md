@@ -243,6 +243,8 @@ now, whereas a while ago I was getting pretty dismayed with the results!
 
 The daily-digest folder has some samples of posting URLs, if you want to check it out.
 
+Let me know if you could use someone with my analytical skills, I'm looking for a new role in this tough economy.
+
 ### Documentation
 
 For a guide to this repository, please visit:
