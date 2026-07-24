@@ -159,7 +159,7 @@ From my observations, the is_remote flag is not always reliable, so it's tweaked
 
 ### US posting flag
 
-I also added a is_US flag in the main table, with a simple logic, since I noticed some locations are not in the US.
+I also added a is_US flag to the main table, with a simple logic, since I noticed some locations are not in the US.
 E.g., if a foreign country name appears in the location (but US and its variants don't), then is_US=0.
 
 ### Time zone field
