@@ -190,7 +190,7 @@ To handle such an overwhelming number of new ATS entries, a new database was cre
 of the four ATS systems that the script is able to query. The watchlist can now be creatd from that database.
 Unfortunately, it doesn't include a field for the industry, so an approximate logic is used to select companies in specific industries.
 <br>Switching to industries that I have more experience in should help now.
-ATS querying errors go in an external log file.
+ATS querying errors still go in an external log file.
 
 As I thought, the Claude script wasn't strictly necessary.
 
