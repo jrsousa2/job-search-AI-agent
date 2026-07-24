@@ -91,8 +91,9 @@ I ended up deciding to use AI only for resume tailoring, and leaving the scoring
 
 ### Checking if posting is active
 
-The ATS is not being verified by Claude, it's being verified by a function, which checks the URL accessibility
-and reliability before the jobs list is passed to Claude. The script checks HTTP response, page content and if company/title match.
+The ATS is not being verified by Claude, it's being verified by a function that checks the URL accessibility
+and reliability before the top jobs list is created (it's unlikely that the fetched URLs are wrong anyway, so this
+check is only worth doing for top matches that had a tailored resume created). 
 
 If the result is not valid with high confidence, the job listing is skipped.
 
