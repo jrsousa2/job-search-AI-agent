@@ -2,7 +2,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
-WATCHLIST_PATH = REPO_ROOT / "data" / "watchlist.json"
+WATCHLIST = REPO_ROOT / "data" / "watchlist.json"
 
 # AN EXTERNAL LOG FILE THAT LOGS INVALID URLs (SLUG)
 Log_file = REPO_ROOT / "Logs" / "Errors_log.txt"
@@ -14,6 +14,7 @@ JOBS_DB = REPO_ROOT / "Database" / "jobs.db"
 ATS_DB = REPO_ROOT / "Database" / "ATS.db"
 
 # THE CHROME DB
-CHROME_DB = Path(r"D:\Agent\Database\Chrome_db.db")
+CHROME_DB = REPO_ROOT / "Database" / "Chrome_db.db"
 
-INDUS_DB = r"D:\Agent\Database\Industry.db"
+# INDUSTRY
+INDUS_DB = REPO_ROOT / "Database" / "Industry.db"
