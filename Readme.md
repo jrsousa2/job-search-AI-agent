@@ -113,7 +113,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize jobs that match my main skills.
 
 Currently, the scoring logic has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
-for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score.
+for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score (keywords that correspond to the 1s are displayed next to the score -- it makes it easy to debug when issues arise and is very useful for development).
 
 I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company/platform, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
