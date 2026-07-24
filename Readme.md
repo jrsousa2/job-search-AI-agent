@@ -115,10 +115,10 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 Currently, the scoring logic has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
 for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score (keywords that correspond to the 1s are displayed next to the score -- it makes it easy to debug when issues arise and is very useful for development).
 
-I'm also only taking the posting with the highest score per company/platform. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company/platform, I take only one. 
+I'm also only taking the posting with the highest score per company. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company, I take only one. 
 <br>It's amazing how using SQL makes these tasks easy!
 
-And for now, I will keep running this process manually, until it's more accurate.
+And for now, I will keep running this process manually.
 
 ### Unique key to dedupe jobs
 
