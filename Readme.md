@@ -205,7 +205,7 @@ Still, it's only advisable to enable prompt caching for that code if there are a
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 Which is the case, since docs_gen.py is called up to 10 times per run, and its entire system_prompt is byte-for-byte identical across all 10 calls. 
 
-Pricing depends on how large the AI prompt is, the response length, what model is being used, how many jobs need to be scored, etc.
+Pricing depends on how large the AI prompt is, the response length, what model is being used, etc.
 
 *Here's an example of cost estimate for an actual run:*
 
