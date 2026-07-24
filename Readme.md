@@ -149,8 +149,8 @@ Postings older than 3 weeks are ignored.
 
 A flag called "New" was updated every time the job ran, in the table new_jobs (by joining it with the history table). The flag is 1 if the job is actually new, and 0 otherwise. 
 
-It has now been changed to use Chrome's SQLite database to flag applied jobs, as it was very manual. It's a daily process,
-where visited URLs are inserted into a history table. Then the URLs are used to flag new versus old postings.
+It has now been changed to use Chrome's SQLite database to flag applied jobs, as it was a little manual. It's a daily process,
+where visited URLs are inserted into a history table. Then the URLs are used to flag "new" versus "old" postings.
 
 ### Remote/hybrid flags
 
