@@ -201,7 +201,7 @@ I'm using a script created by Claude to help me estimate the price per run, whic
 Btw, there's a simple example of a tailored resume, under folder `resumes`, [sample resume](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/resumes/SAMPLE_resume_with_clickable_links.pdf).
 
 It seems prompt caching may lead to savings in the script used to generate the tailored files.
-Still, it's only advisable to enable prompt caching in that code if there are a minimum of 2 or 3 files (caching is conditional).
+Still, it's only advisable to enable prompt caching for that code if there are a minimum of 2 or 3 files (caching is conditional).
 <br>Caching only pays off when the same content gets reused across multiple calls. 
 Which is the case, since docs_gen.py is called up to 10 times per run, and its entire system_prompt is byte-for-byte identical across all 10 calls. 
 
