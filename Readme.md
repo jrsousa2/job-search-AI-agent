@@ -55,7 +55,7 @@ multiple ATS boards to be queried simultaneously.
 
 After the new_jobs database is created, a well-planned scoring logic is created from it (with all the applicable filters).
 
-Eventually, I will upload the final scripts here.
+Finally, the job description for workday was not working. Eventually, I will upload the final scripts here.
 
 ### Claude API
 

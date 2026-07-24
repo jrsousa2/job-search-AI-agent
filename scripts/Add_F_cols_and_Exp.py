@@ -1,10 +1,8 @@
 # CREATES THE LIST OF JOBS FROM THE DB
 import sqlite3
-from pathlib import Path
-import sys
 
 from Repo_root import JOBS_DB
-from Exp_db_to_Excel import Exp_db_to_Excel
+from Exp_db_to_Excel import Exp_db_to_Excel_conn
 
 import Update_flags
 
@@ -25,8 +23,8 @@ def add_cols_and_exp(input_db):
     """)
 
     # Export temp table to Excel here
-    Exp_db_to_Excel(JOBS_DB,"WD_jobs","(Expanded)","")
-
+    Exp_db_to_Excel_conn(conn,"WD_jobs","(Expanded)","")
+    # THE END
     conn.close()
 
 # ADDS FLAG "NEW" TO TABLE NEW_JOBS
