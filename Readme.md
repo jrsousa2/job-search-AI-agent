@@ -55,7 +55,7 @@ multiple ATS boards to be queried simultaneously.
 
 After the new_jobs database is created, a well-planned scoring logic is created from it (with all the applicable filters).
 
-Finally, I've also fixed the fetching of the job description from workday, which was not working. 
+Finally, I've also fixed the fetching of the job description from Workday, which was not working. 
 
 Eventually, I will upload the final scripts here.
 
