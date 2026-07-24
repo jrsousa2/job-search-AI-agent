@@ -1,9 +1,5 @@
 
 
-WORKDAY DESC ERROR: HTTP Error 400: Bad Request slug: guidewire/wd5/external ext_path: /job/United-States---Remote/Senior-Architect--Data-and-Analytics_JR_15050
-
-
-
 Jobs list had 1 records
 Saved 1 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
