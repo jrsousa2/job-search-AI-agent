@@ -1,5 +1,5 @@
 
 
-Jobs list had 14 records
-Saved 14 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Jobs list had 0 records
+Saved 0 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 

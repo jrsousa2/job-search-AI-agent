@@ -1,50 +1,126 @@
-Watchlist entries before dedupe: 2
-Watchlist entries after dedupe: 2
+Watchlist entries before dedupe: 1
+Watchlist entries after dedupe: 1
 
-Querying 1 of 2: ('greenhouse', 'Block', 'block')
-Querying 2 of 2: ('icims', 'Bancorp', 'careers-bancorpbank')
+Stifel: sitemap URL = https://careers-stifel.icims.com/sitemap.xml
+Stifel: sitemap length = 22830
+<?xml version='1.0' encoding='utf-8'?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://careers-stifel.icims.com/jobs/search</loc></url><url><loc>https://careers-stifel.icims.com/jobs/9656/registered-client-service-associate/job</loc><lastmod>2026-07-24T13:48:08-04:00</lastmod></url><url><loc>https://careers-stifel.icims.com/jobs/9630/vice-president%2c-commercial-real-estate/job</loc><lastmod>2026-07-24T13:43:51-04:00</lastmod></url><url><loc>https://careers-stifel.ic
+Stifel: job URLs found = 154
+k.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+  <div class="container-fluid" id="tracker-banner">
+    <div class="row">
+      <div class="banner-close">
+        <span class="fa fa-times fa-2x wnav-close" onclick="hideBanner()"></span>
+      </div>
+      <div class="banner-icon">
+        <img src="/images/_layout/app-icon.jpg" align="left" alt="Stifel Wealth Tracker Icon" border="0" />
+      </div>
+      <div class="banner-desc">
+        Stifel Wealth Tracker App- Your Accounts, Tools, Research
+      </div>
+      <div class="tracker-open" onclick="routeToApp()">
+        OPEN
+      </div>
+    </div>
+  </div>
+  <header class="main-page-header">
+    <div id="skip-to-content">
+      <a href="#main-content">Skip to Main Content</a>
+    </div>
+    <form id="Q2OnlineLogin" class="wealth-tracker-floater" name="Q2OnlineLogin" action="https://tracker.stifel.com/tracker/uux.aspx#/login" method="post" target="_blank" novalidate="novalidate">
+      <div>
+        <section class="left-part">
+          <h2>Stifel Wealth Tracker</h2>
+          <label for="user_id">Login ID</label>
+          <input name="user_id" id="user_id" type="text" />
+          <label for="password">Password</label>
+          <input name="password" id="password" type="password" />
+          <div class="login_row">
+            <a href="https://tracker.stifel.com/tracker/uux.aspx#/login/resetPasswordUsername">Forgot password?</a>
+            <input id="trackerLogin" class="btn" type="submit" value="Log In" />
+          </div>
+        </section>
+        <div class="gap"></div>
+        <section class="right-part">
+          <img alt="Wealth Tracker screenshot on mobile device" class="mobile_mockup desktop_only" src="/images/home/nav/WT-Screen-Login.png" />
+          <div>
+            <h3>Organize Your Financial Life</h3>
+            <ul>
+              <li>Pull all of your financial information into one singular, secure view</li>
+              <li>Create a personal balance sheet</li>
+              <li>Take a more in-depth look at your holdings</li>
+              <li>Track your spending and view your net worth</li>
+              <li>Better understand the companies you're invested in by accessing Stifel's nationally recognized research and investment insights</li>
+            </ul>
+            <div class="learn_more_row">
+              <a class="btn" href="https://tracker.stifel.com/tracker/sdk/AutoEnrollmentE2E">Sign Up</a>
+              <span class="desktop_only">Learn more at <a href="/tracker">stifel.com/tracker</a></span>
+            </div>
+            <section class="mobile_section">
+              <img alt="Wealth Tracker screenshot on mobile device" class="mobile_mockup mobile_only" src="/images/home/nav/WT-Screen-Login.png" />
+              <section class="app_section">
+                <div class="mobile_only">Learn more at <a href="/tracker">stifel.com/tracker</a></div>
+                <h3>Download Stifel Wealth Tracker</h3>
+                <div class="app_stores">
+                  <a href="https://apps.apple.com/us/app/stifel-wealth-tracker/id1337753137"><img alt="Download on the App Store" src="/images/home/nav/app-store.svg" /></a>
+                  <a href="https://play.google.com/store/apps/details?id=com.intyce.mobile"><img alt="Get it on Google Play" src="/images/home/nav/google-play.svg" /></a>
+                </div>
+              </section>
+            </section>
+          </div>
+        </section>
+      </div>
+    </form>
+    <nav class="navbar desktop">
+      <a href="/"><img class="logo" src="/images/home/stifel-logo.svg" alt="Stifel Home" border="0"></a>
+      <div class="gap"></div>
+      <div>
+        <ul class="top-row">
+          <li><a class="log-in" style="animation-name:none;" onclick="toggleMenu(event.target, $('header.main-page-header'), 'open_login')" href="#">&nbsp;Log&nbsp;In</a></li>
+          <li><a href="/investor-relations">Investor&nbsp;Relations</a></li>
+          <li><a href="/careers">Careers</a></li>
+          <li><a href="https://www.choosestifel.com/">Advisor&nbsp;Opportunities</a></li>
+          <li><a href="/contact-us">Contact&nbsp;Us</a></li>
+          <li><a class="btn navbar-find-advisor-btn" href="/find-a-stifel-advisor">Find&nbsp;a&nbsp;Stifel&nbsp;Advisor</a></li>
+        </ul>
+        <ul class="bottom-row">
+          <li><a href="/home/aboutstifel">About&nbsp;Us</a></li>
+          <li><a href="/individual">Individuals</a></li>
+          <li><a href="/institutional">Institutions</a></li>
+          <li><a href="https://bankwithstifel.com/welcome-page/" target="_blank">Banking&nbsp;&amp;&nbsp;Lending</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar mobile">
+      <div class="top-outter">
+        <div cla
+Stifel: returned 0 jobs
+[]
+Querying 1 of 1: ('icims', 'Stifel', 'careers-stifel')
 
 
-Jobs list had 14 records
-Saved 14 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Jobs list had 0 records
+Saved 0 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
 Updating timezone by state...
 Timezone update based on state/cities complete
+
 Chrome history copied
-New URLs inserted: 68
-Table VISITED_URLS : 2921 rows 
+New URLs inserted: 0
+Table VISITED_URLS : 2922 rows 
 
 Updating flags New/is_US...
 Total before SQL update...
-Table NEW_JOBS : 14 rows 
+Table NEW_JOBS : 0 rows 
 New after SQL update...
-Table NEW_JOBS : 6 rows where New=1
-Table NEW_JOBS : 14 rows 
+Table NEW_JOBS : 0 rows where New=1
+Table NEW_JOBS : 0 rows 
 
-Summary: 6 new | 8 already evaluated | 0 errors
+Summary: 0 new | 0 already evaluated | 0 errors
 
-Traceback (most recent call last):
-  File "D:\Agent\scripts\check_boards.py", line 606, in <module>
-    exit_code = main()
-                ^^^^^^
-  File "D:\Agent\scripts\check_boards.py", line 596, in main
-    Exp_db_to_Excel(JOBS_DB,"new_jobs",f"_{date_str}","")
-  File "D:\Agent\scripts\Exp_db_to_Excel.py", line 27, in Exp_db_to_Excel
-    df.to_excel(EXCEL_FILE, index=False)
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
-    return func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
-    formatter.write(
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
-    writer = ExcelWriter(
-             ^^^^^^^^^^^^
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
-    super().__init__(
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
-    self._handles = get_handle(
-                    ^^^^^^^^^^^
-  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
-    handle = open(handle, ioargs.mode)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^
-PermissionError: [Errno 13] Permission denied: 'D:\\Agent\\Excel\\new_jobs_2026-07-24.xlsx'
+Table new_jobs exported to new_jobs_2026-07-24.xlsx
+
+Start time: 2026-07-24 23:08:06.148340
+End time: 2026-07-24 23:08:08.245883
+Elapsed time: 0.03 minutes
+

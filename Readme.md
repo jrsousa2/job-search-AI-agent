@@ -118,6 +118,8 @@ for postings to include some of my hard skills. Each in-scope job posting is ass
 I'm also only taking the posting with the highest score per company. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company, I take only one. Postings without any of my hard skills are removed from the database, to avoid confusion.
 <br>It's amazing how using SQL makes these tasks easy!
 
+To be a great match, a posting can't strictly require hard skills that I don't have. I'm still figuring out how to incorporate that into the logic, though I've been doing it manually, when I click the link and read the description. That's a crucial part of an accurate matching, after all.
+
 And for now, I will keep running this process manually.
 
 ### Unique key to dedupe jobs
