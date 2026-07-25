@@ -12,6 +12,7 @@ Update_TZ_by_state.py
 *.xlsx
 *.json
 *.db
+fetch*
 
 # PDF's
 *.pdf
@@ -26,6 +27,7 @@ openroles/
 Auxi/
 Old/
 Bak/
+openroles*/
 Json/
 Claude/*
 
@@ -40,3 +42,4 @@ Claude/*
 !watchlist_test.json
 !New_jobs_snapshot.PNG
 !new_jobs_2026-07-22.xlsx
+!new_jobs_2026-07-24.xlsx

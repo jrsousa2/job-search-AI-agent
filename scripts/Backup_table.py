@@ -28,9 +28,7 @@ def back_up(input_table,suff):
 #back_up("jobs_hist","_v1")
 back_up("new_jobs",f"_{date_str}")
 
-
 # Summarize_db(JOBS_DB,"jobs_hist_v1","")
-
 # back_up("new_jobs","_v2")
 # Summarize_db(JOBS_DB,"new_jobs_v2","")
 # Summarize_db(JOBS_DB,"new_jobs_v2","where New=1")
