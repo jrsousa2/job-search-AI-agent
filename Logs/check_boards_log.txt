@@ -1,0 +1,50 @@
+Watchlist entries before dedupe: 2
+Watchlist entries after dedupe: 2
+
+Querying 1 of 2: ('greenhouse', 'Block', 'block')
+Querying 2 of 2: ('icims', 'Bancorp', 'careers-bancorpbank')
+
+
+Jobs list had 14 records
+Saved 14 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Updating timezone by state...
+Timezone update based on state/cities complete
+Chrome history copied
+New URLs inserted: 68
+Table VISITED_URLS : 2921 rows 
+
+Updating flags New/is_US...
+Total before SQL update...
+Table NEW_JOBS : 14 rows 
+New after SQL update...
+Table NEW_JOBS : 6 rows where New=1
+Table NEW_JOBS : 14 rows 
+
+Summary: 6 new | 8 already evaluated | 0 errors
+
+Traceback (most recent call last):
+  File "D:\Agent\scripts\check_boards.py", line 606, in <module>
+    exit_code = main()
+                ^^^^^^
+  File "D:\Agent\scripts\check_boards.py", line 596, in main
+    Exp_db_to_Excel(JOBS_DB,"new_jobs",f"_{date_str}","")
+  File "D:\Agent\scripts\Exp_db_to_Excel.py", line 27, in Exp_db_to_Excel
+    df.to_excel(EXCEL_FILE, index=False)
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\core\generic.py", line 2417, in to_excel
+    formatter.write(
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\formats\excel.py", line 943, in write
+    writer = ExcelWriter(
+             ^^^^^^^^^^^^
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 61, in __init__
+    super().__init__(
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\excel\_base.py", line 1246, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Python\Python3.11-v1\Lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'D:\\Agent\\Excel\\new_jobs_2026-07-24.xlsx'

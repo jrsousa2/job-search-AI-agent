@@ -13,6 +13,7 @@ Update_TZ_by_state.py
 *.json
 *.db
 fetch*
+ATS*.txt
 
 # PDF's
 *.pdf
@@ -28,7 +29,6 @@ Auxi/
 Old/
 Bak/
 openroles*/
-Json/
 Claude/*
 
 

@@ -22,7 +22,7 @@ copy_db = Path(r"D:\Agent\Database\Chrome_copy.db")
 def Chrome_db_hist():
     # CREATE COPY OF CHROME HISTORY
     shutil.copy2(history_db, copy_db)
-    print("Chrome history copied")
+    print("\nChrome history copied")
 
     # CONNECT TO YOUR PERMANENT DB
     conn = sqlite3.connect(chrome_db)
