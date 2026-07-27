@@ -1,5 +1,137 @@
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Abeilleassurances", "platform":"workday", "slug":"abeilleassurances/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Academymortgage", "platform":"workday", "slug":"academymortgage/wd1"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"American Express", "platform":"workday", "slug":"amex/wd5/External"}
+
+API Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'osv_amerisure.wd5.myworkdayjobs.com'. (_ssl.c:1006)> 	Key: {"company":"Amerisure", "platform":"workday", "slug":"osv_amerisure/wd5/Amerisure"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Argogroup", "platform":"workday", "slug":"argogroup/wd1/Argo"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Ascendanalytics", "platform":"greenhouse", "slug":"ascendanalytics"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Bamfunds", "platform":"workday", "slug":"bamfunds/wd1"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Baincapitalventures", "platform":"greenhouse", "slug":"baincapitalventures"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Capitalenergy", "platform":"workday", "slug":"capitalenergy/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Capitalone", "platform":"workday", "slug":"capitalone/wd1"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Capitalrx", "platform":"greenhouse", "slug":"capitalrx"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chime", "platform":"workday", "slug":"chime/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Chimesolutions", "platform":"workday", "slug":"chimesolutions/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Citi", "platform":"workday", "slug":"citi/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Citicclsa", "platform":"workday", "slug":"citicclsa/wd3"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Chubb", "platform":"workday", "slug":"chubb/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Creditkarma", "platform":"greenhouse", "slug":"creditkarma"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Dmarket", "platform":"greenhouse", "slug":"dmarket"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"Discover Financial Services", "platform":"workday", "slug":"discover/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Erie Insurance", "platform":"workday", "slug":"erieinsurance/wd5/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"FNB Corporation", "platform":"workday", "slug":"fnbcorp/wd1/FNBCORP"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Galileofinancialtechnologies", "platform":"greenhouse", "slug":"galileofinancialtechnologies"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Goodlifefitness", "platform":"workday", "slug":"goodlifefitness/wd3"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Intertrust", "platform":"workday", "slug":"intertrust/wd3"}
+
+Bad board/API Error: HTTP 502 	Key: {"company":"CVS Health / Aetna", "platform":"workday", "slug":"cvshealth/wd1/CVS_Health_Careers"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"JPMorgan Chase", "platform":"workday", "slug":"jpmc/wd5/External"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Landsecurities", "platform":"workday", "slug":"landsecurities/wd3"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Liberty Mutual Insurance", "platform":"workday", "slug":"libertymutual/wd5/External"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Marlincapitalsolutions", "platform":"workday", "slug":"marlincapitalsolutions/wd5"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Mcrtrust", "platform":"workday", "slug":"mcrtrust/wd1"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Mtholyoke", "platform":"workday", "slug":"mtholyoke/wd5/External"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Nortonlifelock", "platform":"workday", "slug":"nortonlifelock/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Pennmutual", "platform":"workday", "slug":"pennmutual/wd1"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Amerisure", "platform":"workday", "slug":"osv-amerisure/wd5/Amerisure"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Rabobank", "platform":"workday", "slug":"rabobank/wd3"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"State Farm", "platform":"workday", "slug":"statefarm/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Tokio Marine HCC", "platform":"workday", "slug":"tmhcc/wd1/External"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Trustmark", "platform":"workday", "slug":"trustmark/wd1"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Wyndhamcapital", "platform":"workday", "slug":"wyndhamcapital/wd1"}
+
+API Error: The read operation timed out 	Key: {"company":"Truist", "platform":"workday", "slug":"truist/wd1/Careers"}
 
 
-Jobs list had 0 records
-Saved 0 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+WORKDAY DESC ERROR: The read operation timed out slug: archgroup/wd1/Careers ext_path: /job/Home-Base-CT/AVP--Strategic-Portfolio-Financial-Management-Lead_R26_671-1
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: clearwateranalytics/wd1/Clearwater_Analytics_Careers ext_path: /job/Office---Noida/Client-Servicing-Analyst_R11978
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: globelife/wd5/Globe-Life-Careers ext_path: /job/McKinney-TX/Compliance-Analyst--Sales-Agent-Contact-Center--Hybrid-_JR101030
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: mechanicsbank/wd5/MechanicsBank ext_path: /job/Irvine-California/Treasury-Operations-Specialist_R6122
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: mechanicsbank/wd5/MechanicsBank ext_path: /job/Burbank-California/Branch-Manager-Retail-Bank_R6093
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: ms/wd5/External ext_path: /job/Sydney-Australia/Financial-Advisor_JR008767-1
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: pureinsurance/wd5/PURE ext_path: /job/Chicago/State-Management-Product-Analyst_R2693
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: lplfinancial/wd1/External ext_path: /job/Baltimore-MD/Financial-Advisor---Sate-Employee-CU-of-Maryland---Owings-Mills--MD_R-050754-1
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: tbkbank/wd1/tfin ext_path: /job/Bettendorf-IA/Senior-Fraud-Specialist_REQ-5002-2
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: tbkbank/wd1/tfin ext_path: /job/Holly-CO/Client-Services-Associate_REQ-4977
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: southstatebank/wd5/External ext_path: /job/Remote-Opportunity---VA-NC-SC-GA--FL-AL-TX--CO/Credit-Risk-Review-Officer-II_R-05721
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: troweprice/wd5/TRowePrice ext_path: /job/Baltimore-MD/Senior-Manager--Investment-Compliance_82256
+
+
+
+WORKDAY DESC ERROR: The read operation timed out slug: thermofisher/wd5/ThermoFisherCareers ext_path: /job/Carlsbad-California-USA/Senior-Finance-Manager_R-01358669
+
+
+
+Jobs list had 6105 records
+Saved 1790 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
