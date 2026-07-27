@@ -115,7 +115,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 Currently, the scoring logic has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
 for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score (keywords that correspond to the 1s are displayed next to the score in the HTML top job lists -- it makes it easy to debug when issues arise and is very useful for development).
 
-I'm also only taking the posting with the highest score per company. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company, I take only one. Postings without any of my hard skills are removed from the database, to avoid confusion.
+I'm also only taking the posting with the highest score per company. (I tailor resumes for the top 10, and apply for the rest with a regular resume). If there is more than one highest-scoring posting per company, I take only one. Postings without any of my hard skills are removed from the database, to avoid confusion. A SQL DML command is issued on the main table prior to deploying the logic.
 <br>It's amazing how using SQL makes these tasks easy!
 
 To be a great match, a posting can't strictly require hard skills that I don't have. I'm still figuring out how to incorporate that into the logic, though I've been doing it manually, when I click the link and read the description. That's a crucial part of an accurate matching, after all.
