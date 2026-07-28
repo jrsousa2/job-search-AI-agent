@@ -136,8 +136,7 @@ A posting is old if its URL has already been visited in Chrome, and it's skipped
 <br>Since I only take one job per company (the one with the highest score), a job that didn't score high previously
 may reappear on the final list (once the one with the greatest match is ignored). 
 
-The key is also used to prevent adding duplicated records (by final_job_id) in the database, if the same company is added more than once to the watchlist by mistake. To avoid that, the watchlist file is deduped by platform and slug before use. 
-<br>The resulting records are still checked for duplicate final_job_id before being added to the database, and any occasional duplicates are discarded.
+The key is still used to prevent adding duplicate records (by final_job_id) in the database (if, say, the same company is added more than once to the watchlist by mistake). Besides, the watchlist file is deduped by platform and slug before use. 
 
 ### Job posting date
 
