@@ -110,7 +110,7 @@ I think this new way makes more sense and is more accurate than the AI prompt. T
 - Prioritize jobs located in the Eastern or Central Time zones.
 - Prioritize recent job postings.
 - Prioritize specific industries.
-- Prioritize jobs that match my main skills.
+- Prioritize jobs that match my main hard skills.
 
 Currently, the scoring logic has 16 filters stored in Python f-string variables. The first five are not about my main hard skills. There's a requirement
 for postings to include some of my hard skills. Each in-scope job posting is assigned a binary score (keywords that correspond to the 1s are displayed next to the score in the HTML top job lists -- it makes it easy to debug when issues arise and is very useful for development).
