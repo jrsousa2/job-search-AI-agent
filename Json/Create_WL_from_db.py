@@ -232,8 +232,8 @@ def create_watchlist(input_db, output_file, log_file):
         industry = matches_industry(company)
 
         # if "guidewire" in company.lower():
-        # if industry in ["insurance", "banking", "other"]:   
-        if platform=="icims" and industry in ["banking"]:     
+        if industry in ["insurance", "banking", "other"]:   
+        # if platform=="icims" and industry in ["banking"]:     
             # print(company, "->", industry)
             print_to_log(log_file,"Company: {} -> Industry: {}\n",company, industry)
             output.append({
@@ -259,4 +259,4 @@ def create_watchlist(input_db, output_file, log_file):
 
 if __name__ == "__main__":
     # CALLS FUNCTIONS
-    create_watchlist(ATS_DB, WATCHLIST, r"D:\Agent\Logs\Check_industry.txt")
+    create_watchlist(ATS_DB, WATCHLIST, r"D:\Agent\Logs\Check_industry2.txt")

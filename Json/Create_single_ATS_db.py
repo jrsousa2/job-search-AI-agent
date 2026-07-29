@@ -33,16 +33,16 @@ def stack_ATS_tables(input_db,output_table):
     FROM ashby
     WHERE status = 'live'
 
-    UNION ALL
+    --UNION ALL
 
-    SELECT
-        UPPER(substr(slug, 1, 1)) || substr(slug, 2) AS company,
-        ats as platform,
-        slug,
-        status,
-        date(last_probed_at) as last_probed_at
-    FROM icims
-    WHERE status = 'live'
+    --SELECT
+        --UPPER(substr(slug, 1, 1)) || substr(slug, 2) AS company,
+        --ats as platform,
+        --slug,
+        --status,
+        --date(last_probed_at) as last_probed_at
+    --FROM icims
+    --WHERE status = 'live'
 
     UNION ALL
 
@@ -93,8 +93,10 @@ def stack_ATS_tables(input_db,output_table):
     deduped AS (
     SELECT *,
            ROW_NUMBER() OVER (
-               PARTITION BY platform, slug
-               ORDER BY last_probed_at IS NOT NULL, last_probed_at
+               PARTITION BY platform, company
+               ORDER BY case when last_probed_at IS NULL then 1 else 2 end
+               ,(length(slug) - length(replace(slug, '/', ''))) DESC
+               ,last_probed_at DESC
            ) AS rn
     FROM combined
     )
@@ -102,7 +104,7 @@ def stack_ATS_tables(input_db,output_table):
     -- FINAL TABLE
     SELECT company,platform,slug,status,last_probed_at
     from deduped
-    where rn = 1;
+    where rn = 1 or lower(company) in ('abbott', 'assurant', 'equifax', 'fedex', 'sedgwick');
 
     """)
 
@@ -119,4 +121,4 @@ def stack_ATS_tables(input_db,output_table):
 if __name__ == "__main__":
     stack_ATS_tables(ATS_DB,"ATS")
     # EXPORT TABLE TO EXCEL
-    Exp_db_to_Excel(ATS_DB,"ATS","(All2)","")
+    Exp_db_to_Excel(ATS_DB,"ATS","(All)","")

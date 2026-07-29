@@ -27,7 +27,7 @@ def load_json_to_table(json_file):
     # Get columns from JSON keys
     # columns = data[0].keys()
     # Restrict columns to only these fields
-    columns = ["ats", "slug", "status", "last_probed_at", "host", "site"]
+    columns = ["ats", "platform", "company", "slug", "status", "last_probed_at", "host", "site"]
 
     # DROP TABLE BEFORE RELOADING
     cursor.execute(f"DROP TABLE IF EXISTS {table_name}")
@@ -41,6 +41,7 @@ def load_json_to_table(json_file):
         cursor.execute(f"""
         CREATE TABLE {table_name} (
             ats TEXT,
+            company TEXT,
             slug TEXT,
             status TEXT,
             last_probed_at TEXT,
@@ -66,11 +67,12 @@ def load_json_to_table(json_file):
             cursor.execute(
                 f"""
                 INSERT INTO {table_name}
-                (ats, slug, status, last_probed_at, host, site)
-                VALUES (?, ?, ?, ?, ?, ?)
+                (ats, company, slug, status, last_probed_at, host, site)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
-                    row.get("ats"),
+                    row.get("ats") or row.get("platform"),
+                    row.get("company"),
                     row.get("slug"),
                     row.get("status"),
                     row.get("last_probed_at"),
@@ -91,9 +93,9 @@ def load_json_to_table(json_file):
 
 if __name__ == "__main__":
     # ALL BELOW HAVE BEEN LOADED
-    load_json_to_table(r"D:\Agent\openroles\tenants\icims.json")
+    # load_json_to_table(r"D:\Agent\openroles\tenants\icims.json")
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\workday.json")
-    # load_json_to_table(r"D:\Agent\Json\watchlist.json")
+    load_json_to_table(r"D:\Agent\openroles\watchlist.json")
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\greenhouse.json") 
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\lever.json")
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\ashby.json")
