@@ -16,7 +16,7 @@ from Repo_root import JOBS_DB
 from write_html_digest import write_html_digest
 
 
-def html():
+def create_html():
     if not config.API_KEY:
         raise RuntimeError("ANTHROPIC_API_KEY is not set. See config.py.")
     
@@ -44,5 +44,5 @@ def html():
 
 # CALLS THE CODE
 if __name__ == "__main__":
-    # CREATE AI INPUT
-    html()
+    # CREATE HTML LISTS
+    create_html()
