@@ -166,8 +166,7 @@ E.g., if a foreign country name appears in the location (but US and its variants
 One issue I noticed is that Workday at times lists the location generically (e.g., "2 Locations", "10 Locations", etc.)
 <br>In those cases the actual location is embedded in the job_id (or URL) field. To ensure that the US flag is created correctly, the location 
 is updated with a SQL update statement that replaces the generic location with the job_id value (only if the platform is Workday and 
-the location field contains "Locations"). 
-<br>After that, the US flag logic can be applied to the location field as usual.
+the location field contains "Locations"). After that, the US flag logic can be applied to the location field as usual.
 
 ### Time zone field
 
