@@ -163,6 +163,12 @@ From my observations, the is_remote flag is not always reliable, so it's tweaked
 I also added a is_US flag to the main table, with a simple logic, since I noticed some locations are not in the US.
 E.g., if a foreign country name appears in the location (but US and its variants don't), then is_US=0.
 
+One issue I noticed is that Workday at times lists the location generically (e.g., "2 Locations", "10 Locations", etc.)
+<br>In those cases the actual location is embedded in the job_id (or URL) field. To ensure that the US flag is created corrctly, the location 
+is updated with a SQL update statement that replaces the generic location with the job_id value (only if the platform is Workday and 
+the location field contains "Locations"). 
+<br>After that, the US flag logic can be applied to the location field as usual.
+
 ### Time zone field
 
 Because a candidate may not be interested in working far outside of his time zone, this flag is very important. But
