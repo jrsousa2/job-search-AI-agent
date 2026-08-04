@@ -176,6 +176,8 @@ job locations can be messy in the data, so it's not easy to use geolocator modul
 I've decided to just use the field location and a simple logic based on states (case-sensitive for the abbreviation) and major cities (case-insensitive) to assign the time zones (ET, CT, MT and PT, which are assigned in this order).  
 The logic is useful and reasonably accurate, since some states and major cities appear in the description more frequently than others.
 
+This code must be run AFTER the location field fix from the previous step.
+
 ### Modularization
 
 Since I'm constantly improving or tweaking the main flags, I've created modules that can be run without executing the entire pipeline. 
