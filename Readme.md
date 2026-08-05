@@ -231,11 +231,11 @@ This is an out-of-date cost estimate though, as the process has changed. Here on
 
 For testing purposes, the database tables can be exported to Excel with just a click, whenever changes need to be inspected.
 
-You can find some of the latest ATS job data in Excel format in folder `Excel`.
-
 ### A snapshot of the table new_jobs:
 
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
+
+For your reference, you can find some of the latest ATS job data (in Excel format) in the [`Excel`](./Excel) folder.
 
 ### Log
 
