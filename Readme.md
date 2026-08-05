@@ -231,7 +231,7 @@ This is an out-of-date cost estimate though, as the process has changed. Here on
 
 For testing purposes, the database tables can be exported to Excel with just a click, whenever changes need to be inspected.
 
-You can find some of the latest jobs data in Excel format under folder Excel.
+You can find some of the latest ATS job data in Excel format in folder `Excel`.
 
 ### A snapshot of the table new_jobs:
 
