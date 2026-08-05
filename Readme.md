@@ -236,6 +236,7 @@ For testing purposes, the database tables can be exported to Excel with just a c
 ![New Jobs Snapshot](https://raw.githubusercontent.com/jrsousa2/job-search-AI-agent/main/Database/New_jobs_snapshot.PNG)
 
 For your reference, you can find some of the latest ATS job data (in Excel format) in the [`Excel`](./Excel) folder.
+The more recent the file, the more improvements have been made to the logic used to create it.
 
 ### Log
 
