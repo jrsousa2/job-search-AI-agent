@@ -232,7 +232,7 @@ def create_watchlist(input_db, output_file, log_file):
         industry = matches_industry(company)
 
         # if "guidewire" in company.lower():
-        if industry in ["insurance", "banking", "other"]:   
+        if industry in ["insurance", "banking", "other"] or platform=="workday":   
         # if platform=="icims" and industry in ["banking"]:     
             # print(company, "->", industry)
             print_to_log(log_file,"Company: {} -> Industry: {}\n",company, industry)
