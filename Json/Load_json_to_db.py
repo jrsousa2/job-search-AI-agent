@@ -97,7 +97,10 @@ if __name__ == "__main__":
     # ALL BELOW HAVE BEEN LOADED
     # load_json_to_table(r"D:\Agent\openroles\tenants\icims.json", ATS_DB)
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\workday.json", ATS_DB)
+    
+    # LOCATION OF THIS ONE IS EXCEPTION
     # load_json_to_table(r"D:\Agent\openroles\watchlist.json", ATS_DB)
+    
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\greenhouse.json", ATS_DB) 
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\lever.json", ATS_DB)
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\ashby.json", ATS_DB)
