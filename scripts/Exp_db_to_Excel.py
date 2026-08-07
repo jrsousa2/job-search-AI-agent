@@ -25,8 +25,8 @@ def Exp_db_to_Excel(JOBS_DB, input_table: str, suff: str, sql_filter: str) -> No
     # SAVE QUERY OUTPUT TO A DF
     df = pd.read_sql_query(f"SELECT * FROM {input_table} {sql_filter}", conn)
     df.to_excel(EXCEL_FILE, index=False)
-    # DISPLAY MSG
-    print("Table",input_table,"exported to",output_file)
+    # DISPLAY MSG 
+    print("Table",input_table,"exported to",output_file,f"({len(df)} rows)")
     conn.close()
 
 # MAIN CODE
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     # Exp_db_to_Excel(JOBS_DB,"new_jobs","(post)","WHERE (is_remote = 1 OR is_hybrid = 1) and New = 1 and is_US = 1")
     # Exp_db_to_Excel(JOBS_DB,"new_jobs","(Aug)","")
 
-    Exp_db_to_Excel(ATS_DB,"Cur_watchlist","(new)","")
+    Exp_db_to_Excel(ATS_DB,"Cur_watchlist","(new2)","")
 
     # Exp_db_to_Excel(INDUS_DB,"Industry","(new)","")
 #     Exp_db_to_Excel(ATS_DB,"watchlist","(new)","""
