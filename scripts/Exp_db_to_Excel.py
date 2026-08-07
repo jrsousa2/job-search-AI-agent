@@ -26,7 +26,7 @@ def Exp_db_to_Excel(JOBS_DB, input_table: str, suff: str, sql_filter: str) -> No
     df = pd.read_sql_query(f"SELECT * FROM {input_table} {sql_filter}", conn)
     df.to_excel(EXCEL_FILE, index=False)
     # DISPLAY MSG 
-    print("Table",input_table,"exported to",output_file,f"({len(df)} rows)")
+    print("Table",input_table,"exported to",output_file,f"({len(df):,} rows)")
     conn.close()
 
 # MAIN CODE

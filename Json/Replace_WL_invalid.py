@@ -9,9 +9,9 @@ import datetime
 # TODAY'S DATE
 date_str = datetime.datetime.now().strftime("%Y-%m-%d")
 
-input_json = os.path.join(r"D:\Agent\Bak", f"watchlist.json")
-fixed_json = os.path.join(r"D:\Agent\Bak", "watchlist_fixes.json")
-output_json = os.path.join(r"D:\Agent\data", f"watchlist.json")
+input_json = os.path.join(r"D:\Agent\openroles", f"watchlist_source.json")
+fixed_json = os.path.join(r"D:\Agent\openroles", "watchlist_fixes.json")
+output_json = os.path.join(r"D:\Agent\openroles", f"watchlist.json")
 
 # READ ORIGINAL WATCHLIST
 with open(input_json, encoding="utf-8") as f:

@@ -93,18 +93,27 @@ def stack_ATS_tables(input_db,output_table):
     deduped AS (
     SELECT *,
            ROW_NUMBER() OVER (
-               PARTITION BY platform, company
-               ORDER BY case when last_probed_at IS NULL then 1 else 2 end
+               PARTITION BY platform, lower(company)
+               ORDER BY case when last_probed_at IS NULL then 1 else 2 end ASC
                ,(length(slug) - length(replace(slug, '/', ''))) DESC
                ,last_probed_at DESC
            ) AS rn
     FROM combined
+    ),
+
+    deduped_slug AS 
+    (
+    SELECT *,
+           ROW_NUMBER() OVER (PARTITION BY platform, lower(company), lower(slug) ORDER BY last_probed_at DESC) AS rn_slug
+    FROM deduped
+    where rn = 1 or lower(company) in ('abbott', 'assurant', 'equifax', 'fedex', 'sedgwick')
     )
 
     -- FINAL TABLE
     SELECT company,platform,slug,status,last_probed_at
-    from deduped
-    where rn = 1 or lower(company) in ('abbott', 'assurant', 'equifax', 'fedex', 'sedgwick');
+    from deduped_slug
+    where rn_slug = 1 
+    ORDER BY 1,2,3;
 
     """)
 
@@ -119,6 +128,6 @@ def stack_ATS_tables(input_db,output_table):
 
 
 if __name__ == "__main__":
-    # stack_ATS_tables(ATS_DB,"ATS")
+    stack_ATS_tables(ATS_DB,"ATS")
     # EXPORT TABLE TO EXCEL
-    Exp_db_to_Excel(ATS_DB,"ATS","(All2)","")
+    Exp_db_to_Excel(ATS_DB,"ATS","(All3)","")

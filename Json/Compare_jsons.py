@@ -46,4 +46,4 @@ def json_subset(file1, file2, log_file):
         return True
 
 # Example
-json_subset(r"D:\Agent\Json\watchlist.json", r"D:\Agent\data\watchlist.json", r"D:\Agent\Logs\Diff_WL_entries.txt")
+json_subset(r"D:\Agent\data\watchlist - Copy (2).json", r"D:\Agent\data\watchlist.json", r"D:\Agent\Logs\Diff_WL_entries2.txt")

@@ -1,219 +1,321 @@
-Company: Acorns -> Industry: banking
-Company: Agentis Capital Advisors -> Industry: banking
-Company: Allica Bank -> Industry: banking
-Company: Arb Interactive -> Industry: banking
-Company: Argon Ai -> Industry: insurance
-Company: Artafinance -> Industry: banking
-Company: Artemisanalytics -> Industry: other
-Company: Backmarket -> Industry: other
-Company: Bankjoy -> Industry: banking
-Company: Basiccapital -> Industry: banking
-Company: Braintrust -> Industry: banking
-Company: Branchinsurance -> Industry: insurance
-Company: Capital V Strategies -> Industry: banking
-Company: Cargo One -> Industry: insurance
-Company: Casdin Capital -> Industry: banking
-Company: Citizen -> Industry: banking
-Company: Civicmarketplace -> Industry: other
-Company: Claim Health -> Industry: insurance
-Company: Claimsorted -> Industry: insurance
-Company: Clearbank -> Industry: banking
-Company: Climate Finance Solutions -> Industry: banking
-Company: Common Fund -> Industry: banking
-Company: Confusioncapital -> Industry: banking
-Company: Creditgenie -> Industry: banking
-Company: Dave -> Industry: banking
-Company: Deeter Analytics -> Industry: other
-Company: Dreamthree -> Industry: banking
-Company: Earnedwealth -> Industry: banking
-Company: Emergence Capital Partners -> Industry: banking
-Company: Fundamental -> Industry: banking
-Company: Fundamentalresearchlabs -> Industry: banking
-Company: Fundamentalxr -> Industry: banking
-Company: Fundingcircle -> Industry: banking
-Company: Fundwell -> Industry: banking
-Company: Gem Technologies -> Industry: banking
-Company: H2analytics -> Industry: other
-Company: Hubstaff -> Industry: banking
-Company: Humanarchive -> Industry: insurance
-Company: Infisical -> Industry: banking
-Company: Jellyfish -> Industry: banking
-Company: Jellyfishcareers -> Industry: banking
-Company: Jordandigitalmarketing -> Industry: other
-Company: Leadbank -> Industry: banking
-Company: Lemon Markets -> Industry: other
-Company: Lemonade -> Industry: insurance
-Company: Life Space Digital -> Industry: insurance
-Company: Macquarie Airfinance Careers -> Industry: banking
-Company: Maneuver Marketing -> Industry: other
-Company: Montauk Capital -> Industry: banking
-Company: Nativemarkets -> Industry: other
-Company: Neofinancial -> Industry: banking
-Company: Netwealth -> Industry: banking
-Company: Nevoya -> Industry: insurance
-Company: Nexus Marketing -> Industry: other
-Company: Onramp -> Industry: banking
-Company: Outmarket -> Industry: other
-Company: Pavebank -> Industry: banking
-Company: Plaid -> Industry: banking
-Company: Pluralfinance -> Industry: banking
-Company: Polaranalytics -> Industry: other
-Company: Politanalytics -> Industry: other
-Company: Polymarket -> Industry: other
-Company: Pplwise -> Industry: banking
-Company: Prevail Fund -> Industry: banking
-Company: Radiant -> Industry: insurance
-Company: Radiant Industries -> Industry: insurance
-Company: Radiantgraph -> Industry: insurance
-Company: Ramp -> Industry: banking
-Company: Relevanceai -> Industry: insurance
-Company: Savvyinsurance Trellis -> Industry: insurance
-Company: Scoreplay -> Industry: insurance
-Company: Seriesai -> Industry: insurance
-Company: Siftwell Analytics -> Industry: other
-Company: Slash Financial -> Industry: banking
-Company: Smarkets -> Industry: other
-Company: Sola Insurance -> Industry: insurance
-Company: Standinsurance -> Industry: insurance
-Company: Starfish Space Inc -> Industry: banking
-Company: Stealthventurecapitalfirm -> Industry: banking
-Company: Subsets -> Industry: banking
-Company: Substack -> Industry: banking
-Company: Triedge Investments -> Industry: banking
-Company: Truelinkfinancial -> Industry: banking
-Company: Trust Wallet -> Industry: banking
-Company: Trustlab -> Industry: banking
-Company: Valeriehealth -> Industry: insurance
-Company: Vantageanalytics -> Industry: other
-Company: Variant Fund -> Industry: banking
-Company: Volition Capital -> Industry: banking
-Company: Voyant Photonics -> Industry: insurance
-Company: Wealth Com -> Industry: banking
-Company: Wealthsimple -> Industry: banking
-Company: Zedfinancial -> Industry: banking
 Company: 3dayblindscorporate -> Industry: insurance
+Company: AIG -> Industry: insurance
+Company: AXIS Capital -> Industry: banking
+Company: Abcfinancial -> Industry: banking
 Company: Abdielcapital -> Industry: banking
+Company: Abeilleassurances -> Industry: insurance
+Company: Abovelending -> Industry: banking
+Company: Academymortgage -> Industry: banking
+Company: Acorns -> Industry: banking
+Company: Actionlife -> Industry: insurance
+Company: Activecampaign -> Industry: insurance
+Company: Additionwealth -> Industry: banking
 Company: Adyen -> Industry: banking
 Company: Affirm -> Industry: banking
 Company: Affirmedrxpbc -> Industry: banking
+Company: Agentis Capital Advisors -> Industry: banking
 Company: Agwestfarmcredit -> Industry: banking
+Company: Aigen -> Industry: insurance
 Company: Akunacapital -> Industry: banking
+Company: Allcatclaims -> Industry: insurance
+Company: Allica Bank -> Industry: banking
+Company: Allstate -> Industry: insurance
 Company: Allworthfinancial -> Industry: banking
 Company: Alphagrepsecurities -> Industry: banking
 Company: Altruist -> Industry: banking
 Company: Altscore -> Industry: insurance
+Company: Amarbank -> Industry: banking
+Company: American Express -> Industry: banking
+Company: American Family Insurance -> Industry: insurance
+Company: Americanfidelity -> Industry: banking
 Company: Americanfloodcoalition -> Industry: insurance
 Company: Americanmarketingassociation -> Industry: other
+Company: Amerilife -> Industry: insurance
+Company: Amerisbank -> Industry: banking
+Company: Amerisure -> Industry: insurance
 Company: Amplemarket -> Industry: other
+Company: Amtengineering -> Industry: banking
+Company: Anglefinance -> Industry: banking
+Company: Ansatzcapital -> Industry: banking
+Company: Apexcapitalcorp -> Industry: banking
 Company: Applytoboltwise -> Industry: banking
 Company: Appstarfinancial -> Industry: banking
+Company: Aquafinance -> Industry: banking
 Company: Aquaticcapitalmanagement -> Industry: banking
+Company: Aquilacapital -> Industry: banking
+Company: Arb Interactive -> Industry: banking
+Company: Arch Capital Group -> Industry: insurance
+Company: Aresmgmt -> Industry: banking
+Company: Argo Group (Brookfield P&C) -> Industry: insurance
+Company: Argogroup -> Industry: insurance
+Company: Argon Ai -> Industry: insurance
+Company: Argonne -> Industry: insurance
 Company: Arielinvestments -> Industry: banking
+Company: Arrowstreetcapital -> Industry: banking
+Company: Artafinance -> Industry: banking
+Company: Artemisanalytics -> Industry: other
 Company: Ascendanalytics -> Industry: other
+Company: Associatedbank -> Industry: banking
+Company: Assurance -> Industry: insurance
+Company: Assuranceamerica -> Industry: insurance
+Company: Assurant -> Industry: insurance
+Company: Assurant -> Industry: insurance
 Company: Asubsidiaryofsca -> Industry: banking
 Company: Atomwise -> Industry: banking
 Company: Authenticinsurance -> Industry: insurance
+Company: Auto-Owners Insurance -> Industry: insurance
 Company: Axicorpfinancialservicesptyltd -> Industry: banking
 Company: Axiomtalentplatform -> Industry: banking
+Company: Axiscapital -> Industry: banking
+Company: BMO -> Industry: banking
+Company: Backmarket -> Industry: other
+Company: Baincapital -> Industry: banking
 Company: Baincapitalventures -> Industry: banking
+Company: Bamfunds -> Industry: banking
+Company: Bank of America -> Industry: banking
+Company: Bankatfirst -> Industry: banking
+Company: Bankeasy -> Industry: banking
+Company: Bankjoy -> Industry: banking
+Company: Bannerbank -> Industry: banking
+Company: Barclays -> Industry: banking
 Company: Baroncapital -> Industry: banking
+Company: Basiccapital -> Industry: banking
+Company: Bbinsurance -> Industry: insurance
 Company: Bcapitalgroup54 -> Industry: banking
 Company: Bcifinanceltd -> Industry: banking
 Company: Beamtherapeutics -> Industry: banking
 Company: Belltowerfundgroup -> Industry: banking
+Company: Berkshire Hathaway Homestate Companies -> Industry: insurance
 Company: Bertramcapitalmanagement -> Industry: banking
+Company: Betterlifepartners -> Industry: insurance
 Company: Betterment -> Industry: banking
 Company: Beyondfinance -> Industry: banking
 Company: Beyondtrust -> Industry: banking
 Company: Billtrust -> Industry: banking
 Company: Billtrust1 -> Industry: banking
+Company: Blackbirdinteractive -> Industry: banking
 Company: Blackedgecapital -> Industry: banking
+Company: Blackrock -> Industry: banking
+Company: Blackstone -> Industry: banking
 Company: Bluecrestcapitalmanagement -> Industry: banking
 Company: Bluecurrent -> Industry: banking
 Company: Bluefishai -> Industry: banking
 Company: Bluelabsanalyticsinc -> Industry: other
 Company: Boostinsurance -> Industry: insurance
 Company: Bracebridgecapital -> Industry: banking
+Company: Braintrust -> Industry: banking
 Company: Braintrusttutors -> Industry: banking
+Company: Branchinsurance -> Industry: insurance
 Company: Brex -> Industry: banking
 Company: Brileysecurities -> Industry: banking
+Company: Broadridge Financial Solutions -> Industry: banking
+Company: Brown & Brown Insurance -> Industry: insurance
 Company: Brscorporate -> Industry: insurance
 Company: Bryantparkconsulting -> Industry: insurance
 Company: Buildingdecarbonizationcoalition -> Industry: insurance
 Company: C6bank -> Industry: banking
+Company: CNA -> Industry: insurance
+Company: CNA Financial -> Industry: insurance
+Company: CSAA Insurance Group -> Industry: insurance
+Company: CVS Health / Aetna -> Industry: insurance
+Company: Caliza Financial Technologies -> Industry: banking
+Company: Campaignmonitor -> Industry: insurance
+Company: Canassurance -> Industry: insurance
+Company: Capital -> Industry: banking
+Company: Capital One -> Industry: banking
+Company: Capital V Strategies -> Industry: banking
+Company: Capitaland -> Industry: banking
+Company: Capitalauto -> Industry: banking
+Company: Capitalenergy -> Industry: banking
+Company: Capitalhealth -> Industry: banking
 Company: Capitalize -> Industry: banking
+Company: Capitalone -> Industry: banking
 Company: Capitalontap -> Industry: banking
+Company: Capitalpower -> Industry: banking
 Company: Capitalrx -> Industry: banking
+Company: Capitalsolutionsgroup -> Industry: banking
 Company: Capitaltg -> Industry: banking
 Company: Capstoneinvestmentadvisors -> Industry: banking
+Company: Cargo One -> Industry: insurance
+Company: Cargo Partner -> Industry: insurance
 Company: Cargomatic -> Industry: insurance
+Company: Carislifesciences -> Industry: insurance
+Company: Casdin Capital -> Industry: banking
 Company: Castaigroupinc -> Industry: insurance
 Company: Chameleonconsultinggroup -> Industry: banking
 Company: Charlesriveranalytics90 -> Industry: other
 Company: Chime -> Industry: banking
+Company: Chime -> Industry: banking
+Company: Chimesolutions -> Industry: banking
+Company: Chubb -> Industry: insurance
+Company: Chubbfiresecurity -> Industry: insurance
+Company: Citi -> Industry: banking
+Company: Citicclsa -> Industry: banking
+Company: Citizen -> Industry: banking
+Company: Civicmarketplace -> Industry: other
 Company: Civicnation -> Industry: insurance
+Company: Claim Health -> Industry: insurance
+Company: Claimsorted -> Industry: insurance
+Company: Clearbank -> Industry: banking
+Company: Clearcapital -> Industry: banking
 Company: Clearscoretechnologylimited -> Industry: insurance
+Company: Clearwateranalytics -> Industry: other
+Company: Climate Finance Solutions -> Industry: banking
 Company: Clubmonaco -> Industry: banking
+Company: Cmcmarkets -> Industry: other
 Company: Coalition -> Industry: insurance
+Company: Cogentanalytics -> Industry: other
+Company: Coinmarketcap -> Industry: other
+Company: Coloradocoalition -> Industry: insurance
+Company: Columbiabank -> Industry: banking
+Company: Commercebank -> Industry: banking
+Company: Common Fund -> Industry: banking
 Company: Compeerfinancial -> Industry: banking
+Company: Comscore -> Industry: insurance
+Company: Confusioncapital -> Industry: banking
 Company: Connectwise -> Industry: banking
 Company: Copperstatefarms -> Industry: insurance
+Company: Corebridge Financial -> Industry: banking
+Company: Corebridgefinancial -> Industry: banking
+Company: Corespecialtyinsurance -> Industry: insurance
 Company: Coretrustpurchasinggroupllc -> Industry: banking
 Company: Corviascorporateservicesllc -> Industry: insurance
 Company: Cottinghambutlerinsuranceservicesinc -> Industry: insurance
+Company: Countryfinancial -> Industry: banking
+Company: Coveainsurance -> Industry: insurance
+Company: Creditacceptance -> Industry: banking
+Company: Creditgenie -> Industry: banking
 Company: Creditkarma -> Industry: banking
+Company: Creditreform -> Industry: banking
 Company: Creditunionofcolorado -> Industry: banking
+Company: Crosscountrymortgage -> Industry: banking
 Company: Crossriverbank -> Industry: banking
+Company: Cumminggroup -> Industry: banking
 Company: Curicapital -> Industry: banking
 Company: Current -> Industry: banking
 Company: Current81 -> Industry: banking
 Company: Currentcatalog -> Industry: banking
 Company: Currentglobal -> Industry: banking
+Company: Customersbank -> Industry: banking
+Company: Cvshealth -> Industry: insurance
 Company: Daggerwinggroup -> Industry: banking
+Company: Dave -> Industry: banking
+Company: Daveandbusters -> Industry: banking
+Company: Deeter Analytics -> Industry: other
 Company: Dexisconsultinggroup -> Industry: banking
 Company: Discord -> Industry: insurance
+Company: Discover Financial Services -> Industry: banking
 Company: Dlpbank -> Industry: banking
 Company: Dmarket -> Industry: other
+Company: Dreamthree -> Industry: banking
 Company: Drivewealth -> Industry: banking
+Company: Dun & Bradstreet -> Industry: other
+Company: Earnedwealth -> Industry: banking
 Company: Eastharlemtutorialprogram -> Industry: banking
 Company: Edgewoodpartnersinsurancecenter -> Industry: insurance
+Company: Ehealthinsurance -> Industry: insurance
+Company: Eisneramper -> Industry: banking
+Company: Elevance Health -> Industry: insurance
+Company: Elevancehealth -> Industry: insurance
 Company: Emarketer -> Industry: other
+Company: Emergence Capital Partners -> Industry: banking
 Company: Emigrantbank -> Industry: banking
+Company: Emitwise -> Industry: banking
 Company: Emtrain -> Industry: banking
+Company: Energeticcapital -> Industry: banking
+Company: Entrust -> Industry: banking
+Company: Epicstaffinggroup -> Industry: banking
+Company: Eqbank -> Industry: banking
 Company: Eqfund -> Industry: banking
+Company: Equifax -> Industry: other
+Company: Equifax -> Industry: other
+Company: Equitylifestyleproperties -> Industry: insurance
+Company: Erie Insurance -> Industry: insurance
 Company: Ethos Life -> Industry: insurance
 Company: Ethoslife -> Industry: insurance
 Company: Eumaterialbank -> Industry: banking
 Company: EverQuote -> Industry: insurance
+Company: Everest -> Industry: insurance
+Company: Everestre -> Industry: insurance
 Company: Evergreenresidentialemployeeservicescorp -> Industry: insurance
 Company: Everstreamanalytics -> Industry: other
+Company: Evoyageurs -> Industry: insurance
+Company: Exeterfinance -> Industry: banking
+Company: FNB Corporation -> Industry: banking
 Company: Faralloncapitalmanagementllc -> Industry: banking
 Company: Fartherfinance -> Industry: banking
+Company: Femalefounders Fund -> Industry: banking
 Company: Fidelityguarantylife -> Industry: banking
+Company: Fieracapital -> Industry: banking
+Company: Fifth Third Bank -> Industry: banking
+Company: Fifththird -> Industry: banking
+Company: Figfinancial -> Industry: banking
+Company: Financialombudsman -> Industry: banking
 Company: Financialtechnologypartners -> Industry: banking
 Company: Financialtimes33 -> Industry: banking
 Company: Finfare Financial -> Industry: banking
+Company: First American Financial -> Industry: insurance
 Company: Firstconnectinsurance -> Industry: insurance
+Company: Fis -> Industry: banking
+Company: Fiscalnote -> Industry: banking
+Company: Fiserv -> Industry: banking
+Company: Fiskars -> Industry: banking
+Company: Flowlife -> Industry: insurance
+Company: Fnbcorp -> Industry: banking
 Company: Focusfinancialpartners -> Industry: banking
 Company: Focuspartnerswealth -> Industry: banking
 Company: Forafinancial -> Industry: banking
+Company: Forbrightbank -> Industry: banking
+Company: Forourfuturefund -> Industry: banking
 Company: Fosphamarketing -> Industry: other
+Company: Foundation Llm Technologies -> Industry: banking
+Company: Franklintempleton -> Industry: banking
+Company: Frostbank -> Industry: banking
 Company: Fulcrumtherapeutics -> Industry: banking
+Company: Fundamental -> Industry: banking
+Company: Fundamentalresearchlabs -> Industry: banking
+Company: Fundamentalxr -> Industry: banking
 Company: Fundedclub -> Industry: banking
+Company: Fundingcircle -> Industry: banking
 Company: Fundraiseup -> Industry: banking
+Company: Fundrise -> Industry: banking
+Company: Fundwell -> Industry: banking
+Company: Futureof Life -> Industry: insurance
+Company: GEICO -> Industry: insurance
+Company: Gaig -> Industry: insurance
 Company: Galileofinancialtechnologies -> Industry: banking
+Company: Gatecitybank -> Industry: banking
+Company: Gem Technologies -> Industry: banking
+Company: Genworth -> Industry: insurance
 Company: Georgepjohnsonexperiencemarketing -> Industry: insurance
+Company: Georgfischer -> Industry: banking
+Company: Germaniainsurance -> Industry: insurance
 Company: Getitstraightorthodontics -> Industry: insurance
 Company: Globalfishingwatch -> Industry: banking
+Company: Globelife -> Industry: insurance
 Company: Gmrmarketing -> Industry: other
 Company: Gofundme -> Industry: banking
+Company: Goodlifefitness -> Industry: insurance
 Company: Grahamcapitalmanagement -> Industry: banking
 Company: Grassrootsanalytics -> Industry: other
 Company: Gravitonresearchcapital -> Industry: insurance
 Company: Grayscaleinvestments -> Industry: banking
+Company: Great American Insurance Group -> Industry: insurance
 Company: Greenworkssunriseglobalmarketing -> Industry: other
 Company: Gsacapital -> Industry: banking
 Company: Gsrmarkets -> Industry: other
+Company: Gtefinancial -> Industry: banking
+Company: Guardianlife -> Industry: insurance
+Company: Guggenheiminvestment -> Industry: banking
+Company: Guidewire -> Industry: insurance
+Company: Guidewire Software -> Industry: insurance
+Company: H2analytics -> Industry: other
+Company: Hap Capital -> Industry: banking
+Company: Harborcapital -> Industry: banking
+Company: Hebrewseniorlife -> Industry: insurance
+Company: Hiscox -> Industry: insurance
+Company: Hivemind Capital -> Industry: banking
+Company: Homeequitybank -> Industry: banking
 Company: Homemarketfoods -> Industry: other
 Company: Honeycombinsurance -> Industry: insurance
 Company: Horacemannagents -> Industry: insurance
@@ -223,51 +325,158 @@ Company: HubSpot -> Industry: banking
 Company: Hubspotjobs -> Industry: banking
 Company: Hubspotmarketing -> Industry: banking
 Company: Hubspotstudents -> Industry: banking
+Company: Hubstaff -> Industry: banking
+Company: Humana -> Industry: insurance
 Company: Humanagency -> Industry: insurance
+Company: Humanarchive -> Industry: insurance
+Company: Humancapitalmanagement -> Industry: banking
+Company: Huntington -> Industry: banking
+Company: Huntington Bancshares -> Industry: banking
+Company: Huntington National Bank -> Industry: banking
+Company: Huntingtonhospital -> Industry: banking
+Company: Huntingtonlibrary -> Industry: banking
+Company: ICW Group -> Industry: insurance
 Company: Icapitalnetwork -> Industry: banking
+Company: Icwgroup -> Industry: insurance
+Company: Illimitybank -> Industry: banking
 Company: Imafinancialgroup -> Industry: banking
+Company: Imtt -> Industry: banking
+Company: Infisical -> Industry: banking
 Company: Infotrust -> Industry: banking
 Company: Inmarket -> Industry: other
 Company: Insightassurance -> Industry: insurance
+Company: Integralife -> Industry: insurance
+Company: Integritymarketing -> Industry: other
+Company: Intertrust -> Industry: banking
+Company: Invesco -> Industry: banking
+Company: Irhythmtech -> Industry: banking
 Company: Irradianttechnologies -> Industry: insurance
+Company: Islandfinance -> Industry: banking
+Company: JPMorgan Chase -> Industry: banking
+Company: Jellyfish -> Industry: banking
+Company: Jellyfishcareers -> Industry: banking
+Company: Jordandigitalmarketing -> Industry: other
 Company: Justfund -> Industry: banking
 Company: Kardfinancialinc -> Industry: banking
 Company: Kargo -> Industry: insurance
 Company: Kargo22 -> Industry: insurance
+Company: Kemper -> Industry: insurance
+Company: Kemper Insurance -> Industry: insurance
 Company: Kervinteractive -> Industry: banking
+Company: KeyBank -> Industry: banking
+Company: Kingfish Company -> Industry: banking
+Company: Kramp -> Industry: banking
 Company: Kunumi -> Industry: insurance
+Company: Landsecurities -> Industry: banking
+Company: Largo -> Industry: insurance
+Company: Latitudefinancial -> Industry: banking
+Company: Leadbank -> Industry: banking
+Company: Lemon Markets -> Industry: other
+Company: Lemonade -> Industry: insurance
+Company: Lendingclub -> Industry: banking
 Company: Lendingtree -> Industry: banking
+Company: Lendmarkfinancial -> Industry: banking
+Company: Lesschwab -> Industry: banking
+Company: LexisNexis Risk Solutions -> Industry: other
 Company: Libertasfunding -> Industry: banking
+Company: Liberty Mutual Insurance -> Industry: insurance
+Company: Life -> Industry: insurance
+Company: Life Space Digital -> Industry: insurance
 Company: Life360 -> Industry: insurance
 Company: Lifeedittherapeutics -> Industry: insurance
+Company: Lifefitness -> Industry: insurance
+Company: Lifeforce -> Industry: insurance
 Company: Lifelinkiii -> Industry: insurance
 Company: Lifeminetx -> Industry: insurance
+Company: Lifen -> Industry: insurance
 Company: Lifeskillsautismacademy -> Industry: insurance
+Company: Lifespacecommunities -> Industry: insurance
 Company: Lifespanmontessori -> Industry: insurance
+Company: Lifestance -> Industry: insurance
+Company: Lifestance -> Industry: insurance
+Company: Lifestylecommunities -> Industry: insurance
+Company: Lifetime -> Industry: insurance
 Company: Lifetrading -> Industry: insurance
+Company: Lifeworks -> Industry: insurance
+Company: Lincolninst -> Industry: insurance
+Company: Liveramp -> Industry: banking
 Company: Livescore9 -> Industry: insurance
+Company: Lloyds -> Industry: banking
+Company: Loewscorp -> Industry: insurance
+Company: Lplfinancial -> Industry: banking
+Company: Luxexperience -> Industry: insurance
 Company: Lynxanalytics -> Industry: other
+Company: M&T Bank -> Industry: banking
+Company: Macquarie Airfinance Careers -> Industry: banking
+Company: Magmutual -> Industry: insurance
 Company: Magnamarketing -> Industry: other
 Company: Makersfund -> Industry: banking
+Company: Maneuver Marketing -> Industry: other
+Company: Manulife -> Industry: insurance
+Company: Maple Finance -> Industry: banking
 Company: Maravailifesciences -> Industry: insurance
+Company: Margo Group -> Industry: insurance
+Company: Markel -> Industry: insurance
+Company: Markelcorp -> Industry: insurance
 Company: Marketaxesscorporation -> Industry: insurance
+Company: Marketcircle -> Industry: other
+Company: Marketer Hire -> Industry: other
+Company: Marlincapitalsolutions -> Industry: banking
 Company: Marqeta -> Industry: banking
+Company: Massmutual -> Industry: insurance
 Company: Materialbank -> Industry: banking
 Company: Mavensecuritiesholdingltd -> Industry: banking
+Company: Mbcapital -> Industry: banking
+Company: Mcrtrust -> Industry: banking
+Company: Mechanicsbank -> Industry: banking
 Company: Medeanalytics -> Industry: other
+Company: Medimarketgroup -> Industry: other
 Company: Mercury -> Industry: banking
+Company: Metawealth -> Industry: banking
+Company: Metlife -> Industry: insurance
 Company: Metropolitancommercialbank -> Industry: banking
+Company: Milocredit -> Industry: banking
 Company: Misfitsmarket -> Industry: other
+Company: Mizuho -> Industry: banking
+Company: Mjhlifesciences -> Industry: insurance
+Company: Modernlife -> Industry: insurance
 Company: Modulrfinance -> Industry: banking
 Company: Momentumtravel -> Industry: banking
+Company: Montauk Capital -> Industry: banking
+Company: Morgan Stanley -> Industry: banking
+Company: Mtb -> Industry: banking
+Company: Mtholyoke -> Industry: banking
+Company: Mti Inc -> Industry: banking
+Company: Mtminc -> Industry: banking
+Company: Mtmus -> Industry: banking
+Company: Mto -> Industry: banking
+Company: Mtspartners -> Industry: banking
+Company: Mulliganfunding -> Industry: banking
 Company: N26 -> Industry: banking
+Company: National Indemnity Company -> Industry: insurance
+Company: Nationalbanken -> Industry: banking
+Company: Nationalindemnity -> Industry: insurance
 Company: Nationallifeinsurancecompany -> Industry: insurance
+Company: Nationwide -> Industry: insurance
+Company: Nationwidechildrens -> Industry: insurance
+Company: Nativemarkets -> Industry: other
+Company: Nemesiscorporation -> Industry: insurance
+Company: Neofinancial -> Industry: banking
+Company: Netwealth -> Industry: banking
+Company: Nevoya -> Industry: insurance
 Company: Nextinsurance66 -> Industry: insurance
+Company: Nexus Marketing -> Industry: other
+Company: Nielsen -> Industry: other
+Company: Nilfisk -> Industry: banking
 Company: Nonprofitfinancefund -> Industry: banking
+Company: Northbridgefinancial -> Industry: banking
 Company: Northstarfund -> Industry: banking
+Company: Northwesternmutual -> Industry: insurance
+Company: Nortonlifelock -> Industry: insurance
 Company: Nubank -> Industry: banking
 Company: Octanelending -> Industry: banking
 Company: Oldmissioncapital -> Industry: banking
+Company: Oldmutual -> Industry: insurance
 Company: Olympusproperty -> Industry: insurance
 Company: Oneacrefund -> Industry: banking
 Company: Oneacrefundburundi -> Industry: banking
@@ -282,430 +491,159 @@ Company: Oneacrefunduganda -> Industry: banking
 Company: Oneacrefundzambia -> Industry: banking
 Company: Onecampaign -> Industry: insurance
 Company: Onetrust -> Industry: banking
+Company: Onramp -> Industry: banking
 Company: Oodlefinance -> Industry: banking
-Company: Otrcapital1 -> Industry: banking
-Company: Owscapitalmanagement -> Industry: banking
-Company: Panteracapitalcareers -> Industry: banking
-Company: Penninteractive -> Industry: banking
-Company: Pieinsurance -> Industry: insurance
-Company: Piermontbank -> Industry: banking
-Company: Pinnacolassurance -> Industry: insurance
-Company: Pointdigitalfinance -> Industry: banking
-Company: Polychaincapital -> Industry: banking
-Company: Powerdigitalmarketing -> Industry: other
-Company: Powerfinance -> Industry: banking
-Company: Pzenainvestmentmanagement -> Industry: banking
-Company: Quadraturecapital -> Industry: banking
-Company: Radiantsecurity -> Industry: insurance
-Company: Radixexperienced -> Industry: insurance
-Company: Rampanttechnologies -> Industry: banking
-Company: Rampnetwork -> Industry: banking
-Company: Recurrent -> Industry: banking
-Company: Renaissancelearning Emea -> Industry: insurance
-Company: Renaissancelearning Nam -> Industry: insurance
-Company: Reunionmarketing -> Industry: other
-Company: Revolutionmedicines -> Industry: banking
-Company: Roarkcapitalgroup -> Industry: banking
-Company: Robinhood -> Industry: banking
-Company: Rothesaylife -> Industry: insurance
-Company: Runwise -> Industry: banking
-Company: Rushstreetinteractive -> Industry: banking
-Company: Ryanstuartdev -> Industry: insurance
-Company: Sagehomeloanscorporation -> Industry: insurance
-Company: Salaryfinance -> Industry: banking
-Company: Sandscapitalmanagementllc -> Industry: banking
-Company: Schimenticonstructioncompany -> Industry: banking
-Company: Scorpionenterprisesllc -> Industry: insurance
-Company: Scsfinancial -> Industry: banking
-Company: Securityscorecard -> Industry: insurance
-Company: Selffinancial -> Industry: banking
-Company: Shinvestmentsllc -> Industry: banking
-Company: Simplifed -> Industry: insurance
-Company: Simtrabps -> Industry: banking
-Company: SoFi -> Industry: banking
-Company: Socialfinance -> Industry: banking
-Company: Sofi -> Industry: banking
-Company: Solarisbank -> Industry: banking
-Company: Songtrust -> Industry: banking
-Company: Sonyinteractiveentertainmentglobal -> Industry: banking
-Company: Sparkfund -> Industry: banking
-Company: Splashfinancial -> Industry: banking
-Company: Squarepointcapital -> Industry: banking
-Company: Starfishneuroscience -> Industry: banking
-Company: Straightarrownews -> Industry: insurance
-Company: Subskribe -> Industry: banking
-Company: Subsplash -> Industry: banking
-Company: SumUp -> Industry: banking
-Company: Sumup -> Industry: banking
-Company: Themarketingarm -> Industry: other
-Company: Thrivemarket -> Industry: other
-Company: Toast -> Industry: banking
-Company: Toastmastersinternational -> Industry: banking
-Company: Towerresearchcapital -> Industry: insurance
-Company: Townsquareinteractive -> Industry: banking
-Company: Trade Republic -> Industry: banking
-Company: Traderepublicbank -> Industry: banking
-Company: Transmarketgroup -> Industry: other
-Company: Tripwireinteractive -> Industry: banking
-Company: Trustautomation -> Industry: banking
-Company: Trustbank -> Industry: banking
-Company: Trustedhealth -> Industry: banking
-Company: Trustpilot -> Industry: banking
-Company: Trustwill -> Industry: banking
-Company: Underscoremarketing -> Industry: insurance
-Company: Unispacelifesciences -> Industry: insurance
-Company: Vanguarddermatology -> Industry: insurance
-Company: Vocationaltraineeworkexperience -> Industry: insurance
-Company: Vogliodigitalmarketing -> Industry: other
-Company: Voyagertechnologiesinc -> Industry: insurance
-Company: Voyagertherapeutics -> Industry: insurance
-Company: Walleyecapital External Fulltime -> Industry: banking
-Company: Walleyecapital External Students -> Industry: banking
-Company: Weights & Biases (CoreWeave) -> Industry: insurance
-Company: Wildlifestudios -> Industry: insurance
-Company: Wisetack -> Industry: banking
-Company: Wundercapital -> Industry: banking
-Company: Xtxmarketstechnologies -> Industry: other
-Company: Abovelending -> Industry: banking
-Company: Actionlife -> Industry: insurance
-Company: Activecampaign -> Industry: insurance
-Company: Additionwealth -> Industry: banking
-Company: Aigen -> Industry: insurance
-Company: Amarbank -> Industry: banking
-Company: Amtengineering -> Industry: banking
-Company: Ansatzcapital -> Industry: banking
-Company: Assurance -> Industry: insurance
-Company: Bannerbank -> Industry: banking
-Company: Betterlifepartners -> Industry: insurance
-Company: Blackbirdinteractive -> Industry: banking
-Company: Caliza Financial Technologies -> Industry: banking
-Company: Capital -> Industry: banking
-Company: Capitalsolutionsgroup -> Industry: banking
-Company: Cargo Partner -> Industry: insurance
-Company: Clearcapital -> Industry: banking
-Company: Cogentanalytics -> Industry: other
-Company: Coinmarketcap -> Industry: other
-Company: Coloradocoalition -> Industry: insurance
-Company: Dun & Bradstreet -> Industry: other
-Company: Emitwise -> Industry: banking
-Company: Energeticcapital -> Industry: banking
-Company: Eqbank -> Industry: banking
-Company: Femalefounders Fund -> Industry: banking
-Company: Figfinancial -> Industry: banking
-Company: Fiscalnote -> Industry: banking
-Company: Flowlife -> Industry: insurance
-Company: Forbrightbank -> Industry: banking
-Company: Forourfuturefund -> Industry: banking
-Company: Foundation Llm Technologies -> Industry: banking
-Company: Fundrise -> Industry: banking
-Company: Futureof Life -> Industry: insurance
-Company: Hap Capital -> Industry: banking
-Company: Hivemind Capital -> Industry: banking
-Company: Kingfish Company -> Industry: banking
-Company: Life -> Industry: insurance
-Company: Lifeforce -> Industry: insurance
-Company: Lifen -> Industry: insurance
-Company: Lifestance -> Industry: insurance
-Company: Lincolninst -> Industry: insurance
-Company: Maple Finance -> Industry: banking
-Company: Margo Group -> Industry: insurance
-Company: Marketcircle -> Industry: other
-Company: Marketer Hire -> Industry: other
-Company: Mbcapital -> Industry: banking
-Company: Metawealth -> Industry: banking
-Company: Metlife -> Industry: insurance
-Company: Milocredit -> Industry: banking
-Company: Modernlife -> Industry: insurance
-Company: Mti Inc -> Industry: banking
-Company: Mtspartners -> Industry: banking
-Company: Mulliganfunding -> Industry: banking
-Company: Nemesiscorporation -> Industry: insurance
-Company: Nielsen -> Industry: other
-Company: Plaid -> Industry: banking
-Company: Purplelandmgmt -> Industry: banking
-Company: Qonto -> Industry: banking
-Company: Questanalytics -> Industry: other
-Company: Recognisebank -> Industry: banking
-Company: Revenueanalytics -> Industry: other
-Company: Satoricapital -> Industry: banking
-Company: Scholarsoffinance -> Industry: banking
-Company: Seedify Fund -> Industry: banking
-Company: Seerinteractive -> Industry: banking
-Company: Sensefinance -> Industry: banking
-Company: Starkbank -> Industry: banking
-Company: Startuplifers -> Industry: insurance
-Company: Straighterline -> Industry: insurance
-Company: Summitmgmt Corp -> Industry: banking
-Company: Sunwatercapital -> Industry: banking
-Company: Symmetryinvestments -> Industry: banking
-Company: Translifeline -> Industry: insurance
-Company: Trustarc -> Industry: banking
-Company: Trustly -> Industry: banking
-Company: Trustyou -> Industry: banking
-Company: Visotrust -> Industry: banking
-Company: Wealthfront -> Industry: banking
-Company: Wealthsimple -> Industry: banking
-Company: Wisdomtree -> Industry: banking
-Company: Wisdomtree 2 -> Industry: banking
-Company: Wisecode -> Industry: banking
-Company: Zurichinstruments -> Industry: insurance
-Company: AIG -> Industry: insurance
-Company: AXIS Capital -> Industry: banking
-Company: Abcfinancial -> Industry: banking
-Company: Abeilleassurances -> Industry: insurance
-Company: Academymortgage -> Industry: banking
-Company: Aig -> Industry: insurance
-Company: Allcatclaims -> Industry: insurance
-Company: Allstate -> Industry: insurance
-Company: American Express -> Industry: banking
-Company: American Family Insurance -> Industry: insurance
-Company: Americanfidelity -> Industry: banking
-Company: Amerilife -> Industry: insurance
-Company: Amerisbank -> Industry: banking
-Company: Amerisure -> Industry: insurance
-Company: Anglefinance -> Industry: banking
-Company: Apexcapitalcorp -> Industry: banking
-Company: Aquafinance -> Industry: banking
-Company: Aquilacapital -> Industry: banking
-Company: Arch Capital Group -> Industry: insurance
-Company: Aresmgmt -> Industry: banking
-Company: Argo Group (Brookfield P&C) -> Industry: insurance
-Company: Argogroup -> Industry: insurance
-Company: Argonne -> Industry: insurance
-Company: Arrowstreetcapital -> Industry: banking
-Company: Associatedbank -> Industry: banking
-Company: Assuranceamerica -> Industry: insurance
-Company: Assurant -> Industry: insurance
-Company: Assurant -> Industry: insurance
-Company: Assurant -> Industry: insurance
-Company: Auto-Owners Insurance -> Industry: insurance
-Company: Axiscapital -> Industry: banking
-Company: BMO -> Industry: banking
-Company: Baincapital -> Industry: banking
-Company: Bamfunds -> Industry: banking
-Company: Bank of America -> Industry: banking
-Company: Bankatfirst -> Industry: banking
-Company: Bankeasy -> Industry: banking
-Company: Barclays -> Industry: banking
-Company: Bbinsurance -> Industry: insurance
-Company: Berkshire Hathaway Homestate Companies -> Industry: insurance
-Company: Blackrock -> Industry: banking
-Company: Blackstone -> Industry: banking
-Company: Bmo -> Industry: banking
-Company: Broadridge Financial Solutions -> Industry: banking
-Company: Brown & Brown Insurance -> Industry: insurance
-Company: CNA -> Industry: insurance
-Company: CNA Financial -> Industry: insurance
-Company: CSAA Insurance Group -> Industry: insurance
-Company: CVS Health / Aetna -> Industry: insurance
-Company: Campaignmonitor -> Industry: insurance
-Company: Canassurance -> Industry: insurance
-Company: Capital One -> Industry: banking
-Company: Capitaland -> Industry: banking
-Company: Capitalauto -> Industry: banking
-Company: Capitalenergy -> Industry: banking
-Company: Capitalhealth -> Industry: banking
-Company: Capitalone -> Industry: banking
-Company: Capitalpower -> Industry: banking
-Company: Carislifesciences -> Industry: insurance
-Company: Chime -> Industry: banking
-Company: Chimesolutions -> Industry: banking
-Company: Chubb -> Industry: insurance
-Company: Chubbfiresecurity -> Industry: insurance
-Company: Citi -> Industry: banking
-Company: Citicclsa -> Industry: banking
-Company: Clearwateranalytics -> Industry: other
-Company: Cmcmarkets -> Industry: other
-Company: Cna -> Industry: insurance
-Company: Columbiabank -> Industry: banking
-Company: Commercebank -> Industry: banking
-Company: Comscore -> Industry: insurance
-Company: Corebridge Financial -> Industry: banking
-Company: Corebridgefinancial -> Industry: banking
-Company: Corespecialtyinsurance -> Industry: insurance
-Company: Countryfinancial -> Industry: banking
-Company: Coveainsurance -> Industry: insurance
-Company: Creditacceptance -> Industry: banking
-Company: Creditreform -> Industry: banking
-Company: Crosscountrymortgage -> Industry: banking
-Company: Cumminggroup -> Industry: banking
-Company: Customersbank -> Industry: banking
-Company: Cvshealth -> Industry: insurance
-Company: Daveandbusters -> Industry: banking
-Company: Discover Financial Services -> Industry: banking
-Company: Ehealthinsurance -> Industry: insurance
-Company: Eisneramper -> Industry: banking
-Company: Elevance Health -> Industry: insurance
-Company: Elevancehealth -> Industry: insurance
-Company: Entrust -> Industry: banking
-Company: Epicstaffinggroup -> Industry: banking
-Company: Equifax -> Industry: other
-Company: Equifax -> Industry: other
-Company: Equitylifestyleproperties -> Industry: insurance
-Company: Erie Insurance -> Industry: insurance
-Company: Everest -> Industry: insurance
-Company: Everestre -> Industry: insurance
-Company: Evoyageurs -> Industry: insurance
-Company: Exeterfinance -> Industry: banking
-Company: FNB Corporation -> Industry: banking
-Company: Fieracapital -> Industry: banking
-Company: Fifth Third Bank -> Industry: banking
-Company: Fifththird -> Industry: banking
-Company: Financialombudsman -> Industry: banking
-Company: First American Financial -> Industry: insurance
-Company: Fis -> Industry: banking
-Company: Fiserv -> Industry: banking
-Company: Fiskars -> Industry: banking
-Company: Fnbcorp -> Industry: banking
-Company: Franklintempleton -> Industry: banking
-Company: Frostbank -> Industry: banking
-Company: GEICO -> Industry: insurance
-Company: Gaig -> Industry: insurance
-Company: Gatecitybank -> Industry: banking
-Company: Geico -> Industry: insurance
-Company: Genworth -> Industry: insurance
-Company: Georgfischer -> Industry: banking
-Company: Germaniainsurance -> Industry: insurance
-Company: Globelife -> Industry: insurance
-Company: Goodlifefitness -> Industry: insurance
-Company: Great American Insurance Group -> Industry: insurance
-Company: Gtefinancial -> Industry: banking
-Company: Guardianlife -> Industry: insurance
-Company: Guggenheiminvestment -> Industry: banking
-Company: Guidewire -> Industry: insurance
-Company: Guidewire Software -> Industry: insurance
-Company: Harborcapital -> Industry: banking
-Company: Hebrewseniorlife -> Industry: insurance
-Company: Hiscox -> Industry: insurance
-Company: Homeequitybank -> Industry: banking
-Company: Humana -> Industry: insurance
-Company: Humancapitalmanagement -> Industry: banking
-Company: Huntington -> Industry: banking
-Company: Huntington Bancshares -> Industry: banking
-Company: Huntington National Bank -> Industry: banking
-Company: Huntingtonhospital -> Industry: banking
-Company: Huntingtonlibrary -> Industry: banking
-Company: ICW Group -> Industry: insurance
-Company: Icwgroup -> Industry: insurance
-Company: Illimitybank -> Industry: banking
-Company: Imtt -> Industry: banking
-Company: Integralife -> Industry: insurance
-Company: Integritymarketing -> Industry: other
-Company: Intertrust -> Industry: banking
-Company: Invesco -> Industry: banking
-Company: Irhythmtech -> Industry: banking
-Company: Islandfinance -> Industry: banking
-Company: JPMorgan Chase -> Industry: banking
-Company: Kemper -> Industry: insurance
-Company: Kemper Insurance -> Industry: insurance
-Company: KeyBank -> Industry: banking
-Company: Keybank -> Industry: banking
-Company: Kramp -> Industry: banking
-Company: Landsecurities -> Industry: banking
-Company: Largo -> Industry: insurance
-Company: Latitudefinancial -> Industry: banking
-Company: Lendingclub -> Industry: banking
-Company: Lendmarkfinancial -> Industry: banking
-Company: Lesschwab -> Industry: banking
-Company: LexisNexis Risk Solutions -> Industry: other
-Company: Liberty Mutual Insurance -> Industry: insurance
-Company: Lifefitness -> Industry: insurance
-Company: Lifespacecommunities -> Industry: insurance
-Company: Lifestance -> Industry: insurance
-Company: Lifestylecommunities -> Industry: insurance
-Company: Lifetime -> Industry: insurance
-Company: Lifeworks -> Industry: insurance
-Company: Liveramp -> Industry: banking
-Company: Lloyds -> Industry: banking
-Company: Loewscorp -> Industry: insurance
-Company: Lplfinancial -> Industry: banking
-Company: Luxexperience -> Industry: insurance
-Company: M&T Bank -> Industry: banking
-Company: Magmutual -> Industry: insurance
-Company: Manulife -> Industry: insurance
-Company: Markel -> Industry: insurance
-Company: Markelcorp -> Industry: insurance
-Company: Marlincapitalsolutions -> Industry: banking
-Company: Massmutual -> Industry: insurance
-Company: Mcrtrust -> Industry: banking
-Company: Mechanicsbank -> Industry: banking
-Company: Medimarketgroup -> Industry: other
-Company: Mizuho -> Industry: banking
-Company: Mjhlifesciences -> Industry: insurance
-Company: Morgan Stanley -> Industry: banking
-Company: Mtb -> Industry: banking
-Company: Mtholyoke -> Industry: banking
-Company: Mtminc -> Industry: banking
-Company: Mtmus -> Industry: banking
-Company: Mto -> Industry: banking
-Company: National Indemnity Company -> Industry: insurance
-Company: Nationalbanken -> Industry: banking
-Company: Nationalindemnity -> Industry: insurance
-Company: Nationwide -> Industry: insurance
-Company: Nationwidechildrens -> Industry: insurance
-Company: Nilfisk -> Industry: banking
-Company: Northbridgefinancial -> Industry: banking
-Company: Northwesternmutual -> Industry: insurance
-Company: Nortonlifelock -> Industry: insurance
-Company: Oldmutual -> Industry: insurance
 Company: Optrust -> Industry: banking
 Company: Orientalbank -> Industry: banking
 Company: Originbank -> Industry: banking
 Company: Osv Amerisure -> Industry: insurance
 Company: Osv Amerisure -> Industry: insurance
+Company: Otrcapital1 -> Industry: banking
+Company: Outmarket -> Industry: other
+Company: Owscapitalmanagement -> Industry: banking
 Company: PNC Financial Services -> Industry: banking
 Company: Pacific Life -> Industry: insurance
 Company: Pacificlife -> Industry: insurance
+Company: Panteracapitalcareers -> Industry: banking
+Company: Pavebank -> Industry: banking
+Company: Penninteractive -> Industry: banking
 Company: Pennmutual -> Industry: insurance
 Company: Pewtrusts -> Industry: banking
+Company: Pieinsurance -> Industry: insurance
+Company: Piermontbank -> Industry: banking
+Company: Pinnacolassurance -> Industry: insurance
+Company: Plaid -> Industry: banking
+Company: Plaid -> Industry: banking
 Company: Plmarketing -> Industry: other
+Company: Pluralfinance -> Industry: banking
+Company: Pointdigitalfinance -> Industry: banking
+Company: Polaranalytics -> Industry: other
+Company: Politanalytics -> Industry: other
+Company: Polychaincapital -> Industry: banking
+Company: Polymarket -> Industry: other
+Company: Powerdigitalmarketing -> Industry: other
+Company: Powerfinance -> Industry: banking
+Company: Pplwise -> Industry: banking
+Company: Prevail Fund -> Industry: banking
 Company: Proassurance -> Industry: insurance
 Company: Propertyguru -> Industry: insurance
 Company: Prudential -> Industry: insurance
 Company: Prudential Financial -> Industry: insurance
 Company: Pureinsurance -> Industry: insurance
+Company: Purplelandmgmt -> Industry: banking
+Company: Pzenainvestmentmanagement -> Industry: banking
 Company: Q2ebanking -> Industry: banking
 Company: QBE North America -> Industry: insurance
 Company: Qbe -> Industry: insurance
+Company: Qonto -> Industry: banking
+Company: Quadraturecapital -> Industry: banking
+Company: Questanalytics -> Industry: other
 Company: Rabobank -> Industry: banking
 Company: Radian Group -> Industry: insurance
 Company: Radiancetech -> Industry: insurance
+Company: Radiant -> Industry: insurance
+Company: Radiant Industries -> Industry: insurance
+Company: Radiantgraph -> Industry: insurance
+Company: Radiantsecurity -> Industry: insurance
+Company: Radixexperienced -> Industry: insurance
+Company: Ramp -> Industry: banking
+Company: Rampanttechnologies -> Industry: banking
+Company: Rampnetwork -> Industry: banking
 Company: Raymondjames -> Industry: banking
+Company: Recognisebank -> Industry: banking
+Company: Recurrent -> Industry: banking
 Company: Regionalfinance -> Industry: banking
 Company: Regions Bank -> Industry: banking
 Company: Relation Insurance -> Industry: insurance
 Company: Relationinsurance -> Industry: insurance
+Company: Relevanceai -> Industry: insurance
 Company: RenaissanceRe -> Industry: insurance
+Company: Renaissancelearning Emea -> Industry: insurance
+Company: Renaissancelearning Nam -> Industry: insurance
 Company: Resolutionlife -> Industry: insurance
+Company: Reunionmarketing -> Industry: other
+Company: Revenueanalytics -> Industry: other
+Company: Revolutionmedicines -> Industry: banking
 Company: Rialtocapital -> Industry: banking
+Company: Roarkcapitalgroup -> Industry: banking
+Company: Robinhood -> Industry: banking
+Company: Rothesaylife -> Industry: insurance
+Company: Runwise -> Industry: banking
+Company: Rushstreetinteractive -> Industry: banking
 Company: Ryan -> Industry: insurance
 Company: Ryan Specialty -> Industry: insurance
 Company: Ryancompanies -> Industry: insurance
 Company: Ryansg -> Industry: insurance
+Company: Ryanstuartdev -> Industry: insurance
 Company: Rytbank -> Industry: banking
 Company: SWBC -> Industry: insurance
+Company: Sagehomeloanscorporation -> Industry: insurance
+Company: Salaryfinance -> Industry: banking
+Company: Sandscapitalmanagementllc -> Industry: banking
 Company: Santander -> Industry: banking
+Company: Satoricapital -> Industry: banking
+Company: Savvyinsurance Trellis -> Industry: insurance
 Company: Saxobank -> Industry: banking
+Company: Schimenticonstructioncompany -> Industry: banking
+Company: Scholarsoffinance -> Industry: banking
 Company: Scmtd -> Industry: banking
+Company: Scoreplay -> Industry: insurance
+Company: Scorpionenterprisesllc -> Industry: insurance
+Company: Scsfinancial -> Industry: banking
+Company: Securityscorecard -> Industry: insurance
 Company: Sedgwick -> Industry: insurance
 Company: Sedgwick -> Industry: insurance
-Company: Sedgwick -> Industry: insurance
+Company: Seedify Fund -> Industry: banking
+Company: Seerinteractive -> Industry: banking
+Company: Selffinancial -> Industry: banking
 Company: Semtech -> Industry: banking
+Company: Sensefinance -> Industry: banking
 Company: Sentry Insurance -> Industry: insurance
 Company: Sentryinsurance -> Industry: insurance
+Company: Seriesai -> Industry: insurance
 Company: Shelterinsurance -> Industry: insurance
+Company: Shinvestmentsllc -> Industry: banking
+Company: Siftwell Analytics -> Industry: other
 Company: Simmonsbank -> Industry: banking
+Company: Simplifed -> Industry: insurance
+Company: Simtrabps -> Industry: banking
+Company: Slash Financial -> Industry: banking
+Company: Smarkets -> Industry: other
 Company: Smartbank -> Industry: banking
+Company: SoFi -> Industry: banking
+Company: Socialfinance -> Industry: banking
+Company: Sola Insurance -> Industry: insurance
+Company: Solarisbank -> Industry: banking
+Company: Songtrust -> Industry: banking
+Company: Sonyinteractiveentertainmentglobal -> Industry: banking
 Company: Southstatebank -> Industry: banking
+Company: Sparkfund -> Industry: banking
+Company: Splashfinancial -> Industry: banking
+Company: Squarepointcapital -> Industry: banking
+Company: Standinsurance -> Industry: insurance
 Company: Starfish -> Industry: banking
+Company: Starfish Space Inc -> Industry: banking
+Company: Starfishneuroscience -> Industry: banking
+Company: Starkbank -> Industry: banking
+Company: Startuplifers -> Industry: insurance
 Company: State Farm -> Industry: insurance
+Company: Stealthventurecapitalfirm -> Industry: banking
 Company: Stmonicatrust -> Industry: banking
+Company: Straightarrownews -> Industry: insurance
+Company: Straighterline -> Industry: insurance
+Company: Subsets -> Industry: banking
+Company: Subskribe -> Industry: banking
+Company: Subsplash -> Industry: banking
+Company: Substack -> Industry: banking
+Company: SumUp -> Industry: banking
 Company: Sumitomoheavyindustries -> Industry: banking
 Company: Sumitomopharma -> Industry: banking
+Company: Summitmgmt Corp -> Industry: banking
 Company: Sun Life U.S. -> Industry: insurance
 Company: Sunlife -> Industry: insurance
-Company: Swbc -> Industry: insurance
+Company: Sunwatercapital -> Industry: banking
 Company: Swisslife -> Industry: insurance
+Company: Symmetryinvestments -> Industry: banking
 Company: TD Bank -> Industry: banking
 Company: Tbkbank -> Industry: banking
 Company: Texascapitalbank -> Industry: banking
@@ -713,37 +651,88 @@ Company: Texasmutual -> Industry: insurance
 Company: The Hartford -> Industry: insurance
 Company: Theglobalfund -> Industry: banking
 Company: Thehartford -> Industry: insurance
+Company: Themarketingarm -> Industry: other
 Company: Themutualgroup -> Industry: insurance
 Company: Thermo Fisher Scientific -> Industry: banking
+Company: Thrivemarket -> Industry: other
 Company: Thrivent -> Industry: insurance
 Company: Tiaa -> Industry: insurance
 Company: Tihinsurance -> Industry: insurance
+Company: Toast -> Industry: banking
+Company: Toastmastersinternational -> Industry: banking
 Company: Tokio Marine HCC -> Industry: insurance
 Company: Tomtailorgroup -> Industry: banking
+Company: Towerresearchcapital -> Industry: insurance
+Company: Townsquareinteractive -> Industry: banking
+Company: Trade Republic -> Industry: banking
+Company: Traderepublicbank -> Industry: banking
 Company: Transamerica -> Industry: insurance
+Company: Translifeline -> Industry: insurance
+Company: Transmarketgroup -> Industry: other
 Company: Travelers -> Industry: insurance
+Company: Triedge Investments -> Industry: banking
+Company: Tripwireinteractive -> Industry: banking
 Company: Troweprice -> Industry: banking
+Company: Truelinkfinancial -> Industry: banking
 Company: Truist -> Industry: banking
+Company: Trust Wallet -> Industry: banking
 Company: Trustage -> Industry: banking
+Company: Trustarc -> Industry: banking
+Company: Trustautomation -> Industry: banking
+Company: Trustbank -> Industry: banking
+Company: Trustedhealth -> Industry: banking
 Company: Trustetc -> Industry: banking
+Company: Trustlab -> Industry: banking
+Company: Trustly -> Industry: banking
 Company: Trustmark -> Industry: banking
+Company: Trustpilot -> Industry: banking
+Company: Trustwill -> Industry: banking
+Company: Trustyou -> Industry: banking
 Company: Ttmtech -> Industry: banking
 Company: U.S. Bank -> Industry: banking
 Company: USAA -> Industry: insurance
+Company: Underscoremarketing -> Industry: insurance
+Company: Unispacelifesciences -> Industry: insurance
 Company: Unitedfidelity -> Industry: banking
 Company: Universalproperty -> Industry: insurance
 Company: Unum -> Industry: insurance
 Company: Unum Group -> Industry: insurance
-Company: Usaa -> Industry: insurance
 Company: Usbank -> Industry: banking
+Company: Valeriehealth -> Industry: insurance
 Company: Vanguard -> Industry: insurance
+Company: Vanguarddermatology -> Industry: insurance
+Company: Vantageanalytics -> Industry: other
+Company: Variant Fund -> Industry: banking
+Company: Visotrust -> Industry: banking
+Company: Vocationaltraineeworkexperience -> Industry: insurance
+Company: Vogliodigitalmarketing -> Industry: other
+Company: Volition Capital -> Industry: banking
+Company: Voyagertechnologiesinc -> Industry: insurance
+Company: Voyagertherapeutics -> Industry: insurance
+Company: Voyant Photonics -> Industry: insurance
+Company: Walleyecapital External Fulltime -> Industry: banking
+Company: Walleyecapital External Students -> Industry: banking
+Company: Wealth Com -> Industry: banking
 Company: Wealthenhancement -> Industry: banking
+Company: Wealthfront -> Industry: banking
+Company: Wealthsimple -> Industry: banking
+Company: Wealthsimple -> Industry: banking
 Company: Webster Bank -> Industry: banking
+Company: Weights & Biases (CoreWeave) -> Industry: insurance
 Company: Wells Fargo -> Industry: insurance
 Company: Westernalliancebank -> Industry: banking
 Company: Wfscorp -> Industry: insurance
+Company: Wildlifestudios -> Industry: insurance
 Company: Wintrust -> Industry: banking
+Company: Wisdomtree -> Industry: banking
+Company: Wisdomtree 2 -> Industry: banking
+Company: Wisecode -> Industry: banking
+Company: Wisetack -> Industry: banking
 Company: Worldmarket -> Industry: other
 Company: Wsfsbank -> Industry: banking
+Company: Wundercapital -> Industry: banking
 Company: Wyndhamcapital -> Industry: banking
+Company: Xtxmarketstechnologies -> Industry: other
 Company: Younglife -> Industry: insurance
+Company: Zedfinancial -> Industry: banking
+Company: Zurichinstruments -> Industry: insurance
