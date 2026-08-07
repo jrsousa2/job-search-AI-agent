@@ -1,2 +1,0 @@
-Item 0 of 2: {'company': 'Capitalone', 'platform': 'workday', 'slug': 'capitalone/wd1/Capital_One'}
-Item 1 of 2: {'company': 'FNB Corporation', 'platform': 'workday', 'slug': 'fnbcorp/wd1/FNBCORP'}
