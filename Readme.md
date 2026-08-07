@@ -140,7 +140,7 @@ The key is still used to prevent adding duplicate records (by final_job_id) in t
 
 ### Job posting date
 
-I've added the job posting date to the table as well, since that is a very important part of the scoring logic. Jobs posted
+I've added the job posting date to the database as well, since that is a very important part of the scoring logic. Jobs posted
 more recently have higher weight. Unfortunately, Workday uses a description for the post date -- but it can be converted 
 to an actual post date (despite values such as "Posted 30+ Days Ago").
 
