@@ -243,6 +243,10 @@ The more recent the file, the more improvements have been made to the logic used
 An external log file is created to identify and troubleshoot ATS-related errors during job data extraction and processing. 
 <br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
+### Runtime tracking
+
+Code has been added to track the time it takes to query the four ATS portals (715 companies). The benchmark has ranged from 18 to 28 minutes, depending on execution conditions.
+
 ### Conclusion
 
 The bottom line is, I'm now only using AI for resume tailoring. The heuristic score is more accurate, and the rationale

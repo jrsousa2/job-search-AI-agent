@@ -10,11 +10,11 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 # MY FUNCTIONS IN scripts
-from Repo_root import REPO_ROOT, ATS_DB
+from Repo_root import REPO_ROOT, WATCHLIST, ATS_DB
 
-def load_json_to_table(json_file):
-    table_name = Path(json_file).stem
-    conn = sqlite3.connect(ATS_DB)
+def load_json_to_table(json_file, input_db, output_table=None):
+    table_name = output_table or Path(json_file).stem
+    conn = sqlite3.connect(input_db)
     cursor = conn.cursor()
 
     # LOAD JSON
@@ -32,26 +32,28 @@ def load_json_to_table(json_file):
     # DROP TABLE BEFORE RELOADING
     cursor.execute(f"DROP TABLE IF EXISTS {table_name}")
 
-    # CREATE TABLE
-    if table_name != "workday":
-        cursor.execute(f"""
-        CREATE TABLE {table_name} (
-            {", ".join(f"{col} TEXT" for col in columns)}  )""")
-    else:
-        cursor.execute(f"""
-        CREATE TABLE {table_name} (
-            ats TEXT,
-            company TEXT,
-            slug TEXT,
-            status TEXT,
-            last_probed_at TEXT,
-            host TEXT,
-            site TEXT
-        ) """)
+    # CREATE TABLE WITH LAYOUT BASED ON VAR COLUMNS
+    # if table_name != "workday":
+    cursor.execute(f"""
+    CREATE TABLE {table_name} (
+        {", ".join(f"{col} TEXT" for col in columns)}  )""")
+    # else:
+    # CREATES DB TABLE WITH FIXED LAYOUT
+    # cursor.execute(f"""
+    # CREATE TABLE {table_name} (
+    #     ats TEXT,
+    #     company TEXT,
+    #     slug TEXT,
+    #     status TEXT,
+    #     last_probed_at TEXT,
+    #     host TEXT,
+    #     site TEXT
+    # ) 
+    # """)
 
     # INSERT DATA
     for row in data:
-        # LOAD IS DIFFERENT FOR WORKDAY        
+        # LOAD IS DIFFERENT FOR WORKDAY (IT HAS METADA FIELDS)
         if table_name != "workday":
             cursor.execute(
                 f"""
@@ -87,18 +89,21 @@ def load_json_to_table(json_file):
 
     conn.close()
 
-    print(f"Created DB table '{table_name}' with {row_count:,} rows.")
+    print(f"Created DB table {table_name} with {row_count:,} rows.")
 
     return row_count
 
 if __name__ == "__main__":
     # ALL BELOW HAVE BEEN LOADED
-    # load_json_to_table(r"D:\Agent\openroles\tenants\icims.json")
-    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\workday.json")
-    load_json_to_table(r"D:\Agent\openroles\watchlist.json")
-    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\greenhouse.json") 
-    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\lever.json")
-    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\ashby.json")
+    # load_json_to_table(r"D:\Agent\openroles\tenants\icims.json", ATS_DB)
+    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\workday.json", ATS_DB)
+    # load_json_to_table(r"D:\Agent\openroles\watchlist.json", ATS_DB)
+    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\greenhouse.json", ATS_DB) 
+    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\lever.json", ATS_DB)
+    # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\ashby.json", ATS_DB)
+    
+    # LOADS THE CURRENT WATCHLIST AND GIVE IT A NEW NAME
+    load_json_to_table(WATCHLIST, ATS_DB, "CUR_WATCHLIST")
     
     
     # load_json_to_table(r"D:\Agent\Json\openroles\data\tenants\csod.json", "csod")

@@ -192,7 +192,7 @@ def matches_industry(company):
 
     return None
 
-def prettify_company(slug: str) -> str:
+def standardize(slug: str) -> str:
     """
     Convert tenant slug to a readable placeholder company name.
     Examples:
@@ -226,7 +226,7 @@ def create_watchlist(input_db, output_file, log_file):
         # create readable name from slug
         if last_probed_at is not None:
             # take first slug component
-            company = prettify_company(slug.split("/")[0])
+            company = standardize(slug.split("/")[0])
 
         # keep chosen industry matches
         industry = matches_industry(company)
