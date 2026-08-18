@@ -202,6 +202,12 @@ ATS querying errors still go in an external log file.
 
 As I thought, the Claude script wasn't strictly necessary.
 
+### Company size
+
+Because I have almost always worked for larger companies (and I have circa 14,000 in my ATS database), I would like to be able
+to flag medium to large companies. Unfortunately I haven't been able to find a free database to identify the size of all those companies,
+so I can target the ones I like better. If you can help, please feel free to reach out. We can help each other out.
+
 ### Pricing
 
 I'm using a script created by Claude to help me estimate the price per run, which is now only comprised of resume tailoring. 
