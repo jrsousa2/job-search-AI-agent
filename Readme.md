@@ -204,9 +204,8 @@ As I thought, the Claude script wasn't strictly necessary.
 
 ### Company size
 
-Because I have almost always worked for larger companies (and I have circa 14,000 in my ATS database), I would like to be able
-to flag medium to large companies. Unfortunately I haven't been able to find a free database to identify the size of the companies 
-in my DB, so I can target the ones I feel better about. If you can help, please feel free to reach out. We could help each other out.
+Because I have almost always worked for larger companies (and there are circa 14,000 in my ATS database), I would like to be able
+to flag medium to large companies, to narrow down the scope of my search. Unfortunately I haven't been able to find a free database to identify the size of the companies in my DB, so I can target the ones I feel better about. If you can help, please feel free to reach out. We could help each other out.
 
 ### Pricing
 
