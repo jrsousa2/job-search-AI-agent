@@ -1,109 +1,109 @@
 Watchlist entries before dedupe: 9118
 Watchlist entries after dedupe: 9118
 
-Querying 100 of 9118: Academyofartuniversity
-Querying 200 of 9118: Adventisthealthcare
-Querying 300 of 9118: Airzonecontrol
+Querying 100 of 9118: Acaciumgroup
+Querying 200 of 9118: Advantech
+Querying 300 of 9118: Alarmcom
 Querying 400 of 9118: Alphia
-Querying 500 of 9118: Andersonsinc
-Querying 600 of 9118: Aptportfolio
-Querying 700 of 9118: Asg
-Querying 800 of 9118: Auchanportugal
-Querying 900 of 9118: Backblaze
-Querying 1000 of 9118: Bcidaho
-Querying 1100 of 9118: Biamp
-Querying 1200 of 9118: Bluewaterthinking
-Querying 1300 of 9118: Briefly
-Querying 1400 of 9118: Bvpanalyst
-Querying 1500 of 9118: Canohealth
-Querying 1600 of 9118: Caterpillar
-Querying 1700 of 9118: Charley
-Querying 1800 of 9118: Citicclsa
-Querying 1900 of 9118: Coactive
-Querying 2000 of 9118: Complyadvantage
+Querying 500 of 9118: Animalmedicalcenter
+Querying 600 of 9118: Aptiagroup
+Querying 700 of 9118: Ascentsolutions
+Querying 800 of 9118: Amcor
+Querying 900 of 9118: Azelis
+Querying 1000 of 9118: Bdainc
+Querying 1100 of 9118: Billcom
+Querying 1200 of 9118: Bluevineisrael
+Querying 1300 of 9118: Brightai
+Querying 1400 of 9118: Bupa
+Querying 1500 of 9118: Capefearvalley
+Querying 1600 of 9118: Caresource
+Querying 1700 of 9118: Cfdsny
+Querying 1800 of 9118: Cityofgainesville
+Querying 1900 of 9118: Cmno
+Querying 2000 of 9118: Compasspathways
 Querying 2100 of 9118: Costjohnsfl
-Querying 2200 of 9118: Cspire Telapex
-Querying 2300 of 9118: Datasocietyresearchinstitute
+Querying 2200 of 9118: Csagroup
+Querying 2300 of 9118: Dataminr
 Querying 2400 of 9118: Dentalcorp
-Querying 2500 of 9118: Donorbox
-Querying 2600 of 9118: Dxctechnology
-Querying 2700 of 9118: Employerdirecthealthcare
-Querying 2800 of 9118: Elevance Health
-Querying 2900 of 9118: Exadelinc
+Querying 2500 of 9118: Dominodatalab
+Querying 2600 of 9118: Dyson
+Querying 2700 of 9118: Eisneramper
+Querying 2800 of 9118: Equinox
+Querying 2900 of 9118: Evonik
 Querying 3000 of 9118: Fermilab
-Querying 3100 of 9118: Fletcherjonesishiringmechanicsandtechnicians
-Querying 3200 of 9118: Formfactor
-Querying 3300 of 9118: Fuzehealth
-Querying 3400 of 9118: Geniezipusa
-Querying 3500 of 9118: Gnw
-Querying 3600 of 9118: Gravitate
-Querying 3700 of 9118: Guillevin
-Querying 3800 of 9118: Hcsc
-Querying 3900 of 9118: Hmhw
-Querying 4000 of 9118: Huntress
+Querying 3100 of 9118: Fletcherjonesmotorcars
+Querying 3200 of 9118: Forter
+Querying 3300 of 9118: Future
+Querying 3400 of 9118: Genius
+Querying 3500 of 9118: Go1my
+Querying 3600 of 9118: Gphealth
+Querying 3700 of 9118: Guidehouse
+Querying 3800 of 9118: Hebrewpublic
+Querying 3900 of 9118: Homemarketfoods
+Querying 4000 of 9118: Huhtamaki
 Querying 4100 of 9118: Impinjexternal
-Querying 4200 of 9118: Integraldiagnostics
+Querying 4200 of 9118: Interbrand
 Querying 4300 of 9118: Jackpot
-Querying 4400 of 9118: Juvare
-Querying 4500 of 9118: Kinetik
-Querying 4600 of 9118: Lancasterveterinaryspecialties
-Querying 4700 of 9118: Lgeccu
-Querying 4800 of 9118: Lmr
-Querying 4900 of 9118: M9solutions
-Querying 5000 of 9118: Maslanskycareers
-Querying 5100 of 9118: Medivation
-Querying 5200 of 9118: Mhs
-Querying 5300 of 9118: Momentumtravel
+Querying 4400 of 9118: Jwp
+Querying 4500 of 9118: Keystonehumanservices
+Querying 4600 of 9118: Lakefieldveterinarygroup
+Querying 4700 of 9118: Lghealth
+Querying 4800 of 9118: Lkqcorp
+Querying 4900 of 9118: Luxexperience
+Querying 5000 of 9118: Marvell
+Querying 5100 of 9118: Medlyhealth
+Querying 5200 of 9118: Mica
+Querying 5300 of 9118: Momentous
 Querying 5400 of 9118: Mullerinfrastructure
-Querying 5500 of 9118: Nascar
-Querying 5600 of 9118: Nexuscommunications
-Querying 5700 of 9118: Ntconcepts
-Querying 5800 of 9118: Ogilvy
-Querying 5900 of 9118: Ooma
+Querying 5500 of 9118: Nayya
+Querying 5600 of 9118: Nexus Marketing
+Querying 5700 of 9118: Novartis
+Querying 5800 of 9118: Ogilvygermany
+Querying 5900 of 9118: Onsights
 Querying 6000 of 9118: Osv Momentapharma
-Querying 6100 of 9118: Panthalassa
-Querying 6200 of 9118: Pennant
-Querying 6300 of 9118: Petdoctor
-Querying 6400 of 9118: Poshmark
-Querying 6500 of 9118: Prophero
+Querying 6100 of 9118: Pantheon
+Querying 6200 of 9118: Pensacolastate
+Querying 6300 of 9118: Pillsburylaw
+Querying 6400 of 9118: Polypipe
+Querying 6500 of 9118: Promutuel
 Querying 6600 of 9118: Quansight
-Querying 6700 of 9118: Readyplayerme
-Querying 6800 of 9118: Repeatmd
-Querying 6900 of 9118: Roarkcapitalgroup
+Querying 6700 of 9118: Readysettechnologyinc
+Querying 6800 of 9118: Renpsg
+Querying 6900 of 9118: Roadrunner
 Querying 7000 of 9118: Rwlasvegas
-Querying 7100 of 9118: Saraworks
+Querying 7100 of 9118: Sarasotagov
 Querying 7200 of 9118: Seesaw
-Querying 7300 of 9118: Shinolaretail
-Querying 7400 of 9118: Skillzinc
-Querying 7500 of 9118: Sonothera
-Querying 7600 of 9118: Sponsorsforeducationalopportunity
+Querying 7300 of 9118: Shinola
+Querying 7400 of 9118: Skbs
+Querying 7500 of 9118: Sonymusiccareersafrica
+Querying 7600 of 9118: Springhealth66
 Querying 7700 of 9118: Stmonicatrust
-Querying 7800 of 9118: Surepay
-Querying 7900 of 9118: Taskus
-Querying 8000 of 9118: Texasmutual
-Querying 8100 of 9118: Thoughtspot
-Querying 8200 of 9118: Transmarketgroup
+Querying 7800 of 9118: Surbanajurong
+Querying 7900 of 9118: Taylor
+Querying 8000 of 9118: Textio
+Querying 8100 of 9118: Thoughtworksreferral
+Querying 8200 of 9118: Translifeline
 Querying 8300 of 9118: Tscfl
-Querying 8400 of 9118: Understood
-Querying 8500 of 9118: USAA
-Querying 8600 of 9118: Vernon
-Querying 8700 of 9118: Vpawashington
-Querying 8800 of 9118: Wekatest
-Querying 8900 of 9118: Withmeinc
+Querying 8400 of 9118: Undeadlabsllc
+Querying 8500 of 9118: Vacationinc
+Querying 8600 of 9118: Verse
+Querying 8700 of 9118: Voyagertherapeutics
+Querying 8800 of 9118: Welbehealth
+Querying 8900 of 9118: Wisecode
 Querying 9000 of 9118: Xosinc
-Querying 9100 of 9118: Zrg
+Querying 9100 of 9118: Zuora
 
 ============================================================
-Errors - bad slug or dead board (378)
+Errors - bad slug or dead board (386)
 ============================================================
 
 
-Jobs list had 26563 records
-Saved 26563 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Jobs list had 26599 records
+Saved 26599 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
 Chrome history copied
-New URLs inserted: 240
-Table VISITED_URLS : 4845 rows 
+New URLs inserted: 101
+Table VISITED_URLS : 5074 rows 
 
 Updating timezone by state...
 Timezone update based on state/cities complete
@@ -111,24 +111,24 @@ Timezone update based on state/cities complete
 Updating flags New/is_US...
 Total before SQL update...
 New after SQL update...
-Table NEW_JOBS : 1220 rows where New=1
-Table NEW_JOBS : 1352 rows 
+Table NEW_JOBS : 802 rows where New=1
+Table NEW_JOBS : 937 rows 
 
-Summary: 1220 new | 132 already evaluated | 378 errors
+Summary: 802 new | 135 already evaluated | 386 errors
 
 
 Loading job postings...
-	Found 485 job(s) in database
+	Found 339 job(s) in database
 
-Wrote D:\Agent\daily-digest\2026-08-17_greenhouse_URLs.html
+Wrote D:\Agent\daily-digest\2026-08-19_greenhouse_URLs.html
 
-Wrote D:\Agent\daily-digest\2026-08-17_ashby_URLs.html
+Wrote D:\Agent\daily-digest\2026-08-19_ashby_URLs.html
 
-Wrote D:\Agent\daily-digest\2026-08-17_workday_URLs.html
+Wrote D:\Agent\daily-digest\2026-08-19_workday_URLs.html
 
-Table new_jobs exported to new_jobs_2026-08-17.xlsx (1,352 rows)
+Table new_jobs exported to new_jobs_2026-08-19.xlsx (937 rows)
 
-Start time: 2026-08-17 07:00:14.102227
-End time: 2026-08-17 08:17:06.915292
-Elapsed time: 76.88 minutes
+Start time: 2026-08-19 07:00:13.574043
+End time: 2026-08-19 08:32:48.465044
+Elapsed time: 92.58 minutes
 
