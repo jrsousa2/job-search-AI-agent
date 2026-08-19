@@ -248,6 +248,8 @@ The more recent the file, the more improvements have been made to the logic used
 An external log file is created to identify and troubleshoot ATS-related errors during job data extraction and processing. 
 <br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
+Here's a sample [Log](https://github.com/jrsousa2/job-search-AI-agent/blob/main/Logs/check_boards_log.txt).
+
 ### Runtime tracking
 
 Code has been added to track the time it takes to query the four ATS portals (715 companies). The benchmark has ranged from 18 to 28 minutes, depending on execution conditions. As of Aug-18, there are now circa 9000 companies to query, and the workflow takes an hour and a half to run.
