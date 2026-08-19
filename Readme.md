@@ -250,7 +250,7 @@ An external log file is created to identify and troubleshoot ATS-related errors 
 
 ### Runtime tracking
 
-Code has been added to track the time it takes to query the four ATS portals (715 companies). The benchmark has ranged from 18 to 28 minutes, depending on execution conditions.
+Code has been added to track the time it takes to query the four ATS portals (715 companies). The benchmark has ranged from 18 to 28 minutes, depending on execution conditions. As of Aug-18, there are now circa 9000 companies, and the workflow takes an hour and a half to run.
 
 ### Conclusion
 
