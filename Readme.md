@@ -245,8 +245,7 @@ The more recent the file, the more improvements have been made to the logic used
 
 ### Log
 
-An external log file is created to identify and troubleshoot ATS-related errors during job data extraction and processing. 
-<br>It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
+External log files are created to collect information on the process. An error log is created to identify and troubleshoot ATS-related errors during job data extraction and processing. It records failures such as API response issues, parsing errors, missing fields, and unexpected ATS formats.
 
 Here's a sample [Log](https://github.com/jrsousa2/job-search-AI-agent/blob/main/Logs/check_boards_log.txt).
 
