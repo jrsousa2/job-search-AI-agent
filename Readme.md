@@ -200,7 +200,7 @@ Unfortunately, it doesn't include a field for the industry, so an approximate lo
 <br>Switching to industries that I have more experience in should help now.
 ATS querying errors still go in an external log file.
 
-As I thought, the Claude script wasn't strictly necessary.
+As I imagined, the Claude script wasn't strictly necessary.
 
 ### Company size
 
