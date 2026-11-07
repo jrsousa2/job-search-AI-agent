@@ -1,6 +1,16 @@
+Bad board/API Error: HTTP 404 	Key: {"company":"1910genetics", "platform":"greenhouse", "slug":"1910genetics"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"1uphealth", "platform":"greenhouse", "slug":"1uphealth"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"10xgenomics", "platform":"greenhouse", "slug":"10xgenomics"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"7shifts", "platform":"greenhouse", "slug":"7shifts"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Abarca", "platform":"greenhouse", "slug":"abarca"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Abclabs", "platform":"greenhouse", "slug":"abclabs"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Abdielcapital", "platform":"greenhouse", "slug":"abdielcapital"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Abeilleassurances", "platform":"workday", "slug":"abeilleassurances/wd3/External"}
 
@@ -14,25 +24,53 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Achaogen", "platform":"workday",
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Aconex", "platform":"workday", "slug":"aconex/wd3/Aconex_Career_Site"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Acrisureinnovation", "platform":"greenhouse", "slug":"acrisureinnovation"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Actpowerservices", "platform":"greenhouse", "slug":"actpowerservices"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Acxiom", "platform":"workday", "slug":"acxiom/wd5/AcxiomUSA"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Aef", "platform":"greenhouse", "slug":"aef"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Aerospike", "platform":"greenhouse", "slug":"aerospike"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Aer", "platform":"workday", "slug":"aer/wd3/AER"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Aesop", "platform":"workday", "slug":"aesop/wd3/broadbean_external"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Affinity", "platform":"greenhouse", "slug":"affinity"}
 
-API Error: The read operation timed out 	Key: {"company":"Abinbev", "platform":"greenhouse", "slug":"abinbev"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Aiven36", "platform":"greenhouse", "slug":"aiven36"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Ais", "platform":"workday", "slug":"ais/wd3/Careers"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Alchemy", "platform":"greenhouse", "slug":"alchemy"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Akoya", "platform":"greenhouse", "slug":"akoya"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Albertsons", "platform":"workday", "slug":"albertsons/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alchemy", "platform":"greenhouse", "slug":"alchemy"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Alight", "platform":"workday", "slug":"alight/wd5/Careers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Allbirds", "platform":"greenhouse", "slug":"allbirds"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Allencontrolsystems", "platform":"greenhouse", "slug":"allencontrolsystems"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alpineinternships", "platform":"greenhouse", "slug":"alpineinternships"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alpineinvestors", "platform":"greenhouse", "slug":"alpineinvestors"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alpineportfolio", "platform":"greenhouse", "slug":"alpineportfolio"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Alt", "platform":"greenhouse", "slug":"alt"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Altium", "platform":"greenhouse", "slug":"altium"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Amb", "platform":"greenhouse", "slug":"amb"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Ambiententerprises", "platform":"greenhouse", "slug":"ambiententerprises"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Amdaris", "platform":"greenhouse", "slug":"amdaris"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Amenitiz", "platform":"greenhouse", "slug":"amenitiz"}
 
@@ -42,29 +80,49 @@ API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Ame
 
 API Error: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'osv_amerisure.wd5.myworkdayjobs.com'. (_ssl.c:1006)> 	Key: {"company":"Amerisure", "platform":"workday", "slug":"osv_amerisure/wd5/Amerisure"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Amplitude", "platform":"greenhouse", "slug":"amplitude"}
+
 Bad board/API Error: HTTP 403 	Key: {"company":"Amplify", "platform":"workday", "slug":"amplify/wd1/Amplify_Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Anchanto", "platform":"greenhouse", "slug":"anchanto"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Anzupartners", "platform":"greenhouse", "slug":"anzupartners"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Aperiophilanthropy", "platform":"greenhouse", "slug":"aperiophilanthropy"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Apa", "platform":"workday", "slug":"apa/wd105/APA-PrivateCareersPage02042024"}
+
+API Error: The read operation timed out 	Key: {"company":"Americanfidelity", "platform":"workday", "slug":"americanfidelity/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Arcadiacareers", "platform":"greenhouse", "slug":"arcadiacareers"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Arcellx", "platform":"greenhouse", "slug":"arcellx"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"Arctera", "platform":"workday", "slug":"arctera/wd501/careers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Argogroup", "platform":"workday", "slug":"argogroup/wd1/Argo"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Arine", "platform":"greenhouse", "slug":"arine"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Ascendanalytics", "platform":"greenhouse", "slug":"ascendanalytics"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Artemisanalytics", "platform":"ashby", "slug":"artemisanalytics"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Ascensia", "platform":"workday", "slug":"ascensia/wd3/Epredia_Careers"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Artlogic", "platform":"greenhouse", "slug":"artlogic"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Ascendanalytics", "platform":"greenhouse", "slug":"ascendanalytics"}
 
 Bad board/API Error: HTTP 401 	Key: {"company":"Ascentsolutions", "platform":"workday", "slug":"ascentsolutions/wd1/External"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Ascensia", "platform":"workday", "slug":"ascensia/wd3/Epredia_Careers"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Aspinity", "platform":"greenhouse", "slug":"aspinity"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Atalantatherapeutics", "platform":"greenhouse", "slug":"atalantatherapeutics"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Atmosenergy", "platform":"workday", "slug":"atmosenergy/wd5/External_Career_Site"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Atomico", "platform":"greenhouse", "slug":"atomico"}
-
 Bad board/API Error: HTTP 404 	Key: {"company":"Atomwise", "platform":"greenhouse", "slug":"atomwise"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Atomico", "platform":"greenhouse", "slug":"atomico"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Attune", "platform":"greenhouse", "slug":"attune"}
 
@@ -80,17 +138,21 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Azumo", "platform":"greenhouse",
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Baincapitalventures", "platform":"greenhouse", "slug":"baincapitalventures"}
 
-API Error: The read operation timed out 	Key: {"company":"Auctane", "platform":"greenhouse", "slug":"auctane"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Bamfhealth", "platform":"workday", "slug":"bamfhealth/wd5/External"}
 
 Bad board/API Error: HTTP 401 	Key: {"company":"Bamfunds", "platform":"workday", "slug":"bamfunds/wd1/External"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Beaconplatform", "platform":"greenhouse", "slug":"beaconplatform"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Bccampus", "platform":"greenhouse", "slug":"bccampus"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Beatboxbeveragesllc", "platform":"greenhouse", "slug":"beatboxbeveragesllc"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Beauhurst", "platform":"greenhouse", "slug":"beauhurst"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Berkadiaindia", "platform":"greenhouse", "slug":"berkadiaindia"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Berkadia", "platform":"greenhouse", "slug":"berkadia"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Berkadiatalentpool", "platform":"greenhouse", "slug":"berkadiatalentpool"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Bessemerventurepartnersfellows", "platform":"greenhouse", "slug":"bessemerventurepartnersfellows"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Best Buy", "platform":"workday", "slug":"bestbuy/wd5/External"}
 
@@ -98,15 +160,27 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Bioclinica", "platform":"workday
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Bioskryb", "platform":"greenhouse", "slug":"bioskryb"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Bitcoindepot", "platform":"greenhouse", "slug":"bitcoindepot"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Bitly", "platform":"greenhouse", "slug":"bitly"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Bitso", "platform":"greenhouse", "slug":"bitso"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Bjs", "platform":"workday", "slug":"bjs/wd5/My_Career_At_BJ_Services"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Blackforestlabs", "platform":"greenhouse", "slug":"blackforestlabs"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Blankfactor", "platform":"workday", "slug":"blankfactor/wd12/Blankfactor_External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Blockone", "platform":"workday", "slug":"blockone/wd3/Blockone"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Blueconic", "platform":"greenhouse", "slug":"blueconic"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Bluecoreinc", "platform":"greenhouse", "slug":"bluecoreinc"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Bluecrestcapitalmanagement", "platform":"greenhouse", "slug":"bluecrestcapitalmanagement"}
+
+Bad board/API Error: HTTP 502 	Key: {"company":"Blackbirdinteractive", "platform":"lever", "slug":"blackbirdinteractive"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Boarshead", "platform":"workday", "slug":"boarshead/wd1/BHC"}
 
@@ -114,7 +188,13 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Boostinsurance", "platform":"gre
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Bootcampinstructionalengagement", "platform":"greenhouse", "slug":"bootcampinstructionalengagement"}
 
+Bad board/API Error: HTTP 403 	Key: {"company":"Bozemanhealth", "platform":"workday", "slug":"bozemanhealth/wd1/BozemanHealthCareers"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Brady", "platform":"workday", "slug":"brady/wd1/BradyServices_Careers"}
+
+Bad board/API Error: HTTP 502 	Key: {"company":"Bnl", "platform":"workday", "slug":"bnl/wd1/Externa"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Breezeairways", "platform":"greenhouse", "slug":"breezeairways"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Bridgepointeducation", "platform":"workday", "slug":"bridgepointeducation/wd5/Ashford_External_Site"}
 
@@ -122,9 +202,19 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Broadvoice", "platform":"greenho
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Brooklinen", "platform":"greenhouse", "slug":"brooklinen"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Butlr", "platform":"greenhouse", "slug":"butlr"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Brscorporate", "platform":"greenhouse", "slug":"brscorporate"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Bucknerinternational", "platform":"greenhouse", "slug":"bucknerinternational"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Butler", "platform":"workday", "slug":"butler/wd1/Jobs"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Butlr", "platform":"greenhouse", "slug":"butlr"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Buzzfeed", "platform":"greenhouse", "slug":"buzzfeed"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Buyersedgeplatformrecruiting", "platform":"greenhouse", "slug":"buyersedgeplatformrecruiting"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Byheart", "platform":"greenhouse", "slug":"byheart"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Byuhi", "platform":"workday", "slug":"byuhi/wd1/BYU_H"}
 
@@ -136,19 +226,37 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Campusopportunities", "platform"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Camusenergy", "platform":"greenhouse", "slug":"camusenergy"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Capellaspace", "platform":"greenhouse", "slug":"capellaspace"}
+
 Bad board/API Error: HTTP 403 	Key: {"company":"Capbluecross", "platform":"workday", "slug":"capbluecross/wd5/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Capitalenergy", "platform":"workday", "slug":"capitalenergy/wd3/CE"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Capitalize", "platform":"greenhouse", "slug":"capitalize"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Capitalrx", "platform":"greenhouse", "slug":"capitalrx"}
 
-Bad board/API Error: HTTP 403 	Key: {"company":"Carbonhealth", "platform":"workday", "slug":"carbonhealth/wd1/Careers"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Carbon", "platform":"greenhouse", "slug":"carbon"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Carbonrobotics", "platform":"greenhouse", "slug":"carbonrobotics"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Carbonhealth", "platform":"workday", "slug":"carbonhealth/wd1/Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Cardflight", "platform":"greenhouse", "slug":"cardflight"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Carethrough", "platform":"workday", "slug":"carethrough/wd1/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Carveyourownpath", "platform":"greenhouse", "slug":"carveyourownpath"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Casted", "platform":"greenhouse", "slug":"casted"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Castiron", "platform":"greenhouse", "slug":"castiron"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Catenaclearing", "platform":"greenhouse", "slug":"catenaclearing"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Caterpillar", "platform":"workday", "slug":"caterpillar/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Cdbabyjobs", "platform":"greenhouse", "slug":"cdbabyjobs"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Cerebral", "platform":"greenhouse", "slug":"cerebral"}
 
@@ -162,33 +270,61 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Cff", "platform":"workday", "slu
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Cfbhfg", "platform":"workday", "slug":"cfbhfg/wd12/ExternalCareers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Chameleonconsultinggroup", "platform":"greenhouse", "slug":"chameleonconsultinggroup"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Changehealthcare", "platform":"workday", "slug":"changehealthcare/wd5/Search"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Chelseaavondale", "platform":"greenhouse", "slug":"chelseaavondale"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Cherryventures", "platform":"greenhouse", "slug":"cherryventures"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Chimesolutions", "platform":"workday", "slug":"chimesolutions/wd1/chimesolutionscareers"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Chime", "platform":"workday", "slug":"chime/wd3/CSM"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Chimesolutions", "platform":"workday", "slug":"chimesolutions/wd1/chimesolutionscareers"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Christiancareministry", "platform":"greenhouse", "slug":"christiancareministry"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Chubb", "platform":"workday", "slug":"chubb/wd5/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Circleso", "platform":"greenhouse", "slug":"circleso"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Civilscience", "platform":"greenhouse", "slug":"civilscience"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Clarityai", "platform":"greenhouse", "slug":"clarityai"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Claros", "platform":"greenhouse", "slug":"claros"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Clearwaterbenefits", "platform":"greenhouse", "slug":"clearwaterbenefits"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Clickhouse", "platform":"greenhouse", "slug":"clickhouse"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Cliftonlarsonallen", "platform":"workday", "slug":"cliftonlarsonallen/wd1/CLA"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Climateai", "platform":"greenhouse", "slug":"climateai"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Cliftonlarsonallen", "platform":"workday", "slug":"cliftonlarsonallen/wd1/CLA"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Climatex", "platform":"greenhouse", "slug":"climatex"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Cloverly", "platform":"greenhouse", "slug":"cloverly"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Cmu", "platform":"workday", "slug":"cmu/wd5/SEI"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Cobo", "platform":"greenhouse", "slug":"cobo"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Cocoon", "platform":"greenhouse", "slug":"cocoon"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Codetta", "platform":"greenhouse", "slug":"codetta"}
 
-Bad board/API Error: HTTP 410 	Key: {"company":"Comcast", "platform":"workday", "slug":"comcast/wd5/Comcast_Careers"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Cognitotherapeutics", "platform":"greenhouse", "slug":"cognitotherapeutics"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Cognosante", "platform":"workday", "slug":"cognosante/wd1/I2TSCareers"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Comcast", "platform":"workday", "slug":"comcast/wd5/Comcast_Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Companycam", "platform":"greenhouse", "slug":"companycam"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Condenast", "platform":"workday", "slug":"condenast/wd5/PubWorx_External_Career_Site"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Constrafor", "platform":"greenhouse", "slug":"constrafor"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Contextualai", "platform":"greenhouse", "slug":"contextualai"}
 
@@ -200,7 +336,13 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Costco Wholesale", "platform":"w
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Covenantcare", "platform":"workday", "slug":"covenantcare/wd5/CovenantCare"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Coverahealth", "platform":"greenhouse", "slug":"coverahealth"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Creditkarma", "platform":"greenhouse", "slug":"creditkarma"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Crescendohealth", "platform":"greenhouse", "slug":"crescendohealth"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Crossbeam", "platform":"greenhouse", "slug":"crossbeam"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Csc", "platform":"workday", "slug":"csc/wd1/DXCJobs"}
 
@@ -212,17 +354,35 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Cuehealth", "platform":"workday"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Culthealth", "platform":"greenhouse", "slug":"culthealth"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Curative", "platform":"greenhouse", "slug":"curative"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Cushwake", "platform":"workday", "slug":"cushwake/wd1/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Cybereason", "platform":"greenhouse", "slug":"cybereason"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Cytotronics", "platform":"greenhouse", "slug":"cytotronics"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Datastax", "platform":"workday", "slug":"datastax/wd5/DataStaxCareers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Dayonebiopharmaceuticals", "platform":"greenhouse", "slug":"dayonebiopharmaceuticals"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Daynine", "platform":"workday", "slug":"daynine/wd5/CareersAtDayNine"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Dbtlabsinc", "platform":"greenhouse", "slug":"dbtlabsinc"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Debtbook", "platform":"greenhouse", "slug":"debtbook"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Decisions", "platform":"greenhouse", "slug":"decisions"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Deepmind", "platform":"greenhouse", "slug":"deepmind"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Dell", "platform":"workday", "slug":"dell/wd1/ExternalNonPublic"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Dell Technologies", "platform":"workday", "slug":"dell/wd1/External"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Delta Air Lines", "platform":"workday", "slug":"delta/wd1/External"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Deluxe", "platform":"workday", "slug":"deluxe/wd5/AUS"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Designpickle", "platform":"greenhouse", "slug":"designpickle"}
 
@@ -230,17 +390,31 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Digitalai", "platform":"greenhou
 
 Bad board/API Error: HTTP 401 	Key: {"company":"Discover Financial Services", "platform":"workday", "slug":"discover/wd5/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Dispatch", "platform":"greenhouse", "slug":"dispatch"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Dmarket", "platform":"greenhouse", "slug":"dmarket"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Dmcengineering2024", "platform":"greenhouse", "slug":"dmcengineering2024"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Dnsfilter", "platform":"greenhouse", "slug":"dnsfilter"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Doctolib", "platform":"greenhouse", "slug":"doctolib"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Downtownmusicholdings", "platform":"greenhouse", "slug":"downtownmusicholdings"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Downtownmusic", "platform":"greenhouse", "slug":"downtownmusic"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Dropps", "platform":"greenhouse", "slug":"dropps"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Dubber", "platform":"greenhouse", "slug":"dubber"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Eaton", "platform":"workday", "slug":"eaton/wd5/External"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Ecovative", "platform":"greenhouse", "slug":"ecovative"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Edxbootcamps", "platform":"greenhouse", "slug":"edxbootcamps"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Eeronline", "platform":"workday", "slug":"eeronline/wd1/EndeavorEnergyCareers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Eharmony", "platform":"greenhouse", "slug":"eharmony"}
 
@@ -254,25 +428,37 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Emerge", "platform":"greenhouse"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Enchargeai", "platform":"greenhouse", "slug":"enchargeai"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Epicstaffinggroup", "platform":"workday", "slug":"epicstaffinggroup/wd1/Epic_Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Equatic", "platform":"greenhouse", "slug":"equatic"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Equinox", "platform":"workday", "slug":"equinox/wd1/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Erie Insurance", "platform":"workday", "slug":"erieinsurance/wd5/External"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Eriks", "platform":"workday", "slug":"eriks/wd3/Careers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Esusu", "platform":"greenhouse", "slug":"esusu"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Eversidehealth", "platform":"workday", "slug":"eversidehealth/wd501/Marathon-Health-Careers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Everstreamanalytics", "platform":"greenhouse", "slug":"everstreamanalytics"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Evolutionaryscale", "platform":"greenhouse", "slug":"evolutionaryscale"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Evpassport", "platform":"greenhouse", "slug":"evpassport"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Factorial", "platform":"greenhouse", "slug":"factorial"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Exodus54", "platform":"greenhouse", "slug":"exodus54"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Ezinc", "platform":"greenhouse", "slug":"ezinc"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Factorial", "platform":"greenhouse", "slug":"factorial"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Fal", "platform":"greenhouse", "slug":"fal"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"FedEx", "platform":"workday", "slug":"fedex/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Feinternational", "platform":"greenhouse", "slug":"feinternational"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Ffg", "platform":"greenhouse", "slug":"ffg"}
 
@@ -282,15 +468,23 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Fireworksai", "platform":"greenh
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Firstrepublic", "platform":"workday", "slug":"firstrepublic/wd1/Careers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Flaunt", "platform":"greenhouse", "slug":"flaunt"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Flowfact", "platform":"greenhouse", "slug":"flowfact"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Flsmidthcement", "platform":"workday", "slug":"flsmidthcement/wd103/FLS_Global"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Flyflat", "platform":"greenhouse", "slug":"flyflat"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Ford Motor Company", "platform":"workday", "slug":"ford/wd5/External"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Flyr", "platform":"greenhouse", "slug":"flyr"}
+
+API Error: The read operation timed out 	Key: {"company":"Ffd", "platform":"workday", "slug":"ffd/wd1/EmploymentOpportunities"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Forethought", "platform":"greenhouse", "slug":"forethought"}
+
+rnal"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Forgeglobal", "platform":"greenhouse", "slug":"forgeglobal"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Formbio", "platform":"greenhouse", "slug":"formbio"}
 
@@ -298,7 +492,15 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Forte", "platform":"greenhouse",
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Fortra", "platform":"greenhouse", "slug":"fortra"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Francescas", "platform":"workday", "slug":"francescas/wd1/Distribution_Center_Opportunities"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Frontiersin", "platform":"workday", "slug":"frontiersin/wd3/Frontiers"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Fundamentalresearchlabs", "platform":"ashby", "slug":"fundamentalresearchlabs"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Fundraiseup", "platform":"greenhouse", "slug":"fundraiseup"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Fuzehealth", "platform":"greenhouse", "slug":"fuzehealth"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"G6hospitality", "platform":"workday", "slug":"g6hospitality/wd5/G6_Job_Openings"}
 
@@ -312,39 +514,51 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Galileofinancialtechnologies", "
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Gamestop", "platform":"workday", "slug":"gamestop/wd5/Careers"}
 
-Bad board/API Error: HTTP 401 	Key: {"company":"Garvan", "platform":"workday", "slug":"garvan/wd3/garvan_institute"}
-
 Bad board/API Error: HTTP 404 	Key: {"company":"Gelfandrennertfeldman", "platform":"greenhouse", "slug":"gelfandrennertfeldman"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Gelsight", "platform":"greenhouse", "slug":"gelsight"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Genelco", "platform":"greenhouse", "slug":"genelco"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Generalcatalyst", "platform":"greenhouse", "slug":"generalcatalyst"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Generationbio", "platform":"greenhouse", "slug":"generationbio"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Geniantllc", "platform":"greenhouse", "slug":"geniantllc"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Genelco", "platform":"greenhouse", "slug":"genelco"}
+Bad board/API Error: HTTP 401 	Key: {"company":"Gensler", "platform":"workday", "slug":"gensler/wd1/genslercareers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Ghd", "platform":"greenhouse", "slug":"ghd"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Giantspoon", "platform":"greenhouse", "slug":"giantspoon"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Gigaenergy", "platform":"greenhouse", "slug":"gigaenergy"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Glassdoor", "platform":"greenhouse", "slug":"glassdoor"}
 
+Bad board/API Error: HTTP 403 	Key: {"company":"Globalblue", "platform":"workday", "slug":"globalblue/wd3/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Glossgenius", "platform":"greenhouse", "slug":"glossgenius"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Gmac", "platform":"workday", "slug":"gmac/wd1/GMAC"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Godfreydadichpartners", "platform":"greenhouse", "slug":"godfreydadichpartners"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Gogratia", "platform":"greenhouse", "slug":"gogratia"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Goodunited", "platform":"greenhouse", "slug":"goodunited"}
 
-API Error: The read operation timed out 	Key: {"company":"Getscale", "platform":"greenhouse", "slug":"getscale"}
-
 Bad board/API Error: HTTP 404 	Key: {"company":"Goprocareers", "platform":"greenhouse", "slug":"goprocareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Gr8tech", "platform":"greenhouse", "slug":"gr8tech"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Gradientcomfort", "platform":"greenhouse", "slug":"gradientcomfort"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Grammarly", "platform":"greenhouse", "slug":"grammarly"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Gtsgbu", "platform":"workday", "slug":"gtsgbu/wd3/Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hala", "platform":"greenhouse", "slug":"hala"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Halozyme", "platform":"workday", "slug":"halozyme/wd1/halozymecareers"}
 
@@ -360,13 +574,23 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Healthnowny", "platform":"workda
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Healthplanone", "platform":"workday", "slug":"healthplanone/wd1/External"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Hedgeserv", "platform":"workday", "slug":"hedgeserv/wd1/HedgeServ"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Heequipment", "platform":"workday", "slug":"heequipment/wd5/careers"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Henrymeds", "platform":"greenhouse", "slug":"henrymeds"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Hextechnologies", "platform":"greenhouse", "slug":"hextechnologies"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Heycar", "platform":"greenhouse", "slug":"heycar"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Hibu", "platform":"greenhouse", "slug":"hibu"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Highalphaprelaunch", "platform":"greenhouse", "slug":"highalphaprelaunch"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hightouch", "platform":"greenhouse", "slug":"hightouch"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hivewatch", "platform":"greenhouse", "slug":"hivewatch"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Holder", "platform":"greenhouse", "slug":"holder"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Honeywell", "platform":"workday", "slug":"honeywell/wd5/External"}
 
@@ -374,7 +598,19 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Horizonpharma", "platform":"work
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Horizontherapeutics", "platform":"workday", "slug":"horizontherapeutics/wd1/Horizon_Pharma"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"HubSpot", "platform":"greenhouse", "slug":"hubspot"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hubspotstudents", "platform":"greenhouse", "slug":"hubspotstudents"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hubspotmarketing", "platform":"greenhouse", "slug":"hubspotmarketing"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Humankind", "platform":"greenhouse", "slug":"humankind"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Hyphenconnect", "platform":"greenhouse", "slug":"hyphenconnect"}
+
 Bad board/API Error: HTTP 403 	Key: {"company":"Hyvee", "platform":"workday", "slug":"hyvee/wd1/HSTGlobalCareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Ibanfirst", "platform":"greenhouse", "slug":"ibanfirst"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Ice", "platform":"workday", "slug":"ice/wd1/ICE"}
 
@@ -386,17 +622,43 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Ideoorg", "platform":"greenhouse
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Idexx", "platform":"workday", "slug":"idexx/wd1/IDEXX"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"If", "platform":"workday", "slug":"if/wd3/Careers"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Iherb", "platform":"greenhouse", "slug":"iherb"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Immunefi", "platform":"greenhouse", "slug":"immunefi"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Imshealth", "platform":"workday", "slug":"imshealth/wd1/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Innovacare", "platform":"workday", "slug":"innovacare/wd1/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Innovid", "platform":"greenhouse", "slug":"innovid"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Inovalon", "platform":"greenhouse", "slug":"inovalon"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Insightassurance", "platform":"greenhouse", "slug":"insightassurance"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Inspiren", "platform":"greenhouse", "slug":"inspiren"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Instabase", "platform":"greenhouse", "slug":"instabase"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Intertrust", "platform":"workday", "slug":"intertrust/wd3/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Invoca", "platform":"greenhouse", "slug":"invoca"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Inyova", "platform":"greenhouse", "slug":"inyova"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Ipreo", "platform":"workday", "slug":"ipreo/wd1/IpreoExternalCareersSite"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Irradianttechnologies", "platform":"greenhouse", "slug":"irradianttechnologies"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Jahnelgroup", "platform":"greenhouse", "slug":"jahnelgroup"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Jamyrintegrationsandbox", "platform":"greenhouse", "slug":"jamyrintegrationsandbox"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Janeasystems", "platform":"greenhouse", "slug":"janeasystems"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Joinforage", "platform":"greenhouse", "slug":"joinforage"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Journee", "platform":"greenhouse", "slug":"journee"}
 
@@ -408,11 +670,15 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Junglescout", "platform":"greenh
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Justfab", "platform":"workday", "slug":"justfab/wd1/justfabcareers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Kayak", "platform":"greenhouse", "slug":"kayak"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Kcg", "platform":"workday", "slug":"kcg/wd1/KCG"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Kci", "platform":"workday", "slug":"kci/wd1/External"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Kimberlyclark", "platform":"workday", "slug":"kimberlyclark/wd1/broadbean_external"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Kit", "platform":"greenhouse", "slug":"kit"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Klook", "platform":"workday", "slug":"klook/wd3/KlookCareers"}
 
@@ -420,31 +686,63 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Knowde", "platform":"greenhouse"
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Kohls", "platform":"workday", "slug":"kohls/wd1/kohlscareers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Koko", "platform":"greenhouse", "slug":"koko"}
+
 Bad board/API Error: HTTP 403 	Key: {"company":"Koppers", "platform":"workday", "slug":"koppers/wd5/RailroadCareers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Kroger", "platform":"workday", "slug":"kroger/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Kurosbiosciencesinc", "platform":"greenhouse", "slug":"kurosbiosciencesinc"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Kwm", "platform":"workday", "slug":"kwm/wd105/careers_kwm"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Lakelandhealth", "platform":"workday", "slug":"lakelandhealth/wd5/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Lawpublications", "platform":"greenhouse", "slug":"lawpublications"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Lead", "platform":"greenhouse", "slug":"lead"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Letsgetchecked", "platform":"greenhouse", "slug":"letsgetchecked"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Lghealth", "platform":"workday", "slug":"lghealth/wd1/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Liberty Mutual Insurance", "platform":"workday", "slug":"libertymutual/wd5/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Lifen", "platform":"lever", "slug":"lifen"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Lilly", "platform":"workday", "slug":"lilly/wd5/CMP"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Linkedin", "platform":"greenhouse", "slug":"linkedin"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Lithia", "platform":"workday", "slug":"lithia/wd5/LithiaCareers"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Liveramp", "platform":"workday", "slug":"liveramp/wd5/LiveRampCareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Liveviewtechnologiesinc", "platform":"greenhouse", "slug":"liveviewtechnologiesinc"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Livingstonassociates", "platform":"greenhouse", "slug":"livingstonassociates"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Loyal", "platform":"greenhouse", "slug":"loyal"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Luganodiamonds", "platform":"greenhouse", "slug":"luganodiamonds"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Maa", "platform":"workday", "slug":"maa/wd1/broadbean_external"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mach49", "platform":"greenhouse", "slug":"mach49"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Maestroqa", "platform":"greenhouse", "slug":"maestroqa"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Maev", "platform":"greenhouse", "slug":"maev"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Magicleap", "platform":"greenhouse", "slug":"magicleap"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mammothgrowth", "platform":"greenhouse", "slug":"mammothgrowth"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Marel", "platform":"workday", "slug":"marel/wd3/Marel"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Marlincapitalsolutions", "platform":"workday", "slug":"marlincapitalsolutions/wd5/External_Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Marqeta", "platform":"greenhouse", "slug":"marqeta"}
 
 API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Marshfieldclinichealthsystems", "platform":"workday", "slug":"marshfieldclinichealthsystems/wd5"}
 
@@ -458,19 +756,43 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Mbcapital", "platform":"lever", 
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Mcrtrust", "platform":"workday", "slug":"mcrtrust/wd1/Mill_Creek_Careers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Meditelecare", "platform":"greenhouse", "slug":"meditelecare"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Medivation", "platform":"workday", "slug":"medivation/wd1/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Medlyhealth", "platform":"workday", "slug":"medlyhealth/wd1/External"}
+
+API Error: The read operation timed out 	Key: {"company":"Maple Finance", "platform":"lever", "slug":"maple-finance"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Melinta", "platform":"workday", "slug":"melinta/wd5/Melinta_Therapeutics_External_Careers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Menyala", "platform":"greenhouse", "slug":"menyala"}
 
+Bad board/API Error: HTTP 400 	Key: {"company":"Mercari", "platform":"workday", "slug":"mercari/wd3/mercari_external"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Metacx", "platform":"greenhouse", "slug":"metacx"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Metacxtalentcommunity", "platform":"greenhouse", "slug":"metacxtalentcommunity"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Mi", "platform":"workday", "slug":"mi/wd1/FHI_360_External_Career_Portal"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Microfocus", "platform":"workday", "slug":"microfocus/wd5/Jobsatmicrofocus123"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Milestone", "platform":"workday", "slug":"milestone/wd1/Milestone_External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Mindgym", "platform":"greenhouse", "slug":"mindgym"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Mindsdb", "platform":"greenhouse", "slug":"mindsdb"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mishimoto", "platform":"greenhouse", "slug":"mishimoto"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mixbook", "platform":"greenhouse", "slug":"mixbook"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mlmultiplecareerlocations", "platform":"greenhouse", "slug":"mlmultiplecareerlocations"}
+
+Bad board/API Error: HTTP 502 	Key: {"company":"Mines", "platform":"workday", "slug":"mines/wd1/Mines_Careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mobi", "platform":"greenhouse", "slug":"mobi"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Molina Healthcare", "platform":"workday", "slug":"molina/wd5/External"}
 
@@ -478,7 +800,13 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Montrose", "platform":"workday",
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Morty", "platform":"greenhouse", "slug":"morty"}
 
+API Error: The read operation timed out 	Key: {"company":"Milocredit", "platform":"lever", "slug":"milocredit"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Mouvrh", "platform":"workday", "slug":"mouvrh/wd103/External_Career_Site_PROSOL"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Mpeaks", "platform":"greenhouse", "slug":"mpeaks"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Mqreferrals", "platform":"greenhouse", "slug":"mqreferrals"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Mtholyoke", "platform":"workday", "slug":"mtholyoke/wd5/External"}
 
@@ -490,19 +818,35 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Mythicalgames", "platform":"gree
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Nanonets", "platform":"greenhouse", "slug":"nanonets"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Nansen", "platform":"greenhouse", "slug":"nansen"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Nativemarkets", "platform":"ashby", "slug":"nativemarkets"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Nauto", "platform":"greenhouse", "slug":"nauto"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Nbcunicareers", "platform":"workday", "slug":"nbcunicareers/wd5/Careers"}
 
+Bad board/API Error: HTTP 403 	Key: {"company":"Ncino", "platform":"workday", "slug":"ncino/wd5/nCinoCareers"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Neffrental", "platform":"workday", "slug":"neffrental/wd1/Neff_External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Neoris", "platform":"greenhouse", "slug":"neoris"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Neptunebio", "platform":"greenhouse", "slug":"neptunebio"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Nerdy", "platform":"greenhouse", "slug":"nerdy"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Netcare", "platform":"workday", "slug":"netcare/wd103/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Network", "platform":"greenhouse", "slug":"network"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Nio", "platform":"workday", "slug":"nio/wd3/NIO_Careers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Noble", "platform":"greenhouse", "slug":"noble"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Nortonlifelock", "platform":"workday", "slug":"nortonlifelock/wd1/careers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Nothing", "platform":"greenhouse", "slug":"nothing"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Ntte", "platform":"workday", "slug":"ntte/wd3/NTTE"}
 
@@ -512,13 +856,23 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Objectstream", "platform":"green
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Obviohealth", "platform":"workday", "slug":"obviohealth/wd5/ObvioHealthCareers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Oldmissioncapital", "platform":"greenhouse", "slug":"oldmissioncapital"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Om1", "platform":"greenhouse", "slug":"om1"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Omicron", "platform":"greenhouse", "slug":"omicron"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Oneenergyrenewables", "platform":"greenhouse", "slug":"oneenergyrenewables"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Onedigital", "platform":"workday", "slug":"onedigital/wd5/OneDigital"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Onestudyteam", "platform":"greenhouse", "slug":"onestudyteam"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Opendoor", "platform":"greenhouse", "slug":"opendoor"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Opendoorhealth", "platform":"workday", "slug":"opendoorhealth/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Openweb", "platform":"greenhouse", "slug":"openweb"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Openly", "platform":"greenhouse", "slug":"openly"}
 
@@ -526,9 +880,9 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Operantai", "platform":"greenhou
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Operosehealth", "platform":"workday", "slug":"operosehealth/wd3/External"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Orbitaltherapeutics", "platform":"greenhouse", "slug":"orbitaltherapeutics"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Oracle", "platform":"workday", "slug":"oracle/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Orbitaltherapeutics", "platform":"greenhouse", "slug":"orbitaltherapeutics"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osramcontinental", "platform":"workday", "slug":"osramcontinental/wd3/LinkedIn"}
 
@@ -538,37 +892,43 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Osv Amerisure", "platform":"work
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Bioventus", "platform":"workday", "slug":"osv-bioventus/wd501/External"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Cci", "platform":"workday", "slug":"osv-cci/wd1/CCICareers"}
-
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Chegg", "platform":"workday", "slug":"osv-chegg/wd5/broadbean_external"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Cfainstitute", "platform":"workday", "slug":"osv-cfainstitute/wd5/Careers"}
 
-API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Osv Momentapharma", "platform":"workday", "slug":"osv-momentapharma/wd1"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Cci", "platform":"workday", "slug":"osv-cci/wd1/CCICareers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Chc", "platform":"workday", "slug":"osv-chc/wd5/Careers-at-CHC"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Edf", "platform":"workday", "slug":"osv-edf/wd5/EDF_External_Careers"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Chegg", "platform":"workday", "slug":"osv-chegg/wd5/broadbean_external"}
+
+API Error: not enough values to unpack (expected 3, got 2) 	Key: {"company":"Osv Momentapharma", "platform":"workday", "slug":"osv-momentapharma/wd1"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Enterprise", "platform":"workday", "slug":"osv-enterprise/wd1/EnterpriseBankTrust_Jobs"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Firstunited", "platform":"workday", "slug":"osv-firstunited/wd5/FUBCareersite"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Freemason", "platform":"workday", "slug":"osv-freemason/wd5/MCYAF"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Edf", "platform":"workday", "slug":"osv-edf/wd5/EDF_External_Careers"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Rtr", "platform":"workday", "slug":"osv-rtr/wd5/RoomToRead"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Freemason", "platform":"workday", "slug":"osv-freemason/wd5/MCYAF"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Osv Rubicon", "platform":"workday", "slug":"osv-rubicon/wd5/MagniteCareers"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Tifec", "platform":"workday", "slug":"osv-tifec/wd5/TIFEC"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Rtr", "platform":"workday", "slug":"osv-rtr/wd5/RoomToRead"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Osv Wc", "platform":"workday", "slug":"osv-wc/wd5/WoodardCurranCareerFair"}
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Tifec", "platform":"workday", "slug":"osv-tifec/wd5/TIFEC"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Otis", "platform":"workday", "slug":"otis/wd5/Union_Workers_Career_Page"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Osv Wc", "platform":"workday", "slug":"osv-wc/wd5/WoodardCurranCareerFair"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Ottoaviation", "platform":"greenhouse", "slug":"ottoaviation"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Outrigger", "platform":"workday", "slug":"outrigger/wd5/OutriggerEnterprisesGroup"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Outpostspace", "platform":"greenhouse", "slug":"outpostspace"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Outschool", "platform":"greenhouse", "slug":"outschool"}
+
+iggerEnterprisesGroup"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Overstory", "platform":"greenhouse", "slug":"overstory"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Oxosmedical", "platform":"greenhouse", "slug":"oxosmedical"}
 
@@ -576,17 +936,31 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Pace", "platform":"workday", "sl
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Pangaea", "platform":"greenhouse", "slug":"pangaea"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Pantherlabs", "platform":"greenhouse", "slug":"pantherlabs"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Papaya", "platform":"greenhouse", "slug":"papaya"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Paradigm", "platform":"greenhouse", "slug":"paradigm"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Parsleyenergy", "platform":"workday", "slug":"parsleyenergy/wd1/External"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Pdmgroupasp", "platform":"greenhouse", "slug":"pdmgroupasp"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Performant", "platform":"workday", "slug":"performant/wd1/Performant"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Persefoniaiinc", "platform":"greenhouse", "slug":"persefoniaiinc"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Petco", "platform":"workday", "slug":"petco/wd1/External"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Petretailbrands", "platform":"workday", "slug":"petretailbrands/wd5/External_Career_Site_Pet_Supermarket_Inc"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Philo", "platform":"greenhouse", "slug":"philo"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Phonepe", "platform":"greenhouse", "slug":"phonepe"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Phoebehealth", "platform":"workday", "slug":"phoebehealth/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Pioneer", "platform":"greenhouse", "slug":"pioneer"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Plaid", "platform":"lever", "slug":"plaid"}
 
@@ -594,15 +968,31 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Pleo", "platform":"greenhouse", 
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Plexus", "platform":"workday", "slug":"plexus/wd5/Plexus_Careers"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Progressenergy", "platform":"workday", "slug":"progressenergy/wd3/PETRONASCanada"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Polaranalytics", "platform":"ashby", "slug":"polaranalytics"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Pomelocare", "platform":"greenhouse", "slug":"pomelocare"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Postman", "platform":"greenhouse", "slug":"postman"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Powerfinance", "platform":"greenhouse", "slug":"powerfinance"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Primerai", "platform":"greenhouse", "slug":"primerai"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Printful", "platform":"workday", "slug":"printful/wd1/Printful"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Prisma", "platform":"greenhouse", "slug":"prisma"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Project44opportunities", "platform":"greenhouse", "slug":"project44opportunities"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Progressenergy", "platform":"workday", "slug":"progressenergy/wd3/PETRONASCanada"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Proteus", "platform":"workday", "slug":"proteus/wd5/Proteus"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Providencedig", "platform":"greenhouse", "slug":"providencedig"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Pti", "platform":"greenhouse", "slug":"pti"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Publicrelay", "platform":"greenhouse", "slug":"publicrelay"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Pursuecare", "platform":"greenhouse", "slug":"pursuecare"}
 
@@ -616,25 +1006,49 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Quest Diagnostics", "platform":"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Radiantsecurity", "platform":"greenhouse", "slug":"radiantsecurity"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Rampnetwork", "platform":"greenhouse", "slug":"rampnetwork"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Rdccareers", "platform":"greenhouse", "slug":"rdccareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Readyplayerme", "platform":"greenhouse", "slug":"readyplayerme"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Ready", "platform":"greenhouse", "slug":"ready"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Realpha", "platform":"greenhouse", "slug":"realpha"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Realm", "platform":"greenhouse", "slug":"realm"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Realtymogul", "platform":"greenhouse", "slug":"realtymogul"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Redbulltechnology", "platform":"workday", "slug":"redbulltechnology/wd3/RB_Advanced"}
+
 Bad board/API Error: HTTP 403 	Key: {"company":"Redcare", "platform":"workday", "slug":"redcare/wd3/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Reddyice", "platform":"workday", "slug":"reddyice/wd5/ReddyIceExternal"}
 
 Bad board/API Error: HTTP 403 	Key: {"company":"Redfin", "platform":"workday", "slug":"redfin/wd1/redfin_careers"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Reflexionmedical", "platform":"greenhouse", "slug":"reflexionmedical"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Regionalhealth", "platform":"workday", "slug":"regionalhealth/wd1/External"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Reflexionmedical", "platform":"greenhouse", "slug":"reflexionmedical"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Regscale", "platform":"greenhouse", "slug":"regscale"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Repeatmd", "platform":"greenhouse", "slug":"repeatmd"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Repay", "platform":"workday", "slug":"repay/wd1/REPAYCareers"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Repeatmd", "platform":"greenhouse", "slug":"repeatmd"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Residenthome", "platform":"greenhouse", "slug":"residenthome"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Retraced", "platform":"greenhouse", "slug":"retraced"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Retool", "platform":"greenhouse", "slug":"retool"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Retrophin", "platform":"workday", "slug":"retrophin/wd1/RetrophinCareers"}
+
+Bad board/API Error: HTTP 401 	Key: {"company":"Revature", "platform":"workday", "slug":"revature/wd1/revaturecareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Rockbot", "platform":"greenhouse", "slug":"rockbot"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Root", "platform":"greenhouse", "slug":"root"}
 
@@ -642,19 +1056,23 @@ Bad board/API Error: HTTP 404 	Key: {"company":"RunPod", "platform":"greenhouse"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Runway", "platform":"greenhouse", "slug":"runwayml"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Russett", "platform":"greenhouse", "slug":"russett"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Saabgroup", "platform":"workday", "slug":"saabgroup/wd3/Combitech_careers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Saintfrancis", "platform":"workday", "slug":"saintfrancis/wd1/External"}
 
-Bad board/API Error: HTTP 404 	Key: {"company":"Saleslabx", "platform":"greenhouse", "slug":"saleslabx"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Salesforce", "platform":"workday", "slug":"salesforce/wd1/External_Career_Site"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Saleslabx", "platform":"greenhouse", "slug":"saleslabx"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Sallie Mae", "platform":"workday", "slug":"sallie-mae/wd5/Careers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Salmat", "platform":"workday", "slug":"salmat/wd1/Probe-careers-jobs"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"SAP", "platform":"workday", "slug":"sap/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Savvyinsurance Trellis", "platform":"ashby", "slug":"savvyinsurance-trellis"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Scanditlinkedin", "platform":"greenhouse", "slug":"scanditlinkedin"}
 
@@ -664,9 +1082,15 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Schwaebisch", "platform":"workda
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Scm", "platform":"workday", "slug":"scm/wd3/SCM"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Scoutai", "platform":"greenhouse", "slug":"scoutai"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Scsfinancial", "platform":"greenhouse", "slug":"scsfinancial"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Selkirksport", "platform":"greenhouse", "slug":"selkirksport"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sendcloud", "platform":"greenhouse", "slug":"sendcloud"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sendle", "platform":"greenhouse", "slug":"sendle"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Seniordoc", "platform":"greenhouse", "slug":"seniordoc"}
 
@@ -678,6 +1102,12 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Serviceexpress", "platform":"gre
 
 Bad board/API Error: HTTP 422 	Key: {"company":"ServiceNow", "platform":"workday", "slug":"servicenow/wd5/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Shaker", "platform":"greenhouse", "slug":"shaker"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Shelf", "platform":"greenhouse", "slug":"shelf"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Shipwell", "platform":"greenhouse", "slug":"shipwell"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Shire", "platform":"workday", "slug":"shire/wd5/External"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Shyftsolutionsllc", "platform":"greenhouse", "slug":"shyftsolutionsllc"}
@@ -686,7 +1116,19 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Simmons", "platform":"workday", 
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Simply", "platform":"greenhouse", "slug":"simply"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Sisense", "platform":"greenhouse", "slug":"sisense"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sixthstreet", "platform":"greenhouse", "slug":"sixthstreet"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Skbosk", "platform":"workday", "slug":"skbosk/wd3/BlueOval_SK_External_Career_Site"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Skyscanner", "platform":"greenhouse", "slug":"skyscanner"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Skysafe", "platform":"greenhouse", "slug":"skysafe"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Slcgov", "platform":"workday", "slug":"slcgov/wd1/SLC"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Slingshotaerospace", "platform":"greenhouse", "slug":"slingshotaerospace"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Slyce", "platform":"greenhouse", "slug":"slyce"}
 
@@ -694,19 +1136,49 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Smartpass", "platform":"greenhou
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Snowflake", "platform":"greenhouse", "slug":"snowflakecomputing"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Soeffects", "platform":"greenhouse", "slug":"soeffects"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Solaerialsurveysllc", "platform":"greenhouse", "slug":"solaerialsurveysllc"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Sofregen", "platform":"greenhouse", "slug":"sofregen"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Solchroma", "platform":"greenhouse", "slug":"solchroma"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Songtrust", "platform":"greenhouse", "slug":"songtrust"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sonyhondamobilityofamerica", "platform":"greenhouse", "slug":"sonyhondamobilityofamerica"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sorellalabs", "platform":"greenhouse", "slug":"sorellalabs"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sorcero", "platform":"greenhouse", "slug":"sorcero"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Soroco", "platform":"greenhouse", "slug":"soroco"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Sourcepassinc", "platform":"greenhouse", "slug":"sourcepassinc"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"South8", "platform":"greenhouse", "slug":"south8"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Southworks", "platform":"greenhouse", "slug":"southworks"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Springhealth66", "platform":"greenhouse", "slug":"springhealth66"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Spw", "platform":"workday", "slug":"spw/wd3/LW_Careers"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Ssmh", "platform":"workday", "slug":"ssmh/wd5/ssmhealth"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Stanfordhealthcare", "platform":"workday", "slug":"stanfordhealthcare/wd5/SHC_External_Career_Site"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Starcloud", "platform":"greenhouse", "slug":"starcloud"}
 
 Bad board/API Error: HTTP 401 	Key: {"company":"State Farm", "platform":"workday", "slug":"statefarm/wd1/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Stellahealth", "platform":"workday", "slug":"stellahealth/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Stepmobile", "platform":"greenhouse", "slug":"stepmobile"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Stitch", "platform":"greenhouse", "slug":"stitch"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Stressfree", "platform":"greenhouse", "slug":"stressfree"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Subskribe", "platform":"greenhouse", "slug":"subskribe"}
 
@@ -714,7 +1186,15 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Sundyne", "platform":"workday", 
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Sunriseaba", "platform":"greenhouse", "slug":"sunriseaba"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Supernal", "platform":"greenhouse", "slug":"supernal"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Sylvain", "platform":"greenhouse", "slug":"sylvain"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Takeda", "platform":"workday", "slug":"takeda/wd3/External"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Tal", "platform":"workday", "slug":"tal/wd3/SKL-TAL"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Teach", "platform":"greenhouse", "slug":"teach"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Technisyscareers", "platform":"greenhouse", "slug":"technisyscareers"}
 
@@ -722,13 +1202,19 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Tekion", "platform":"greenhouse"
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Templafy", "platform":"greenhouse", "slug":"templafy"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Temporaltechnologies", "platform":"greenhouse", "slug":"temporaltechnologies"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Terapore", "platform":"greenhouse", "slug":"terapore"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Testcompany", "platform":"greenhouse", "slug":"testcompany"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Tgs", "platform":"workday", "slug":"tgs/wd1/TGS_External"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Thalamusgme", "platform":"greenhouse", "slug":"thalamusgme"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Tgs", "platform":"workday", "slug":"tgs/wd1/TGS_External"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Thedoulanetwork", "platform":"greenhouse", "slug":"thedoulanetwork"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Thejuice", "platform":"greenhouse", "slug":"thejuice"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Thelearningvine", "platform":"greenhouse", "slug":"thelearningvine"}
 
@@ -738,15 +1224,37 @@ Bad board/API Error: HTTP 404 	Key: {"company":"Thinkingmachines", "platform":"g
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Thirtymadison", "platform":"greenhouse", "slug":"thirtymadison"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Threatlocker", "platform":"greenhouse", "slug":"threatlocker"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Thumbtack", "platform":"greenhouse", "slug":"thumbtack"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Ths", "platform":"workday", "slug":"ths/wd1/broadbean_external"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Tireseasycom", "platform":"greenhouse", "slug":"tireseasycom"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Tokio Marine HCC", "platform":"workday", "slug":"tmhcc/wd1/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Toogoodtogo", "platform":"greenhouse", "slug":"toogoodtogo"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Totusmedicines", "platform":"greenhouse", "slug":"totusmedicines"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Trails", "platform":"greenhouse", "slug":"trails"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Transcendtherapeutics", "platform":"greenhouse", "slug":"transcendtherapeutics"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Travelperk", "platform":"greenhouse", "slug":"travelperk"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Tripwireinteractive", "platform":"greenhouse", "slug":"tripwireinteractive"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Trove", "platform":"greenhouse", "slug":"trove"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Trueclassicteesllc", "platform":"greenhouse", "slug":"trueclassicteesllc"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Truepill", "platform":"greenhouse", "slug":"truepill"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Trustedhealth", "platform":"greenhouse", "slug":"trustedhealth"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Trustyou", "platform":"lever", "slug":"trustyou"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Tuftshealthplan", "platform":"workday", "slug":"tuftshealthplan/wd5/External"}
 
@@ -758,6 +1266,8 @@ Bad board/API Error: HTTP 403 	Key: {"company":"Ucf", "platform":"workday", "slu
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Udghealthcare", "platform":"workday", "slug":"udghealthcare/wd3/External"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Undeadlabsllc", "platform":"greenhouse", "slug":"undeadlabsllc"}
+
 Bad board/API Error: HTTP 404 	Key: {"company":"Underdogfantasy", "platform":"greenhouse", "slug":"underdogfantasy"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"UnitedHealth Group", "platform":"workday", "slug":"uhg/wd5/External"}
@@ -765,6 +1275,14 @@ Bad board/API Error: HTTP 422 	Key: {"company":"UnitedHealth Group", "platform":
 Bad board/API Error: HTTP 404 	Key: {"company":"Unsupervisedai", "platform":"greenhouse", "slug":"unsupervisedai"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"UPS", "platform":"workday", "slug":"ups/wd5/External"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Upstatement", "platform":"greenhouse", "slug":"upstatement"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Urbansportsclub", "platform":"greenhouse", "slug":"urbansportsclub"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Usicinc", "platform":"workday", "slug":"usicinc/wd5/OnTargetCareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Vaco", "platform":"greenhouse", "slug":"vaco"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Valleyhealthlink", "platform":"workday", "slug":"valleyhealthlink/wd5/External"}
 
@@ -778,374 +1296,324 @@ Bad board/API Error: HTTP 422 	Key: {"company":"Vetsource", "platform":"workday"
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhchealth", "platform":"workday", "slug":"vhchealth/wd1/VHCHealth"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Epri", "platform":"workday", "slug":"vhr-epri/wd1/epricareers"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Atlantahousing", "platform":"workday", "slug":"vhr-atlantahousing/wd1/External"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Epri", "platform":"workday", "slug":"vhr-epri/wd1/epricareers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Genband", "platform":"workday", "slug":"vhr-genband/wd1/ribboncareers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Jazz", "platform":"workday", "slug":"vhr-jazz/wd1/JazzPharmaceuticals"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Orbis", "platform":"workday", "slug":"vhr-orbis/wd3/Orbis_Careers"}
-
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Ossur", "platform":"workday", "slug":"vhr-ossur/wd5/OssurCareersGlobal"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Osvhr", "platform":"workday", "slug":"vhr-osvhr/wd1/OSV_External_Career_Site"}
 
+Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Orbis", "platform":"workday", "slug":"vhr-orbis/wd3/Orbis_Careers"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Otsuka", "platform":"workday", "slug":"vhr-otsuka/wd1/Japan_External_Career_Site_OHD"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Unither", "platform":"workday", "slug":"vhr-unither/wd5/External"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Ringcontainer", "platform":"workday", "slug":"vhr-ringcontainer/wd1/Ring_Careers"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Wescom", "platform":"workday", "slug":"vhr-wescom/wd5/WescomCareers"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Vhr Unither", "platform":"workday", "slug":"vhr-unither/wd5/External"}
-
 Bad board/API Error: HTTP 404 	Key: {"company":"Vicarioussurgical", "platform":"greenhouse", "slug":"vicarioussurgical"}
 
 Bad board/API Error: HTTP 422 	Key: {"company":"Vice", "platform":"workday", "slug":"vice/wd1/Vice_External_Career_Site"}
 
-Bad board/API Error: HTTP 401 	Key: {"company":"Vitalenergy", "platform":"workday", "slug":"vitalenergy/wd5/external"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Visiersolutionsinc", "platform":"greenhouse", "slug":"visiersolutionsinc"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Vitalenergy", "platform":"workday", "slug":"vitalenergy/wd5/external"}
+
+Bad board/API Error: HTTP 403 	Key: {"company":"Viterra", "platform":"workday", "slug":"viterra/wd3/External-CAN"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Vultronai", "platform":"greenhouse", "slug":"vultronai"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Wakam", "platform":"greenhouse", "slug":"wakam"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Walmart", "platform":"workday", "slug":"walmart/wd5/WalmartExternal"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Warmer", "platform":"greenhouse", "slug":"warmer"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Wayve", "platform":"greenhouse", "slug":"wayve"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Westbrookinc", "platform":"greenhouse", "slug":"westbrookinc"}
 
-Bad board/API Error: HTTP 422 	Key: {"company":"Whitewave", "platform":"workday", "slug":"whitewave/wd1/Earthbound_Farm_Careers"}
+Bad board/API Error: HTTP 404 	Key: {"company":"Wholesail", "platform":"greenhouse", "slug":"wholesail"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Whop", "platform":"greenhouse", "slug":"whop"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Wildtype", "platform":"greenhouse", "slug":"wildtype"}
 
 Bad board/API Error: HTTP 502 	Key: {"company":"Wholefoods", "platform":"workday", "slug":"wholefoods/wd5/365"}
 
+Bad board/API Error: HTTP 520 	Key: {"company":"Whitewave", "platform":"workday", "slug":"whitewave/wd1/Earthbound_Farm_Careers"}
+
 Bad board/API Error: HTTP 422 	Key: {"company":"Wyndhamcapital", "platform":"workday", "slug":"wyndhamcapital/wd1/wyndhamcapitalcareers"}
+
+Bad board/API Error: HTTP 404 	Key: {"company":"Youreka64", "platform":"greenhouse", "slug":"youreka64"}
+
+Bad board/API Error: HTTP 422 	Key: {"company":"Zelis", "platform":"workday", "slug":"zelis/wd1/ZelisCareers"}
 
 Bad board/API Error: HTTP 404 	Key: {"company":"Zero", "platform":"greenhouse", "slug":"zero"}
 
+Bad board/API Error: HTTP 404 	Key: {"company":"Zora", "platform":"greenhouse", "slug":"zora"}
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: barclays/wd3/External_Career_Site_Barclays ext_path: /job/Pune-Gera-Commerzone-SEZ/Senior-Business-Analyst_JR-0000059578
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: barclays/wd3/External_Career_Site_Barclays ext_path: /job/Noida-Candor-TechSpace/AVP--Financial-Control_JR-0000125086
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: barclays/wd3/External_Career_Site_Barclays ext_path: /job/Pune-Gera-Commerzone-SEZ/Data-Engineer_JR-0000083745-2
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: barclays/wd3/External_Career_Site_Barclays ext_path: /job/Gemini-Building-B-Prague/FX-Senior-Developer-and-Infrastructure-Engineer_JR-0000114686
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: barclays/wd3/External_Career_Site_Barclays ext_path: /job/Bengaluru-Maruthi-Onyx---TESCO-TSA/Data-Engineer_JR-0000083727-3
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: camdennational/wd12/CNB-Careers ext_path: /job/ME-Waterville-258-Kennedy-Memorial-Dr/Banking-Center-Manager_R2596
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/UK---Cambridge/Director--Translational-Data-Enablement_R-256967
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: charleskeith/wd3/External ext_path: /job/Singapore/IT-BUSINESS-ANALYST--ECOMMERCE-_JR101698
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/India---Bangalore/Senior-Statistical-Programmer_R-245740
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: clarivate/wd3/Clarivate_Careers ext_path: /job/IND---Bangalore-DRG/Lead-Software-Engineer---Python_JREQ136731-2
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/India---Bangalore/Statistical-Programming--Associate-Director_R-255292-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Auditor--Bank-and-Support-Functions--Hybrid-_R1004205-2
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Sweden---Grtuna/Specialist-analystisk-kemi-med-erfarenhet-inom-spektroskopiska-analystekniker---Sweden-Operations_R-258781
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Principal-Associate--Data-Science---US-Card--Upmarket-Segments-_R1004297-2
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Shanghai-JingAn-Office/Senior-IT-Business-Analyst_R-258717
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Principal-Data-Analyst---Analytics---Transformation_R1004306-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Canada---Mississauga/Senior-Manager-Strategic-Pricing--1-year-contract_R-258651-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Manager--Finance-Risk-Management_R1004357-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Gaithersburg---MD/Scientist--Viral-Vector-Process-Development-Analytics_R-258657-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Director--Financial-Management--FP-A---Card_R1004382-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Gaithersburg---MD/Global-Analytics---Insights-Associate-Director---Oncology_R-258518
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Wilmington-DE/Principal-Associate--SEO-GEO-Marketing-Strategist---Retail-Bank_R1003764
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Gaithersburg---MD/Senior-Specialist--Cell-Therapy-Trade-Compliance_R-250164
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Manager--Accounting--Retail-Bank-Agile-Controllers--Hybrid-_R1004349-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Wilmington---DE/Director--Data-Product-Strategy---Integration_R-256835
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Riverwoods-IL/Sr-Risk-Manager---Data-Governance-and-Pricing_R1000362-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Boston---MA/Associate-Director--Commercial-Data-Analytics---Reporting_R-258436
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Compliance-Tester-III_R1003823-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/India---Chennai/Senior-Manager-Operations--GBS-Process---Analytics-Services_R-258456
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/New-York-NY/Audit-Manager--Commercial-Bank--Hybrid-_R1004313-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Wilmington---DE/Senior-Director-Compliance-and-Legal-Services_R-249140-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Plano-TX/Compliance-Tester-III_R1003932-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Poland---Warsaw/FP-A-Business-Analyst_R-247417
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Sr-Manager--Data-Analyst---AML-MADI_R1004225-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Malaysia---Mutiara-Damansara/T-E-Associate-Analyst--Mandarin-Speaker-_R-256023
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Senior-Process-Manager--Data-Governance-and-Pricing_R1000831-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Boston---MA/Partnership-Director_R-252155
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Director--Commercial-Risk--Underwriting---Portfolio-Management_R999504
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Poland---Warsaw/Business-Analyst---GFS-EMEA-Direct-Tax-Delivery-Team_R-258216
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Houston-TX/Senior-Business-Analyst--PULSE---Global-Payment-Network_R248918-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Costa-Rica---San-Jose/Business-Analyst---Operations--GFS-Americas-_R-258193-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Plano-TX/Senior-Manager--Tech-Risk---Analysis---Strategic-Tech-Risk-Advisor_R1003877-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/UK---Cambridge/Senior-Quality-Associate---Accredited-Diagnostic-Development-Laboratory_R-258030-2
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/New-York-NY/Senior-Auditor--Bank-and-Support-Functions--Hybrid-_R1004191-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Canada---Mississauga/Data-Scientist--Advanced-Analytics---Commercial-Effectiveness_R-254867-2
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Plano-TX/Senior-Auditor--Bank-and-Support-Functions--Hybrid-_R1004231-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Japan---Tokyo/XMLNAME--AstraZeneca--Medical----------------------------------Data-Scientist_R-257746-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Senior-Associate--Instructional-Designer---Readiness-and-Associate-Experience--Retail-Bank--Hybrid-_R1004218-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Spain---Barcelona/Global-Forecasting---Insights-Director_R-255693
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Associate--Data-Scientist----Alternative-Data-Strategy_R1004239-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Spain---Barcelona/Global-Insights--Analytics--and-Forecasting-Lead--CVRM-Early-Assets-and-Business-Development_R-257914
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/New-York-NY/Manager--Data-Scientist----Alternative-Data-Strategy_R1004236
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Malaysia---Mutiara-Damansara/Data-Management-Analyst_R-257997
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Sr-Business-Manager--People-Analytics_R999100-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/Japan---Tokyo/XMLNAME--AstraZeneca--Finance-Individual-contributor--HTA-manager_R-257030-3
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Manager--Senior-Counsel---Enterprise-Data-Business-Counsel_R1004265-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Gaithersburg---MD/Statistical-Science-Director_R-252966
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/New-York-NY/Data-Analysis-Manager---ES-Risk-Analytics_R249906-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/China/AD-Commercial-Analytics---Insights_R-257229-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Data-Analysis-Manager---Analytics---Transformation_R1003129-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: astrazeneca/wd3/Careers ext_path: /job/US---Gaithersburg---MD/Associate-Director--Cell-Therapy-Trade-Compliance-Operations_R-253556
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Data-Analyst---Enterprise-Services_R999881-1
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: cmno/wd3/CMS_Career_Site ext_path: /job/CMNO-CMS-Singapore/IT-Support-Analyst---Singapore_JR105865
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Data-Analyst---Analytics---Transformation_R249555-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Sugar-Land/Relationship-Banker---Houston-West-Sugarland-area_26021484
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Data-Analysis-Manager---Analysis-Platform-Product_R999597-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/US---TN---Nashville---222-2nd-Ave-S-TN9120/Business-Banking-Relationship-Manager---Nashville-Market_26026540-2
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Manager--Product-Management---Customer-Resiliency-Data-Platform--US-Card-_R1003393-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Scottsdale/Financial-Solutions-Advisor---Scottsdale-Area_26019710
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Senior-Director--Product-Management---Developer-Telemetry_R999776-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Horsham/Relationship-Banker---PA-Central-Market_26028819-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Nottingham--Eng/Lead-Data-Steward_R243686-2
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Maricopa/Financial-Solutions-Advisor---Registration-Candidate---South-Phoenix-Area_26030702
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Full-Stack-Engineer-4--Python--React--Networking-_R1003849-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Fairfax/Financial-Solutions-Advisor-Registration-Candidate-Pender-Village-Financial-Center_26029297
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Toronto-ON/Director--Data-Science_R1003071-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Sacramento/Advisor-Development-Program---Financial-Solutions-Advisor-Trainee--Fort-Sutter-Financial-Center_26021118
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Alabang-Muntinlupa-City/Pr-Analyst--Data-Analysis_R217421
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ghr/wd1/Lateral-US ext_path: /job/Redmond/Relationship-Banker_26026583
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Risk-Manager---Payment-Risk-Advisory---Business-Enablement--Hybrid-_R1002395-1
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: db/wd3/DBWebsite ext_path: /job/Pune---Business-Bay/Full-Stack-Developer--UI---Backend---GCP---AI--AVP_R0439353
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/McLean-VA/Data-Engineer-4_R1002525-1
 
 
-WORKDAY DESC ERROR: HTTP Error 404: Not Found slug: gevernova/wd5/Vernova_ExternalSite ext_path: /job/Issy-Les-Moulineaux/Finance-Apprenti-e----H-F-_R5048869-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: capitalone/wd12/Capital_One ext_path: /job/Richmond-VA/Senior-Manager--Data-Analysis_R236340-1
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: jda/wd5/JDA_Careers ext_path: /job/Hyderabad/Sr-QA-Engineer----Python-Java-_262815
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: crowe/wd12/External_Careers ext_path: /job/New-York-NY-USA/Audit-Manager---Banking_R-52379
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: jda/wd5/JDA_Careers ext_path: /job/Bangalore/IN-Technical-Architect---Consulting_251444
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: cisco/wd5/Cisco_Careers ext_path: /job/Bangalore-India/Finance-Analyst_2027424
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: parsons/wd5/Search ext_path: /job/US---Remote-Any-Location/Defense-Industrial-Directorate-Finance-Lead--Hybrid-_R182602
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: disney/wd5/disneycareer ext_path: /job/Montevrain-France/Lead-Developer---CDI---F-H-NB_10158786
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/Australia-Amberley/CAMM2-Data-Controller_R10233991
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: freseniusglobal/wd3/FK_Careers_DE ext_path: /job/Bad-Homburg/Commercial-Insights---Analytics-Solutions-Senior-Manager--m-f-d-_R-01028106-2
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Northridge/Material-Requirements-Planning-Analyst-3_R10237381-1
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: hitachi/wd1/hitachi ext_path: /job/Zurich-Zurich-Switzerland/Project-Portfolio---Operational-Performance-Analyst-80---100---f-m-d-_R0149980-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Ridgecrest/Material-Requirements-Planning-Analyst-3_R10242027
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: ing/wd3/ICSGBLCOR ext_path: /job/Frankfurt/Change-Expert-Customer-Data---Onboarding---KYC--w-m-d--in-Frankfurt---Nrnberg_REQ-10121905
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Maryland-Linthicum/Program-Cost-Control-Analyst---Level-2-or-3_R10242509
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: jj/wd5/JJ ext_path: /job/Taguig-National-Capital-Region-Manila-Philippines/SOX-404-Analyst_R-102662
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Colorado-Schriever-AFB/Principal-Software-Engineer---X-Lab-Software-Developer--26-351-_R10242084
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: jj/wd5/JJ ext_path: /job/Bangalore-Karnataka-India/Senior-Manager--Digital-Solution-Risk---Assurance_R-101930
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Arizona-Mesa/Principal-Configuration-Analyst_R10242532
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: jj/wd5/JJ ext_path: /job/Kansas-City-Missouri-United-States/Field-Reimbursement-Manager--Neuroscience----Kansas-City--MO----Patient-Engagement---Customer-Solutions--PECS-_R-098932-1
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Northridge/Material-Requirements-Planning-Analyst-4_R10237242-1
 
+WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: jj/wd5/JJ ext_path: /job/Bangalore-Karnataka-India/Deployment-Senior-Analyst--IMFT_R-103302
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Maryland-Linthicum/Program-Cost-Control-Analyst---Level-2-or-3_R10241208
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: rba/wd105/RBA_Careers ext_path: /job/Sydney/CMDB-Configuration-Analyst_JR5050
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Palmdale/Program-Cost-and-Schedule-Control-Analyst_R10241874
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: sjindustries/wd1/SJI ext_path: /job/Atlantic-City-NJ/Engineering-Compliance-and-Standards-Intern_R4345
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-San-Diego/Sr-Principal-Program-Cost-Control-Analyst_R10240211
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: tp/wd107/TP-ICAP ext_path: /job/London/Risk-Summer-Internship-2027--London_R5998
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Redondo-Beach/Program-Planning-and-Scheduling-Analyst---Level-2-or-3_R10241000
 
+WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Zrich/Senior-Associate---Marketing-Consultant-for-Financial-Services01112026_765003WD
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Virginia-Dulles/Program-Cost-Control-Analyst---Level-2-or-3_R10240874
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Manager-Safety_R203781
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Florida-Melbourne/Sr-Principal-Program-Planning-and-Scheduling-Analyst_R10240830
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Pricing-Data-Analyst_R207179
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-California-Sunnyvale/Acoustic-Analyst-level-2-3_R10240944
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Store-00639-Opelousas-LA/DOT-Route-Driver---Opelousas--LA_R209072
 
 
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: ngc/wd1/Northrop_Grumman_External_Site ext_path: /job/United-States-Utah-Roy/Sr---Principal-Computer-Systems-Analyst---19149---Roy-Utah_R10240420
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Product-Analyst-II--Onsite-Role---Retail-Systems-_R198410
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: roche/wd3/roche-ext ext_path: /job/Budapest/Financial-Compliance-Authorization-Analyst_202608-120649
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Customer-Data-Enablement-Specialist_R207799
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: roche/wd3/roche-ext ext_path: /job/Budapest/SAP-Financial-Compliance---Authorizations-Deployment-Specialist--2-years-fixed-term-_202607-117361-1
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Credit-Analyst_R206803
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: techwave/wd108/TechWave_Careers ext_path: /job/Budapest/Technical-Developer---CAPM_
 
+WORKDAY DESC ERROR: The read operation timed out slug: oreillyauto/wd1/oreilly ext_path: /job/Headquarters/Credit-Analyst_R192431
 
 
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: techwave/wd108/TechWave_Careers ext_path: /job/Budapest/Senior-ABAP-RAP-Developer_-1
 
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Bratislava/Supply-Chain-Manager_727238WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Ottawa/Transformation-Risk-and-Advisory-Manager_691163WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Toronto/Transfer-Pricing---Financial-Transactions--Director_745667WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Tunis---Immeuble-The-Screen/Administrateur-Fonctionnel-Data---Systmes---Finance_746423WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Dublin/Data-Director---Azure-Data-Modernisation-and-Fabric_686227WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Lille/Consultant-Expriment-en-Transformation-de-la-fonction-Finance---Lille---F-H_747441WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Bratislava/Technology-Consulting---Projects-with-Germany--m-f-_595485WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Amsterdam/Manager-Tax-Risk---Transformation_738136WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Bucharest/Full-Stack-Software-Engineer_736671WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Buenos-Aires/Sales-Operations-Senior-Analyst_746046WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Gdask/Experienced-Team-Leader---Enterprise-Managed-Services_744595WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Brussels/Consultant-in-Finance---Performance-Senior-Associate_745964WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Cairo---ETIC/ETIC--Power-Platform---Copilot-Developer--Associate_743584WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Kuala-Lumpur/Experienced-Associate---Transfer-Pricing_744402WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 429: Too Many Requests slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Athens/M-A-Financial-Services-CF-Senior-Associate_715359WD
-
-
-
-WORKDAY DESC ERROR: HTTP Error 403: Forbidden slug: pwc/wd3/Global_Experienced_Careers ext_path: /job/Zrich/Jurist-in---Compliance-Experte-in-im-Bereich-Finanzmarktrecht_742590WD-1
-
-
-
-WORKDAY DESC ERROR: HTTP Error 404: Not Found slug: thermofisher/wd5/ThermoFisherCareers ext_path: /job/Quezon-City-Philippines/Lead-Finance-Representative---E-Billing_R-01361731
-
-
-
-Jobs list had 26426 records
-Saved 3900 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+Jobs list had 25585 records
+Saved 3873 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
 
