@@ -272,4 +272,4 @@ For a guide to this repository, please visit:
 
 https://jrsousa2.github.io/#AI
 
-PS - if you follow me here on GH, I will follow you back. Just make sure you have a picture of yourself.
+PS - if you follow me here on GH, I will follow you back. Just make sure you have a picture of yourself. I don't add bots.
