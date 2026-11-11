@@ -36,7 +36,9 @@ IF "%~1"=="" (
  echo VIEWS IF BATCH SUCCEEDED 
  echo.
  REM USING "git log -n 1" IS NOT TOO USEFUL
- git log -1 --name-status 
+ REM THE BELOW PAUSES -- DON'T USE IT
+ REM git log -1 --name-status 
+ git --no-pager log -1 --name-status
  echo.
  echo.
  echo VIEWS STATUS

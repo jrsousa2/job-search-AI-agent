@@ -11,6 +11,9 @@ jobs.db
 *.db
 fetch*
 ATS*.txt
+Run_Test.bat
+Run_agent.bat
+Run_watchlist.bat
 
 # PDF's
 *.pdf
