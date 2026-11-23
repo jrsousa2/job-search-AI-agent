@@ -29,7 +29,13 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import sqlite3
 from datetime import datetime, timezone
 from timeit import default_timer
-from time import sleep
+from time import sleep, monotonic
+
+# FIX WORKDAY 429 (TOO MANY REQUESTS)
+from threading import Lock
+
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 
 # NEW MODULES
 from Repo_root import JOBS_DB, WATCHLIST, Log_file
@@ -40,8 +46,12 @@ from Update_TZ_by_state import Update_TZ_by_state
 from print_to_log import print_to_log
 from Chrome_db_hist import Chrome_db_hist 
 from Create_HTMLs import create_html
-from Update_jobs_hist import Update_jobs_hist
-from fetch_icims import fetch_icims
+# from Update_jobs_hist import Update_jobs_hist
+# from fetch_icims import fetch_icims
+
+WORKDAY_REQUEST_INTERVAL = 15  # seconds
+WORKDAY_LOCK = Lock()
+WORKDAY_LAST_REQUEST = 0.0
 
 # DO NOT PRINT TO TERMINAL
 VERBOSE = False
@@ -77,7 +87,7 @@ TITLE_KEYWORDS = [
     "forecasting",
     "fraud",
     "insurance",
-    "investment"
+    "investment",
     "modeling",
     "pandas",
     "predictive",
@@ -90,6 +100,25 @@ TITLE_KEYWORDS = [
     "statist",
     "viya",
 ]
+
+###########################################################################
+###########################################################################
+###########################################################################
+# FIXES WORKDAY HTTP 429 ERROR (TOO MANY REQUESTS)
+
+def workday_request(fetcher, *args):
+    global WORKDAY_LAST_REQUEST
+
+    with WORKDAY_LOCK:
+        elapsed = monotonic() - WORKDAY_LAST_REQUEST
+        wait = WORKDAY_REQUEST_INTERVAL - elapsed
+
+        if wait > 0:
+            sleep(wait)
+
+        WORKDAY_LAST_REQUEST = monotonic()
+
+        return fetcher(*args)
 
 ###########################################################################
 ###########################################################################
@@ -377,6 +406,22 @@ def fetch_greenhouse_desc(slug: str, job_id: str) -> str:
     except Exception:
         return ""
 
+# WORKDAY HELPER
+def get_retry_after(e, fallback):
+    value = e.headers.get("Retry-After") if e.headers else None
+
+    if value:
+        try:
+            return max(0, float(value))
+        except ValueError:
+            try:
+                retry_date = parsedate_to_datetime(value)
+                delay = (retry_date - datetime.now(timezone.utc)).total_seconds()
+                return max(0, delay)
+            except Exception:
+                pass
+
+    return fallback
 
 def fetch_workday(company: str, slug: str) -> list[dict]:
     # slug format: "<tenant>/<wd-host, e.g. wd1>/<site>", e.g. "kcura/wd1/External_Career_Site"
@@ -386,7 +431,35 @@ def fetch_workday(company: str, slug: str) -> list[dict]:
     jobs = []
     offset = 0
     while True:
-        data = fetch_json_post(api, {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""})
+        # data = fetch_json_post(api, {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""})
+        
+        # BELOW IS TO FIX WORKDAY 429 ERRORS
+        # THE LINE BELOW IS BEING REPLACED WITH THE BLOCK AFTER IT
+        # data = workday_request(fetch_json_post, api, {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""})
+
+        # START OF THE TWEAK
+        max_retries = 5
+
+        for attempt in range(max_retries):
+            try:
+                data = workday_request(fetch_json_post, api, {
+                        "appliedFacets": {},
+                        "limit": 20,
+                        "offset": offset,
+                        "searchText": ""})
+                break
+
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or attempt == max_retries - 1:
+                    raise
+
+                delay = get_retry_after(e, 30 * (2 ** attempt))
+
+                print_to_log(Log_file,"WORKDAY 429: retrying in {} seconds | company: {} | offset: {}\n\n",delay, company, offset)
+
+                sleep(delay)
+        # END OF THE TWEAK
+
         postings = data.get("jobPostings", [])
         if not postings:
             break
@@ -415,29 +488,34 @@ def fetch_workday(company: str, slug: str) -> list[dict]:
 # @Jose WORKDAY WAS HAVING MANY BLANK DESCRIPTIONS
 def fetch_workday_desc(slug: str, ext_path: str) -> str:
     tenant, host, site = slug.split("/")
-   
+
     url = f"https://{tenant}.{host}.myworkdayjobs.com/wday/cxs/{tenant}/{site}{ext_path}"
-    retries = 2
+    retries = 5
+
     for attempt in range(retries):
         try:
-            # @Jose
-            data = fetch_json(url)
-            # SCOTTY WAS USING
-            # data = fetch_json_post(url, {})
+            data = workday_request(fetch_json, url)
             return strip_html(data.get("jobPostingInfo", {}).get("jobDescription", "")).strip()
 
         except urllib.error.HTTPError as e:
-                if e.code == 429 and attempt < retries - 1:
-                    sleep(sleep_time * (attempt + 1))
-                    continue
-                # print(f"\nWORKDAY DESC ERROR: {e} slug: {slug} ext_path: {ext_path}")
-                print_to_log(Log_file,"\n\nWORKDAY DESC ERROR: {} slug: {} ext_path: {}\n\n",e,slug, ext_path)
-                #print(e.read().decode())
-                return ""
+            if e.code == 429 and attempt < retries - 1:
+                delay = get_retry_after(e, 30 * (2 ** attempt))
+
+                print_to_log(Log_file,"\nWORKDAY 429: waiting {} seconds before retry. "
+                    "Attempt {} of {}. slug: {} ext_path: {}\n\n",
+                    delay, attempt + 1, retries, slug, ext_path)
+
+                sleep(delay)
+                continue
+
+            print_to_log(Log_file,"\nWORKDAY DESC ERROR: {} slug: {} ext_path: {}\n\n",e, slug, ext_path)
+            return ""
+
         except Exception as e:
-                # print(f"\nWORKDAY DESC ERROR: {e} slug: {slug} ext_path: {ext_path}")
-                print_to_log(Log_file,"\n\nWORKDAY DESC ERROR: {} slug: {} ext_path: {}\n\n",e,slug, ext_path)
-                return ""
+            print_to_log(Log_file,"\nWORKDAY DESC ERROR: {} slug: {} ext_path: {}\n\n",e, slug, ext_path)
+            return ""
+
+    return ""
 
 
 FETCHERS = {

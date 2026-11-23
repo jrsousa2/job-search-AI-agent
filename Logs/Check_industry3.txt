@@ -1,0 +1,3 @@
+Company: Allstate -> Industry: insurance
+Company: Capital One -> Industry: banking
+Company: Liberty -> Industry: None

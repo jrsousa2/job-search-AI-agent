@@ -163,6 +163,15 @@ F500 = [
 "Webster Financial", "Bancorp", "Bank of", "Popular Inc.", "F.N.B." 
 ]
 
+import pandas as pd
+
+# RETURNS A SET WITH CIRCA 730 COMPANIES
+def read_wd_slugs():
+    file = r"D:\Agent\data\WD_companies.xlsx"
+    df = pd.read_excel(file)
+
+    return set(df["slug"].dropna().tolist())
+
 # INCREASES LIKELIHOOD TO MATCH
 def normalize(s):
     return re.sub(r"[^a-z0-9]", "", s.lower().strip())
@@ -208,6 +217,10 @@ def create_watchlist(input_db, output_file, log_file):
     conn = sqlite3.connect(input_db)
     cursor = conn.cursor()
 
+    # READS LIST OF SLUGS FROM WD
+    WD_cos = read_wd_slugs()
+    print("\nWD companies:",len(WD_cos))
+
     cursor.execute("""
         SELECT
             company,
@@ -232,7 +245,13 @@ def create_watchlist(input_db, output_file, log_file):
         industry = matches_industry(company)
 
         # if "guidewire" in company.lower():
-        if industry in ["insurance", "banking", "other"] or platform in ["workday", "greenhouse"]:   
+        # if (industry in ["insurance", "banking", "other"] and platform != "workday") \
+        #    (platform == "greenhouse") or \
+        #    (platform == "workday" and slug in WD_cos) or \
+        #    (slug in ['capitalone/wd12/Capital_One' 'allstate/wd5/allstate_careers' 'liberty/wd5/lu_job_board_staff']): 
+        if slug in ['capitalone/wd12/Capital_One',
+                     'allstate/wd5/allstate_careers',
+                     'liberty/wd5/lu_job_board_staff']:      
         # if platform=="icims" and industry in ["banking"]:     
             # print(company, "->", industry)
             print_to_log(log_file,"Company: {} -> Industry: {}\n",company, industry)
@@ -259,4 +278,4 @@ def create_watchlist(input_db, output_file, log_file):
 
 if __name__ == "__main__":
     # CALLS FUNCTIONS
-    create_watchlist(ATS_DB, WATCHLIST, r"D:\Agent\Logs\Check_industry2.txt")
+    create_watchlist(ATS_DB, WATCHLIST, r"D:\Agent\Logs\Check_industry3.txt")
