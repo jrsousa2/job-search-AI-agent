@@ -15,6 +15,10 @@ Run_Test.bat
 Run_agent.bat
 Run_watchlist.bat
 
+*lever_URLs.html
+*ashby_URLs.html
+*greenhouse_URLs.html
+
 # PDF's
 *.pdf
 
