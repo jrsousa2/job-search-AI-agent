@@ -410,18 +410,26 @@ def fetch_greenhouse_desc(slug: str, job_id: str) -> str:
 def get_retry_after(e, fallback):
     value = e.headers.get("Retry-After") if e.headers else None
 
+    retry_avail = "provided"
+    # GIVE IT A MAX OF 2 MINUTES TO RETRY
+    fallback = min(fallback, 120)
     if value:
         try:
-            return max(0, float(value))
+            delay = max(0, float(value))
         except ValueError:
             try:
                 retry_date = parsedate_to_datetime(value)
                 delay = (retry_date - datetime.now(timezone.utc)).total_seconds()
-                return max(0, delay)
+                delay = max(0, delay)
             except Exception:
+                retry_avail = "invalid"
+                delay = fallback
                 pass
+    else:
+        retry_avail = "not provided"   
+        delay = fallback     
 
-    return fallback
+    return retry_avail, delay
 
 def fetch_workday(company: str, slug: str) -> list[dict]:
     # slug format: "<tenant>/<wd-host, e.g. wd1>/<site>", e.g. "kcura/wd1/External_Career_Site"
@@ -450,12 +458,19 @@ def fetch_workday(company: str, slug: str) -> list[dict]:
                 break
 
             except urllib.error.HTTPError as e:
-                if e.code != 429 or attempt == max_retries - 1:
+                #if e.code != 429 or attempt == max_retries - 1:
+                #    raise
+
+                if e.code != 429:
                     raise
 
-                delay = get_retry_after(e, 30 * (2 ** attempt))
+                if attempt == max_retries - 1:
+                    print_to_log(Log_file,"WORKDAY: Maximum retries reached. Skipping company: {} | offset: {}\n\n",company, offset)
+                    return jobs
 
-                print_to_log(Log_file,"WORKDAY 429: retrying in {} seconds | company: {} | offset: {}\n\n",delay, company, offset)
+                retry_avail, delay = get_retry_after(e, 30 * (2 ** attempt))
+
+                print_to_log(Log_file,"WORKDAY 429: Retry-After: {} - retrying in {} seconds | company: {} | offset: {}\n\n",retry_avail, delay, company, offset)
 
                 sleep(delay)
         # END OF THE TWEAK
@@ -499,11 +514,11 @@ def fetch_workday_desc(slug: str, ext_path: str) -> str:
 
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < retries - 1:
-                delay = get_retry_after(e, 30 * (2 ** attempt))
+                retry_avail, delay = get_retry_after(e, 30 * (2 ** attempt))
 
-                print_to_log(Log_file,"\nWORKDAY 429: waiting {} seconds before retry. "
+                print_to_log(Log_file,"\nWORKDAY 429: Retry-After: {} - waiting {} seconds before retry. "
                     "Attempt {} of {}. slug: {} ext_path: {}\n\n",
-                    delay, attempt + 1, retries, slug, ext_path)
+                    retry_avail, delay, attempt + 1, retries, slug, ext_path)
 
                 sleep(delay)
                 continue
@@ -627,13 +642,29 @@ def main() -> int:
     new_roles: list[dict] = []
     errors: list[str] = []
 
+    # Separate Workday from all other platforms
+    # workday_entries = [e for e in watchlist if e["platform"].lower() == "workday"]
+    workday_entries = []
+    other_entries = [e for e in watchlist if e["platform"].lower() != "workday"]
+
+    # Process Workday FIRST -- and sequentially (was getting too many HTTP 429)
+    for i, entry in enumerate(workday_entries):
+        print(f"Querying Workday {i+1} of {len(workday_entries)}:", entry["company"])
+
+        jobs, error = process_entry(entry, args.no_filter)
+
+        if error:
+            errors.append(error)
+        else:
+            new_roles.extend(jobs)
+
     # QUERY ALL WATCHLIST ENTRIES CONCURRENTLY (WAS: SEQUENTIAL for-LOOP)
     # max_workers=15 IS A STARTING POINT -- LOWER IT IF YOU SEE A SPIKE IN
     # HTTP ERRORS (RATE LIMITING) AFTER TURNING THIS ON
     with ThreadPoolExecutor(max_workers=15) as executor:
         future_to_entry = {
             executor.submit(process_entry, entry, args.no_filter): entry
-            for entry in watchlist}
+            for entry in other_entries}
         
         for i, future in enumerate(as_completed(future_to_entry)):
             entry = future_to_entry[future]
@@ -694,7 +725,7 @@ def main() -> int:
     # UPDATE JOBS_HIST FROM SPECIFIED INPUT TABLE
     # TOTAL TABLE COUNT
     # total_count = Summarize_db(JOBS_DB,"jobs_hist","")
-    #Update_jobs_hist(JOBS_DB,"new_jobs")
+    # Update_jobs_hist(JOBS_DB,"new_jobs")
 
     # CREATE HTML LISTS
     create_html()

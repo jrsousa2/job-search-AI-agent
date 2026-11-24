@@ -1,0 +1,97 @@
+Watchlist entries before dedupe: 9118
+Watchlist entries after dedupe: 9118
+
+Querying 100 of 9118: Adahealth
+Querying 200 of 9118: Align
+Querying 300 of 9118: Antenna
+Querying 400 of 9118: Arkoselabscostarica
+Querying 500 of 9118: Automox
+Querying 600 of 9118: Beautifulai
+Querying 700 of 9118: Bloomreach
+Querying 800 of 9118: Brightsign
+Querying 900 of 9118: Carbon
+Querying 1000 of 9118: Charlesriveranalytics90
+Querying 1100 of 9118: Cloudbeds
+Querying 1200 of 9118: Conroyorthodontics
+Querying 1300 of 9118: Crossriverbank
+Querying 1400 of 9118: Dermindy
+Querying 1500 of 9118: Downtownmusicholdings
+Querying 1600 of 9118: Emendata
+Querying 1700 of 9118: Equipmentsharecom
+Querying 1800 of 9118: Fieldstonebio
+Querying 1900 of 9118: Formationbio
+Querying 2000 of 9118: Futureof Life
+Querying 2100 of 9118: Goalcast
+Querying 2200 of 9118: Gsrmarkets
+Querying 2300 of 9118: Hillhousehome
+Querying 2400 of 9118: Hypr
+Querying 2500 of 9118: Intradiem
+Querying 2600 of 9118: Kallesgroup
+Querying 2700 of 9118: Kolmacintegratedbehavioralhealth
+Querying 2800 of 9118: Libertysoftware
+Querying 2900 of 9118: Lumosfiber
+Querying 3000 of 9118: Mboothhealth
+Querying 3100 of 9118: Missiontelecom
+Querying 3200 of 9118: Myheritage
+Querying 3300 of 9118: Ngrokinc
+Querying 3400 of 9118: Odeko
+Querying 3500 of 9118: Operantai
+Querying 3600 of 9118: Panteracapitalcareers
+Querying 3700 of 9118: Pharmacann
+Querying 3800 of 9118: Powerdigitalmarketing
+Querying 3900 of 9118: Pulmovant
+Querying 4000 of 9118: Recordedfuture
+Querying 4100 of 9118: Ripple
+Querying 4200 of 9118: Sandboxx
+Querying 4300 of 9118: Serviceexpress
+Querying 4400 of 9118: Slsconsultants
+Querying 4500 of 9118: Sparkland
+Querying 4600 of 9118: Strivepharmacy
+Querying 4700 of 9118: Tarsusrx
+Querying 4800 of 9118: Themichaeljfoxfoundation
+Querying 4900 of 9118: Townsquaremedia
+Querying 5000 of 9118: Uasi
+Querying 5100 of 9118: Velocityelectronics
+Querying 5200 of 9118: Wakam
+Querying 5300 of 9118: Wooreferral
+Querying 5400 of 9118: Zetacharterschools
+
+============================================================
+Errors - bad slug or dead board (480)
+============================================================
+
+
+Jobs list had 5026 records
+Saved 5026 remote/hybrid jobs to D:\Agent\Database\jobs.db table new_jobs
+
+Chrome history copied
+New URLs inserted: 210
+Table VISITED_URLS : 12775 rows 
+
+Updating timezone by state...
+Timezone update based on state/cities complete
+
+Updating flags New/is_US...
+Total before SQL update...
+New after SQL update...
+Table NEW_JOBS : 439 rows where New=1
+Table NEW_JOBS : 481 rows 
+
+Summary: 439 new | 42 already evaluated | 480 errors
+
+
+Loading job postings...
+	Found 185 job(s) in database
+
+Wrote D:\Agent\daily-digest\2026-11-23_greenhouse_URLs.html
+
+Wrote D:\Agent\daily-digest\2026-11-23_lever_URLs.html
+
+Wrote D:\Agent\daily-digest\2026-11-23_ashby_URLs.html
+
+Table new_jobs exported to new_jobs_2026-11-23.xlsx (481 rows)
+
+Start time: 2026-11-23 18:53:06.181362
+End time: 2026-11-23 19:05:34.766928
+Elapsed time: 12.48 minutes
+

@@ -32,7 +32,7 @@ INDUSTRY_KEYWORDS = {
 insurance = ["USAA", "Allstate", "Amerisure", "Travelers", "Nationwide", "Hartford", "Humana",
             "CVS", "Brown & Brown", "Prudential", "Elevance", "Kemper", "Sun Life",
             "Radian", "CNA", "Markel", "Arch Capital", "AIG", "Relation Insurance",
-            "SWBC", "GEICO", "State Farm", "Liberty Mutual", "Erie", "Chubb", "Assurant",
+            "SWBC", "GEICO", "State Farm", "Liberty Mutual", "Liberty", "Erie", "Chubb", "Assurant",
             "Sedgwick", "First American", "ICW Group", "American Family", "Auto-Owners",
             "Everest", "EverQuote", "Ethos Life", "MetLife", "New York Life", "Guardian Life", "Lincoln",
             "MassMutual", "Principal Financial", "Voya", "Unum",
@@ -92,7 +92,7 @@ F500 = [
 "Raytheon", "Progressive", "Caterpillar", "IBM", "MetLife", "Nationwide", "AIG", "Deere", 
 "Merck", "Pfizer", "ConocoPhillips", "Intel", "HP", "Cisco", "Oracle", "Coca-Cola", "Disney", "TIAA", 
 "American Express", "Publix", "Delta Air Lines", "United Airlines", "Charter Communications", 
-"AbbVie", "Boeing", "New York Life", "Liberty Mutual", "TJX Companies", "Best Buy", "Nike", 
+"AbbVie", "Boeing", "New York Life", "Liberty Mutual", "Liberty", "TJX Companies", "Best Buy", "Nike", 
 "Thermo Fisher", "Honeywell", "Nationwide Mutual", "Deutsche", "Capital One", 
 "PNC Financial Services", "Truist", "Bancorp", "Morgan Stanley", "Schwab", 
 "PayPal", "Mastercard", "Visa", "T-Mobile", "AT&T", "Broadcom", "Nvidia", "Qualcomm", "Adobe", 
@@ -247,11 +247,13 @@ def create_watchlist(input_db, output_file, log_file):
         # if "guidewire" in company.lower():
         # if (industry in ["insurance", "banking", "other"] and platform != "workday") \
         #    (platform == "greenhouse") or \
+        #    (company in F500) or \
         #    (platform == "workday" and slug in WD_cos) or \
-        #    (slug in ['capitalone/wd12/Capital_One' 'allstate/wd5/allstate_careers' 'liberty/wd5/lu_job_board_staff']): 
-        if slug in ['capitalone/wd12/Capital_One',
-                     'allstate/wd5/allstate_careers',
-                     'liberty/wd5/lu_job_board_staff']:      
+        if company in F500 and platform == "workday":
+        #    (platform == "workday"
+        # if slug in ['capitalone/wd12/Capital_One',
+        #              'allstate/wd5/allstate_careers',
+        #              'liberty/wd5/lu_job_board_staff']:      
         # if platform=="icims" and industry in ["banking"]:     
             # print(company, "->", industry)
             print_to_log(log_file,"Company: {} -> Industry: {}\n",company, industry)

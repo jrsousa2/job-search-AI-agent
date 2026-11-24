@@ -1,3 +1,28 @@
-Company: Allstate -> Industry: insurance
+Company: 3M -> Industry: F500
+Company: AIG -> Industry: insurance
+Company: Accenture -> Industry: F500
+Company: Adobe -> Industry: F500
+Company: Albertsons -> Industry: F500
+Company: Alcoa -> Industry: F500
+Company: American Express -> Industry: banking
+Company: Amgen -> Industry: F500
+Company: Autodesk -> Industry: F500
+Company: Avnet -> Industry: F500
+Company: Bank of America -> Industry: banking
+Company: Best Buy -> Industry: F500
+Company: Boeing -> Industry: F500
+Company: Broadcom -> Industry: F500
+Company: CNA -> Industry: insurance
 Company: Capital One -> Industry: banking
-Company: Liberty -> Industry: None
+Company: Cardinal Health -> Industry: HC
+Company: Caterpillar -> Industry: F500
+Company: Centene -> Industry: HC
+Company: Chevron -> Industry: F500
+Company: Chubb -> Industry: insurance
+Company: Ciena -> Industry: F500
+Company: Cisco -> Industry: F500
+Company: Clorox -> Industry: F500
+Company: Comcast -> Industry: F500
+Company: Danaher -> Industry: F500
+Company: Dell -> Industry: F500
+Company: Delta Air Lines -> Industry: F500
